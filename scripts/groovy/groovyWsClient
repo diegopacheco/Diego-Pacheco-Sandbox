@@ -1,0 +1,16 @@
+/**
+ *  Script Groovy que faz o consumo de um Webservice WSDL com groovy usando o module de GroovyWS.
+ *  
+ *  @autor Diego Pacheco
+ *  @since 15/06/2009
+ *  @version 1.o
+ *  
+ */
+ 
+import groovyx.net.ws.WSClient
+
+proxy  = new WSClient("http://localhost:7001/spring-cxf-pojo/DateService?wsdl", this.class.classLoader)
+proxy.initialize()
+
+result = proxy.getDate()
+print "O Resultado do WS eh: ${result}"
