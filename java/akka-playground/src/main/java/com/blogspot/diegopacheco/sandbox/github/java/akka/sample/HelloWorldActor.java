@@ -15,15 +15,19 @@ class HelloWorldActor extends UntypedActor {
 	
 	public void onReceive(Object msg) {
 		if (msg instanceof String){
-			System.out.println("Akka Message Receive: " + msg);
+			
+			logger().info("Akka Received String message: " + msg);
+
 		}
 	}
 	
 	public static void main(String[] args) {
 		
 		ActorRef actor = UntypedActor.actorOf(HelloWorldActor.class);
-		actor.start();
-		actor.sendOneWay("Hello");
+		actor.start(); 
+		
+		actor.sendOneWay("Hello Akka Kicks Ass");
 		
 	}
+	
 }
