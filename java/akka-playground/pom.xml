@@ -38,6 +38,26 @@
 			<artifactId>akka-actor</artifactId>
 			<version>1.0-RC1</version>
 		</dependency>
+		<dependency>
+			<groupId>se.scalablesolutions.akka</groupId>
+			<artifactId>akka-http</artifactId>
+			<version>1.0-RC1</version>
+		</dependency>
+		<dependency>
+			<groupId>se.scalablesolutions.akka</groupId>
+			<artifactId>akka-remote</artifactId>
+			<version>1.0-RC1</version>
+		</dependency>		
+		<dependency>
+			<groupId>se.scalablesolutions.akka</groupId>
+			<artifactId>akka-stm</artifactId>
+			<version>1.0-RC1</version>
+		</dependency>
+		<dependency>
+			<groupId>se.scalablesolutions.akka</groupId>
+			<artifactId>akka-typed-actor</artifactId>
+			<version>1.0-RC1</version>
+		</dependency>
 	</dependencies>
 
 </project>
