@@ -4,6 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 import akka.actor.TypedActor;
+import akka.dispatch.Future;
 
 /**
  * 
@@ -18,6 +19,14 @@ import akka.actor.TypedActor;
 public class ChickHotel extends TypedActor implements HotelBook{
 	
 	private Map<String,People> control = new HashMap<String, People>();
+	
+	public Future<People> cleanRoonAndCheckOut(String name){
+		
+		System.out.println("Clean up starting now...");		
+		People p = checkOut(name);		
+		return future(p);
+		
+	}
 	
 	public People checkOut(String name) {
 		People p = control.get(name);
