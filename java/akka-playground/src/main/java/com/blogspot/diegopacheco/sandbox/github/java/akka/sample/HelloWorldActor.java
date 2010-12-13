@@ -23,6 +23,7 @@ class HelloWorldActor extends UntypedActor {
 		
 		ActorRef actor = UntypedActor.actorOf(HelloWorldActor.class);
 		actor.start();
+		actor.sendOneWay("Hello");
 		
 	}
 }
