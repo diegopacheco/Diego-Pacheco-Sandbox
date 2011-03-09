@@ -16,4 +16,7 @@ print "here: #{idea_backwards}\n"
 #
 Kernel::print( "55,000 Starmonkey Salute!\n" )
 
+#
+# p kicks ass
+#
 p File::methods
