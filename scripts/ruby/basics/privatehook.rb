@@ -12,6 +12,7 @@ class Hehe
   
 end
 
+# isso eh comment
 o = Hehe.new
 puts o.publicmethod
 puts o.send(:thisIsPrivate)
