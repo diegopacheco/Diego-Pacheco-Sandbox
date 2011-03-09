@@ -6,5 +6,5 @@ class String
   
 end
 
-var = "Stupid String with no changes"
+var = "Stupid String with no changes, Really ?"
 puts var.to_hell
