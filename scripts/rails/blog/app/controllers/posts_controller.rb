@@ -1,9 +1,19 @@
 class PostsController < ApplicationController
 	respond_to :html, :atom
-
+	
+	before_filter :sweep_cache, :only => [:create,:update,:destroy]
+	caches_action :index
+	
 	def index
-		@posts = Post.order("created_at desc")
+		@posts = Post.past
 		respond_with @posts
+	end
+	
+	def queue
+		@posts = Post.future
+		respond_with @posts do |format|
+			format.html { render "index" }
+		end
 	end
 	
 	def show
@@ -42,6 +52,12 @@ class PostsController < ApplicationController
 	   post = Post.find(params[:id])
 	   post.destroy
 	   redirect_to posts_path, :notice => "#{post.tittle} was deleted"
+	end
+	
+	private 
+	
+	def sweep_cache
+		expire_action :action => :index
 	end
 	
 end

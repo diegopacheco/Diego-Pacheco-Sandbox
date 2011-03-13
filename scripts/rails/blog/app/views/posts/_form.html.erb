@@ -3,5 +3,7 @@
 
 	<%= form.text_field :tittle %><br/>
 	<%= form.text_area  :body   %><br/>
-	<%= form.submit             %>
+	<label>Publish On</label>
+	<%= form.date_select :published_on %> <br/>
+	<%= form.submit %>
 <% end %>

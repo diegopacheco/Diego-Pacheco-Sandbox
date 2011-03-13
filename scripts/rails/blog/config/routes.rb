@@ -1,6 +1,7 @@
 Blog::Application.routes.draw do
   	
   resources :posts do
+	get :queue, :on => :collection
 	resources :comments
   end
   
