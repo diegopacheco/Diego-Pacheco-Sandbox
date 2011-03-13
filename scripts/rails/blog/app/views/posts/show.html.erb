@@ -1,0 +1,29 @@
+<h1><%= @post.tittle %></h1>
+<div class="entry">
+	<%= @post.body %>
+</div>
+<h2> Comments </h2>
+
+<%  if @post.comments.length == 0 %>
+  <p>No Comments Yet :( </p>
+<% else  %>
+	<%= @post.comments.each do |comment| %>
+		<div class="comment">
+			<%=comment.body%>
+		</div>
+		<p>By: <%=comment.author%></p><br/>
+		<%= button_to "Delete", [@post, comment], :confirm => "Are you sure ?", :metod => :delete %>
+		<hr/>
+	<% end %>
+<% end %>
+
+<h3> New Comment </h3>
+<%= form_for [@post, Comment.new] do |form| %>
+	<%= form.label :author, "Name"  %> <br/>
+	<%= form.text_field :author     %> <br/>
+	<%= form.text_area  :body       %> <br/>
+	<%= form.submit       			%>
+<% end %>
+
+<br/>
+<%= link_to "Back to Blog", posts_path %>

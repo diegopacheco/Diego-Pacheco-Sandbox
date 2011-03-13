@@ -1,0 +1,10 @@
+<h1>Blog Rails 3 </h1>
+<% @posts.each do |post| %>
+<h2><%= link_to post.tittle, post %></h2>	
+<div class="entry">
+	<%= link_to "Edit", edit_post_path(post) %>
+	<%= button_to "Delete", post_path(post), :confirm => "Are you sure?", :method => :delete %>
+	<hr/>
+</div>
+<% end %>
+<%= link_to "New Post", new_post_path %>
