@@ -1,11 +1,22 @@
 Blog::Application.routes.draw do
   	
+  resources :contact_forms
+
+  devise_for :authors
+
+  resources :authors
+
   resources :posts do
 	get :queue, :on => :collection
 	resources :comments
   end
   
   match "/posts/:post_id/comments/:id" => "comments#destroy"
+  
+  #
+  # added by the hack
+  #
+  root :to => "posts#index"
   
   # The priority is based upon order of creation:
   # first created -> highest priority.

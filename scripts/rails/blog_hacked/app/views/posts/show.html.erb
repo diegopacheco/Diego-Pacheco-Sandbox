@@ -1,4 +1,4 @@
-<h1><%= @post.tittle %></h1>
+<h1><%= @post.tittle %></h1> by <%= @post.author.name unless @post.author == nil %>
 <div class="entry">
 	<%= @post.body %>
 </div>

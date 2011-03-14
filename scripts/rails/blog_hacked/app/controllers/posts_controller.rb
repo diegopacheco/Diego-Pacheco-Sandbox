@@ -1,6 +1,7 @@
 class PostsController < ApplicationController
-	respond_to :html, :atom
+	respond_to :html, :atom, :only => [:index, :show]
 	
+	before_filter :authenticate_author!, :except => [:index, :show]
 	before_filter :sweep_cache, :only => [:create,:update,:destroy]
 	caches_action :index
 	
@@ -26,13 +27,9 @@ class PostsController < ApplicationController
 	end
 	
 	def create
-		@post = Post.new(params[:post])
-		
-		if @post.save 
-			redirect_to posts_path
-		else 	
-			render "new"
-		end		
+		@post = current_author.posts.build(params[:post])
+		@post.save
+		respond_with(@post) 
 	end
 	
 	def edit
@@ -41,17 +38,14 @@ class PostsController < ApplicationController
 	
 	def update
 		@post = Post.find(params[:id])
-		if @post.update_attributes(params[:post])
-		   redirect_to posts_path
-		else
-		   render "edit" 	
-		end  
+		@post.update_attributes(params[:post])
+		respond_with(@post)
 	end
 	
 	def destroy
-	   post = Post.find(params[:id])
-	   post.destroy
-	   redirect_to posts_path, :notice => "#{post.tittle} was deleted"
+	   @post = Post.find(params[:id])
+	   @post.destroy
+	   respond_with(@post)
 	end
 	
 	private 

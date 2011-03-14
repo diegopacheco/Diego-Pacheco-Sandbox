@@ -8,6 +8,14 @@ gem 'rails', '3.0.5'
 gem 'sqlite3'
 gem 'dynamic_form' 
 
+#
+# added by the hack
+#
+gem 'responders'
+gem 'simple_form'
+gem 'devise'
+gem 'mail_form'
+
 # Use unicorn as the web server
 # gem 'unicorn'
 

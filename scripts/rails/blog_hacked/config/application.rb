@@ -39,5 +39,15 @@ module Blog
 
     # Configure sensitive parameters which will be filtered from the log file.
     config.filter_parameters += [:password]
+	
+	#
+	# added by the hack
+	#
+	config.generators do |g|
+		g.scaffold :stylesheets => true
+	end
+	
+	config.action_mailer.default_url_options = { :host => "localhost:3000" }
+	
   end
 end

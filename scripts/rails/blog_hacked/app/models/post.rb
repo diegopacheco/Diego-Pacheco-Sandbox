@@ -1,9 +1,10 @@
 class Post < ActiveRecord::Base
 	
-	has_many :comments
-	
-	scope :desc, order("published_on desc")
-	scope :asc , order("published_on asc")
+	belongs_to :author
+	has_many   :comments
+		
+	scope :desc, order("published_on desc").includes(:author)
+	scope :asc , order("published_on asc").includes(:author)
 	
 	validates_presence_of :tittle
 	validates_presence_of :body
