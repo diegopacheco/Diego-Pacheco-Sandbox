@@ -1,0 +1,9 @@
+<% form_for @post do |form|  %>
+	<%= form.error_messages %>
+
+	<%= form.text_field :tittle %><br/>
+	<%= form.text_area  :body   %><br/>
+	<label>Publish On</label>
+	<%= form.date_select :published_on %> <br/>
+	<%= form.submit %>
+<% end %>
