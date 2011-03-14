@@ -1,0 +1,19 @@
+<h1>Send an author message</h1>
+
+<%= simple_form_for(@contact_form) do |f| %>
+  <%= f.error_messages %>
+
+  <div class="inputs">
+    <%= f.input :name %>
+	<%= f.input :email %>
+    <%= f.input :author_id, :collection => Author.all %>
+    <%= f.input :message, :as => :text %>
+  </div>
+
+  <div class="actions">
+    <%= f.button :submit, "Send" %>
+  </div>
+<% end %>
+
+
+<%= link_to 'Back', contact_forms_path %>
