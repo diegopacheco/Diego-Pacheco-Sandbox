@@ -1,0 +1,84 @@
+<project>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.aspden</groupId>
+  <artifactId>hello-compojure</artifactId>
+  <version>0.1-SNAPSHOT</version>
+  <name>hello-compojure</name>
+  <description>maven, clojure, emacs, swank, compojure: together at last</description>
+  <url>http://www.learningclojure.com</url>
+
+  <!-- repositories -->
+  <repositories>
+    <repository>
+      <id>clojars</id>
+      <url>http://clojars.org/repo/</url>
+    </repository>
+    <repository>
+      <id>clojure</id>
+      <url>http://build.clojure.org/releases</url>
+    </repository>
+    <repository>
+      <id>central</id>
+      <url>http://repo1.maven.org/maven2</url>
+    </repository>
+  </repositories>
+
+  <!-- libraries -->
+  <dependencies>
+    <dependency>
+      <groupId>compojure</groupId>
+      <artifactId>compojure</artifactId>
+      <version>0.6.2</version>
+    </dependency>
+    <dependency>
+      <groupId>hiccup</groupId>
+      <artifactId>hiccup</artifactId>
+      <version>0.3.4</version>
+    </dependency>
+    <dependency>
+      <groupId>ring</groupId>
+      <artifactId>ring-jetty-adapter</artifactId>
+      <version>0.3.7</version>
+    </dependency>
+    <dependency>
+      <groupId>org.clojure</groupId>
+      <artifactId>clojure</artifactId>
+      <version>1.2.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.clojure</groupId>
+      <artifactId>clojure-contrib</artifactId>
+      <version>1.2.0</version>
+    </dependency>
+    <dependency>
+      <groupId>jline</groupId>
+      <artifactId>jline</artifactId>
+      <version>0.9.94</version>
+    </dependency>
+    <dependency>
+      <groupId>swank-clojure</groupId>
+      <artifactId>swank-clojure</artifactId>
+      <version>1.2.1</version>
+    </dependency>
+  </dependencies>
+
+  <build>
+    <plugins>
+      <!-- talios' clojure-maven-plugin provides mvn clojure:swank etc -->
+      <plugin>
+        <groupId>com.theoryinpractise</groupId>
+        <artifactId>clojure-maven-plugin</artifactId>
+        <version>1.3.2</version>
+      </plugin>
+      <!-- The versions plugin allows you to find out what you can upgrade -->
+      <!-- mvn versions:help -->
+      <!-- mvn versions:display-dependency-updates -->
+      <plugin>
+        <groupId>org.codehaus.mojo</groupId>
+        <artifactId>versions-maven-plugin</artifactId>
+      </plugin>
+    </plugins>
+  </build>
+  
+
+</project>

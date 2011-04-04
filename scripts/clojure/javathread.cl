@@ -1,0 +1,1 @@
+(def t (new Thread (fn [] (println "Hey Clojure, " (Thread/currentThread) ) ) ) )(.start t)
