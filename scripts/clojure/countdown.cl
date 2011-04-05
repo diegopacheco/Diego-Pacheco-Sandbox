@@ -1,0 +1,1 @@
+(defn countdown [result x]  (if (zero? x)     result	 (recur (conj result x) (dec x) )  ))(println (countdown [] 10))
