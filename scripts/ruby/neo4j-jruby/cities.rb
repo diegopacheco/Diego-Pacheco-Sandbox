@@ -3,15 +3,15 @@ require "neo4j"
 require "java"
 
 class PathFinder
-	def print_shortest_path(from,to)		
-	    puts "route from #{from[:name]} to #{to[:name]}"
+	def self.print_shortest_path(from,to)		
+	    puts "Route from #{from[:name]} to #{to[:name]}:"
 		it   = Neo4j::Algo.shortest_path(from,to).iterator
 		last = from[:name]
 		it.next
 		while it.hasNext
 			n = it.next
 			if !n[:name].blank?
-				puts "#{last} -> #{n[:name]}"
+				puts "  #{last} -> #{n[:name]}"
 				last = n[:name]
 			end
 		end
@@ -28,7 +28,7 @@ Neo4j::Transaction.run do
 	denver  = Neo4j::Node.new(:name => 'Denver'      , :state => "Colorado"   , :ab => "CO")	
 	la      = Neo4j::Node.new(:name => 'Los Angeles' , :state => "California" , :ab => "CA")
 	
-	miami.outgoing(:to) << ny
+	miami.outgoing(:to) << ny	
 	miami.outgoing(:to) << austin
 	ny.outgoing(:to) << miami
 	ny.outgoing(:to) << detroit
@@ -39,10 +39,10 @@ Neo4j::Transaction.run do
 	denver.outgoing(:to) << wichita
 	denver.outgoing(:to) << la
 	austin.outgoing(:to) << miami
+	austin.outgoing(:to) << wichita
 	la.outgoing(:to) << austin
 	la.outgoing(:to) << denver
-	
-	pf = PathFinder.new	
-	pf.print_shortest_path(miami,wichita)
+
+	PathFinder.print_shortest_path miami, wichita
 
 end
