@@ -1,0 +1,352 @@
+ =============================================================== 
+ =============== TOP MONSTERS ================================== 
+ =============================================================== 
+ Project: D:/Diego/svn-repos/wcsiLegra/NextGenTR/Architecture-SRC/.
+ =============================================================== 
+ 1 [Bieber     ] is 3076   LOC  - SearchOutputProtobuf.java
+ 2 [Kutcher    ] is 730    LOC  - DrugDomain.java
+ 3 [Timberlake ] is 657    LOC  - ActiveMQActivationSpec.java
+ =============================================================== 
+ =============================================================== 
+ =============== TOP MONSTERS ================================== 
+ =============================================================== 
+ Project: D:/Diego/svn-repos/wcsiLegra/NextGenTR/Architecture-SRC/..
+ =============================================================== 
+ 1 [Bieber     ] is 3076   LOC  - SearchOutputProtobuf.java
+ 2 [Kutcher    ] is 2407   LOC  - ExportServiceImplTest.java
+ 3 [Timberlake ] is 2020   LOC  - SearchServiceQLParser.java
+ =============================================================== 
+ =============================================================== 
+ =============== TOP MONSTERS ================================== 
+ =============================================================== 
+ Project: D:/Diego/svn-repos/wcsiLegra/NextGenTR/Architecture-SRC/.svn
+ =============================================================== 
+ 1 [Bieber     ] is 0      LOC  - Unknown
+ 2 [Kutcher    ] is 0      LOC  - Unknown
+ 3 [Timberlake ] is 0      LOC  - Unknown
+ =============================================================== 
+ =============================================================== 
+ =============== TOP MONSTERS ================================== 
+ =============================================================== 
+ Project: D:/Diego/svn-repos/wcsiLegra/NextGenTR/Architecture-SRC/activemq-fileserver-patch
+ =============================================================== 
+ 1 [Bieber     ] is 202    LOC  - RestFilter.java
+ 2 [Kutcher    ] is 192    LOC  - ORACLEJdbcPersistence.java
+ 3 [Timberlake ] is 115    LOC  - SendReceiveBlobMessage.java
+ =============================================================== 
+ =============================================================== 
+ =============== TOP MONSTERS ================================== 
+ =============================================================== 
+ Project: D:/Diego/svn-repos/wcsiLegra/NextGenTR/Architecture-SRC/activemq-ra-patch
+ =============================================================== 
+ 1 [Bieber     ] is 657    LOC  - ActiveMQActivationSpec.java
+ 2 [Kutcher    ] is 475    LOC  - ManagedSessionProxy.java
+ 3 [Timberlake ] is 400    LOC  - ActiveMQManagedConnection.java
+ =============================================================== 
+ =============================================================== 
+ =============== TOP MONSTERS ================================== 
+ =============================================================== 
+ Project: D:/Diego/svn-repos/wcsiLegra/NextGenTR/Architecture-SRC/ehcache-rest-server
+ =============================================================== 
+ 1 [Bieber     ] is 598    LOC  - EhcacheWebServiceEndpoint.java
+ 2 [Kutcher    ] is 404    LOC  - Element.java
+ 3 [Timberlake ] is 311    LOC  - ElementResource.java
+ =============================================================== 
+ =============================================================== 
+ =============== TOP MONSTERS ================================== 
+ =============================================================== 
+ Project: D:/Diego/svn-repos/wcsiLegra/NextGenTR/Architecture-SRC/jboss-conf
+ =============================================================== 
+ 1 [Bieber     ] is 0      LOC  - Unknown
+ 2 [Kutcher    ] is 0      LOC  - Unknown
+ 3 [Timberlake ] is 0      LOC  - Unknown
+ =============================================================== 
+ =============================================================== 
+ =============== TOP MONSTERS ================================== 
+ =============================================================== 
+ Project: D:/Diego/svn-repos/wcsiLegra/NextGenTR/Architecture-SRC/ngm-core-cache
+ =============================================================== 
+ 1 [Bieber     ] is 104    LOC  - EhcacheServiceImpl.java
+ 2 [Kutcher    ] is 64     LOC  - EhcacheServiceImplTest.java
+ 3 [Timberlake ] is 42     LOC  - CacheEventListenerImpl.java
+ =============================================================== 
+ =============================================================== 
+ =============== TOP MONSTERS ================================== 
+ =============================================================== 
+ Project: D:/Diego/svn-repos/wcsiLegra/NextGenTR/Architecture-SRC/ngm-core-cache-jmx
+ =============================================================== 
+ 1 [Bieber     ] is 68     LOC  - EhCacheServiceMBean.java
+ 2 [Kutcher    ] is 0      LOC  - Unknown
+ 3 [Timberlake ] is 0      LOC  - Unknown
+ =============================================================== 
+ =============================================================== 
+ =============== TOP MONSTERS ================================== 
+ =============================================================== 
+ Project: D:/Diego/svn-repos/wcsiLegra/NextGenTR/Architecture-SRC/ngm-core-cache-offline
+ =============================================================== 
+ 1 [Bieber     ] is 151    LOC  - SimpleAsyncOfflineManager.java
+ 2 [Kutcher    ] is 66     LOC  - ProcessStatus.java
+ 3 [Timberlake ] is 23     LOC  - SingletonOfflineCacheFactory.java
+ =============================================================== 
+ =============================================================== 
+ =============== TOP MONSTERS ================================== 
+ =============================================================== 
+ Project: D:/Diego/svn-repos/wcsiLegra/NextGenTR/Architecture-SRC/ngm-core-conf
+ =============================================================== 
+ 1 [Bieber     ] is 0      LOC  - Unknown
+ 2 [Kutcher    ] is 0      LOC  - Unknown
+ 3 [Timberlake ] is 0      LOC  - Unknown
+ =============================================================== 
+ =============================================================== 
+ =============== TOP MONSTERS ================================== 
+ =============================================================== 
+ Project: D:/Diego/svn-repos/wcsiLegra/NextGenTR/Architecture-SRC/ngm-core-exceptions
+ =============================================================== 
+ 1 [Bieber     ] is 83     LOC  - ExceptionBuilder.java
+ 2 [Kutcher    ] is 62     LOC  - ExceptionBuilderTest.java
+ 3 [Timberlake ] is 55     LOC  - SOAInfrastructureException.java
+ =============================================================== 
+ =============================================================== 
+ =============== TOP MONSTERS ================================== 
+ =============================================================== 
+ Project: D:/Diego/svn-repos/wcsiLegra/NextGenTR/Architecture-SRC/ngm-core-headers
+ =============================================================== 
+ 1 [Bieber     ] is 119    LOC  - StackInputHeaderImpl.java
+ 2 [Kutcher    ] is 68     LOC  - TokenInputHeaderImpl.java
+ 3 [Timberlake ] is 60     LOC  - StackOutputTailImpl.java
+ =============================================================== 
+ =============================================================== 
+ =============== TOP MONSTERS ================================== 
+ =============================================================== 
+ Project: D:/Diego/svn-repos/wcsiLegra/NextGenTR/Architecture-SRC/ngm-core-interceptor
+ =============================================================== 
+ 1 [Bieber     ] is 42     LOC  - BaseInterceptor.java
+ 2 [Kutcher    ] is 32     LOC  - InterceptorContext.java
+ 3 [Timberlake ] is 20     LOC  - SOAServicesInterceptors.java
+ =============================================================== 
+ =============================================================== 
+ =============== TOP MONSTERS ================================== 
+ =============================================================== 
+ Project: D:/Diego/svn-repos/wcsiLegra/NextGenTR/Architecture-SRC/ngm-core-jms
+ =============================================================== 
+ 1 [Bieber     ] is 289    LOC  - JmsMessageProducer.java
+ 2 [Kutcher    ] is 246    LOC  - SyncJmsMessageConsumerTest.java
+ 3 [Timberlake ] is 189    LOC  - JmsMessageProducerTest.java
+ =============================================================== 
+ =============================================================== 
+ =============== TOP MONSTERS ================================== 
+ =============================================================== 
+ Project: D:/Diego/svn-repos/wcsiLegra/NextGenTR/Architecture-SRC/ngm-core-metadata
+ =============================================================== 
+ 1 [Bieber     ] is 177    LOC  - OperationMetadata.java
+ 2 [Kutcher    ] is 167    LOC  - SOAMessageBuilderTest.java
+ 3 [Timberlake ] is 163    LOC  - SOAMessageImpl.java
+ =============================================================== 
+ =============================================================== 
+ =============== TOP MONSTERS ================================== 
+ =============================================================== 
+ Project: D:/Diego/svn-repos/wcsiLegra/NextGenTR/Architecture-SRC/ngm-core-parent
+ =============================================================== 
+ 1 [Bieber     ] is 0      LOC  - Unknown
+ 2 [Kutcher    ] is 0      LOC  - Unknown
+ 3 [Timberlake ] is 0      LOC  - Unknown
+ =============================================================== 
+ =============================================================== 
+ =============== TOP MONSTERS ================================== 
+ =============================================================== 
+ Project: D:/Diego/svn-repos/wcsiLegra/NextGenTR/Architecture-SRC/ngm-core-routing
+ =============================================================== 
+ 1 [Bieber     ] is 159    LOC  - ContractServiceRouterTest.java
+ 2 [Kutcher    ] is 130    LOC  - MethodExtractor.java
+ 3 [Timberlake ] is 118    LOC  - ContractServiceRouter.java
+ =============================================================== 
+ =============================================================== 
+ =============== TOP MONSTERS ================================== 
+ =============================================================== 
+ Project: D:/Diego/svn-repos/wcsiLegra/NextGenTR/Architecture-SRC/ngm-core-serialization
+ =============================================================== 
+ 1 [Bieber     ] is 256    LOC  - XStreamSerializationEngineTest.java
+ 2 [Kutcher    ] is 128    LOC  - JacksonJsonSerializationEngineTest.java
+ 3 [Timberlake ] is 100    LOC  - XStreamXMLSerializationEngine.java
+ =============================================================== 
+ =============================================================== 
+ =============== TOP MONSTERS ================================== 
+ =============================================================== 
+ Project: D:/Diego/svn-repos/wcsiLegra/NextGenTR/Architecture-SRC/ngm-core-utils
+ =============================================================== 
+ 1 [Bieber     ] is 137    LOC  - HTTPUtils.java
+ 2 [Kutcher    ] is 69     LOC  - InputStreamDataSource.java
+ 3 [Timberlake ] is 60     LOC  - InputStreamUtilsTest.java
+ =============================================================== 
+ =============================================================== 
+ =============== TOP MONSTERS ================================== 
+ =============================================================== 
+ Project: D:/Diego/svn-repos/wcsiLegra/NextGenTR/Architecture-SRC/ngm-core-workers
+ =============================================================== 
+ 1 [Bieber     ] is 188    LOC  - SimpleWorkerTemplate.java
+ 2 [Kutcher    ] is 87     LOC  - SimpleWorkerTemplateTest.java
+ 3 [Timberlake ] is 77     LOC  - Message.java
+ =============================================================== 
+ =============================================================== 
+ =============== TOP MONSTERS ================================== 
+ =============================================================== 
+ Project: D:/Diego/svn-repos/wcsiLegra/NextGenTR/Architecture-SRC/ngm-integration-test-parent
+ =============================================================== 
+ 1 [Bieber     ] is 0      LOC  - Unknown
+ 2 [Kutcher    ] is 0      LOC  - Unknown
+ 3 [Timberlake ] is 0      LOC  - Unknown
+ =============================================================== 
+ =============================================================== 
+ =============== TOP MONSTERS ================================== 
+ =============================================================== 
+ Project: D:/Diego/svn-repos/wcsiLegra/NextGenTR/Architecture-SRC/ngm-mr-base
+ =============================================================== 
+ 1 [Bieber     ] is 203    LOC  - JMSAPITemplate.java
+ 2 [Kutcher    ] is 186    LOC  - EndpointImplementor.java
+ 3 [Timberlake ] is 131    LOC  - RestFrontendProvider.java
+ =============================================================== 
+ =============================================================== 
+ =============== TOP MONSTERS ================================== 
+ =============================================================== 
+ Project: D:/Diego/svn-repos/wcsiLegra/NextGenTR/Architecture-SRC/ngm-mr-worker
+ =============================================================== 
+ 1 [Bieber     ] is 49     LOC  - GeneralResponseWorker.java
+ 2 [Kutcher    ] is 22     LOC  - GeneralSpringEJBSharedContextInterceptor.java
+ 3 [Timberlake ] is 0      LOC  - Unknown
+ =============================================================== 
+ =============================================================== 
+ =============== TOP MONSTERS ================================== 
+ =============================================================== 
+ Project: D:/Diego/svn-repos/wcsiLegra/NextGenTR/Architecture-SRC/ngm-msg-tracking-parser
+ =============================================================== 
+ 1 [Bieber     ] is 81     LOC  - MessageTrackingParser.java
+ 2 [Kutcher    ] is 0      LOC  - Unknown
+ 3 [Timberlake ] is 0      LOC  - Unknown
+ =============================================================== 
+ =============================================================== 
+ =============== TOP MONSTERS ================================== 
+ =============================================================== 
+ Project: D:/Diego/svn-repos/wcsiLegra/NextGenTR/Architecture-SRC/ngm-runtime-jboss
+ =============================================================== 
+ 1 [Bieber     ] is 0      LOC  - Unknown
+ 2 [Kutcher    ] is 0      LOC  - Unknown
+ 3 [Timberlake ] is 0      LOC  - Unknown
+ =============================================================== 
+ =============================================================== 
+ =============== TOP MONSTERS ================================== 
+ =============================================================== 
+ Project: D:/Diego/svn-repos/wcsiLegra/NextGenTR/Architecture-SRC/ngm-runtime-mr
+ =============================================================== 
+ 1 [Bieber     ] is 0      LOC  - Unknown
+ 2 [Kutcher    ] is 0      LOC  - Unknown
+ 3 [Timberlake ] is 0      LOC  - Unknown
+ =============================================================== 
+ =============================================================== 
+ =============== TOP MONSTERS ================================== 
+ =============================================================== 
+ Project: D:/Diego/svn-repos/wcsiLegra/NextGenTR/Architecture-SRC/ngm-services-base-war-spring-ctx
+ =============================================================== 
+ 1 [Bieber     ] is 42     LOC  - JndiExporter.java
+ 2 [Kutcher    ] is 0      LOC  - Unknown
+ 3 [Timberlake ] is 0      LOC  - Unknown
+ =============================================================== 
+ =============================================================== 
+ =============== TOP MONSTERS ================================== 
+ =============================================================== 
+ Project: D:/Diego/svn-repos/wcsiLegra/NextGenTR/Architecture-SRC/ngm-ztest-drug-consumer
+ =============================================================== 
+ 1 [Bieber     ] is 50     LOC  - DrugServiceComsumer.java
+ 2 [Kutcher    ] is 31     LOC  - MainApp.java
+ 3 [Timberlake ] is 0      LOC  - Unknown
+ =============================================================== 
+ =============================================================== 
+ =============== TOP MONSTERS ================================== 
+ =============================================================== 
+ Project: D:/Diego/svn-repos/wcsiLegra/NextGenTR/Architecture-SRC/ngm-ztest-drug-ct
+ =============================================================== 
+ 1 [Bieber     ] is 93     LOC  - CompanyService.java
+ 2 [Kutcher    ] is 73     LOC  - DrugService.java
+ 3 [Timberlake ] is 57     LOC  - DrugOutput.java
+ =============================================================== 
+ =============================================================== 
+ =============== TOP MONSTERS ================================== 
+ =============================================================== 
+ Project: D:/Diego/svn-repos/wcsiLegra/NextGenTR/Architecture-SRC/ngm-ztest-drug-integration-test
+ =============================================================== 
+ 1 [Bieber     ] is 276    LOC  - DrugServiceTest.java
+ 2 [Kutcher    ] is 0      LOC  - Unknown
+ 3 [Timberlake ] is 0      LOC  - Unknown
+ =============================================================== 
+ =============================================================== 
+ =============== TOP MONSTERS ================================== 
+ =============================================================== 
+ Project: D:/Diego/svn-repos/wcsiLegra/NextGenTR/Architecture-SRC/ngm-ztest-drug-si
+ =============================================================== 
+ 1 [Bieber     ] is 147    LOC  - DrugServiceImpl.java
+ 2 [Kutcher    ] is 137    LOC  - CompanyServiceImpl.java
+ 3 [Timberlake ] is 124    LOC  - DrugServiceImpl.java
+ =============================================================== 
+ =============================================================== 
+ =============== TOP MONSTERS ================================== 
+ =============================================================== 
+ Project: D:/Diego/svn-repos/wcsiLegra/NextGenTR/Architecture-SRC/ngm-ztest-drug-si-wk-ear
+ =============================================================== 
+ 1 [Bieber     ] is 0      LOC  - Unknown
+ 2 [Kutcher    ] is 0      LOC  - Unknown
+ 3 [Timberlake ] is 0      LOC  - Unknown
+ =============================================================== 
+ =============================================================== 
+ =============== TOP MONSTERS ================================== 
+ =============================================================== 
+ Project: D:/Diego/svn-repos/wcsiLegra/NextGenTR/Architecture-SRC/ngm-ztest-drug-wk
+ =============================================================== 
+ 1 [Bieber     ] is 51     LOC  - CompanyWorkerManager.java
+ 2 [Kutcher    ] is 50     LOC  - DrugWorkerManagerAsync.java
+ 3 [Timberlake ] is 50     LOC  - DrugWorkerManager.java
+ =============================================================== 
+ =============================================================== 
+ =============== TOP MONSTERS ================================== 
+ =============================================================== 
+ Project: D:/Diego/svn-repos/wcsiLegra/NextGenTR/Architecture-SRC/ngm-ztest-mr-conf
+ =============================================================== 
+ 1 [Bieber     ] is 0      LOC  - Unknown
+ 2 [Kutcher    ] is 0      LOC  - Unknown
+ 3 [Timberlake ] is 0      LOC  - Unknown
+ =============================================================== 
+ =============================================================== 
+ =============== TOP MONSTERS ================================== 
+ =============================================================== 
+ Project: D:/Diego/svn-repos/wcsiLegra/NextGenTR/Architecture-SRC/ngm-ztest-mr-ear
+ =============================================================== 
+ 1 [Bieber     ] is 0      LOC  - Unknown
+ 2 [Kutcher    ] is 0      LOC  - Unknown
+ 3 [Timberlake ] is 0      LOC  - Unknown
+ =============================================================== 
+ =============================================================== 
+ =============== TOP MONSTERS ================================== 
+ =============================================================== 
+ Project: D:/Diego/svn-repos/wcsiLegra/NextGenTR/Architecture-SRC/ngm-ztest-mr-war
+ =============================================================== 
+ 1 [Bieber     ] is 0      LOC  - Unknown
+ 2 [Kutcher    ] is 0      LOC  - Unknown
+ 3 [Timberlake ] is 0      LOC  - Unknown
+ =============================================================== 
+ =============================================================== 
+ =============== TOP MONSTERS ================================== 
+ =============================================================== 
+ Project: D:/Diego/svn-repos/wcsiLegra/NextGenTR/Architecture-SRC/pocs
+ =============================================================== 
+ 1 [Bieber     ] is 3076   LOC  - SearchOutputProtobuf.java
+ 2 [Kutcher    ] is 730    LOC  - DrugDomain.java
+ 3 [Timberlake ] is 411    LOC  - HTTP4e.java
+ =============================================================== 
+ =============================================================== 
+ =============== TOP MONSTERS ================================== 
+ =============================================================== 
+ Project: D:/Diego/svn-repos/wcsiLegra/NextGenTR/Architecture-SRC/SVN_ILEGRA_REVISION
+ =============================================================== 
+ 1 [Bieber     ] is 0      LOC  - Unknown
+ 2 [Kutcher    ] is 0      LOC  - Unknown
+ 3 [Timberlake ] is 0      LOC  - Unknown
+ =============================================================== 
+This script run in 48.843793

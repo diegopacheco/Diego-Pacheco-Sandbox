@@ -1,0 +1,118 @@
+ =============================================================== 
+ =============== TOP MONSTERS ================================== 
+ =============================================================== 
+ Project: D:/Diego/svn-repos/wcGitHub/Portal-cliente-ilegra/services/.
+ =============================================================== 
+ 1 [Bieber     ] is 174    LOC  - ClienteServiceTest.java
+ 2 [Kutcher    ] is 174    LOC  - WorkedHoursReportEngine.java
+ 3 [Timberlake ] is 101    LOC  - ArrayListProvider.java
+ =============================================================== 
+ =============================================================== 
+ =============== TOP MONSTERS ================================== 
+ =============================================================== 
+ Project: D:/Diego/svn-repos/wcGitHub/Portal-cliente-ilegra/services/..
+ =============================================================== 
+ 1 [Bieber     ] is 174    LOC  - ClienteServiceTest.java
+ 2 [Kutcher    ] is 174    LOC  - WorkedHoursReportEngine.java
+ 3 [Timberlake ] is 137    LOC  - DirectChannelController.java
+ =============================================================== 
+ =============================================================== 
+ =============== TOP MONSTERS ================================== 
+ =============================================================== 
+ Project: D:/Diego/svn-repos/wcGitHub/Portal-cliente-ilegra/services/isi-core-management
+ =============================================================== 
+ 1 [Bieber     ] is 97     LOC  - ServicesExposureFactory.java
+ 2 [Kutcher    ] is 89     LOC  - ServiceMethodDefinition.java
+ 3 [Timberlake ] is 69     LOC  - SpringBeanServiceRouter.java
+ =============================================================== 
+ =============================================================== 
+ =============== TOP MONSTERS ================================== 
+ =============================================================== 
+ Project: D:/Diego/svn-repos/wcGitHub/Portal-cliente-ilegra/services/isi-core-metadata
+ =============================================================== 
+ 1 [Bieber     ] is 46     LOC  - ServiceContractDefinition.java
+ 2 [Kutcher    ] is 27     LOC  - ExposureMethod.java
+ 3 [Timberlake ] is 19     LOC  - BusinessService.java
+ =============================================================== 
+ =============================================================== 
+ =============== TOP MONSTERS ================================== 
+ =============================================================== 
+ Project: D:/Diego/svn-repos/wcGitHub/Portal-cliente-ilegra/services/iss-cliente-ct
+ =============================================================== 
+ 1 [Bieber     ] is 50     LOC  - ActivityOutput.java
+ 2 [Kutcher    ] is 46     LOC  - ProjectStatusOutput.java
+ 3 [Timberlake ] is 44     LOC  - ReportHoursOutput.java
+ =============================================================== 
+ =============================================================== 
+ =============== TOP MONSTERS ================================== 
+ =============================================================== 
+ Project: D:/Diego/svn-repos/wcGitHub/Portal-cliente-ilegra/services/iss-cliente-si
+ =============================================================== 
+ 1 [Bieber     ] is 174    LOC  - WorkedHoursReportEngine.java
+ 2 [Kutcher    ] is 100    LOC  - WorkedHour.java
+ 3 [Timberlake ] is 92     LOC  - WorkedHourDAO.java
+ =============================================================== 
+ =============================================================== 
+ =============== TOP MONSTERS ================================== 
+ =============================================================== 
+ Project: D:/Diego/svn-repos/wcGitHub/Portal-cliente-ilegra/services/iss-cliente-teste-ct
+ =============================================================== 
+ 1 [Bieber     ] is 174    LOC  - ClienteServiceTest.java
+ 2 [Kutcher    ] is 35     LOC  - ClienteDatasourceRouter.java
+ 3 [Timberlake ] is 0      LOC  - Unknown
+ =============================================================== 
+ =============================================================== 
+ =============== TOP MONSTERS ================================== 
+ =============================================================== 
+ Project: D:/Diego/svn-repos/wcGitHub/Portal-cliente-ilegra/services/iss-cliente-teste-integration
+ =============================================================== 
+ 1 [Bieber     ] is 101    LOC  - ArrayListProvider.java
+ 2 [Kutcher    ] is 21     LOC  - ClienteServiceIntegrationTest.java
+ 3 [Timberlake ] is 0      LOC  - Unknown
+ =============================================================== 
+ =============================================================== 
+ =============== TOP MONSTERS ================================== 
+ =============================================================== 
+ Project: D:/Diego/svn-repos/wcGitHub/Portal-cliente-ilegra/services/iss-core-teste-ct
+ =============================================================== 
+ 1 [Bieber     ] is 64     LOC  - DatasourceRouter.java
+ 2 [Kutcher    ] is 0      LOC  - Unknown
+ 3 [Timberlake ] is 0      LOC  - Unknown
+ =============================================================== 
+ =============================================================== 
+ =============== TOP MONSTERS ================================== 
+ =============================================================== 
+ Project: D:/Diego/svn-repos/wcGitHub/Portal-cliente-ilegra/services/iss-management
+ =============================================================== 
+ 1 [Bieber     ] is 0      LOC  - Unknown
+ 2 [Kutcher    ] is 0      LOC  - Unknown
+ 3 [Timberlake ] is 0      LOC  - Unknown
+ =============================================================== 
+ =============================================================== 
+ =============== TOP MONSTERS ================================== 
+ =============================================================== 
+ Project: D:/Diego/svn-repos/wcGitHub/Portal-cliente-ilegra/services/iss-parent
+ =============================================================== 
+ 1 [Bieber     ] is 0      LOC  - Unknown
+ 2 [Kutcher    ] is 0      LOC  - Unknown
+ 3 [Timberlake ] is 0      LOC  - Unknown
+ =============================================================== 
+ =============================================================== 
+ =============== TOP MONSTERS ================================== 
+ =============================================================== 
+ Project: D:/Diego/svn-repos/wcGitHub/Portal-cliente-ilegra/services/ISS_HOME
+ =============================================================== 
+ 1 [Bieber     ] is 0      LOC  - Unknown
+ 2 [Kutcher    ] is 0      LOC  - Unknown
+ 3 [Timberlake ] is 0      LOC  - Unknown
+ =============================================================== 
+ =============================================================== 
+ =============== TOP MONSTERS ================================== 
+ =============================================================== 
+ Project: D:/Diego/svn-repos/wcGitHub/Portal-cliente-ilegra/services/Servers
+ =============================================================== 
+ 1 [Bieber     ] is 0      LOC  - Unknown
+ 2 [Kutcher    ] is 0      LOC  - Unknown
+ 3 [Timberlake ] is 0      LOC  - Unknown
+ =============================================================== 
+This script run in 0.904052

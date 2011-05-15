@@ -84,7 +84,8 @@ end
 start = Time.now
 monster = JavaMonster.new
 #path    = "D:/Diego/svn-repos/wcsiLegra/NextGenTR/Services-SRC"
-path    = "D:/Diego/svn-repos/wcsiLegra/NextGenTR/Architecture-SRC"
+#path    = "D:/Diego/svn-repos/wcsiLegra/NextGenTR/Architecture-SRC"
+path     =  "D:/Diego/svn-repos/wcGitHub/Portal-cliente-ilegra/services"
 Dir.foreach(path) { |d|
    if !File.file?(d)
 	  monster.top3 "#{path}/#{d}", true

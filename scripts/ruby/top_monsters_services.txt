@@ -1,0 +1,856 @@
+ =============================================================== 
+ =============== TOP MONSTERS ================================== 
+ =============================================================== 
+ Project: D:/Diego/svn-repos/wcsiLegra/NextGenTR/Services-SRC/.
+ =============================================================== 
+ 1 [Bieber     ] is 2407   LOC  - ExportServiceImplTest.java
+ 2 [Kutcher    ] is 2020   LOC  - SearchServiceQLParser.java
+ 3 [Timberlake ] is 1977   LOC  - DataBuilder.java
+ =============================================================== 
+ =============================================================== 
+ =============== TOP MONSTERS ================================== 
+ =============================================================== 
+ Project: D:/Diego/svn-repos/wcsiLegra/NextGenTR/Services-SRC/..
+ =============================================================== 
+ 1 [Bieber     ] is 3076   LOC  - SearchOutputProtobuf.java
+ 2 [Kutcher    ] is 2407   LOC  - ExportServiceImplTest.java
+ 3 [Timberlake ] is 2020   LOC  - SearchServiceQLParser.java
+ =============================================================== 
+ =============================================================== 
+ =============== TOP MONSTERS ================================== 
+ =============================================================== 
+ Project: D:/Diego/svn-repos/wcsiLegra/NextGenTR/Services-SRC/.svn
+ =============================================================== 
+ 1 [Bieber     ] is 0      LOC  - Unknown
+ 2 [Kutcher    ] is 0      LOC  - Unknown
+ 3 [Timberlake ] is 0      LOC  - Unknown
+ =============================================================== 
+ =============================================================== 
+ =============== TOP MONSTERS ================================== 
+ =============================================================== 
+ Project: D:/Diego/svn-repos/wcsiLegra/NextGenTR/Services-SRC/jboss-conf
+ =============================================================== 
+ 1 [Bieber     ] is 0      LOC  - Unknown
+ 2 [Kutcher    ] is 0      LOC  - Unknown
+ 3 [Timberlake ] is 0      LOC  - Unknown
+ =============================================================== 
+ =============================================================== 
+ =============== TOP MONSTERS ================================== 
+ =============================================================== 
+ Project: D:/Diego/svn-repos/wcsiLegra/NextGenTR/Services-SRC/ngs-alert-exceptions
+ =============================================================== 
+ 1 [Bieber     ] is 45     LOC  - ExceptionMessageBuilder.java
+ 2 [Kutcher    ] is 35     LOC  - AlertValidationException.java
+ 3 [Timberlake ] is 0      LOC  - Unknown
+ =============================================================== 
+ =============================================================== 
+ =============== TOP MONSTERS ================================== 
+ =============================================================== 
+ Project: D:/Diego/svn-repos/wcsiLegra/NextGenTR/Services-SRC/ngs-alert-seda-core-contract-message
+ =============================================================== 
+ 1 [Bieber     ] is 191    LOC  - ProcessInputMessage.java
+ 2 [Kutcher    ] is 150    LOC  - DeliveryInputMessage.java
+ 3 [Timberlake ] is 61     LOC  - Report.java
+ =============================================================== 
+ =============================================================== 
+ =============== TOP MONSTERS ================================== 
+ =============================================================== 
+ Project: D:/Diego/svn-repos/wcsiLegra/NextGenTR/Services-SRC/ngs-alert-seda-core-contract-pipeline-test
+ =============================================================== 
+ 1 [Bieber     ] is 1228   LOC  - SaveSearchFakeResultSet.java
+ 2 [Kutcher    ] is 1225   LOC  - AlertFakeResultSet.java
+ 3 [Timberlake ] is 1206   LOC  - FakeResultSet.java
+ =============================================================== 
+ =============================================================== 
+ =============== TOP MONSTERS ================================== 
+ =============================================================== 
+ Project: D:/Diego/svn-repos/wcsiLegra/NextGenTR/Services-SRC/ngs-alert-seda-core-feed-ear
+ =============================================================== 
+ 1 [Bieber     ] is 0      LOC  - Unknown
+ 2 [Kutcher    ] is 0      LOC  - Unknown
+ 3 [Timberlake ] is 0      LOC  - Unknown
+ =============================================================== 
+ =============================================================== 
+ =============== TOP MONSTERS ================================== 
+ =============================================================== 
+ Project: D:/Diego/svn-repos/wcsiLegra/NextGenTR/Services-SRC/ngs-alert-seda-core-feed-wk
+ =============================================================== 
+ 1 [Bieber     ] is 277    LOC  - AlertLoader.java
+ 2 [Kutcher    ] is 176    LOC  - FeedWorker.java
+ 3 [Timberlake ] is 145    LOC  - MockBeanFactory.java
+ =============================================================== 
+ =============================================================== 
+ =============== TOP MONSTERS ================================== 
+ =============================================================== 
+ Project: D:/Diego/svn-repos/wcsiLegra/NextGenTR/Services-SRC/ngs-alert-seda-core-processor-ear
+ =============================================================== 
+ 1 [Bieber     ] is 0      LOC  - Unknown
+ 2 [Kutcher    ] is 0      LOC  - Unknown
+ 3 [Timberlake ] is 0      LOC  - Unknown
+ =============================================================== 
+ =============================================================== 
+ =============== TOP MONSTERS ================================== 
+ =============================================================== 
+ Project: D:/Diego/svn-repos/wcsiLegra/NextGenTR/Services-SRC/ngs-alert-seda-core-processor-wk
+ =============================================================== 
+ 1 [Bieber     ] is 209    LOC  - ProcessorWorker.java
+ 2 [Kutcher    ] is 175    LOC  - DropInDropOutHandler.java
+ 3 [Timberlake ] is 144    LOC  - ReportBuilder.java
+ =============================================================== 
+ =============================================================== 
+ =============== TOP MONSTERS ================================== 
+ =============================================================== 
+ Project: D:/Diego/svn-repos/wcsiLegra/NextGenTR/Services-SRC/ngs-alert-seda-core-utils
+ =============================================================== 
+ 1 [Bieber     ] is 0      LOC  - Unknown
+ 2 [Kutcher    ] is 0      LOC  - Unknown
+ 3 [Timberlake ] is 0      LOC  - Unknown
+ =============================================================== 
+ =============================================================== 
+ =============== TOP MONSTERS ================================== 
+ =============================================================== 
+ Project: D:/Diego/svn-repos/wcsiLegra/NextGenTR/Services-SRC/ngs-alert-seda-delivery-email-ear
+ =============================================================== 
+ 1 [Bieber     ] is 0      LOC  - Unknown
+ 2 [Kutcher    ] is 0      LOC  - Unknown
+ 3 [Timberlake ] is 0      LOC  - Unknown
+ =============================================================== 
+ =============================================================== 
+ =============== TOP MONSTERS ================================== 
+ =============================================================== 
+ Project: D:/Diego/svn-repos/wcsiLegra/NextGenTR/Services-SRC/ngs-alert-seda-delivery-email-wk
+ =============================================================== 
+ 1 [Bieber     ] is 166    LOC  - DeliveryMailWorker.java
+ 2 [Kutcher    ] is 94     LOC  - JasperEngineT.java
+ 3 [Timberlake ] is 77     LOC  - DocumentPrinter.java
+ =============================================================== 
+ =============================================================== 
+ =============== TOP MONSTERS ================================== 
+ =============================================================== 
+ Project: D:/Diego/svn-repos/wcsiLegra/NextGenTR/Services-SRC/ngs-alerting-ct
+ =============================================================== 
+ 1 [Bieber     ] is 70     LOC  - SaveAlertInput.java
+ 2 [Kutcher    ] is 70     LOC  - AlertOutput.java
+ 3 [Timberlake ] is 67     LOC  - AlertingService.java
+ =============================================================== 
+ =============================================================== 
+ =============== TOP MONSTERS ================================== 
+ =============================================================== 
+ Project: D:/Diego/svn-repos/wcsiLegra/NextGenTR/Services-SRC/ngs-alerting-ear
+ =============================================================== 
+ 1 [Bieber     ] is 0      LOC  - Unknown
+ 2 [Kutcher    ] is 0      LOC  - Unknown
+ 3 [Timberlake ] is 0      LOC  - Unknown
+ =============================================================== 
+ =============================================================== 
+ =============== TOP MONSTERS ================================== 
+ =============================================================== 
+ Project: D:/Diego/svn-repos/wcsiLegra/NextGenTR/Services-SRC/ngs-alerting-integration-test
+ =============================================================== 
+ 1 [Bieber     ] is 15     LOC  - AlertingValidationTest.java
+ 2 [Kutcher    ] is 15     LOC  - AlertingServiceTest.java
+ 3 [Timberlake ] is 0      LOC  - Unknown
+ =============================================================== 
+ =============================================================== 
+ =============== TOP MONSTERS ================================== 
+ =============================================================== 
+ Project: D:/Diego/svn-repos/wcsiLegra/NextGenTR/Services-SRC/ngs-alerting-parent
+ =============================================================== 
+ 1 [Bieber     ] is 0      LOC  - Unknown
+ 2 [Kutcher    ] is 0      LOC  - Unknown
+ 3 [Timberlake ] is 0      LOC  - Unknown
+ =============================================================== 
+ =============================================================== 
+ =============== TOP MONSTERS ================================== 
+ =============================================================== 
+ Project: D:/Diego/svn-repos/wcsiLegra/NextGenTR/Services-SRC/ngs-alerting-si
+ =============================================================== 
+ 1 [Bieber     ] is 246    LOC  - AlertingServiceImpl.java
+ 2 [Kutcher    ] is 173    LOC  - SimpleRequestValidator.java
+ 3 [Timberlake ] is 155    LOC  - Alert.java
+ =============================================================== 
+ =============================================================== 
+ =============== TOP MONSTERS ================================== 
+ =============================================================== 
+ Project: D:/Diego/svn-repos/wcsiLegra/NextGenTR/Services-SRC/ngs-alerting-test-ct
+ =============================================================== 
+ 1 [Bieber     ] is 868    LOC  - AlertingValidationTest.java
+ 2 [Kutcher    ] is 354    LOC  - AlertingServiceTest.java
+ 3 [Timberlake ] is 122    LOC  - AlertDaoDataSourceMock.java
+ =============================================================== 
+ =============================================================== 
+ =============== TOP MONSTERS ================================== 
+ =============================================================== 
+ Project: D:/Diego/svn-repos/wcsiLegra/NextGenTR/Services-SRC/ngs-alerting-wk
+ =============================================================== 
+ 1 [Bieber     ] is 57     LOC  - AlertingWorkerManager.java
+ 2 [Kutcher    ] is 19     LOC  - AlertingSpringEJBSharedContextInterceptor.java
+ 3 [Timberlake ] is 0      LOC  - Unknown
+ =============================================================== 
+ =============================================================== 
+ =============== TOP MONSTERS ================================== 
+ =============================================================== 
+ Project: D:/Diego/svn-repos/wcsiLegra/NextGenTR/Services-SRC/ngs-autocomplete-ct
+ =============================================================== 
+ 1 [Bieber     ] is 53     LOC  - AutocompleteService.java
+ 2 [Kutcher    ] is 52     LOC  - AutocompleteService.java
+ 3 [Timberlake ] is 51     LOC  - AutocompleteService.java
+ =============================================================== 
+ =============================================================== 
+ =============== TOP MONSTERS ================================== 
+ =============================================================== 
+ Project: D:/Diego/svn-repos/wcsiLegra/NextGenTR/Services-SRC/ngs-autocomplete-ear
+ =============================================================== 
+ 1 [Bieber     ] is 0      LOC  - Unknown
+ 2 [Kutcher    ] is 0      LOC  - Unknown
+ 3 [Timberlake ] is 0      LOC  - Unknown
+ =============================================================== 
+ =============================================================== 
+ =============== TOP MONSTERS ================================== 
+ =============================================================== 
+ Project: D:/Diego/svn-repos/wcsiLegra/NextGenTR/Services-SRC/ngs-autocomplete-integration-test
+ =============================================================== 
+ 1 [Bieber     ] is 89     LOC  - ArrayListProvider.java
+ 2 [Kutcher    ] is 30     LOC  - AutocompleteInputTest.java
+ 3 [Timberlake ] is 29     LOC  - AutocompleteInputTest.java
+ =============================================================== 
+ =============================================================== 
+ =============== TOP MONSTERS ================================== 
+ =============================================================== 
+ Project: D:/Diego/svn-repos/wcsiLegra/NextGenTR/Services-SRC/ngs-autocomplete-parent
+ =============================================================== 
+ 1 [Bieber     ] is 0      LOC  - Unknown
+ 2 [Kutcher    ] is 0      LOC  - Unknown
+ 3 [Timberlake ] is 0      LOC  - Unknown
+ =============================================================== 
+ =============================================================== 
+ =============== TOP MONSTERS ================================== 
+ =============================================================== 
+ Project: D:/Diego/svn-repos/wcsiLegra/NextGenTR/Services-SRC/ngs-autocomplete-si
+ =============================================================== 
+ 1 [Bieber     ] is 129    LOC  - AutocompleteServiceEntryPoint.java
+ 2 [Kutcher    ] is 115    LOC  - MSFastAutocompleteEngine.java
+ 3 [Timberlake ] is 63     LOC  - AutocompleteException.java
+ =============================================================== 
+ =============================================================== 
+ =============== TOP MONSTERS ================================== 
+ =============================================================== 
+ Project: D:/Diego/svn-repos/wcsiLegra/NextGenTR/Services-SRC/ngs-autocomplete-test-ct
+ =============================================================== 
+ 1 [Bieber     ] is 82     LOC  - AutocompleteEntryPointTest.java
+ 2 [Kutcher    ] is 57     LOC  - AutocompleteDatasourceRouter.java
+ 3 [Timberlake ] is 54     LOC  - AutocompleteEntryPointTest.java
+ =============================================================== 
+ =============================================================== 
+ =============== TOP MONSTERS ================================== 
+ =============================================================== 
+ Project: D:/Diego/svn-repos/wcsiLegra/NextGenTR/Services-SRC/ngs-autocomplete-wk
+ =============================================================== 
+ 1 [Bieber     ] is 53     LOC  - AutocompleteWorkerManager.java
+ 2 [Kutcher    ] is 19     LOC  - AutocompleteSpringEJBSharedContextInterceptor.java
+ 3 [Timberlake ] is 0      LOC  - Unknown
+ =============================================================== 
+ =============================================================== 
+ =============== TOP MONSTERS ================================== 
+ =============================================================== 
+ Project: D:/Diego/svn-repos/wcsiLegra/NextGenTR/Services-SRC/ngs-chemistry-ct
+ =============================================================== 
+ 1 [Bieber     ] is 56     LOC  - ChemistryService.java
+ 2 [Kutcher    ] is 33     LOC  - ChemistryServiceNotFoundException.java
+ 3 [Timberlake ] is 33     LOC  - ChemistryServiceException.java
+ =============================================================== 
+ =============================================================== 
+ =============== TOP MONSTERS ================================== 
+ =============================================================== 
+ Project: D:/Diego/svn-repos/wcsiLegra/NextGenTR/Services-SRC/ngs-chemistry-image-ct
+ =============================================================== 
+ 1 [Bieber     ] is 63     LOC  - ChemistryImageService.java
+ 2 [Kutcher    ] is 33     LOC  - ChemistryImageRetrievalException.java
+ 3 [Timberlake ] is 33     LOC  - ChemistryImageNotFoundException.java
+ =============================================================== 
+ =============================================================== 
+ =============== TOP MONSTERS ================================== 
+ =============================================================== 
+ Project: D:/Diego/svn-repos/wcsiLegra/NextGenTR/Services-SRC/ngs-chemistry-image-integration-test
+ =============================================================== 
+ 1 [Bieber     ] is 28     LOC  - ChemistryServiceIntegrationTest.java
+ 2 [Kutcher    ] is 0      LOC  - Unknown
+ 3 [Timberlake ] is 0      LOC  - Unknown
+ =============================================================== 
+ =============================================================== 
+ =============== TOP MONSTERS ================================== 
+ =============================================================== 
+ Project: D:/Diego/svn-repos/wcsiLegra/NextGenTR/Services-SRC/ngs-chemistry-image-parent
+ =============================================================== 
+ 1 [Bieber     ] is 0      LOC  - Unknown
+ 2 [Kutcher    ] is 0      LOC  - Unknown
+ 3 [Timberlake ] is 0      LOC  - Unknown
+ =============================================================== 
+ =============================================================== 
+ =============== TOP MONSTERS ================================== 
+ =============================================================== 
+ Project: D:/Diego/svn-repos/wcsiLegra/NextGenTR/Services-SRC/ngs-chemistry-image-si
+ =============================================================== 
+ 1 [Bieber     ] is 124    LOC  - ChemistryImageServiceImpl.java
+ 2 [Kutcher    ] is 123    LOC  - CompoundDisplayDao.java
+ 3 [Timberlake ] is 76     LOC  - PatentAbstractDisplayDao.java
+ =============================================================== 
+ =============================================================== 
+ =============== TOP MONSTERS ================================== 
+ =============================================================== 
+ Project: D:/Diego/svn-repos/wcsiLegra/NextGenTR/Services-SRC/ngs-chemistry-image-test-ct
+ =============================================================== 
+ 1 [Bieber     ] is 210    LOC  - ChemistryImageServiceImplTest.java
+ 2 [Kutcher    ] is 122    LOC  - ChemistryImageDataSourceRouter.java
+ 3 [Timberlake ] is 37     LOC  - ChemistryImageMocker.java
+ =============================================================== 
+ =============================================================== 
+ =============== TOP MONSTERS ================================== 
+ =============================================================== 
+ Project: D:/Diego/svn-repos/wcsiLegra/NextGenTR/Services-SRC/ngs-chemistry-integration-test
+ =============================================================== 
+ 1 [Bieber     ] is 0      LOC  - Unknown
+ 2 [Kutcher    ] is 0      LOC  - Unknown
+ 3 [Timberlake ] is 0      LOC  - Unknown
+ =============================================================== 
+ =============================================================== 
+ =============== TOP MONSTERS ================================== 
+ =============================================================== 
+ Project: D:/Diego/svn-repos/wcsiLegra/NextGenTR/Services-SRC/ngs-chemistry-parent
+ =============================================================== 
+ 1 [Bieber     ] is 0      LOC  - Unknown
+ 2 [Kutcher    ] is 0      LOC  - Unknown
+ 3 [Timberlake ] is 0      LOC  - Unknown
+ =============================================================== 
+ =============================================================== 
+ =============== TOP MONSTERS ================================== 
+ =============================================================== 
+ Project: D:/Diego/svn-repos/wcsiLegra/NextGenTR/Services-SRC/ngs-chemistry-si
+ =============================================================== 
+ 1 [Bieber     ] is 155    LOC  - ChemistryServiceImpl.java
+ 2 [Kutcher    ] is 122    LOC  - CompoundDao.java
+ 3 [Timberlake ] is 95     LOC  - CompoundDisplayTest.java
+ =============================================================== 
+ =============================================================== 
+ =============== TOP MONSTERS ================================== 
+ =============================================================== 
+ Project: D:/Diego/svn-repos/wcsiLegra/NextGenTR/Services-SRC/ngs-chemistry-test-ct
+ =============================================================== 
+ 1 [Bieber     ] is 190    LOC  - ChemistryServiceTest.java
+ 2 [Kutcher    ] is 108    LOC  - ChemistryServiceDataSourceRouter.java
+ 3 [Timberlake ] is 56     LOC  - ChemistryImageMocker.java
+ =============================================================== 
+ =============================================================== 
+ =============== TOP MONSTERS ================================== 
+ =============================================================== 
+ Project: D:/Diego/svn-repos/wcsiLegra/NextGenTR/Services-SRC/ngs-core-redis
+ =============================================================== 
+ 1 [Bieber     ] is 117    LOC  - JedisExecutor.java
+ 2 [Kutcher    ] is 40     LOC  - AlertKeyUtil.java
+ 3 [Timberlake ] is 35     LOC  - KeyNormalizer.java
+ =============================================================== 
+ =============================================================== 
+ =============== TOP MONSTERS ================================== 
+ =============================================================== 
+ Project: D:/Diego/svn-repos/wcsiLegra/NextGenTR/Services-SRC/ngs-core-test-ct
+ =============================================================== 
+ 1 [Bieber     ] is 72     LOC  - AbstractDatasourceRouter.java
+ 2 [Kutcher    ] is 0      LOC  - Unknown
+ 3 [Timberlake ] is 0      LOC  - Unknown
+ =============================================================== 
+ =============================================================== 
+ =============== TOP MONSTERS ================================== 
+ =============================================================== 
+ Project: D:/Diego/svn-repos/wcsiLegra/NextGenTR/Services-SRC/ngs-domain-configuration
+ =============================================================== 
+ 1 [Bieber     ] is 94     LOC  - DomainConfiguration.java
+ 2 [Kutcher    ] is 51     LOC  - RetrieveDomainConfigurationUtil.java
+ 3 [Timberlake ] is 51     LOC  - ExportDomainConfigurationUtil.java
+ =============================================================== 
+ =============================================================== 
+ =============== TOP MONSTERS ================================== 
+ =============================================================== 
+ Project: D:/Diego/svn-repos/wcsiLegra/NextGenTR/Services-SRC/ngs-export-ct
+ =============================================================== 
+ 1 [Bieber     ] is 193    LOC  - ExportInput.java
+ 2 [Kutcher    ] is 76     LOC  - ExportDataInput.java
+ 3 [Timberlake ] is 53     LOC  - ExportService.java
+ =============================================================== 
+ =============================================================== 
+ =============== TOP MONSTERS ================================== 
+ =============================================================== 
+ Project: D:/Diego/svn-repos/wcsiLegra/NextGenTR/Services-SRC/ngs-export-domain
+ =============================================================== 
+ 1 [Bieber     ] is 307    LOC  - GridDealDocument.java
+ 2 [Kutcher    ] is 204    LOC  - PatentSnaphotSection.java
+ 3 [Timberlake ] is 194    LOC  - DealSnaphotSection.java
+ =============================================================== 
+ =============================================================== 
+ =============== TOP MONSTERS ================================== 
+ =============================================================== 
+ Project: D:/Diego/svn-repos/wcsiLegra/NextGenTR/Services-SRC/ngs-export-ear
+ =============================================================== 
+ 1 [Bieber     ] is 0      LOC  - Unknown
+ 2 [Kutcher    ] is 0      LOC  - Unknown
+ 3 [Timberlake ] is 0      LOC  - Unknown
+ =============================================================== 
+ =============================================================== 
+ =============== TOP MONSTERS ================================== 
+ =============================================================== 
+ Project: D:/Diego/svn-repos/wcsiLegra/NextGenTR/Services-SRC/ngs-export-engine
+ =============================================================== 
+ 1 [Bieber     ] is 457    LOC  - GridExportEngineTest.java
+ 2 [Kutcher    ] is 440    LOC  - GridExportEngine.java
+ 3 [Timberlake ] is 266    LOC  - ReportExportEngine.java
+ =============================================================== 
+ =============================================================== 
+ =============== TOP MONSTERS ================================== 
+ =============================================================== 
+ Project: D:/Diego/svn-repos/wcsiLegra/NextGenTR/Services-SRC/ngs-export-exceptions
+ =============================================================== 
+ 1 [Bieber     ] is 45     LOC  - ExceptionMessageBuilder.java
+ 2 [Kutcher    ] is 42     LOC  - ExportServiceValidationException.java
+ 3 [Timberlake ] is 37     LOC  - DataRetrievalException.java
+ =============================================================== 
+ =============================================================== 
+ =============== TOP MONSTERS ================================== 
+ =============================================================== 
+ Project: D:/Diego/svn-repos/wcsiLegra/NextGenTR/Services-SRC/ngs-export-integration-test
+ =============================================================== 
+ 1 [Bieber     ] is 29     LOC  - ExportServiceTest.java
+ 2 [Kutcher    ] is 28     LOC  - ExportPatentIntegrationTest.java
+ 3 [Timberlake ] is 28     LOC  - ExportDealIntegrationTest.java
+ =============================================================== 
+ =============================================================== 
+ =============== TOP MONSTERS ================================== 
+ =============================================================== 
+ Project: D:/Diego/svn-repos/wcsiLegra/NextGenTR/Services-SRC/ngs-export-jasper
+ =============================================================== 
+ 1 [Bieber     ] is 0      LOC  - Unknown
+ 2 [Kutcher    ] is 0      LOC  - Unknown
+ 3 [Timberlake ] is 0      LOC  - Unknown
+ =============================================================== 
+ =============================================================== 
+ =============== TOP MONSTERS ================================== 
+ =============================================================== 
+ Project: D:/Diego/svn-repos/wcsiLegra/NextGenTR/Services-SRC/ngs-export-jasper-fonts
+ =============================================================== 
+ 1 [Bieber     ] is 0      LOC  - Unknown
+ 2 [Kutcher    ] is 0      LOC  - Unknown
+ 3 [Timberlake ] is 0      LOC  - Unknown
+ =============================================================== 
+ =============================================================== 
+ =============== TOP MONSTERS ================================== 
+ =============================================================== 
+ Project: D:/Diego/svn-repos/wcsiLegra/NextGenTR/Services-SRC/ngs-export-parent
+ =============================================================== 
+ 1 [Bieber     ] is 0      LOC  - Unknown
+ 2 [Kutcher    ] is 0      LOC  - Unknown
+ 3 [Timberlake ] is 0      LOC  - Unknown
+ =============================================================== 
+ =============================================================== 
+ =============== TOP MONSTERS ================================== 
+ =============================================================== 
+ Project: D:/Diego/svn-repos/wcsiLegra/NextGenTR/Services-SRC/ngs-export-search-ct
+ =============================================================== 
+ 1 [Bieber     ] is 41     LOC  - ExportSearchService.java
+ 2 [Kutcher    ] is 40     LOC  - ExportSearchService.java
+ 3 [Timberlake ] is 0      LOC  - Unknown
+ =============================================================== 
+ =============================================================== 
+ =============== TOP MONSTERS ================================== 
+ =============================================================== 
+ Project: D:/Diego/svn-repos/wcsiLegra/NextGenTR/Services-SRC/ngs-export-search-ear
+ =============================================================== 
+ 1 [Bieber     ] is 0      LOC  - Unknown
+ 2 [Kutcher    ] is 0      LOC  - Unknown
+ 3 [Timberlake ] is 0      LOC  - Unknown
+ =============================================================== 
+ =============================================================== 
+ =============== TOP MONSTERS ================================== 
+ =============================================================== 
+ Project: D:/Diego/svn-repos/wcsiLegra/NextGenTR/Services-SRC/ngs-export-search-exceptions
+ =============================================================== 
+ 1 [Bieber     ] is 47     LOC  - ExceptionMessageBuilder.java
+ 2 [Kutcher    ] is 36     LOC  - ExportSearchValidationException.java
+ 3 [Timberlake ] is 35     LOC  - ExportSearchServiceException.java
+ =============================================================== 
+ =============================================================== 
+ =============== TOP MONSTERS ================================== 
+ =============================================================== 
+ Project: D:/Diego/svn-repos/wcsiLegra/NextGenTR/Services-SRC/ngs-export-search-integration-test
+ =============================================================== 
+ 1 [Bieber     ] is 27     LOC  - ExportSearchServicePatentIntegrationTest.java
+ 2 [Kutcher    ] is 27     LOC  - ExportSearchServiceDrugIntegrationTest.java
+ 3 [Timberlake ] is 27     LOC  - ExportSearchServiceDealsIntegrationTest.java
+ =============================================================== 
+ =============================================================== 
+ =============== TOP MONSTERS ================================== 
+ =============================================================== 
+ Project: D:/Diego/svn-repos/wcsiLegra/NextGenTR/Services-SRC/ngs-export-search-parent
+ =============================================================== 
+ 1 [Bieber     ] is 0      LOC  - Unknown
+ 2 [Kutcher    ] is 0      LOC  - Unknown
+ 3 [Timberlake ] is 0      LOC  - Unknown
+ =============================================================== 
+ =============================================================== 
+ =============== TOP MONSTERS ================================== 
+ =============================================================== 
+ Project: D:/Diego/svn-repos/wcsiLegra/NextGenTR/Services-SRC/ngs-export-search-si
+ =============================================================== 
+ 1 [Bieber     ] is 497    LOC  - DealPageOutputConverterTest.java
+ 2 [Kutcher    ] is 328    LOC  - DealPageOutputConverter.java
+ 3 [Timberlake ] is 286    LOC  - ExportSearchServiceImpl.java
+ =============================================================== 
+ =============================================================== 
+ =============== TOP MONSTERS ================================== 
+ =============================================================== 
+ Project: D:/Diego/svn-repos/wcsiLegra/NextGenTR/Services-SRC/ngs-export-search-test-ct
+ =============================================================== 
+ 1 [Bieber     ] is 897    LOC  - ExportDealSearchServiceDataBuilder.java
+ 2 [Kutcher    ] is 457    LOC  - SearchOutputDataBuilder.java
+ 3 [Timberlake ] is 386    LOC  - ExportSearchServiceDataBuilder.java
+ =============================================================== 
+ =============================================================== 
+ =============== TOP MONSTERS ================================== 
+ =============================================================== 
+ Project: D:/Diego/svn-repos/wcsiLegra/NextGenTR/Services-SRC/ngs-export-search-wk
+ =============================================================== 
+ 1 [Bieber     ] is 60     LOC  - ExportSearchServiceWorkerManager.java
+ 2 [Kutcher    ] is 25     LOC  - ExportSearchSpringEJBSharedContextInterceptor.java
+ 3 [Timberlake ] is 0      LOC  - Unknown
+ =============================================================== 
+ =============================================================== 
+ =============== TOP MONSTERS ================================== 
+ =============================================================== 
+ Project: D:/Diego/svn-repos/wcsiLegra/NextGenTR/Services-SRC/ngs-export-si
+ =============================================================== 
+ 1 [Bieber     ] is 483    LOC  - ReportStrategy.java
+ 2 [Kutcher    ] is 424    LOC  - ReportStrategyTest.java
+ 3 [Timberlake ] is 400    LOC  - ExportUtils.java
+ =============================================================== 
+ =============================================================== 
+ =============== TOP MONSTERS ================================== 
+ =============================================================== 
+ Project: D:/Diego/svn-repos/wcsiLegra/NextGenTR/Services-SRC/ngs-export-template
+ =============================================================== 
+ 1 [Bieber     ] is 0      LOC  - Unknown
+ 2 [Kutcher    ] is 0      LOC  - Unknown
+ 3 [Timberlake ] is 0      LOC  - Unknown
+ =============================================================== 
+ =============================================================== 
+ =============== TOP MONSTERS ================================== 
+ =============================================================== 
+ Project: D:/Diego/svn-repos/wcsiLegra/NextGenTR/Services-SRC/ngs-export-test-ct
+ =============================================================== 
+ 1 [Bieber     ] is 2407   LOC  - ExportServiceImplTest.java
+ 2 [Kutcher    ] is 1818   LOC  - ExportDealTest.java
+ 3 [Timberlake ] is 1445   LOC  - PatentRetrieveInputDataBuilder.java
+ =============================================================== 
+ =============================================================== 
+ =============== TOP MONSTERS ================================== 
+ =============================================================== 
+ Project: D:/Diego/svn-repos/wcsiLegra/NextGenTR/Services-SRC/ngs-export-wk
+ =============================================================== 
+ 1 [Bieber     ] is 52     LOC  - ExportWorkerManager.java
+ 2 [Kutcher    ] is 21     LOC  - ExportSpringEJBSharedContextInterceptor.java
+ 3 [Timberlake ] is 0      LOC  - Unknown
+ =============================================================== 
+ =============================================================== 
+ =============== TOP MONSTERS ================================== 
+ =============================================================== 
+ Project: D:/Diego/svn-repos/wcsiLegra/NextGenTR/Services-SRC/ngs-integration-test-parent
+ =============================================================== 
+ 1 [Bieber     ] is 0      LOC  - Unknown
+ 2 [Kutcher    ] is 0      LOC  - Unknown
+ 3 [Timberlake ] is 0      LOC  - Unknown
+ =============================================================== 
+ =============================================================== 
+ =============== TOP MONSTERS ================================== 
+ =============================================================== 
+ Project: D:/Diego/svn-repos/wcsiLegra/NextGenTR/Services-SRC/ngs-mr-conf
+ =============================================================== 
+ 1 [Bieber     ] is 0      LOC  - Unknown
+ 2 [Kutcher    ] is 0      LOC  - Unknown
+ 3 [Timberlake ] is 0      LOC  - Unknown
+ =============================================================== 
+ =============================================================== 
+ =============== TOP MONSTERS ================================== 
+ =============================================================== 
+ Project: D:/Diego/svn-repos/wcsiLegra/NextGenTR/Services-SRC/ngs-mr-ear
+ =============================================================== 
+ 1 [Bieber     ] is 0      LOC  - Unknown
+ 2 [Kutcher    ] is 0      LOC  - Unknown
+ 3 [Timberlake ] is 0      LOC  - Unknown
+ =============================================================== 
+ =============================================================== 
+ =============== TOP MONSTERS ================================== 
+ =============================================================== 
+ Project: D:/Diego/svn-repos/wcsiLegra/NextGenTR/Services-SRC/ngs-mr-war
+ =============================================================== 
+ 1 [Bieber     ] is 0      LOC  - Unknown
+ 2 [Kutcher    ] is 0      LOC  - Unknown
+ 3 [Timberlake ] is 0      LOC  - Unknown
+ =============================================================== 
+ =============================================================== 
+ =============== TOP MONSTERS ================================== 
+ =============================================================== 
+ Project: D:/Diego/svn-repos/wcsiLegra/NextGenTR/Services-SRC/ngs-parent
+ =============================================================== 
+ 1 [Bieber     ] is 0      LOC  - Unknown
+ 2 [Kutcher    ] is 0      LOC  - Unknown
+ 3 [Timberlake ] is 0      LOC  - Unknown
+ =============================================================== 
+ =============================================================== 
+ =============== TOP MONSTERS ================================== 
+ =============================================================== 
+ Project: D:/Diego/svn-repos/wcsiLegra/NextGenTR/Services-SRC/ngs-retrieve-ct
+ =============================================================== 
+ 1 [Bieber     ] is 628    LOC  - Patent.java
+ 2 [Kutcher    ] is 294    LOC  - Deal.java
+ 3 [Timberlake ] is 294    LOC  - Deal.java
+ =============================================================== 
+ =============================================================== 
+ =============== TOP MONSTERS ================================== 
+ =============================================================== 
+ Project: D:/Diego/svn-repos/wcsiLegra/NextGenTR/Services-SRC/ngs-retrieve-ear
+ =============================================================== 
+ 1 [Bieber     ] is 0      LOC  - Unknown
+ 2 [Kutcher    ] is 0      LOC  - Unknown
+ 3 [Timberlake ] is 0      LOC  - Unknown
+ =============================================================== 
+ =============================================================== 
+ =============== TOP MONSTERS ================================== 
+ =============================================================== 
+ Project: D:/Diego/svn-repos/wcsiLegra/NextGenTR/Services-SRC/ngs-retrieve-exceptions
+ =============================================================== 
+ 1 [Bieber     ] is 58     LOC  - DomainCreationException.java
+ 2 [Kutcher    ] is 54     LOC  - RetrieveServiceValidationException.java
+ 3 [Timberlake ] is 48     LOC  - RetrieveServiceException.java
+ =============================================================== 
+ =============================================================== 
+ =============== TOP MONSTERS ================================== 
+ =============================================================== 
+ Project: D:/Diego/svn-repos/wcsiLegra/NextGenTR/Services-SRC/ngs-retrieve-integration-test
+ =============================================================== 
+ 1 [Bieber     ] is 79     LOC  - RetrieveServiceDealIntegrationTest.java
+ 2 [Kutcher    ] is 28     LOC  - RetrieveServiceDrugIntegrationTest.java
+ 3 [Timberlake ] is 28     LOC  - RetrieveServiceDiseaseIntegrationTest.java
+ =============================================================== 
+ =============================================================== 
+ =============== TOP MONSTERS ================================== 
+ =============================================================== 
+ Project: D:/Diego/svn-repos/wcsiLegra/NextGenTR/Services-SRC/ngs-retrieve-parent
+ =============================================================== 
+ 1 [Bieber     ] is 0      LOC  - Unknown
+ 2 [Kutcher    ] is 0      LOC  - Unknown
+ 3 [Timberlake ] is 0      LOC  - Unknown
+ =============================================================== 
+ =============================================================== 
+ =============== TOP MONSTERS ================================== 
+ =============================================================== 
+ Project: D:/Diego/svn-repos/wcsiLegra/NextGenTR/Services-SRC/ngs-retrieve-si
+ =============================================================== 
+ 1 [Bieber     ] is 929    LOC  - RetrieveDealBinder.java
+ 2 [Kutcher    ] is 678    LOC  - RetrieveDrugBinder.java
+ 3 [Timberlake ] is 563    LOC  - DealEntity.java
+ =============================================================== 
+ =============================================================== 
+ =============== TOP MONSTERS ================================== 
+ =============================================================== 
+ Project: D:/Diego/svn-repos/wcsiLegra/NextGenTR/Services-SRC/ngs-retrieve-test-ct
+ =============================================================== 
+ 1 [Bieber     ] is 1977   LOC  - DataBuilder.java
+ 2 [Kutcher    ] is 1976   LOC  - DataBuilder.java
+ 3 [Timberlake ] is 1922   LOC  - RetrieveServiceImplDrugTest.java
+ =============================================================== 
+ =============================================================== 
+ =============== TOP MONSTERS ================================== 
+ =============================================================== 
+ Project: D:/Diego/svn-repos/wcsiLegra/NextGenTR/Services-SRC/ngs-retrieve-wk
+ =============================================================== 
+ 1 [Bieber     ] is 53     LOC  - RetrieveWorkerManager.java
+ 2 [Kutcher    ] is 0      LOC  - Unknown
+ 3 [Timberlake ] is 0      LOC  - Unknown
+ =============================================================== 
+ =============================================================== 
+ =============== TOP MONSTERS ================================== 
+ =============================================================== 
+ Project: D:/Diego/svn-repos/wcsiLegra/NextGenTR/Services-SRC/ngs-runtime-jboss
+ =============================================================== 
+ 1 [Bieber     ] is 0      LOC  - Unknown
+ 2 [Kutcher    ] is 0      LOC  - Unknown
+ 3 [Timberlake ] is 0      LOC  - Unknown
+ =============================================================== 
+ =============================================================== 
+ =============== TOP MONSTERS ================================== 
+ =============================================================== 
+ Project: D:/Diego/svn-repos/wcsiLegra/NextGenTR/Services-SRC/ngs-runtime-mr
+ =============================================================== 
+ 1 [Bieber     ] is 0      LOC  - Unknown
+ 2 [Kutcher    ] is 0      LOC  - Unknown
+ 3 [Timberlake ] is 0      LOC  - Unknown
+ =============================================================== 
+ =============================================================== 
+ =============== TOP MONSTERS ================================== 
+ =============================================================== 
+ Project: D:/Diego/svn-repos/wcsiLegra/NextGenTR/Services-SRC/ngs-search-core
+ =============================================================== 
+ 1 [Bieber     ] is 202    LOC  - SearchOutputProxy.java
+ 2 [Kutcher    ] is 161    LOC  - FastMetadata.java
+ 3 [Timberlake ] is 146    LOC  - SearchInputProxy.java
+ =============================================================== 
+ =============================================================== 
+ =============== TOP MONSTERS ================================== 
+ =============================================================== 
+ Project: D:/Diego/svn-repos/wcsiLegra/NextGenTR/Services-SRC/ngs-search-core-domain
+ =============================================================== 
+ 1 [Bieber     ] is 270    LOC  - DealEntity.java
+ 2 [Kutcher    ] is 197    LOC  - PatentBasicEntity.java
+ 3 [Timberlake ] is 153    LOC  - DrugEntity.java
+ =============================================================== 
+ =============================================================== 
+ =============== TOP MONSTERS ================================== 
+ =============================================================== 
+ Project: D:/Diego/svn-repos/wcsiLegra/NextGenTR/Services-SRC/ngs-search-ct
+ =============================================================== 
+ 1 [Bieber     ] is 218    LOC  - SearchOutput.java
+ 2 [Kutcher    ] is 217    LOC  - SearchOutput.java
+ 3 [Timberlake ] is 216    LOC  - SearchOutput.java
+ =============================================================== 
+ =============================================================== 
+ =============== TOP MONSTERS ================================== 
+ =============================================================== 
+ Project: D:/Diego/svn-repos/wcsiLegra/NextGenTR/Services-SRC/ngs-search-domain
+ =============================================================== 
+ 1 [Bieber     ] is 248    LOC  - DatasetExtractor.java
+ 2 [Kutcher    ] is 169    LOC  - FastSearchViewExtractor.java
+ 3 [Timberlake ] is 156    LOC  - DatasetMetadata.java
+ =============================================================== 
+ =============================================================== 
+ =============== TOP MONSTERS ================================== 
+ =============================================================== 
+ Project: D:/Diego/svn-repos/wcsiLegra/NextGenTR/Services-SRC/ngs-search-dsl
+ =============================================================== 
+ 1 [Bieber     ] is 533    LOC  - NodeTranslatorFactory.java
+ 2 [Kutcher    ] is 174    LOC  - GrammarTreeBuilderSsqlV4.java
+ 3 [Timberlake ] is 174    LOC  - GrammarTreeBuilderSsqlV3.java
+ =============================================================== 
+ =============================================================== 
+ =============== TOP MONSTERS ================================== 
+ =============================================================== 
+ Project: D:/Diego/svn-repos/wcsiLegra/NextGenTR/Services-SRC/ngs-search-ear
+ =============================================================== 
+ 1 [Bieber     ] is 0      LOC  - Unknown
+ 2 [Kutcher    ] is 0      LOC  - Unknown
+ 3 [Timberlake ] is 0      LOC  - Unknown
+ =============================================================== 
+ =============================================================== 
+ =============== TOP MONSTERS ================================== 
+ =============================================================== 
+ Project: D:/Diego/svn-repos/wcsiLegra/NextGenTR/Services-SRC/ngs-search-exceptions
+ =============================================================== 
+ 1 [Bieber     ] is 47     LOC  - ExceptionMessageBuilder.java
+ 2 [Kutcher    ] is 45     LOC  - SearchDomainSpecificLanguageException.java
+ 3 [Timberlake ] is 44     LOC  - FastESPConfigurationException.java
+ =============================================================== 
+ =============================================================== 
+ =============== TOP MONSTERS ================================== 
+ =============================================================== 
+ Project: D:/Diego/svn-repos/wcsiLegra/NextGenTR/Services-SRC/ngs-search-fast
+ =============================================================== 
+ 1 [Bieber     ] is 433    LOC  - MSFastSearchQueryCallBack.java
+ 2 [Kutcher    ] is 342    LOC  - SearchParametersValidatorImpl.java
+ 3 [Timberlake ] is 284    LOC  - NavigatorExtractor.java
+ =============================================================== 
+ =============================================================== 
+ =============== TOP MONSTERS ================================== 
+ =============================================================== 
+ Project: D:/Diego/svn-repos/wcsiLegra/NextGenTR/Services-SRC/ngs-search-integration-test
+ =============================================================== 
+ 1 [Bieber     ] is 32     LOC  - ExtendSSQLForNumericalFiltersIntegrationTest.java
+ 2 [Kutcher    ] is 32     LOC  - SearchServiceValidationTest.java
+ 3 [Timberlake ] is 32     LOC  - SearchServiceValidationTest.java
+ =============================================================== 
+ =============================================================== 
+ =============== TOP MONSTERS ================================== 
+ =============================================================== 
+ Project: D:/Diego/svn-repos/wcsiLegra/NextGenTR/Services-SRC/ngs-search-jmx
+ =============================================================== 
+ 1 [Bieber     ] is 40     LOC  - ServiceStatusMBean.java
+ 2 [Kutcher    ] is 31     LOC  - ServiceStatus.java
+ 3 [Timberlake ] is 0      LOC  - Unknown
+ =============================================================== 
+ =============================================================== 
+ =============== TOP MONSTERS ================================== 
+ =============================================================== 
+ Project: D:/Diego/svn-repos/wcsiLegra/NextGenTR/Services-SRC/ngs-search-parent
+ =============================================================== 
+ 1 [Bieber     ] is 0      LOC  - Unknown
+ 2 [Kutcher    ] is 0      LOC  - Unknown
+ 3 [Timberlake ] is 0      LOC  - Unknown
+ =============================================================== 
+ =============================================================== 
+ =============== TOP MONSTERS ================================== 
+ =============================================================== 
+ Project: D:/Diego/svn-repos/wcsiLegra/NextGenTR/Services-SRC/ngs-search-si
+ =============================================================== 
+ 1 [Bieber     ] is 2020   LOC  - SearchServiceQLParser.java
+ 2 [Kutcher    ] is 1889   LOC  - SearchServiceQLLexerV3.java
+ 3 [Timberlake ] is 1807   LOC  - SearchServiceQLParser.java
+ =============================================================== 
+ =============================================================== 
+ =============== TOP MONSTERS ================================== 
+ =============================================================== 
+ Project: D:/Diego/svn-repos/wcsiLegra/NextGenTR/Services-SRC/ngs-search-test-ct
+ =============================================================== 
+ 1 [Bieber     ] is 820    LOC  - SearchServiceImplTest.java
+ 2 [Kutcher    ] is 697    LOC  - SearchDatasourceRouter.java
+ 3 [Timberlake ] is 692    LOC  - DomainMappingPatentBasicTest.java
+ =============================================================== 
+ =============================================================== 
+ =============== TOP MONSTERS ================================== 
+ =============================================================== 
+ Project: D:/Diego/svn-repos/wcsiLegra/NextGenTR/Services-SRC/ngs-search-wk
+ =============================================================== 
+ 1 [Bieber     ] is 54     LOC  - SearchWorkerManager.java
+ 2 [Kutcher    ] is 21     LOC  - SearchSpringEJBSharedContextInterceptor.java
+ 3 [Timberlake ] is 0      LOC  - Unknown
+ =============================================================== 
+ =============================================================== 
+ =============== TOP MONSTERS ================================== 
+ =============================================================== 
+ Project: D:/Diego/svn-repos/wcsiLegra/NextGenTR/Services-SRC/ngs-search-wk-timestamp-async
+ =============================================================== 
+ 1 [Bieber     ] is 69     LOC  - DataRetriever.java
+ 2 [Kutcher    ] is 52     LOC  - DatabaseMetadataDao.java
+ 3 [Timberlake ] is 34     LOC  - EhcacheMetadata.java
+ =============================================================== 
+ =============================================================== 
+ =============== TOP MONSTERS ================================== 
+ =============================================================== 
+ Project: D:/Diego/svn-repos/wcsiLegra/NextGenTR/Services-SRC/ngs-services-utils
+ =============================================================== 
+ 1 [Bieber     ] is 126    LOC  - JDBCAppender.java
+ 2 [Kutcher    ] is 96     LOC  - JdbcCallback.java
+ 3 [Timberlake ] is 58     LOC  - EntryPointExecutor.java
+ =============================================================== 
+ =============================================================== 
+ =============== TOP MONSTERS ================================== 
+ =============================================================== 
+ Project: D:/Diego/svn-repos/wcsiLegra/NextGenTR/Services-SRC/ngs-storage-ct
+ =============================================================== 
+ 1 [Bieber     ] is 48     LOC  - StorageInput.java
+ 2 [Kutcher    ] is 39     LOC  - StorageService.java
+ 3 [Timberlake ] is 32     LOC  - StorageOutput.java
+ =============================================================== 
+ =============================================================== 
+ =============== TOP MONSTERS ================================== 
+ =============================================================== 
+ Project: D:/Diego/svn-repos/wcsiLegra/NextGenTR/Services-SRC/ngs-storage-si
+ =============================================================== 
+ 1 [Bieber     ] is 649    LOC  - BLOBFileExample.java
+ 2 [Kutcher    ] is 243    LOC  - StorageDAOImpl.java
+ 3 [Timberlake ] is 183    LOC  - BLOBOracle2.java
+ =============================================================== 
+This script run in 69.813993
