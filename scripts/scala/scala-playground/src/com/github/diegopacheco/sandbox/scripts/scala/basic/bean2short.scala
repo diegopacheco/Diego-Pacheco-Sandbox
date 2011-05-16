@@ -1,3 +1,5 @@
+package com.github.diegopacheco.sandbox.scripts.scala.basic
+
 import scala.reflect._
 
 /**

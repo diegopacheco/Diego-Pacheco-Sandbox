@@ -1,3 +1,5 @@
+package com.github.diegopacheco.sandbox.scripts.scala.clojure
+
 object AnonymousFunction {
   
   def main(args : Array[String]) : Unit = {

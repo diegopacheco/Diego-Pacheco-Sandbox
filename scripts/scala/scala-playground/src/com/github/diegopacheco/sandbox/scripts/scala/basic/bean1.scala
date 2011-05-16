@@ -1,10 +1,12 @@
+package com.github.diegopacheco.sandbox.scripts.scala.basic
+
 /**
  * Scala Bean with Scala Syntax Suggar
  *
  * @author Diego Pacheco
  *
  */
-object bean1 {
+object bean1{
 
   private var name: String = null
   private var steps: List[String] = null
