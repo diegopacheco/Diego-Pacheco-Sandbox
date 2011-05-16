@@ -4,12 +4,24 @@ trait Timmer {
    def start() : Unit = { println( System.currentTimeMillis() / 60 ) }
 }
 
-object Timmer extends Timmer{
-	override def start() : Unit = { println("starting...") }
+trait Logger {
+   def info(msg: String) : Unit = { println( msg ) }
 }
 
-object TraitsUsage{
-	def main(args: Array[String]) {
-		Timmer.start()
+trait Byer {
+   def bye() : Unit = { println("bye") }
+}
+
+object Timmer extends Timmer with Logger with Byer{
+	def doit(msg: String) : Unit = {
+		start()
+		info(msg)
+		bye()
 	}
+}
+
+object TraitsUsage{	  
+  def main(args : Array[String]) : Unit = {
+	  Timmer.doit("Start")
+  }
 }
