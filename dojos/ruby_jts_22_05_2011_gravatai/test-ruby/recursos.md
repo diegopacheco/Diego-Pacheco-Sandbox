@@ -1,0 +1,9 @@
+Problema: Transformar Numeros em Letras(caso do telefone celular) EX: 1 = ABC, 2 DEF, etc...
+
+Fontes: [RUBY DOJO] https://github.com/diegopacheco/Diego-Pacheco-Sandbox/tree/e6845ab4023e0ab20a16d36d7be75d545def7f1f/dojos/ruby_jts_22_05_2011_gravatai/test-ruby
+
+Fotos: http://www.flickr.com/photos/diego-pacheco/sets/72157624724897994/ (Ultimas fotos do álbum)
+
+Lightning Talk’s Pacheco: 
+   * Coding DOJO: http://www.slideshare.net/diego.pacheco/coding-dojo-8061337 
+   * Ruby: http://www.slideshare.net/diego.pacheco/ruby-8061341
