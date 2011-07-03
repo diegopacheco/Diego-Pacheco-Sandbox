@@ -1,15 +1,15 @@
-Problema: Criar software para uma máquina de cheques escrita em python, onde a máquina deve receber o valor em reais e 
+Problema: Criar software para uma maquina de cheques escrita em python, onde a maquina deve receber o valor em reais e 
 a mesma deve escrever o cheque em portugues. EX: 1000 = Mil Reais, 150 Cento e Cinquenta Reais.
 
 Photos:
-    * 
+    * http://www.flickr.com/photos/diego-pacheco/sets/72157626984591395/
 
 Python Source CODE:
-    * 	
+    * https://github.com/diegopacheco/Diego-Pacheco-Sandbox/tree/master/dojos/python_exjt_03_07_2011_gravatai/test-python	
 	
 @diego_pacheco Presentations:
    * Coding DOJO: http://www.slideshare.net/diego.pacheco/coding-dojo-8061337
    * Python: http://www.slideshare.net/diego.pacheco/python-8496711
 	
 Python DOJO Retrospective:
-   * 
+   * http://www.flickr.com/photos/diego-pacheco/5898608527/sizes/l/in/set-72157626984591395/
