@@ -31,7 +31,6 @@ def send(String destinationName,String message,int times,int ttl,String brokerUr
         
         TextMessage txtMessage = session.createTextMessage()
         txtMessage.setText( message )
-        //txtMessage.setJMSCorrelationID("random" + i + "s" + i)
        
         producer.setTimeToLive(ttl)
         producer.send(destination,txtMessage)
