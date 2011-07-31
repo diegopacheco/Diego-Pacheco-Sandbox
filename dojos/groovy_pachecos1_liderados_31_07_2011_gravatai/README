@@ -7,11 +7,11 @@ Em uma game cada jogador pode ter a seguinte pontuacao: 0, 15, 30, ou 40;
 Os jogadores sempre comecam com 0 pontos;
 Se o jogador possui 40 pontos e ganha a disputa, ele vence o game;
 Se ambos jogadores atingem 40 pontos, ocorre um empate (deuce);
-Estando em empate, o jogador que ganhar a bola seguinte está em vantagem (advantage);
+Estando em empate, o jogador que ganhar a bola seguinte esta em vantagem (advantage);
 Se um jogador em vantagem ganha novamente a bola, ele vence o game;
 Se um jogador estiver em vantagem e o outro ganhar a bola, volta a ocorrer o empta (deuce).
-Caso tenha tempo e vontade de melhorar o seu codigo, você pode implementar mais 
-regras do tenis (serviço, sets, tie-break, etc). Mais informacoes sobre as regras em http://pt.wikipedia.org/wiki/T%C3%A9nis
+Caso tenha tempo e vontade de melhorar o seu codigo, voce pode implementar mais 
+regras do tenis (servico, sets, tie-break, etc). Mais informacoes sobre as regras em http://pt.wikipedia.org/wiki/T%C3%A9nis
 
 Fontes: [GROOVY DOJO] https://github.com/diegopacheco/Diego-Pacheco-Sandbox/tree/master/dojos/groovy_pachecos1_liderados_31_07_2011_gravatai/groovy-dojo
 
