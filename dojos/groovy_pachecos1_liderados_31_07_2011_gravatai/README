@@ -1,26 +1,25 @@
 Problema: 
 
-Este problema ainda não foi utilizado em nenhum Dojo.
-Neste problema você deverá implementar as regras de um jogo de tênis simples (apenas dois jogadores).
-As regras de um jogo de tênis tem diversos detalhes, mas para simplificar o problema, você deve 
+Neste problema voce devera implementar as regras de um jogo de tenis simples (apenas dois jogadores).
+As regras de um jogo de tenis tem diversos detalhes, mas para simplificar o problema, voce deve 
 implementar apenas as regras de um game:
-Em uma game cada jogador pode ter a seguinte pontuação: 0, 15, 30, ou 40;
-Os jogadores sempre começam com 0 pontos;
+Em uma game cada jogador pode ter a seguinte pontuacao: 0, 15, 30, ou 40;
+Os jogadores sempre comecam com 0 pontos;
 Se o jogador possui 40 pontos e ganha a disputa, ele vence o game;
 Se ambos jogadores atingem 40 pontos, ocorre um empate (deuce);
 Estando em empate, o jogador que ganhar a bola seguinte está em vantagem (advantage);
 Se um jogador em vantagem ganha novamente a bola, ele vence o game;
 Se um jogador estiver em vantagem e o outro ganhar a bola, volta a ocorrer o empta (deuce).
-Caso tenha tempo e vontade de melhorar o seu código, você pode implementar mais 
-regras do tênis (serviço, sets, tie-break, etc). Mais informações sobre as regras em http://pt.wikipedia.org/wiki/T%C3%A9nis
+Caso tenha tempo e vontade de melhorar o seu codigo, você pode implementar mais 
+regras do tenis (serviço, sets, tie-break, etc). Mais informacoes sobre as regras em http://pt.wikipedia.org/wiki/T%C3%A9nis
 
-Fontes: [GROOVY DOJO] 
+Fontes: [GROOVY DOJO] https://github.com/diegopacheco/Diego-Pacheco-Sandbox/tree/master/dojos/groovy_pachecos1_liderados_31_07_2011_gravatai/groovy-dojo
 
 Fotos: 
 
 Retrospectiva: 
 
 Lightning Talks Pacheco: 
-   * Groovy: 
-   * 0mq: 
+   * Groovy: http://www.slideshare.net/diego.pacheco/groovy-8739659
+   * 0mq: http://www.slideshare.net/diego.pacheco/0mq
   
