@@ -12,8 +12,8 @@ object foreachmain {
 	println ("\nforeach Vector _")
 	Vector(1,2,3).foreach( print(_) )
 
-	println ("\nforeach Range _")
-	Range(1,3).foreach( print(_) )
+	println ("\nforeach Range no parameter ( will be implicit _ )")
+	Range(1,3).foreach( print )
 	
 	println ("\nforeach List i(annonimous func) ")
 	List(1,2,3) foreach( i => println ((i*2)) )
