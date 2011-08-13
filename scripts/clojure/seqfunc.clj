@@ -1,0 +1,6 @@
+(println (range 10))
+(println (filter odd? (range 15)))
+(println (reverse (range 10)))
+(println (partition 2 (range 10)))
+(println (map inc (range 5)))
+(println (reduce + (range 4)))
