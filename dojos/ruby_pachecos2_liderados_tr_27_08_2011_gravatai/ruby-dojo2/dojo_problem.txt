@@ -1,0 +1,11 @@
+Bank System
+  - Account Managemenet
+    - People 
+    - Manager
+    - Money
+        - deposit
+        - withdraw
+        - loan (20% tax)
+        - transfer to another account
+        - bank statement
+             
