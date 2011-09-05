@@ -1,0 +1,25 @@
+<h1>Listing high_scores</h1>
+
+<table>
+  <tr>
+    <th>Game</th>
+    <th>Score</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @high_scores.each do |high_score| %>
+  <tr>
+    <td><%= high_score.game %></td>
+    <td><%= high_score.score %></td>
+    <td><%= link_to 'Show', high_score %></td>
+    <td><%= link_to 'Edit', edit_high_score_path(high_score) %></td>
+    <td><%= link_to 'Destroy', high_score, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New High score', new_high_score_path %>
