@@ -19,7 +19,7 @@ describe Person do
 			:born      => 19842 
 		}
 		person = Person.new(attr)		
-		person.name.should eq("Diego Pacheco")		
+		person.name.should eq("Diego Pacheco2")		
 	end
 	
 end
