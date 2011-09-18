@@ -10,11 +10,11 @@ import javax.jms.TextMessage
 @Grab(group='org.apache.activemq', module='activemq-core', version='5.4.0')
 import org.apache.activemq.ActiveMQConnectionFactory
 
-int  TIMES   = 200
-int  TTL     = 45000
-String QUEUE = "drugs_sync_out"
-String BURL  = "tcp://localhost:61616"
-String MSG   = "test message from sende by Groovy test: ${this}"
+int  TIMES   = 1
+int  TTL     = 0
+String QUEUE = "alert_feedback_in_shobhna"
+String BURL  = "tcp://pceudevweb26.isihost.com:61616"
+String MSG   = "Update Complete Database & FAST ${this}"
 
 def send(String destinationName,String message,int times,int ttl,String brokerUrl){
 
@@ -23,7 +23,7 @@ def send(String destinationName,String message,int times,int ttl,String brokerUr
     connection.start()
 
     Session session = connection.createSession(false, Session.AUTO_ACKNOWLEDGE)    
-    Destination destination = session.createQueue(destinationName)
+    Destination destination = session.createTopic(destinationName)
     
     times.times {
         MessageProducer producer = session.createProducer(null)            
