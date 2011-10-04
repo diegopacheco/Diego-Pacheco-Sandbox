@@ -12,9 +12,23 @@ import org.apache.activemq.ActiveMQConnectionFactory
 
 int  TIMES   = 1
 int  TTL     = 0
-String QUEUE = "alert_feedback_in_shobhna"
-String BURL  = "tcp://pceudevweb26.isihost.com:61616"
-String MSG   = "Update Complete Database & FAST ${this}"
+String QUEUE = "pacheco.test.queue"
+String BURL  = "tcp://127.0.0.1:61616"
+String MSG   = """
+{
+  "born" : 1316446371817,
+  "male" : true,
+  "tweets" : 4560,
+  "marriedWith" : {
+    "born" : 1316446371815,
+    "male" : false,
+    "tweets" : 400,
+    "name" : "Marry"
+  },
+  "name" : "Paul"
+}
+
+"""		
 
 def send(String destinationName,String message,int times,int ttl,String brokerUrl){
 
@@ -23,7 +37,7 @@ def send(String destinationName,String message,int times,int ttl,String brokerUr
     connection.start()
 
     Session session = connection.createSession(false, Session.AUTO_ACKNOWLEDGE)    
-    Destination destination = session.createTopic(destinationName)
+    Destination destination = session.createQueue(destinationName)
     
     times.times {
         MessageProducer producer = session.createProducer(null)            
