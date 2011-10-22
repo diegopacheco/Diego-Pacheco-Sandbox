@@ -1,22 +1,36 @@
+[Clojure Dojo - 21/10/2011] 
+
 Problem: 
 --------
 
 Loan System - Based on some user data you must provide the max amount of money that a person
 can get, you also need provide the total o tax that people need pay(iof). If the user has a MAC or
 is under 21 he cannot got the money. By default we do 80% of the user salary + 500 is married
-+1000 if the age is over 25. The TAX(iof) is 18% of the loan for each part of the payment(multiply for number
-of payments invoice).
++1000 if the age is over 25. The TAX(iof) is 18% of the loan for each part of the payment(multiply 
+for number of payments invoice).
 
-Fontes: [CLOJURE DOJO] https://github.com/diegopacheco/Diego-Pacheco-Sandbox/blob/master/dojos/clojure_pachecos3_22_10_2011_gravatai/loan.clj
+Source Code:
+------------
 
-Fotos: http://www.flickr.com/photos/diego-pacheco/sets/72157627948891266/
+https://github.com/diegopacheco/Diego-Pacheco-Sandbox/blob/master/dojos/clojure_pachecos3_22_10_2011_gravatai/loan.clj
 
-Videos: http://vimeo.com/album/1679285
+Photos:
+-------
 
-Retrospectiva: http://www.flickr.com/photos/diego-pacheco/6268379186/in/set-72157627948891266
+http://www.flickr.com/photos/diego-pacheco/sets/72157627948891266/
 
-Lightning Talks 
----------------
+Videos:
+-------
+
+http://vimeo.com/album/1679285
+
+Retrospective:
+--------------
+
+http://www.flickr.com/photos/diego-pacheco/6268379186/in/set-72157627948891266
+
+Lightning Talks: 
+----------------
 
 @diego_pacheco: 
    * Rails 3: 
@@ -27,29 +41,36 @@ Lightning Talks
 		video : http://vimeo.com/30956025 
 
 @alepoletto
-   *    slides:
+   * Qi4J:
+        slides: 
         video : http://vimeo.com/30938307
    
 @toff63: 
-   *   slides:
+   * DBC:
+       slides:
        video : 
    
 @jefersonm
-   *   slides:
+   * JBoss Drools:
+	   slides:
        video : http://vimeo.com/30953768
    
 @cyber_jso
-   *   slides: http://www.slideshare.net/cyber_jso/jython-presentation
+   * Jython:
+       slides: http://www.slideshare.net/cyber_jso/jython-presentation
        video : http://vimeo.com/30954654
    
 @jpcurevo
-   *   slides:
+   * Kaizen:   
+       slides:
        video : http://vimeo.com/30952870
    
 @Andre_Mayer
-   *   slides:
+   * JavATE:
+       slides: 
        video : http://vimeo.com/30951821   
    
 @beto_zi
-   *   slides:
-       video :    
+   * Play
+       slides: 
+       video :     
