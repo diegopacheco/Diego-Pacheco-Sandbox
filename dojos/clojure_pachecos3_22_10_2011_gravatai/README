@@ -1,4 +1,5 @@
 Problem: 
+--------
 
 Loan System - Based on some user data you must provide the max amount of money that a person
 can get, you also need provide the total o tax that people need pay(iof). If the user has a MAC or
@@ -14,13 +15,16 @@ Videos: http://vimeo.com/album/1679285
 
 Retrospectiva: http://www.flickr.com/photos/diego-pacheco/6268379186/in/set-72157627948891266
 
-Lightning Talks @diego_pacheco: 
+Lightning Talks 
+---------------
+
+@diego_pacheco: 
    * Rails 3: 
 		slides: http://www.slideshare.net/diego.pacheco/rails-3-9821043
-		video :  
+		video : http://vimeo.com/30955301
    * STM: 
 		slides: http://www.slideshare.net/diego.pacheco/stm-9821099
-		video : 
+		video :  
 
 @alepoletto
    *    slides:
