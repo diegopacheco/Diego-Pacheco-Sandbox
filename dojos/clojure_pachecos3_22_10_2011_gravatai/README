@@ -1,0 +1,38 @@
+Problem: 
+
+Loan System - Based on some user data you must provide the max amount of money that a person
+can get, you also need provide the total o tax that people need pay(iof). If the user has a MAC or
+is under 21 he cannot got the money. By default we do 80% of the user salary + 500 is married
++1000 if the age is over 25. The TAX(iof) is 18% of the loan for each part of the payment(multiply for number
+of payments invoice).
+
+Fontes: [CLOJURE DOJO] 
+
+Fotos: 
+
+Retrospectiva: 
+
+Lightning Talks @diego_pacheco: 
+   * Rails 3: http://www.slideshare.net/diego.pacheco/rails-3-9821043
+   * STM: http://www.slideshare.net/diego.pacheco/stm-9821099
+
+@alepoletto
+   * 
+   
+@toff63: 
+   *  
+   
+@jefersonm
+   * 
+   
+@cyber_jso
+   * 
+   
+@jpcurevo
+   * 
+   
+@Andre_Mayer
+   *    
+   
+@beto_zi
+   *    
