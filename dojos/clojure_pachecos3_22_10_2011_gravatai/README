@@ -33,12 +33,12 @@ Lightning Talks:
 ----------------
 
 @diego_pacheco: 
-   * Rails 3: 
-		slides: http://www.slideshare.net/diego.pacheco/rails-3-9821043
-		video : http://vimeo.com/30955301
-   * STM: 
-		slides: http://www.slideshare.net/diego.pacheco/stm-9821099
-		video : http://vimeo.com/30956025 
+   * Rails 3:
+        slides: http://www.slideshare.net/diego.pacheco/rails-3-9821043
+        video : http://vimeo.com/30955301
+   * STM:
+        slides: http://www.slideshare.net/diego.pacheco/stm-9821099
+        video : http://vimeo.com/30956025 
 
 @alepoletto
    * Qi4J:
@@ -52,7 +52,7 @@ Lightning Talks:
    
 @jefersonm
    * JBoss Drools:
-	   slides:
+       slides: 
        video : http://vimeo.com/30953768
    
 @cyber_jso
