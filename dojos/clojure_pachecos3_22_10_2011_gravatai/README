@@ -6,11 +6,13 @@ is under 21 he cannot got the money. By default we do 80% of the user salary + 5
 +1000 if the age is over 25. The TAX(iof) is 18% of the loan for each part of the payment(multiply for number
 of payments invoice).
 
-Fontes: [CLOJURE DOJO] 
+Fontes: [CLOJURE DOJO] https://github.com/diegopacheco/Diego-Pacheco-Sandbox/blob/master/dojos/clojure_pachecos3_22_10_2011_gravatai/loan.clj
 
-Fotos: 
+Fotos: http://www.flickr.com/photos/diego-pacheco/sets/72157627948891266/
 
-Retrospectiva: 
+Videos: 
+
+Retrospectiva: http://www.flickr.com/photos/diego-pacheco/6268379186/in/set-72157627948891266
 
 Lightning Talks @diego_pacheco: 
    * Rails 3: http://www.slideshare.net/diego.pacheco/rails-3-9821043
