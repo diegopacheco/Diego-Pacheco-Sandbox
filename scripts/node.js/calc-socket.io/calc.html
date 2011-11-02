@@ -1,0 +1,29 @@
+<html>
+	<title>Socket.io Calc</title>
+	<body>
+		A:  <input type='text' name='va' id='va' size='10'><br/>
+		B:  <input type='text' name='vb' id='vb' size='10'><br/>
+		Op: <select name='op' id='op'>	
+			<option>+</option>		
+			<option>-</option>
+			<option>*</option>			
+			<option>/</option>			
+		</select>	
+		<input type='button' name='do' id='do' value='calc' onClick='javascript:send();'><br/>
+		Result is: <input type='text'   name='result' id='result' size='10'><br/>		
+	</body>		
+</html>
+<script src="browser/socket.io.js"></script>
+<script>
+  function send(){
+	  var socket = io.connect('http://localhost:8080');
+      socket.emit('doop', { va: document.getElementById('va').value,
+							vb: document.getElementById('vb').value,
+							op: document.getElementById('op').value
+      });
+	  socket.on('result', function (data){
+		document.getElementById('result').value = data.result;
+	  });
+  }   
+</script>
+
