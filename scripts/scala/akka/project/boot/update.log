@@ -1,0 +1,1302 @@
+setting 'ivy.default.settings.dir' to 'jar:file:/D:/Diego/Java/bin/scala-2.9.0.1/sbt/sbt-launch.jar!/org/apache/ivy/core/settings'
+setting 'ivy.basedir' to 'C:\tmp\akka\.'
+setting 'ivy.default.conf.dir' to 'jar:file:/D:/Diego/Java/bin/scala-2.9.0.1/sbt/sbt-launch.jar!/org/apache/ivy/core/settings'
+impossible to define new type: class not found: org.apache.ivy.plugins.version.PatternVersionMatcher in [] nor Ivy classloader
+impossible to define new type: class not found: org.apache.ivy.plugins.trigger.LogTrigger in [] nor Ivy classloader
+impossible to define new type: class not found: org.apache.ivy.plugins.resolver.DualResolver in [] nor Ivy classloader
+impossible to define new type: class not found: org.apache.ivy.plugins.resolver.VsftpResolver in [] nor Ivy classloader
+impossible to define new type: class not found: org.apache.ivy.plugins.conflict.RegexpConflictManager in [] nor Ivy classloader
+impossible to define new type: class not found: org.apache.ivy.plugins.resolver.SshResolver in [] nor Ivy classloader
+impossible to define new type: class not found: org.apache.ivy.plugins.resolver.VfsResolver in [] nor Ivy classloader
+impossible to define new type: class not found: org.apache.ivy.plugins.signer.bouncycastle.OpenPGPSignatureGenerator in [] nor Ivy classloader
+impossible to define new type: class not found: org.apache.ivy.plugins.resolver.SFTPResolver in [] nor Ivy classloader
+impossible to define new type: class not found: org.apache.ivy.plugins.resolver.packager.PackagerResolver in [] nor Ivy classloader
+impossible to define new type: class not found: org.apache.ivy.ant.AntCallTrigger in [] nor Ivy classloader
+impossible to define new type: class not found: org.apache.ivy.plugins.resolver.IvyRepResolver in [] nor Ivy classloader
+impossible to define new type: class not found: org.apache.ivy.ant.AntBuildTrigger in [] nor Ivy classloader
+impossible to define glob matcher: org.apache.ivy.plugins.matcher.GlobPatternMatcher was not found.
+setting 'java.runtime.name' to 'Java(TM) SE Runtime Environment'
+setting 'sun.boot.library.path' to 'C:\Program Files\Java\jdk1.6.0_24\jre\bin'
+setting 'java.vm.version' to '19.1-b02'
+setting 'java.vm.vendor' to 'Sun Microsystems Inc.'
+setting 'java.vendor.url' to 'http://java.sun.com/'
+setting 'path.separator' to ';'
+setting 'java.vm.name' to 'Java HotSpot(TM) Client VM'
+setting 'file.encoding.pkg' to 'sun.io'
+setting 'sun.java.launcher' to 'SUN_STANDARD'
+setting 'user.country' to 'BR'
+setting 'sun.os.patch.level' to ''
+setting 'java.vm.specification.name' to 'Java Virtual Machine Specification'
+setting 'user.dir' to 'C:\tmp\akka'
+setting 'java.runtime.version' to '1.6.0_24-b07'
+setting 'java.awt.graphicsenv' to 'sun.awt.Win32GraphicsEnvironment'
+setting 'java.endorsed.dirs' to 'C:\Program Files\Java\jdk1.6.0_24\jre\lib\endorsed'
+setting 'os.arch' to 'x86'
+setting 'java.io.tmpdir' to 'C:\Users\DIEGOP~1\AppData\Local\Temp\'
+setting 'line.separator' to '
+'
+setting 'java.vm.specification.vendor' to 'Sun Microsystems Inc.'
+setting 'user.variant' to ''
+setting 'os.name' to 'Windows 7'
+setting 'sun.jnu.encoding' to 'Cp1252'
+setting 'java.library.path' to 'C:\Program Files\Java\jdk1.6.0_24\bin;.;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\CollabNet\Subversion Client;D:\Diego\Java\bin\Python26;C:\Perl\site\bin;C:\Perl\bin;C:\Program Files\Java\jdk1.6.0_24\bin;D:\Diego\Java\bin\apache-maven-3.0.3\bin;D:\Diego\Java\bin\groovy-1.8.0\bin;D:\Diego\Java\bin\apache-ant-1.7.1\bin;D:\Diego\Java\bin\scala-2.9.0.1\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\GtkSharp\2.12\bin;C:\Program Files\Microsoft SQL Server\90\Tools\binn\;C:\Program Files\GnuWin32\bin;C:\Program Files\Graphviz2.26.3\bin;D:\Diego\Java\bin\ruby187\bin;D:\Diego\Java\bin\jruby-1.6.0\bin;D:\Diego\Java\bin\grails-1.3.5\bin;D:\Diego\Java\bin\jython2.5.1\bin;D:\Diego\Java\bin\PHP;C:\Program Files\MySQL\MySQL Server 5.1\bin;D:\Diego\Java\bin\PHP\ext;C:\MinGW\bin;C:\msysgit\msysgit\bin;D:\Diego\Java\bin\BeanShell;D:\Diego\Java\bin\jruby-1.6.0/bin;C:\Program Files\erl5.7.3\\bin;D:\Diego\Java\bin\appengine-java-sdk-1.3.8\bin;C:\Program Files\TortoiseGit\bin;C:\cygwin\;D:\Diego\Java\bin\clojure-1.2.1;D:\Diego\Java\bin\Python26\Scripts;C:\Program Files\QuickTime\QTSystem\;C:\Program Files\Vim\vim72\;C:\Program Files\TortoiseSVN\bin;D:\Diego\Java\bin\nodejs;D:\Diego\Java\bin\ruby187\bin;C:\Program Files\OpenVPN\bin'
+setting 'java.specification.name' to 'Java Platform API Specification'
+setting 'java.class.version' to '50.0'
+setting 'sun.management.compiler' to 'HotSpot Client Compiler'
+setting 'os.version' to '6.1'
+setting 'user.home' to 'C:\Users\Diego Pacheco'
+setting 'user.timezone' to 'America/Sao_Paulo'
+setting 'java.awt.printerjob' to 'sun.awt.windows.WPrinterJob'
+setting 'file.encoding' to 'Cp1252'
+setting 'java.specification.version' to '1.6'
+setting 'java.class.path' to 'D:\Diego\Java\bin\scala-2.9.0.1/sbt/sbt-launch.jar'
+setting 'user.name' to 'Diego Pacheco'
+setting 'java.vm.specification.version' to '1.0'
+setting 'java.home' to 'C:\Program Files\Java\jdk1.6.0_24\jre'
+setting 'sun.arch.data.model' to '32'
+setting 'user.language' to 'pt'
+setting 'java.specification.vendor' to 'Sun Microsystems Inc.'
+setting 'awt.toolkit' to 'sun.awt.windows.WToolkit'
+setting 'java.vm.info' to 'mixed mode, sharing'
+setting 'java.version' to '1.6.0_24'
+setting 'java.ext.dirs' to 'C:\Program Files\Java\jdk1.6.0_24\jre\lib\ext;C:\Windows\Sun\Java\lib\ext'
+setting 'sun.boot.class.path' to 'C:\Program Files\Java\jdk1.6.0_24\jre\lib\resources.jar;C:\Program Files\Java\jdk1.6.0_24\jre\lib\rt.jar;C:\Program Files\Java\jdk1.6.0_24\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.6.0_24\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.6.0_24\jre\lib\jce.jar;C:\Program Files\Java\jdk1.6.0_24\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.6.0_24\jre\lib\modules\jdk.boot.jar;C:\Program Files\Java\jdk1.6.0_24\jre\classes'
+setting 'java.vendor' to 'Sun Microsystems Inc.'
+setting 'file.separator' to '\'
+setting 'java.vendor.url.bug' to 'http://java.sun.com/cgi-bin/bugreport.cgi'
+setting 'sun.io.unicode.encoding' to 'UnicodeLittle'
+setting 'sun.cpu.endian' to 'little'
+setting 'sun.desktop' to 'windows'
+setting 'sun.cpu.isalist' to 'pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86'
+setting 'ivy.default.ivy.user.dir' to 'C:\Users\Diego Pacheco\.ivy2'
+setting 'ivy.home' to 'C:\Users\Diego Pacheco\.ivy2'
+setting 'ivy.cache.dir' to 'C:\Users\Diego Pacheco\.ivy2\cache'
+no default cache defined: set to C:\Users\Diego Pacheco\.ivy2\cache
+setting 'ivy.checksums' to 'sha1,md5'
+setting 'ivy.basedir' to 'C:\tmp\akka\project\boot'
+setting 'basedir' to 'C:\tmp\akka\project\boot'
+setting 'scala' to '2.8.1'
+:: resolving dependencies :: org.scala-tools.sbt#boot-app;1.0
+	confs: [default]
+	validate = true
+	refresh = false
+resolving dependencies for configuration 'default'
+== resolving dependencies for org.scala-tools.sbt#boot-app;1.0 [default]
+loadData of org.scala-tools.sbt#boot-app;1.0 of rootConf=default
+== resolving dependencies org.scala-tools.sbt#boot-app;1.0->org.scala-tools.sbt#sbt_2.8.1;0.10.1 [default->default(compile)]
+loadData of org.scala-tools.sbt#sbt_2.8.1;0.10.1 of rootConf=default
+	using redefined-public to resolve org.scala-tools.sbt#sbt_2.8.1;0.10.1
+redefined-public: Checking cache for: dependency: org.scala-tools.sbt#sbt_2.8.1;0.10.1 {default=[default(compile)]}
+redefined-public: no namespace defined: using system
+No entry is found in the ModuleDescriptorCache : C:\Users\Diego Pacheco\.ivy2\cache\org.scala-tools.sbt\sbt_2.8.1\ivy-0.10.1.xml
+post 1.3 ivy file: using exact as default matcher
+	found ivy file in cache for org.scala-tools.sbt#sbt_2.8.1;0.10.1 (resolved by typesafe-ivy-releases): C:\Users\Diego Pacheco\.ivy2\cache\org.scala-tools.sbt\sbt_2.8.1\ivy-0.10.1.xml
+redefined-public: module revision found in cache: org.scala-tools.sbt#sbt_2.8.1;0.10.1
+redefined-public: no latest strategy defined: using default
+	found org.scala-tools.sbt#sbt_2.8.1;0.10.1 in typesafe-ivy-releases
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+== resolving dependencies org.scala-tools.sbt#sbt_2.8.1;0.10.1->org.scala-tools.sbt#main_2.8.1;0.10.1 [compile->default(compile)]
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+loadData of org.scala-tools.sbt#main_2.8.1;0.10.1 of rootConf=default
+	using redefined-public to resolve org.scala-tools.sbt#main_2.8.1;0.10.1
+redefined-public: Checking cache for: dependency: org.scala-tools.sbt#main_2.8.1;0.10.1 {compile=[default(compile)]}
+No entry is found in the ModuleDescriptorCache : C:\Users\Diego Pacheco\.ivy2\cache\org.scala-tools.sbt\main_2.8.1\ivy-0.10.1.xml
+post 1.3 ivy file: using exact as default matcher
+	found ivy file in cache for org.scala-tools.sbt#main_2.8.1;0.10.1 (resolved by typesafe-ivy-releases): C:\Users\Diego Pacheco\.ivy2\cache\org.scala-tools.sbt\main_2.8.1\ivy-0.10.1.xml
+redefined-public: module revision found in cache: org.scala-tools.sbt#main_2.8.1;0.10.1
+	found org.scala-tools.sbt#main_2.8.1;0.10.1 in typesafe-ivy-releases
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+== resolving dependencies org.scala-tools.sbt#main_2.8.1;0.10.1->org.scala-tools.sbt#actions_2.8.1;0.10.1 [compile->default(compile)]
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+loadData of org.scala-tools.sbt#actions_2.8.1;0.10.1 of rootConf=default
+	using redefined-public to resolve org.scala-tools.sbt#actions_2.8.1;0.10.1
+redefined-public: Checking cache for: dependency: org.scala-tools.sbt#actions_2.8.1;0.10.1 {compile=[default(compile)]}
+No entry is found in the ModuleDescriptorCache : C:\Users\Diego Pacheco\.ivy2\cache\org.scala-tools.sbt\actions_2.8.1\ivy-0.10.1.xml
+post 1.3 ivy file: using exact as default matcher
+	found ivy file in cache for org.scala-tools.sbt#actions_2.8.1;0.10.1 (resolved by typesafe-ivy-releases): C:\Users\Diego Pacheco\.ivy2\cache\org.scala-tools.sbt\actions_2.8.1\ivy-0.10.1.xml
+redefined-public: module revision found in cache: org.scala-tools.sbt#actions_2.8.1;0.10.1
+	found org.scala-tools.sbt#actions_2.8.1;0.10.1 in typesafe-ivy-releases
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+== resolving dependencies org.scala-tools.sbt#actions_2.8.1;0.10.1->org.scala-tools.sbt#classfile_2.8.1;0.10.1 [compile->default(compile)]
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+loadData of org.scala-tools.sbt#classfile_2.8.1;0.10.1 of rootConf=default
+	using redefined-public to resolve org.scala-tools.sbt#classfile_2.8.1;0.10.1
+redefined-public: Checking cache for: dependency: org.scala-tools.sbt#classfile_2.8.1;0.10.1 {compile=[default(compile)]}
+No entry is found in the ModuleDescriptorCache : C:\Users\Diego Pacheco\.ivy2\cache\org.scala-tools.sbt\classfile_2.8.1\ivy-0.10.1.xml
+post 1.3 ivy file: using exact as default matcher
+	found ivy file in cache for org.scala-tools.sbt#classfile_2.8.1;0.10.1 (resolved by typesafe-ivy-releases): C:\Users\Diego Pacheco\.ivy2\cache\org.scala-tools.sbt\classfile_2.8.1\ivy-0.10.1.xml
+redefined-public: module revision found in cache: org.scala-tools.sbt#classfile_2.8.1;0.10.1
+	found org.scala-tools.sbt#classfile_2.8.1;0.10.1 in typesafe-ivy-releases
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+== resolving dependencies org.scala-tools.sbt#classfile_2.8.1;0.10.1->org.scala-tools.sbt#io_2.8.1;0.10.1 [compile->default(compile)]
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+loadData of org.scala-tools.sbt#io_2.8.1;0.10.1 of rootConf=default
+	using redefined-public to resolve org.scala-tools.sbt#io_2.8.1;0.10.1
+redefined-public: Checking cache for: dependency: org.scala-tools.sbt#io_2.8.1;0.10.1 {compile=[default(compile)]}
+No entry is found in the ModuleDescriptorCache : C:\Users\Diego Pacheco\.ivy2\cache\org.scala-tools.sbt\io_2.8.1\ivy-0.10.1.xml
+post 1.3 ivy file: using exact as default matcher
+	found ivy file in cache for org.scala-tools.sbt#io_2.8.1;0.10.1 (resolved by typesafe-ivy-releases): C:\Users\Diego Pacheco\.ivy2\cache\org.scala-tools.sbt\io_2.8.1\ivy-0.10.1.xml
+redefined-public: module revision found in cache: org.scala-tools.sbt#io_2.8.1;0.10.1
+	found org.scala-tools.sbt#io_2.8.1;0.10.1 in typesafe-ivy-releases
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+== resolving dependencies org.scala-tools.sbt#io_2.8.1;0.10.1->org.scala-tools.sbt#control_2.8.1;0.10.1 [compile->default(compile)]
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+loadData of org.scala-tools.sbt#control_2.8.1;0.10.1 of rootConf=default
+	using redefined-public to resolve org.scala-tools.sbt#control_2.8.1;0.10.1
+redefined-public: Checking cache for: dependency: org.scala-tools.sbt#control_2.8.1;0.10.1 {compile=[default(compile)]}
+No entry is found in the ModuleDescriptorCache : C:\Users\Diego Pacheco\.ivy2\cache\org.scala-tools.sbt\control_2.8.1\ivy-0.10.1.xml
+post 1.3 ivy file: using exact as default matcher
+	found ivy file in cache for org.scala-tools.sbt#control_2.8.1;0.10.1 (resolved by typesafe-ivy-releases): C:\Users\Diego Pacheco\.ivy2\cache\org.scala-tools.sbt\control_2.8.1\ivy-0.10.1.xml
+redefined-public: module revision found in cache: org.scala-tools.sbt#control_2.8.1;0.10.1
+	found org.scala-tools.sbt#control_2.8.1;0.10.1 in typesafe-ivy-releases
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+== resolving dependencies org.scala-tools.sbt#classfile_2.8.1;0.10.1->org.scala-tools.sbt#interface;0.10.1 [compile->default(compile)]
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+loadData of org.scala-tools.sbt#interface;0.10.1 of rootConf=default
+	using redefined-public to resolve org.scala-tools.sbt#interface;0.10.1
+redefined-public: Checking cache for: dependency: org.scala-tools.sbt#interface;0.10.1 {compile=[default(compile)]}
+No entry is found in the ModuleDescriptorCache : C:\Users\Diego Pacheco\.ivy2\cache\org.scala-tools.sbt\interface\ivy-0.10.1.xml
+post 1.3 ivy file: using exact as default matcher
+	found ivy file in cache for org.scala-tools.sbt#interface;0.10.1 (resolved by typesafe-ivy-releases): C:\Users\Diego Pacheco\.ivy2\cache\org.scala-tools.sbt\interface\ivy-0.10.1.xml
+redefined-public: module revision found in cache: org.scala-tools.sbt#interface;0.10.1
+	found org.scala-tools.sbt#interface;0.10.1 in typesafe-ivy-releases
+	[0.10.1] org.scala-tools.sbt#interface;0.10.1 (forced)
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+== resolving dependencies org.scala-tools.sbt#classfile_2.8.1;0.10.1->org.scala-tools.sbt#logging_2.8.1;0.10.1 [compile->default(compile)]
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+loadData of org.scala-tools.sbt#logging_2.8.1;0.10.1 of rootConf=default
+	using redefined-public to resolve org.scala-tools.sbt#logging_2.8.1;0.10.1
+redefined-public: Checking cache for: dependency: org.scala-tools.sbt#logging_2.8.1;0.10.1 {compile=[default(compile)]}
+No entry is found in the ModuleDescriptorCache : C:\Users\Diego Pacheco\.ivy2\cache\org.scala-tools.sbt\logging_2.8.1\ivy-0.10.1.xml
+post 1.3 ivy file: using exact as default matcher
+	found ivy file in cache for org.scala-tools.sbt#logging_2.8.1;0.10.1 (resolved by typesafe-ivy-releases): C:\Users\Diego Pacheco\.ivy2\cache\org.scala-tools.sbt\logging_2.8.1\ivy-0.10.1.xml
+redefined-public: module revision found in cache: org.scala-tools.sbt#logging_2.8.1;0.10.1
+	found org.scala-tools.sbt#logging_2.8.1;0.10.1 in typesafe-ivy-releases
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+== resolving dependencies org.scala-tools.sbt#logging_2.8.1;0.10.1->org.scala-tools.sbt#interface;0.10.1 [compile->default(compile)]
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+loadData of org.scala-tools.sbt#interface;0.10.1 of rootConf=default
+default is loaded and no conf to load.  Skip loading
+== resolving dependencies org.scala-tools.sbt#logging_2.8.1;0.10.1->org.scala-tools.sbt#process_2.8.1;0.10.1 [compile->default(compile)]
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+loadData of org.scala-tools.sbt#process_2.8.1;0.10.1 of rootConf=default
+	using redefined-public to resolve org.scala-tools.sbt#process_2.8.1;0.10.1
+redefined-public: Checking cache for: dependency: org.scala-tools.sbt#process_2.8.1;0.10.1 {compile=[default(compile)]}
+No entry is found in the ModuleDescriptorCache : C:\Users\Diego Pacheco\.ivy2\cache\org.scala-tools.sbt\process_2.8.1\ivy-0.10.1.xml
+post 1.3 ivy file: using exact as default matcher
+	found ivy file in cache for org.scala-tools.sbt#process_2.8.1;0.10.1 (resolved by typesafe-ivy-releases): C:\Users\Diego Pacheco\.ivy2\cache\org.scala-tools.sbt\process_2.8.1\ivy-0.10.1.xml
+redefined-public: module revision found in cache: org.scala-tools.sbt#process_2.8.1;0.10.1
+	found org.scala-tools.sbt#process_2.8.1;0.10.1 in typesafe-ivy-releases
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+== resolving dependencies org.scala-tools.sbt#actions_2.8.1;0.10.1->org.scala-tools.sbt#classpath_2.8.1;0.10.1 [compile->default(compile)]
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+loadData of org.scala-tools.sbt#classpath_2.8.1;0.10.1 of rootConf=default
+	using redefined-public to resolve org.scala-tools.sbt#classpath_2.8.1;0.10.1
+redefined-public: Checking cache for: dependency: org.scala-tools.sbt#classpath_2.8.1;0.10.1 {compile=[default(compile)]}
+No entry is found in the ModuleDescriptorCache : C:\Users\Diego Pacheco\.ivy2\cache\org.scala-tools.sbt\classpath_2.8.1\ivy-0.10.1.xml
+post 1.3 ivy file: using exact as default matcher
+	found ivy file in cache for org.scala-tools.sbt#classpath_2.8.1;0.10.1 (resolved by typesafe-ivy-releases): C:\Users\Diego Pacheco\.ivy2\cache\org.scala-tools.sbt\classpath_2.8.1\ivy-0.10.1.xml
+redefined-public: module revision found in cache: org.scala-tools.sbt#classpath_2.8.1;0.10.1
+	found org.scala-tools.sbt#classpath_2.8.1;0.10.1 in typesafe-ivy-releases
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+excluding dependency: org.scala-lang#scala-compiler;2.8.1 {compile=[default(compile)]} in compile
+== resolving dependencies org.scala-tools.sbt#classpath_2.8.1;0.10.1->org.scala-tools.sbt#launcher-interface_2.8.1;0.10.1 [compile->default(compile)]
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+excluding dependency: org.scala-lang#scala-compiler;2.8.1 {compile=[default(compile)]} in compile
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+loadData of org.scala-tools.sbt#launcher-interface_2.8.1;0.10.1 of rootConf=default
+	using redefined-public to resolve org.scala-tools.sbt#launcher-interface_2.8.1;0.10.1
+redefined-public: Checking cache for: dependency: org.scala-tools.sbt#launcher-interface_2.8.1;0.10.1 {compile=[default(compile)]}
+No entry is found in the ModuleDescriptorCache : C:\Users\Diego Pacheco\.ivy2\cache\org.scala-tools.sbt\launcher-interface_2.8.1\ivy-0.10.1.xml
+post 1.3 ivy file: using exact as default matcher
+	found ivy file in cache for org.scala-tools.sbt#launcher-interface_2.8.1;0.10.1 (resolved by typesafe-ivy-releases): C:\Users\Diego Pacheco\.ivy2\cache\org.scala-tools.sbt\launcher-interface_2.8.1\ivy-0.10.1.xml
+redefined-public: module revision found in cache: org.scala-tools.sbt#launcher-interface_2.8.1;0.10.1
+	found org.scala-tools.sbt#launcher-interface_2.8.1;0.10.1 in typesafe-ivy-releases
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+== resolving dependencies org.scala-tools.sbt#classpath_2.8.1;0.10.1->org.scala-tools.sbt#io_2.8.1;0.10.1 [compile->default(compile)]
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+excluding dependency: org.scala-lang#scala-compiler;2.8.1 {compile=[default(compile)]} in compile
+loadData of org.scala-tools.sbt#io_2.8.1;0.10.1 of rootConf=default
+default is loaded and no conf to load.  Skip loading
+== resolving dependencies org.scala-tools.sbt#actions_2.8.1;0.10.1->org.scala-tools.sbt#incremental-compiler_2.8.1;0.10.1 [compile->default(compile)]
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+loadData of org.scala-tools.sbt#incremental-compiler_2.8.1;0.10.1 of rootConf=default
+	using redefined-public to resolve org.scala-tools.sbt#incremental-compiler_2.8.1;0.10.1
+redefined-public: Checking cache for: dependency: org.scala-tools.sbt#incremental-compiler_2.8.1;0.10.1 {compile=[default(compile)]}
+No entry is found in the ModuleDescriptorCache : C:\Users\Diego Pacheco\.ivy2\cache\org.scala-tools.sbt\incremental-compiler_2.8.1\ivy-0.10.1.xml
+post 1.3 ivy file: using exact as default matcher
+	found ivy file in cache for org.scala-tools.sbt#incremental-compiler_2.8.1;0.10.1 (resolved by typesafe-ivy-releases): C:\Users\Diego Pacheco\.ivy2\cache\org.scala-tools.sbt\incremental-compiler_2.8.1\ivy-0.10.1.xml
+redefined-public: module revision found in cache: org.scala-tools.sbt#incremental-compiler_2.8.1;0.10.1
+	found org.scala-tools.sbt#incremental-compiler_2.8.1;0.10.1 in typesafe-ivy-releases
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+== resolving dependencies org.scala-tools.sbt#incremental-compiler_2.8.1;0.10.1->org.scala-tools.sbt#collections_2.8.1;0.10.1 [compile->default(compile)]
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+loadData of org.scala-tools.sbt#collections_2.8.1;0.10.1 of rootConf=default
+	using redefined-public to resolve org.scala-tools.sbt#collections_2.8.1;0.10.1
+redefined-public: Checking cache for: dependency: org.scala-tools.sbt#collections_2.8.1;0.10.1 {compile=[default(compile)]}
+No entry is found in the ModuleDescriptorCache : C:\Users\Diego Pacheco\.ivy2\cache\org.scala-tools.sbt\collections_2.8.1\ivy-0.10.1.xml
+post 1.3 ivy file: using exact as default matcher
+	found ivy file in cache for org.scala-tools.sbt#collections_2.8.1;0.10.1 (resolved by typesafe-ivy-releases): C:\Users\Diego Pacheco\.ivy2\cache\org.scala-tools.sbt\collections_2.8.1\ivy-0.10.1.xml
+redefined-public: module revision found in cache: org.scala-tools.sbt#collections_2.8.1;0.10.1
+	found org.scala-tools.sbt#collections_2.8.1;0.10.1 in typesafe-ivy-releases
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+== resolving dependencies org.scala-tools.sbt#incremental-compiler_2.8.1;0.10.1->org.scala-tools.sbt#api_2.8.1;0.10.1 [compile->default(compile)]
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+loadData of org.scala-tools.sbt#api_2.8.1;0.10.1 of rootConf=default
+	using redefined-public to resolve org.scala-tools.sbt#api_2.8.1;0.10.1
+redefined-public: Checking cache for: dependency: org.scala-tools.sbt#api_2.8.1;0.10.1 {compile=[default(compile)]}
+No entry is found in the ModuleDescriptorCache : C:\Users\Diego Pacheco\.ivy2\cache\org.scala-tools.sbt\api_2.8.1\ivy-0.10.1.xml
+post 1.3 ivy file: using exact as default matcher
+	found ivy file in cache for org.scala-tools.sbt#api_2.8.1;0.10.1 (resolved by typesafe-ivy-releases): C:\Users\Diego Pacheco\.ivy2\cache\org.scala-tools.sbt\api_2.8.1\ivy-0.10.1.xml
+redefined-public: module revision found in cache: org.scala-tools.sbt#api_2.8.1;0.10.1
+	found org.scala-tools.sbt#api_2.8.1;0.10.1 in typesafe-ivy-releases
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+== resolving dependencies org.scala-tools.sbt#api_2.8.1;0.10.1->org.scala-tools.sbt#interface;0.10.1 [compile->default(compile)]
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+loadData of org.scala-tools.sbt#interface;0.10.1 of rootConf=default
+default is loaded and no conf to load.  Skip loading
+== resolving dependencies org.scala-tools.sbt#incremental-compiler_2.8.1;0.10.1->org.scala-tools.sbt#io_2.8.1;0.10.1 [compile->default(compile)]
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+loadData of org.scala-tools.sbt#io_2.8.1;0.10.1 of rootConf=default
+default is loaded and no conf to load.  Skip loading
+== resolving dependencies org.scala-tools.sbt#incremental-compiler_2.8.1;0.10.1->org.scala-tools.sbt#logging_2.8.1;0.10.1 [compile->default(compile)]
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+loadData of org.scala-tools.sbt#logging_2.8.1;0.10.1 of rootConf=default
+default is loaded and no conf to load.  Skip loading
+== resolving dependencies org.scala-tools.sbt#actions_2.8.1;0.10.1->org.scala-tools.sbt#persist_2.8.1;0.10.1 [compile->default(compile)]
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+loadData of org.scala-tools.sbt#persist_2.8.1;0.10.1 of rootConf=default
+	using redefined-public to resolve org.scala-tools.sbt#persist_2.8.1;0.10.1
+redefined-public: Checking cache for: dependency: org.scala-tools.sbt#persist_2.8.1;0.10.1 {compile=[default(compile)]}
+No entry is found in the ModuleDescriptorCache : C:\Users\Diego Pacheco\.ivy2\cache\org.scala-tools.sbt\persist_2.8.1\ivy-0.10.1.xml
+post 1.3 ivy file: using exact as default matcher
+	found ivy file in cache for org.scala-tools.sbt#persist_2.8.1;0.10.1 (resolved by typesafe-ivy-releases): C:\Users\Diego Pacheco\.ivy2\cache\org.scala-tools.sbt\persist_2.8.1\ivy-0.10.1.xml
+redefined-public: module revision found in cache: org.scala-tools.sbt#persist_2.8.1;0.10.1
+	found org.scala-tools.sbt#persist_2.8.1;0.10.1 in typesafe-ivy-releases
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+== resolving dependencies org.scala-tools.sbt#persist_2.8.1;0.10.1->org.scala-tools.sbt#incremental-compiler_2.8.1;0.10.1 [compile->default(compile)]
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+loadData of org.scala-tools.sbt#incremental-compiler_2.8.1;0.10.1 of rootConf=default
+default is loaded and no conf to load.  Skip loading
+== resolving dependencies org.scala-tools.sbt#persist_2.8.1;0.10.1->org.scala-tools.sbt#api_2.8.1;0.10.1 [compile->default(compile)]
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+loadData of org.scala-tools.sbt#api_2.8.1;0.10.1 of rootConf=default
+default is loaded and no conf to load.  Skip loading
+== resolving dependencies org.scala-tools.sbt#persist_2.8.1;0.10.1->org.scala-tools.sbinary#sbinary_2.8.1;0.4.0 [compile->default(compile)]
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+loadData of org.scala-tools.sbinary#sbinary_2.8.1;0.4.0 of rootConf=default
+	using redefined-public to resolve org.scala-tools.sbinary#sbinary_2.8.1;0.4.0
+redefined-public: Checking cache for: dependency: org.scala-tools.sbinary#sbinary_2.8.1;0.4.0 {compile=[default(compile)]}
+No entry is found in the ModuleDescriptorCache : C:\Users\Diego Pacheco\.ivy2\cache\org.scala-tools.sbinary\sbinary_2.8.1\ivy-0.4.0.xml
+post 1.3 ivy file: using exact as default matcher
+	found ivy file in cache for org.scala-tools.sbinary#sbinary_2.8.1;0.4.0 (resolved by Maven Central): C:\Users\Diego Pacheco\.ivy2\cache\org.scala-tools.sbinary\sbinary_2.8.1\ivy-0.4.0.xml
+redefined-public: module revision found in cache: org.scala-tools.sbinary#sbinary_2.8.1;0.4.0
+	found org.scala-tools.sbinary#sbinary_2.8.1;0.4.0 in Maven Central
+== resolving dependencies org.scala-tools.sbt#persist_2.8.1;0.10.1->org.scala-tools.sbinary#sbinary_2.8.1;0.4.0 [compile->runtime]
+loadData of org.scala-tools.sbinary#sbinary_2.8.1;0.4.0 of rootConf=default
+== resolving dependencies org.scala-tools.sbt#persist_2.8.1;0.10.1->org.scala-tools.sbinary#sbinary_2.8.1;0.4.0 [compile->compile]
+loadData of org.scala-tools.sbinary#sbinary_2.8.1;0.4.0 of rootConf=default
+== resolving dependencies org.scala-tools.sbt#persist_2.8.1;0.10.1->org.scala-tools.sbinary#sbinary_2.8.1;0.4.0 [compile->master]
+loadData of org.scala-tools.sbinary#sbinary_2.8.1;0.4.0 of rootConf=default
+== resolving dependencies org.scala-tools.sbt#actions_2.8.1;0.10.1->org.scala-tools.sbt#compile_2.8.1;0.10.1 [compile->default(compile)]
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+loadData of org.scala-tools.sbt#compile_2.8.1;0.10.1 of rootConf=default
+	using redefined-public to resolve org.scala-tools.sbt#compile_2.8.1;0.10.1
+redefined-public: Checking cache for: dependency: org.scala-tools.sbt#compile_2.8.1;0.10.1 {compile=[default(compile)]}
+No entry is found in the ModuleDescriptorCache : C:\Users\Diego Pacheco\.ivy2\cache\org.scala-tools.sbt\compile_2.8.1\ivy-0.10.1.xml
+post 1.3 ivy file: using exact as default matcher
+	found ivy file in cache for org.scala-tools.sbt#compile_2.8.1;0.10.1 (resolved by typesafe-ivy-releases): C:\Users\Diego Pacheco\.ivy2\cache\org.scala-tools.sbt\compile_2.8.1\ivy-0.10.1.xml
+redefined-public: module revision found in cache: org.scala-tools.sbt#compile_2.8.1;0.10.1
+	found org.scala-tools.sbt#compile_2.8.1;0.10.1 in typesafe-ivy-releases
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+== resolving dependencies org.scala-tools.sbt#compile_2.8.1;0.10.1->org.scala-tools.sbt#launcher-interface_2.8.1;0.10.1 [compile->default(compile)]
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+loadData of org.scala-tools.sbt#launcher-interface_2.8.1;0.10.1 of rootConf=default
+default is loaded and no conf to load.  Skip loading
+== resolving dependencies org.scala-tools.sbt#compile_2.8.1;0.10.1->org.scala-tools.sbt#interface;0.10.1 [compile->default(compile)]
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+loadData of org.scala-tools.sbt#interface;0.10.1 of rootConf=default
+default is loaded and no conf to load.  Skip loading
+== resolving dependencies org.scala-tools.sbt#compile_2.8.1;0.10.1->org.scala-tools.sbt#ivy_2.8.1;0.10.1 [compile->default(compile)]
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+loadData of org.scala-tools.sbt#ivy_2.8.1;0.10.1 of rootConf=default
+	using redefined-public to resolve org.scala-tools.sbt#ivy_2.8.1;0.10.1
+redefined-public: Checking cache for: dependency: org.scala-tools.sbt#ivy_2.8.1;0.10.1 {compile=[default(compile)]}
+No entry is found in the ModuleDescriptorCache : C:\Users\Diego Pacheco\.ivy2\cache\org.scala-tools.sbt\ivy_2.8.1\ivy-0.10.1.xml
+post 1.3 ivy file: using exact as default matcher
+	found ivy file in cache for org.scala-tools.sbt#ivy_2.8.1;0.10.1 (resolved by typesafe-ivy-releases): C:\Users\Diego Pacheco\.ivy2\cache\org.scala-tools.sbt\ivy_2.8.1\ivy-0.10.1.xml
+redefined-public: module revision found in cache: org.scala-tools.sbt#ivy_2.8.1;0.10.1
+	found org.scala-tools.sbt#ivy_2.8.1;0.10.1 in typesafe-ivy-releases
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+== resolving dependencies org.scala-tools.sbt#ivy_2.8.1;0.10.1->org.scala-tools.sbt#interface;0.10.1 [compile->default(compile)]
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+loadData of org.scala-tools.sbt#interface;0.10.1 of rootConf=default
+default is loaded and no conf to load.  Skip loading
+== resolving dependencies org.scala-tools.sbt#ivy_2.8.1;0.10.1->org.scala-tools.sbt#launcher-interface_2.8.1;0.10.1 [compile->default(compile)]
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+loadData of org.scala-tools.sbt#launcher-interface_2.8.1;0.10.1 of rootConf=default
+default is loaded and no conf to load.  Skip loading
+== resolving dependencies org.scala-tools.sbt#ivy_2.8.1;0.10.1->org.scala-tools.sbt#logging_2.8.1;0.10.1 [compile->default(compile)]
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+loadData of org.scala-tools.sbt#logging_2.8.1;0.10.1 of rootConf=default
+default is loaded and no conf to load.  Skip loading
+== resolving dependencies org.scala-tools.sbt#ivy_2.8.1;0.10.1->org.scala-tools.sbt#io_2.8.1;0.10.1 [compile->default(compile)]
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+loadData of org.scala-tools.sbt#io_2.8.1;0.10.1 of rootConf=default
+default is loaded and no conf to load.  Skip loading
+== resolving dependencies org.scala-tools.sbt#ivy_2.8.1;0.10.1->org.apache.ivy#ivy;2.2.0 [compile->default(compile)]
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+loadData of org.apache.ivy#ivy;2.2.0 of rootConf=default
+	using redefined-public to resolve org.apache.ivy#ivy;2.2.0
+redefined-public: Checking cache for: dependency: org.apache.ivy#ivy;2.2.0 {compile=[default(compile)]}
+No entry is found in the ModuleDescriptorCache : C:\Users\Diego Pacheco\.ivy2\cache\org.apache.ivy\ivy\ivy-2.2.0.xml
+post 1.3 ivy file: using exact as default matcher
+	found ivy file in cache for org.apache.ivy#ivy;2.2.0 (resolved by Maven Central): C:\Users\Diego Pacheco\.ivy2\cache\org.apache.ivy\ivy\ivy-2.2.0.xml
+redefined-public: module revision found in cache: org.apache.ivy#ivy;2.2.0
+	found org.apache.ivy#ivy;2.2.0 in Maven Central
+== resolving dependencies org.scala-tools.sbt#ivy_2.8.1;0.10.1->org.apache.ivy#ivy;2.2.0 [compile->runtime]
+loadData of org.apache.ivy#ivy;2.2.0 of rootConf=default
+== resolving dependencies org.scala-tools.sbt#ivy_2.8.1;0.10.1->org.apache.ivy#ivy;2.2.0 [compile->compile]
+loadData of org.apache.ivy#ivy;2.2.0 of rootConf=default
+== resolving dependencies org.scala-tools.sbt#ivy_2.8.1;0.10.1->org.apache.ivy#ivy;2.2.0 [compile->master]
+loadData of org.apache.ivy#ivy;2.2.0 of rootConf=default
+== resolving dependencies org.scala-tools.sbt#ivy_2.8.1;0.10.1->com.jcraft#jsch;0.1.31 [compile->default(compile)]
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+loadData of com.jcraft#jsch;0.1.31 of rootConf=default
+	using redefined-public to resolve com.jcraft#jsch;0.1.31
+redefined-public: Checking cache for: dependency: com.jcraft#jsch;0.1.31 {compile=[default(compile)]}
+No entry is found in the ModuleDescriptorCache : C:\Users\Diego Pacheco\.ivy2\cache\com.jcraft\jsch\ivy-0.1.31.xml
+post 1.3 ivy file: using exact as default matcher
+	found ivy file in cache for com.jcraft#jsch;0.1.31 (resolved by Maven Central): C:\Users\Diego Pacheco\.ivy2\cache\com.jcraft\jsch\ivy-0.1.31.xml
+redefined-public: module revision found in cache: com.jcraft#jsch;0.1.31
+	found com.jcraft#jsch;0.1.31 in Maven Central
+== resolving dependencies org.scala-tools.sbt#ivy_2.8.1;0.10.1->com.jcraft#jsch;0.1.31 [compile->runtime]
+loadData of com.jcraft#jsch;0.1.31 of rootConf=default
+== resolving dependencies org.scala-tools.sbt#ivy_2.8.1;0.10.1->com.jcraft#jsch;0.1.31 [compile->compile]
+loadData of com.jcraft#jsch;0.1.31 of rootConf=default
+== resolving dependencies org.scala-tools.sbt#ivy_2.8.1;0.10.1->com.jcraft#jsch;0.1.31 [compile->master]
+loadData of com.jcraft#jsch;0.1.31 of rootConf=default
+== resolving dependencies org.scala-tools.sbt#ivy_2.8.1;0.10.1->commons-httpclient#commons-httpclient;3.1 [compile->default(compile)]
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+loadData of commons-httpclient#commons-httpclient;3.1 of rootConf=default
+	using redefined-public to resolve commons-httpclient#commons-httpclient;3.1
+redefined-public: Checking cache for: dependency: commons-httpclient#commons-httpclient;3.1 {compile=[default(compile)]}
+No entry is found in the ModuleDescriptorCache : C:\Users\Diego Pacheco\.ivy2\cache\commons-httpclient\commons-httpclient\ivy-3.1.xml
+post 1.3 ivy file: using exact as default matcher
+	found ivy file in cache for commons-httpclient#commons-httpclient;3.1 (resolved by Maven Central): C:\Users\Diego Pacheco\.ivy2\cache\commons-httpclient\commons-httpclient\ivy-3.1.xml
+redefined-public: module revision found in cache: commons-httpclient#commons-httpclient;3.1
+	found commons-httpclient#commons-httpclient;3.1 in Maven Central
+== resolving dependencies org.scala-tools.sbt#ivy_2.8.1;0.10.1->commons-httpclient#commons-httpclient;3.1 [compile->runtime]
+loadData of commons-httpclient#commons-httpclient;3.1 of rootConf=default
+== resolving dependencies org.scala-tools.sbt#ivy_2.8.1;0.10.1->commons-httpclient#commons-httpclient;3.1 [compile->compile]
+loadData of commons-httpclient#commons-httpclient;3.1 of rootConf=default
+== resolving dependencies commons-httpclient#commons-httpclient;3.1->commons-logging#commons-logging;1.0.4 [compile->master(*)]
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+loadData of commons-logging#commons-logging;1.0.4 of rootConf=default
+	using redefined-public to resolve commons-logging#commons-logging;1.0.4
+redefined-public: Checking cache for: dependency: commons-logging#commons-logging;1.0.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+No entry is found in the ModuleDescriptorCache : C:\Users\Diego Pacheco\.ivy2\cache\commons-logging\commons-logging\ivy-1.0.4.xml
+post 1.3 ivy file: using exact as default matcher
+	found ivy file in cache for commons-logging#commons-logging;1.0.4 (resolved by Maven Central): C:\Users\Diego Pacheco\.ivy2\cache\commons-logging\commons-logging\ivy-1.0.4.xml
+redefined-public: module revision found in cache: commons-logging#commons-logging;1.0.4
+	found commons-logging#commons-logging;1.0.4 in Maven Central
+== resolving dependencies commons-httpclient#commons-httpclient;3.1->commons-logging#commons-logging;1.0.4 [compile->compile(*)]
+loadData of commons-logging#commons-logging;1.0.4 of rootConf=default
+== resolving dependencies commons-httpclient#commons-httpclient;3.1->commons-codec#commons-codec;1.2 [compile->master(*)]
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+loadData of commons-codec#commons-codec;1.2 of rootConf=default
+	using redefined-public to resolve commons-codec#commons-codec;1.2
+redefined-public: Checking cache for: dependency: commons-codec#commons-codec;1.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+No entry is found in the ModuleDescriptorCache : C:\Users\Diego Pacheco\.ivy2\cache\commons-codec\commons-codec\ivy-1.2.xml
+post 1.3 ivy file: using exact as default matcher
+	found ivy file in cache for commons-codec#commons-codec;1.2 (resolved by Maven Central): C:\Users\Diego Pacheco\.ivy2\cache\commons-codec\commons-codec\ivy-1.2.xml
+redefined-public: module revision found in cache: commons-codec#commons-codec;1.2
+	found commons-codec#commons-codec;1.2 in Maven Central
+== resolving dependencies commons-httpclient#commons-httpclient;3.1->commons-codec#commons-codec;1.2 [compile->compile(*)]
+loadData of commons-codec#commons-codec;1.2 of rootConf=default
+== resolving dependencies commons-httpclient#commons-httpclient;3.1->commons-logging#commons-logging;1.0.4 [runtime->runtime(*)]
+loadData of commons-logging#commons-logging;1.0.4 of rootConf=default
+== resolving dependencies commons-httpclient#commons-httpclient;3.1->commons-logging#commons-logging;1.0.4 [runtime->compile]
+loadData of commons-logging#commons-logging;1.0.4 of rootConf=default
+== resolving dependencies commons-httpclient#commons-httpclient;3.1->commons-codec#commons-codec;1.2 [runtime->runtime(*)]
+loadData of commons-codec#commons-codec;1.2 of rootConf=default
+== resolving dependencies commons-httpclient#commons-httpclient;3.1->commons-codec#commons-codec;1.2 [runtime->compile]
+loadData of commons-codec#commons-codec;1.2 of rootConf=default
+== resolving dependencies org.scala-tools.sbt#ivy_2.8.1;0.10.1->commons-httpclient#commons-httpclient;3.1 [compile->master]
+loadData of commons-httpclient#commons-httpclient;3.1 of rootConf=default
+== resolving dependencies org.scala-tools.sbt#compile_2.8.1;0.10.1->org.scala-tools.sbt#io_2.8.1;0.10.1 [compile->default(compile)]
+loadData of org.scala-tools.sbt#io_2.8.1;0.10.1 of rootConf=default
+default is loaded and no conf to load.  Skip loading
+== resolving dependencies org.scala-tools.sbt#compile_2.8.1;0.10.1->org.scala-tools.sbt#classpath_2.8.1;0.10.1 [compile->default(compile)]
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+loadData of org.scala-tools.sbt#classpath_2.8.1;0.10.1 of rootConf=default
+default is loaded and no conf to load.  Skip loading
+== resolving dependencies org.scala-tools.sbt#actions_2.8.1;0.10.1->org.scala-tools.sbt#completion_2.8.1;0.10.1 [compile->default(compile)]
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+loadData of org.scala-tools.sbt#completion_2.8.1;0.10.1 of rootConf=default
+	using redefined-public to resolve org.scala-tools.sbt#completion_2.8.1;0.10.1
+redefined-public: Checking cache for: dependency: org.scala-tools.sbt#completion_2.8.1;0.10.1 {compile=[default(compile)]}
+No entry is found in the ModuleDescriptorCache : C:\Users\Diego Pacheco\.ivy2\cache\org.scala-tools.sbt\completion_2.8.1\ivy-0.10.1.xml
+post 1.3 ivy file: using exact as default matcher
+	found ivy file in cache for org.scala-tools.sbt#completion_2.8.1;0.10.1 (resolved by typesafe-ivy-releases): C:\Users\Diego Pacheco\.ivy2\cache\org.scala-tools.sbt\completion_2.8.1\ivy-0.10.1.xml
+redefined-public: module revision found in cache: org.scala-tools.sbt#completion_2.8.1;0.10.1
+	found org.scala-tools.sbt#completion_2.8.1;0.10.1 in typesafe-ivy-releases
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+== resolving dependencies org.scala-tools.sbt#completion_2.8.1;0.10.1->org.scala-tools.sbt#collections_2.8.1;0.10.1 [compile->default(compile)]
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+loadData of org.scala-tools.sbt#collections_2.8.1;0.10.1 of rootConf=default
+default is loaded and no conf to load.  Skip loading
+== resolving dependencies org.scala-tools.sbt#completion_2.8.1;0.10.1->org.scala-tools.sbt#control_2.8.1;0.10.1 [compile->default(compile)]
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+loadData of org.scala-tools.sbt#control_2.8.1;0.10.1 of rootConf=default
+default is loaded and no conf to load.  Skip loading
+== resolving dependencies org.scala-tools.sbt#completion_2.8.1;0.10.1->org.scala-tools.sbt#io_2.8.1;0.10.1 [compile->default(compile)]
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+loadData of org.scala-tools.sbt#io_2.8.1;0.10.1 of rootConf=default
+default is loaded and no conf to load.  Skip loading
+== resolving dependencies org.scala-tools.sbt#completion_2.8.1;0.10.1->jline#jline;0.9.94 [compile->default(compile)]
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+loadData of jline#jline;0.9.94 of rootConf=default
+	using redefined-public to resolve jline#jline;0.9.94
+redefined-public: Checking cache for: dependency: jline#jline;0.9.94 {compile=[default(compile)]}
+No entry is found in the ModuleDescriptorCache : C:\Users\Diego Pacheco\.ivy2\cache\jline\jline\ivy-0.9.94.xml
+post 1.3 ivy file: using exact as default matcher
+	found ivy file in cache for jline#jline;0.9.94 (resolved by Maven Central): C:\Users\Diego Pacheco\.ivy2\cache\jline\jline\ivy-0.9.94.xml
+redefined-public: module revision found in cache: jline#jline;0.9.94
+	found jline#jline;0.9.94 in Maven Central
+== resolving dependencies org.scala-tools.sbt#completion_2.8.1;0.10.1->jline#jline;0.9.94 [compile->runtime]
+loadData of jline#jline;0.9.94 of rootConf=default
+== resolving dependencies org.scala-tools.sbt#completion_2.8.1;0.10.1->jline#jline;0.9.94 [compile->compile]
+loadData of jline#jline;0.9.94 of rootConf=default
+== resolving dependencies org.scala-tools.sbt#completion_2.8.1;0.10.1->jline#jline;0.9.94 [compile->master]
+loadData of jline#jline;0.9.94 of rootConf=default
+== resolving dependencies org.scala-tools.sbt#actions_2.8.1;0.10.1->org.scala-tools.sbt#discovery_2.8.1;0.10.1 [compile->default(compile)]
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+loadData of org.scala-tools.sbt#discovery_2.8.1;0.10.1 of rootConf=default
+	using redefined-public to resolve org.scala-tools.sbt#discovery_2.8.1;0.10.1
+redefined-public: Checking cache for: dependency: org.scala-tools.sbt#discovery_2.8.1;0.10.1 {compile=[default(compile)]}
+No entry is found in the ModuleDescriptorCache : C:\Users\Diego Pacheco\.ivy2\cache\org.scala-tools.sbt\discovery_2.8.1\ivy-0.10.1.xml
+post 1.3 ivy file: using exact as default matcher
+	found ivy file in cache for org.scala-tools.sbt#discovery_2.8.1;0.10.1 (resolved by typesafe-ivy-releases): C:\Users\Diego Pacheco\.ivy2\cache\org.scala-tools.sbt\discovery_2.8.1\ivy-0.10.1.xml
+redefined-public: module revision found in cache: org.scala-tools.sbt#discovery_2.8.1;0.10.1
+	found org.scala-tools.sbt#discovery_2.8.1;0.10.1 in typesafe-ivy-releases
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+== resolving dependencies org.scala-tools.sbt#discovery_2.8.1;0.10.1->org.scala-tools.sbt#incremental-compiler_2.8.1;0.10.1 [compile->default(compile)]
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+loadData of org.scala-tools.sbt#incremental-compiler_2.8.1;0.10.1 of rootConf=default
+default is loaded and no conf to load.  Skip loading
+== resolving dependencies org.scala-tools.sbt#discovery_2.8.1;0.10.1->org.scala-tools.sbt#api_2.8.1;0.10.1 [compile->default(compile)]
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+loadData of org.scala-tools.sbt#api_2.8.1;0.10.1 of rootConf=default
+default is loaded and no conf to load.  Skip loading
+== resolving dependencies org.scala-tools.sbt#actions_2.8.1;0.10.1->org.scala-tools.sbt#interface;0.10.1 [compile->default(compile)]
+loadData of org.scala-tools.sbt#interface;0.10.1 of rootConf=default
+default is loaded and no conf to load.  Skip loading
+== resolving dependencies org.scala-tools.sbt#actions_2.8.1;0.10.1->org.scala-tools.sbt#io_2.8.1;0.10.1 [compile->default(compile)]
+loadData of org.scala-tools.sbt#io_2.8.1;0.10.1 of rootConf=default
+default is loaded and no conf to load.  Skip loading
+== resolving dependencies org.scala-tools.sbt#actions_2.8.1;0.10.1->org.scala-tools.sbt#ivy_2.8.1;0.10.1 [compile->default(compile)]
+loadData of org.scala-tools.sbt#ivy_2.8.1;0.10.1 of rootConf=default
+default is loaded and no conf to load.  Skip loading
+== resolving dependencies org.scala-tools.sbt#actions_2.8.1;0.10.1->org.scala-tools.sbt#logging_2.8.1;0.10.1 [compile->default(compile)]
+loadData of org.scala-tools.sbt#logging_2.8.1;0.10.1 of rootConf=default
+default is loaded and no conf to load.  Skip loading
+== resolving dependencies org.scala-tools.sbt#actions_2.8.1;0.10.1->org.scala-tools.sbt#process_2.8.1;0.10.1 [compile->default(compile)]
+loadData of org.scala-tools.sbt#process_2.8.1;0.10.1 of rootConf=default
+default is loaded and no conf to load.  Skip loading
+== resolving dependencies org.scala-tools.sbt#actions_2.8.1;0.10.1->org.scala-tools.sbt#run_2.8.1;0.10.1 [compile->default(compile)]
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+loadData of org.scala-tools.sbt#run_2.8.1;0.10.1 of rootConf=default
+	using redefined-public to resolve org.scala-tools.sbt#run_2.8.1;0.10.1
+redefined-public: Checking cache for: dependency: org.scala-tools.sbt#run_2.8.1;0.10.1 {compile=[default(compile)]}
+No entry is found in the ModuleDescriptorCache : C:\Users\Diego Pacheco\.ivy2\cache\org.scala-tools.sbt\run_2.8.1\ivy-0.10.1.xml
+post 1.3 ivy file: using exact as default matcher
+	found ivy file in cache for org.scala-tools.sbt#run_2.8.1;0.10.1 (resolved by typesafe-ivy-releases): C:\Users\Diego Pacheco\.ivy2\cache\org.scala-tools.sbt\run_2.8.1\ivy-0.10.1.xml
+redefined-public: module revision found in cache: org.scala-tools.sbt#run_2.8.1;0.10.1
+	found org.scala-tools.sbt#run_2.8.1;0.10.1 in typesafe-ivy-releases
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+== resolving dependencies org.scala-tools.sbt#run_2.8.1;0.10.1->org.scala-tools.sbt#io_2.8.1;0.10.1 [compile->default(compile)]
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+loadData of org.scala-tools.sbt#io_2.8.1;0.10.1 of rootConf=default
+default is loaded and no conf to load.  Skip loading
+== resolving dependencies org.scala-tools.sbt#run_2.8.1;0.10.1->org.scala-tools.sbt#logging_2.8.1;0.10.1 [compile->default(compile)]
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+loadData of org.scala-tools.sbt#logging_2.8.1;0.10.1 of rootConf=default
+default is loaded and no conf to load.  Skip loading
+== resolving dependencies org.scala-tools.sbt#run_2.8.1;0.10.1->org.scala-tools.sbt#classpath_2.8.1;0.10.1 [compile->default(compile)]
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+loadData of org.scala-tools.sbt#classpath_2.8.1;0.10.1 of rootConf=default
+default is loaded and no conf to load.  Skip loading
+== resolving dependencies org.scala-tools.sbt#run_2.8.1;0.10.1->org.scala-tools.sbt#process_2.8.1;0.10.1 [compile->default(compile)]
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+loadData of org.scala-tools.sbt#process_2.8.1;0.10.1 of rootConf=default
+default is loaded and no conf to load.  Skip loading
+== resolving dependencies org.scala-tools.sbt#actions_2.8.1;0.10.1->org.scala-tools.sbt#task-system_2.8.1;0.10.1 [compile->default(compile)]
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+loadData of org.scala-tools.sbt#task-system_2.8.1;0.10.1 of rootConf=default
+	using redefined-public to resolve org.scala-tools.sbt#task-system_2.8.1;0.10.1
+redefined-public: Checking cache for: dependency: org.scala-tools.sbt#task-system_2.8.1;0.10.1 {compile=[default(compile)]}
+No entry is found in the ModuleDescriptorCache : C:\Users\Diego Pacheco\.ivy2\cache\org.scala-tools.sbt\task-system_2.8.1\ivy-0.10.1.xml
+post 1.3 ivy file: using exact as default matcher
+	found ivy file in cache for org.scala-tools.sbt#task-system_2.8.1;0.10.1 (resolved by typesafe-ivy-releases): C:\Users\Diego Pacheco\.ivy2\cache\org.scala-tools.sbt\task-system_2.8.1\ivy-0.10.1.xml
+redefined-public: module revision found in cache: org.scala-tools.sbt#task-system_2.8.1;0.10.1
+	found org.scala-tools.sbt#task-system_2.8.1;0.10.1 in typesafe-ivy-releases
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+== resolving dependencies org.scala-tools.sbt#task-system_2.8.1;0.10.1->org.scala-tools.sbt#tasks_2.8.1;0.10.1 [compile->default(compile)]
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+loadData of org.scala-tools.sbt#tasks_2.8.1;0.10.1 of rootConf=default
+	using redefined-public to resolve org.scala-tools.sbt#tasks_2.8.1;0.10.1
+redefined-public: Checking cache for: dependency: org.scala-tools.sbt#tasks_2.8.1;0.10.1 {compile=[default(compile)], test=[test]}
+No entry is found in the ModuleDescriptorCache : C:\Users\Diego Pacheco\.ivy2\cache\org.scala-tools.sbt\tasks_2.8.1\ivy-0.10.1.xml
+post 1.3 ivy file: using exact as default matcher
+	found ivy file in cache for org.scala-tools.sbt#tasks_2.8.1;0.10.1 (resolved by typesafe-ivy-releases): C:\Users\Diego Pacheco\.ivy2\cache\org.scala-tools.sbt\tasks_2.8.1\ivy-0.10.1.xml
+redefined-public: module revision found in cache: org.scala-tools.sbt#tasks_2.8.1;0.10.1
+	found org.scala-tools.sbt#tasks_2.8.1;0.10.1 in typesafe-ivy-releases
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+== resolving dependencies org.scala-tools.sbt#tasks_2.8.1;0.10.1->org.scala-tools.sbt#control_2.8.1;0.10.1 [compile->default(compile)]
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+loadData of org.scala-tools.sbt#control_2.8.1;0.10.1 of rootConf=default
+default is loaded and no conf to load.  Skip loading
+== resolving dependencies org.scala-tools.sbt#tasks_2.8.1;0.10.1->org.scala-tools.sbt#collections_2.8.1;0.10.1 [compile->default(compile)]
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+loadData of org.scala-tools.sbt#collections_2.8.1;0.10.1 of rootConf=default
+default is loaded and no conf to load.  Skip loading
+== resolving dependencies org.scala-tools.sbt#task-system_2.8.1;0.10.1->org.scala-tools.sbt#collections_2.8.1;0.10.1 [compile->default(compile)]
+loadData of org.scala-tools.sbt#collections_2.8.1;0.10.1 of rootConf=default
+default is loaded and no conf to load.  Skip loading
+== resolving dependencies org.scala-tools.sbt#task-system_2.8.1;0.10.1->org.scala-tools.sbt#logging_2.8.1;0.10.1 [compile->default(compile)]
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+loadData of org.scala-tools.sbt#logging_2.8.1;0.10.1 of rootConf=default
+default is loaded and no conf to load.  Skip loading
+== resolving dependencies org.scala-tools.sbt#task-system_2.8.1;0.10.1->org.scala-tools.sbt#io_2.8.1;0.10.1 [compile->default(compile)]
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+loadData of org.scala-tools.sbt#io_2.8.1;0.10.1 of rootConf=default
+default is loaded and no conf to load.  Skip loading
+== resolving dependencies org.scala-tools.sbt#task-system_2.8.1;0.10.1->org.scala-tools.sbt#process_2.8.1;0.10.1 [compile->default(compile)]
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+loadData of org.scala-tools.sbt#process_2.8.1;0.10.1 of rootConf=default
+default is loaded and no conf to load.  Skip loading
+== resolving dependencies org.scala-tools.sbt#actions_2.8.1;0.10.1->org.scala-tools.sbt#tasks_2.8.1;0.10.1 [compile->default(compile)]
+loadData of org.scala-tools.sbt#tasks_2.8.1;0.10.1 of rootConf=default
+default is loaded and no conf to load.  Skip loading
+== resolving dependencies org.scala-tools.sbt#actions_2.8.1;0.10.1->org.scala-tools.sbt#tracking_2.8.1;0.10.1 [compile->default(compile)]
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+loadData of org.scala-tools.sbt#tracking_2.8.1;0.10.1 of rootConf=default
+	using redefined-public to resolve org.scala-tools.sbt#tracking_2.8.1;0.10.1
+redefined-public: Checking cache for: dependency: org.scala-tools.sbt#tracking_2.8.1;0.10.1 {compile=[default(compile)]}
+No entry is found in the ModuleDescriptorCache : C:\Users\Diego Pacheco\.ivy2\cache\org.scala-tools.sbt\tracking_2.8.1\ivy-0.10.1.xml
+post 1.3 ivy file: using exact as default matcher
+	found ivy file in cache for org.scala-tools.sbt#tracking_2.8.1;0.10.1 (resolved by typesafe-ivy-releases): C:\Users\Diego Pacheco\.ivy2\cache\org.scala-tools.sbt\tracking_2.8.1\ivy-0.10.1.xml
+redefined-public: module revision found in cache: org.scala-tools.sbt#tracking_2.8.1;0.10.1
+	found org.scala-tools.sbt#tracking_2.8.1;0.10.1 in typesafe-ivy-releases
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+== resolving dependencies org.scala-tools.sbt#tracking_2.8.1;0.10.1->org.scala-tools.sbt#cache_2.8.1;0.10.1 [compile->default(compile)]
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+loadData of org.scala-tools.sbt#cache_2.8.1;0.10.1 of rootConf=default
+	using redefined-public to resolve org.scala-tools.sbt#cache_2.8.1;0.10.1
+redefined-public: Checking cache for: dependency: org.scala-tools.sbt#cache_2.8.1;0.10.1 {compile=[default(compile)]}
+No entry is found in the ModuleDescriptorCache : C:\Users\Diego Pacheco\.ivy2\cache\org.scala-tools.sbt\cache_2.8.1\ivy-0.10.1.xml
+post 1.3 ivy file: using exact as default matcher
+	found ivy file in cache for org.scala-tools.sbt#cache_2.8.1;0.10.1 (resolved by typesafe-ivy-releases): C:\Users\Diego Pacheco\.ivy2\cache\org.scala-tools.sbt\cache_2.8.1\ivy-0.10.1.xml
+redefined-public: module revision found in cache: org.scala-tools.sbt#cache_2.8.1;0.10.1
+	found org.scala-tools.sbt#cache_2.8.1;0.10.1 in typesafe-ivy-releases
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+== resolving dependencies org.scala-tools.sbt#cache_2.8.1;0.10.1->org.scala-tools.sbt#io_2.8.1;0.10.1 [compile->default(compile)]
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+loadData of org.scala-tools.sbt#io_2.8.1;0.10.1 of rootConf=default
+default is loaded and no conf to load.  Skip loading
+== resolving dependencies org.scala-tools.sbt#cache_2.8.1;0.10.1->org.scala-tools.sbt#collections_2.8.1;0.10.1 [compile->default(compile)]
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+loadData of org.scala-tools.sbt#collections_2.8.1;0.10.1 of rootConf=default
+default is loaded and no conf to load.  Skip loading
+== resolving dependencies org.scala-tools.sbt#cache_2.8.1;0.10.1->org.scala-tools.sbinary#sbinary_2.8.1;0.4.0 [compile->default(compile)]
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+loadData of org.scala-tools.sbinary#sbinary_2.8.1;0.4.0 of rootConf=default
+default is loaded and no conf to load.  Skip loading
+== resolving dependencies org.scala-tools.sbt#cache_2.8.1;0.10.1->org.scala-tools.sbinary#sbinary_2.8.1;0.4.0 [compile->runtime]
+loadData of org.scala-tools.sbinary#sbinary_2.8.1;0.4.0 of rootConf=default
+default is loaded and no conf to load.  Skip loading
+== resolving dependencies org.scala-tools.sbt#cache_2.8.1;0.10.1->org.scala-tools.sbinary#sbinary_2.8.1;0.4.0 [compile->compile]
+loadData of org.scala-tools.sbinary#sbinary_2.8.1;0.4.0 of rootConf=default
+default is loaded and no conf to load.  Skip loading
+== resolving dependencies org.scala-tools.sbt#cache_2.8.1;0.10.1->org.scala-tools.sbinary#sbinary_2.8.1;0.4.0 [compile->master]
+loadData of org.scala-tools.sbinary#sbinary_2.8.1;0.4.0 of rootConf=default
+default is loaded and no conf to load.  Skip loading
+== resolving dependencies org.scala-tools.sbt#tracking_2.8.1;0.10.1->org.scala-tools.sbt#io_2.8.1;0.10.1 [compile->default(compile)]
+loadData of org.scala-tools.sbt#io_2.8.1;0.10.1 of rootConf=default
+default is loaded and no conf to load.  Skip loading
+== resolving dependencies org.scala-tools.sbt#actions_2.8.1;0.10.1->org.scala-tools.sbt#testing_2.8.1;0.10.1 [compile->default(compile)]
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+loadData of org.scala-tools.sbt#testing_2.8.1;0.10.1 of rootConf=default
+	using redefined-public to resolve org.scala-tools.sbt#testing_2.8.1;0.10.1
+redefined-public: Checking cache for: dependency: org.scala-tools.sbt#testing_2.8.1;0.10.1 {compile=[default(compile)]}
+No entry is found in the ModuleDescriptorCache : C:\Users\Diego Pacheco\.ivy2\cache\org.scala-tools.sbt\testing_2.8.1\ivy-0.10.1.xml
+post 1.3 ivy file: using exact as default matcher
+	found ivy file in cache for org.scala-tools.sbt#testing_2.8.1;0.10.1 (resolved by typesafe-ivy-releases): C:\Users\Diego Pacheco\.ivy2\cache\org.scala-tools.sbt\testing_2.8.1\ivy-0.10.1.xml
+redefined-public: module revision found in cache: org.scala-tools.sbt#testing_2.8.1;0.10.1
+	found org.scala-tools.sbt#testing_2.8.1;0.10.1 in typesafe-ivy-releases
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+== resolving dependencies org.scala-tools.sbt#testing_2.8.1;0.10.1->org.scala-tools.sbt#io_2.8.1;0.10.1 [compile->default(compile)]
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+loadData of org.scala-tools.sbt#io_2.8.1;0.10.1 of rootConf=default
+default is loaded and no conf to load.  Skip loading
+== resolving dependencies org.scala-tools.sbt#testing_2.8.1;0.10.1->org.scala-tools.sbt#classpath_2.8.1;0.10.1 [compile->default(compile)]
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+loadData of org.scala-tools.sbt#classpath_2.8.1;0.10.1 of rootConf=default
+default is loaded and no conf to load.  Skip loading
+== resolving dependencies org.scala-tools.sbt#testing_2.8.1;0.10.1->org.scala-tools.sbt#logging_2.8.1;0.10.1 [compile->default(compile)]
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+loadData of org.scala-tools.sbt#logging_2.8.1;0.10.1 of rootConf=default
+default is loaded and no conf to load.  Skip loading
+== resolving dependencies org.scala-tools.sbt#testing_2.8.1;0.10.1->org.scala-tools.testing#test-interface;0.5 [compile->default(compile)]
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+loadData of org.scala-tools.testing#test-interface;0.5 of rootConf=default
+	using redefined-public to resolve org.scala-tools.testing#test-interface;0.5
+redefined-public: Checking cache for: dependency: org.scala-tools.testing#test-interface;0.5 {compile=[default(compile)]}
+No entry is found in the ModuleDescriptorCache : C:\Users\Diego Pacheco\.ivy2\cache\org.scala-tools.testing\test-interface\ivy-0.5.xml
+post 1.3 ivy file: using exact as default matcher
+	resolver not found: sbt-chain => trying to use the one configured for org.scala-tools.testing#test-interface;0.5
+	configured resolver found for org.scala-tools.testing#test-interface;0.5: redefined-public: saving this data
+	found ivy file in cache for org.scala-tools.testing#test-interface;0.5 (resolved by redefined-public): C:\Users\Diego Pacheco\.ivy2\cache\org.scala-tools.testing\test-interface\ivy-0.5.xml
+redefined-public: module revision found in cache: org.scala-tools.testing#test-interface;0.5
+	found org.scala-tools.testing#test-interface;0.5 in redefined-public
+== resolving dependencies org.scala-tools.sbt#testing_2.8.1;0.10.1->org.scala-tools.testing#test-interface;0.5 [compile->runtime]
+loadData of org.scala-tools.testing#test-interface;0.5 of rootConf=default
+== resolving dependencies org.scala-tools.sbt#testing_2.8.1;0.10.1->org.scala-tools.testing#test-interface;0.5 [compile->compile]
+loadData of org.scala-tools.testing#test-interface;0.5 of rootConf=default
+== resolving dependencies org.scala-tools.sbt#testing_2.8.1;0.10.1->org.scala-tools.testing#test-interface;0.5 [compile->master]
+loadData of org.scala-tools.testing#test-interface;0.5 of rootConf=default
+== resolving dependencies org.scala-tools.sbt#main_2.8.1;0.10.1->org.scala-tools.sbt#interface;0.10.1 [compile->default(compile)]
+loadData of org.scala-tools.sbt#interface;0.10.1 of rootConf=default
+default is loaded and no conf to load.  Skip loading
+== resolving dependencies org.scala-tools.sbt#main_2.8.1;0.10.1->org.scala-tools.sbt#io_2.8.1;0.10.1 [compile->default(compile)]
+loadData of org.scala-tools.sbt#io_2.8.1;0.10.1 of rootConf=default
+default is loaded and no conf to load.  Skip loading
+== resolving dependencies org.scala-tools.sbt#main_2.8.1;0.10.1->org.scala-tools.sbt#ivy_2.8.1;0.10.1 [compile->default(compile)]
+loadData of org.scala-tools.sbt#ivy_2.8.1;0.10.1 of rootConf=default
+default is loaded and no conf to load.  Skip loading
+== resolving dependencies org.scala-tools.sbt#main_2.8.1;0.10.1->org.scala-tools.sbt#launcher-interface_2.8.1;0.10.1 [compile->default(compile)]
+loadData of org.scala-tools.sbt#launcher-interface_2.8.1;0.10.1 of rootConf=default
+default is loaded and no conf to load.  Skip loading
+== resolving dependencies org.scala-tools.sbt#main_2.8.1;0.10.1->org.scala-tools.sbt#logging_2.8.1;0.10.1 [compile->default(compile)]
+loadData of org.scala-tools.sbt#logging_2.8.1;0.10.1 of rootConf=default
+default is loaded and no conf to load.  Skip loading
+== resolving dependencies org.scala-tools.sbt#main_2.8.1;0.10.1->org.scala-tools.sbt#process_2.8.1;0.10.1 [compile->default(compile)]
+loadData of org.scala-tools.sbt#process_2.8.1;0.10.1 of rootConf=default
+default is loaded and no conf to load.  Skip loading
+== resolving dependencies org.scala-tools.sbt#main_2.8.1;0.10.1->org.scala-tools.sbt#run_2.8.1;0.10.1 [compile->default(compile)]
+loadData of org.scala-tools.sbt#run_2.8.1;0.10.1 of rootConf=default
+default is loaded and no conf to load.  Skip loading
+== resolving dependencies org.scala-tools.sbt#sbt_2.8.1;0.10.1->org.scala-tools.sbt#compiler-interface;0.10.1 [compile->default(compile)]
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+loadData of org.scala-tools.sbt#compiler-interface;0.10.1 of rootConf=default
+	using redefined-public to resolve org.scala-tools.sbt#compiler-interface;0.10.1
+redefined-public: Checking cache for: dependency: org.scala-tools.sbt#compiler-interface;0.10.1 {compile=[default(compile)]}
+No entry is found in the ModuleDescriptorCache : C:\Users\Diego Pacheco\.ivy2\cache\org.scala-tools.sbt\compiler-interface\ivy-0.10.1.xml
+post 1.3 ivy file: using exact as default matcher
+	found ivy file in cache for org.scala-tools.sbt#compiler-interface;0.10.1 (resolved by typesafe-ivy-releases): C:\Users\Diego Pacheco\.ivy2\cache\org.scala-tools.sbt\compiler-interface\ivy-0.10.1.xml
+redefined-public: module revision found in cache: org.scala-tools.sbt#compiler-interface;0.10.1
+	found org.scala-tools.sbt#compiler-interface;0.10.1 in typesafe-ivy-releases
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+== resolving dependencies org.scala-tools.sbt#compiler-interface;0.10.1->org.scala-tools.sbt#interface;0.10.1 [compile->default(compile)]
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+loadData of org.scala-tools.sbt#interface;0.10.1 of rootConf=default
+default is loaded and no conf to load.  Skip loading
+== resolving dependencies org.scala-tools.sbt#compiler-interface;0.10.1->jline#jline;0.9.94 [compile->default(compile)]
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+loadData of jline#jline;0.9.94 of rootConf=default
+default is loaded and no conf to load.  Skip loading
+== resolving dependencies org.scala-tools.sbt#compiler-interface;0.10.1->jline#jline;0.9.94 [compile->runtime]
+loadData of jline#jline;0.9.94 of rootConf=default
+default is loaded and no conf to load.  Skip loading
+== resolving dependencies org.scala-tools.sbt#compiler-interface;0.10.1->jline#jline;0.9.94 [compile->compile]
+loadData of jline#jline;0.9.94 of rootConf=default
+default is loaded and no conf to load.  Skip loading
+== resolving dependencies org.scala-tools.sbt#compiler-interface;0.10.1->jline#jline;0.9.94 [compile->master]
+loadData of jline#jline;0.9.94 of rootConf=default
+default is loaded and no conf to load.  Skip loading
+== resolving dependencies org.scala-tools.sbt#sbt_2.8.1;0.10.1->org.scala-tools.sbt#precompiled-2_9_0-1;0.10.1 [compile->default(compile)]
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+loadData of org.scala-tools.sbt#precompiled-2_9_0-1;0.10.1 of rootConf=default
+	using redefined-public to resolve org.scala-tools.sbt#precompiled-2_9_0-1;0.10.1
+redefined-public: Checking cache for: dependency: org.scala-tools.sbt#precompiled-2_9_0-1;0.10.1 {compile=[default(compile)]}
+No entry is found in the ModuleDescriptorCache : C:\Users\Diego Pacheco\.ivy2\cache\org.scala-tools.sbt\precompiled-2_9_0-1\ivy-0.10.1.xml
+post 1.3 ivy file: using exact as default matcher
+	found ivy file in cache for org.scala-tools.sbt#precompiled-2_9_0-1;0.10.1 (resolved by typesafe-ivy-releases): C:\Users\Diego Pacheco\.ivy2\cache\org.scala-tools.sbt\precompiled-2_9_0-1\ivy-0.10.1.xml
+redefined-public: module revision found in cache: org.scala-tools.sbt#precompiled-2_9_0-1;0.10.1
+	found org.scala-tools.sbt#precompiled-2_9_0-1;0.10.1 in typesafe-ivy-releases
+dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.0-1 {compile=[default(compile)]} => dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]}
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.9.0-1 {provided=[default(compile)]} => dependency: org.scala-lang#scala-compiler;2.8.1 {provided=[default(compile)]}
+== resolving dependencies org.scala-tools.sbt#precompiled-2_9_0-1;0.10.1->org.scala-tools.sbt#interface;0.10.1 [compile->default(compile)]
+dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.0-1 {compile=[default(compile)]} => dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]}
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.9.0-1 {provided=[default(compile)]} => dependency: org.scala-lang#scala-compiler;2.8.1 {provided=[default(compile)]}
+loadData of org.scala-tools.sbt#interface;0.10.1 of rootConf=default
+default is loaded and no conf to load.  Skip loading
+== resolving dependencies org.scala-tools.sbt#precompiled-2_9_0-1;0.10.1->jline#jline;0.9.94 [compile->default(compile)]
+dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.0-1 {compile=[default(compile)]} => dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]}
+excluding dependency: org.scala-lang#scala-library;2.8.1 {compile=[default(compile)]} in compile
+dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.9.0-1 {provided=[default(compile)]} => dependency: org.scala-lang#scala-compiler;2.8.1 {provided=[default(compile)]}
+loadData of jline#jline;0.9.94 of rootConf=default
+default is loaded and no conf to load.  Skip loading
+== resolving dependencies org.scala-tools.sbt#precompiled-2_9_0-1;0.10.1->jline#jline;0.9.94 [compile->runtime]
+loadData of jline#jline;0.9.94 of rootConf=default
+default is loaded and no conf to load.  Skip loading
+== resolving dependencies org.scala-tools.sbt#precompiled-2_9_0-1;0.10.1->jline#jline;0.9.94 [compile->compile]
+loadData of jline#jline;0.9.94 of rootConf=default
+default is loaded and no conf to load.  Skip loading
+== resolving dependencies org.scala-tools.sbt#precompiled-2_9_0-1;0.10.1->jline#jline;0.9.94 [compile->master]
+loadData of jline#jline;0.9.94 of rootConf=default
+default is loaded and no conf to load.  Skip loading
+Nbr of module to sort : 35
+Sort dependencies of : org.scala-tools.sbt#sbt_2.8.1;0.10.1 / Number of dependencies = 5
+Sort dependencies of : org.scala-tools.sbt#main_2.8.1;0.10.1 / Number of dependencies = 11
+Sort dependencies of : org.scala-tools.sbt#actions_2.8.1;0.10.1 / Number of dependencies = 18
+Sort dependencies of : org.scala-tools.sbt#classfile_2.8.1;0.10.1 / Number of dependencies = 6
+Sort dependencies of : org.scala-tools.sbt#io_2.8.1;0.10.1 / Number of dependencies = 4
+Sort dependencies of : org.scala-tools.sbt#control_2.8.1;0.10.1 / Number of dependencies = 1
+Sort done for : org.scala-tools.sbt#control_2.8.1;0.10.1
+Sort done for : org.scala-tools.sbt#io_2.8.1;0.10.1
+Sort dependencies of : org.scala-tools.sbt#interface;0.10.1 / Number of dependencies = 1
+Sort done for : org.scala-tools.sbt#interface;0.10.1
+Sort dependencies of : org.scala-tools.sbt#logging_2.8.1;0.10.1 / Number of dependencies = 6
+Module descriptor is processed : org.scala-tools.sbt#interface;0.10.1
+Sort dependencies of : org.scala-tools.sbt#process_2.8.1;0.10.1 / Number of dependencies = 2
+Module descriptor is processed : org.scala-tools.sbt#io_2.8.1;0.10.1
+Sort done for : org.scala-tools.sbt#process_2.8.1;0.10.1
+Sort dependencies of : jline#jline;0.9.94 / Number of dependencies = 1
+Sort done for : jline#jline;0.9.94
+Sort done for : org.scala-tools.sbt#logging_2.8.1;0.10.1
+Sort done for : org.scala-tools.sbt#classfile_2.8.1;0.10.1
+Sort dependencies of : org.scala-tools.sbt#classpath_2.8.1;0.10.1 / Number of dependencies = 4
+Sort dependencies of : org.scala-tools.sbt#launcher-interface_2.8.1;0.10.1 / Number of dependencies = 1
+Sort done for : org.scala-tools.sbt#launcher-interface_2.8.1;0.10.1
+Module descriptor is processed : org.scala-tools.sbt#io_2.8.1;0.10.1
+Sort done for : org.scala-tools.sbt#classpath_2.8.1;0.10.1
+Sort dependencies of : org.scala-tools.sbt#incremental-compiler_2.8.1;0.10.1 / Number of dependencies = 7
+Sort dependencies of : org.scala-tools.sbt#collections_2.8.1;0.10.1 / Number of dependencies = 3
+Sort done for : org.scala-tools.sbt#collections_2.8.1;0.10.1
+Sort dependencies of : org.scala-tools.sbt#api_2.8.1;0.10.1 / Number of dependencies = 2
+Module descriptor is processed : org.scala-tools.sbt#interface;0.10.1
+Sort done for : org.scala-tools.sbt#api_2.8.1;0.10.1
+Module descriptor is processed : org.scala-tools.sbt#io_2.8.1;0.10.1
+Module descriptor is processed : org.scala-tools.sbt#logging_2.8.1;0.10.1
+Sort done for : org.scala-tools.sbt#incremental-compiler_2.8.1;0.10.1
+Sort dependencies of : org.scala-tools.sbt#persist_2.8.1;0.10.1 / Number of dependencies = 4
+Module descriptor is processed : org.scala-tools.sbt#incremental-compiler_2.8.1;0.10.1
+Module descriptor is processed : org.scala-tools.sbt#api_2.8.1;0.10.1
+Sort dependencies of : org.scala-tools.sbinary#sbinary_2.8.1;0.4.0 / Number of dependencies = 1
+Sort done for : org.scala-tools.sbinary#sbinary_2.8.1;0.4.0
+Sort done for : org.scala-tools.sbt#persist_2.8.1;0.10.1
+Sort dependencies of : org.scala-tools.sbt#compile_2.8.1;0.10.1 / Number of dependencies = 12
+Module descriptor is processed : org.scala-tools.sbt#launcher-interface_2.8.1;0.10.1
+Module descriptor is processed : org.scala-tools.sbt#interface;0.10.1
+Sort dependencies of : org.scala-tools.sbt#ivy_2.8.1;0.10.1 / Number of dependencies = 9
+Module descriptor is processed : org.scala-tools.sbt#interface;0.10.1
+Module descriptor is processed : org.scala-tools.sbt#launcher-interface_2.8.1;0.10.1
+Module descriptor is processed : org.scala-tools.sbt#logging_2.8.1;0.10.1
+Module descriptor is processed : org.scala-tools.sbt#io_2.8.1;0.10.1
+Sort dependencies of : org.apache.ivy#ivy;2.2.0 / Number of dependencies = 15
+Non matching revision detected when sorting.  org.apache.ivy#ivy depends on commons-httpclient#commons-httpclient;3.0, doesn't match commons-httpclient#commons-httpclient;3.1
+Sort dependencies of : com.jcraft#jsch;0.1.31 / Number of dependencies = 1
+Sort done for : com.jcraft#jsch;0.1.31
+Sort done for : org.apache.ivy#ivy;2.2.0
+Module descriptor is processed : com.jcraft#jsch;0.1.31
+Sort dependencies of : commons-httpclient#commons-httpclient;3.1 / Number of dependencies = 3
+Sort dependencies of : commons-logging#commons-logging;1.0.4 / Number of dependencies = 4
+Sort done for : commons-logging#commons-logging;1.0.4
+Sort dependencies of : commons-codec#commons-codec;1.2 / Number of dependencies = 0
+Sort done for : commons-codec#commons-codec;1.2
+Sort done for : commons-httpclient#commons-httpclient;3.1
+Sort done for : org.scala-tools.sbt#ivy_2.8.1;0.10.1
+Module descriptor is processed : org.scala-tools.sbt#io_2.8.1;0.10.1
+Module descriptor is processed : org.scala-tools.sbt#classpath_2.8.1;0.10.1
+Module descriptor is processed : org.scala-tools.sbt#logging_2.8.1;0.10.1
+Module descriptor is processed : org.scala-tools.sbt#api_2.8.1;0.10.1
+Sort done for : org.scala-tools.sbt#compile_2.8.1;0.10.1
+Sort dependencies of : org.scala-tools.sbt#completion_2.8.1;0.10.1 / Number of dependencies = 7
+Module descriptor is processed : org.scala-tools.sbt#collections_2.8.1;0.10.1
+Module descriptor is processed : org.scala-tools.sbt#control_2.8.1;0.10.1
+Module descriptor is processed : org.scala-tools.sbt#io_2.8.1;0.10.1
+Module descriptor is processed : jline#jline;0.9.94
+Sort done for : org.scala-tools.sbt#completion_2.8.1;0.10.1
+Sort dependencies of : org.scala-tools.sbt#discovery_2.8.1;0.10.1 / Number of dependencies = 6
+Module descriptor is processed : org.scala-tools.sbt#incremental-compiler_2.8.1;0.10.1
+Module descriptor is processed : org.scala-tools.sbt#api_2.8.1;0.10.1
+Module descriptor is processed : org.scala-tools.sbt#compile_2.8.1;0.10.1
+Sort done for : org.scala-tools.sbt#discovery_2.8.1;0.10.1
+Module descriptor is processed : org.scala-tools.sbt#interface;0.10.1
+Module descriptor is processed : org.scala-tools.sbt#io_2.8.1;0.10.1
+Module descriptor is processed : org.scala-tools.sbt#ivy_2.8.1;0.10.1
+Module descriptor is processed : org.scala-tools.sbt#logging_2.8.1;0.10.1
+Module descriptor is processed : org.scala-tools.sbt#process_2.8.1;0.10.1
+Sort dependencies of : org.scala-tools.sbt#run_2.8.1;0.10.1 / Number of dependencies = 5
+Module descriptor is processed : org.scala-tools.sbt#io_2.8.1;0.10.1
+Module descriptor is processed : org.scala-tools.sbt#logging_2.8.1;0.10.1
+Module descriptor is processed : org.scala-tools.sbt#classpath_2.8.1;0.10.1
+Module descriptor is processed : org.scala-tools.sbt#process_2.8.1;0.10.1
+Sort done for : org.scala-tools.sbt#run_2.8.1;0.10.1
+Sort dependencies of : org.scala-tools.sbt#task-system_2.8.1;0.10.1 / Number of dependencies = 8
+Sort dependencies of : org.scala-tools.sbt#tasks_2.8.1;0.10.1 / Number of dependencies = 5
+Module descriptor is processed : org.scala-tools.sbt#control_2.8.1;0.10.1
+Module descriptor is processed : org.scala-tools.sbt#collections_2.8.1;0.10.1
+Sort done for : org.scala-tools.sbt#tasks_2.8.1;0.10.1
+Module descriptor is processed : org.scala-tools.sbt#collections_2.8.1;0.10.1
+Module descriptor is processed : org.scala-tools.sbt#logging_2.8.1;0.10.1
+Module descriptor is processed : org.scala-tools.sbt#io_2.8.1;0.10.1
+Module descriptor is processed : org.scala-tools.sbt#process_2.8.1;0.10.1
+Sort done for : org.scala-tools.sbt#task-system_2.8.1;0.10.1
+Module descriptor is processed : org.scala-tools.sbt#tasks_2.8.1;0.10.1
+Sort dependencies of : org.scala-tools.sbt#tracking_2.8.1;0.10.1 / Number of dependencies = 3
+Sort dependencies of : org.scala-tools.sbt#cache_2.8.1;0.10.1 / Number of dependencies = 4
+Module descriptor is processed : org.scala-tools.sbt#io_2.8.1;0.10.1
+Module descriptor is processed : org.scala-tools.sbt#collections_2.8.1;0.10.1
+Module descriptor is processed : org.scala-tools.sbinary#sbinary_2.8.1;0.4.0
+Sort done for : org.scala-tools.sbt#cache_2.8.1;0.10.1
+Module descriptor is processed : org.scala-tools.sbt#io_2.8.1;0.10.1
+Sort done for : org.scala-tools.sbt#tracking_2.8.1;0.10.1
+Sort dependencies of : org.scala-tools.sbt#testing_2.8.1;0.10.1 / Number of dependencies = 5
+Module descriptor is processed : org.scala-tools.sbt#io_2.8.1;0.10.1
+Module descriptor is processed : org.scala-tools.sbt#classpath_2.8.1;0.10.1
+Module descriptor is processed : org.scala-tools.sbt#logging_2.8.1;0.10.1
+Sort dependencies of : org.scala-tools.testing#test-interface;0.5 / Number of dependencies = 0
+Sort done for : org.scala-tools.testing#test-interface;0.5
+Sort done for : org.scala-tools.sbt#testing_2.8.1;0.10.1
+Sort done for : org.scala-tools.sbt#actions_2.8.1;0.10.1
+Module descriptor is processed : org.scala-tools.sbt#interface;0.10.1
+Module descriptor is processed : org.scala-tools.sbt#io_2.8.1;0.10.1
+Module descriptor is processed : org.scala-tools.sbt#ivy_2.8.1;0.10.1
+Module descriptor is processed : org.scala-tools.sbt#launcher-interface_2.8.1;0.10.1
+Module descriptor is processed : org.scala-tools.sbt#logging_2.8.1;0.10.1
+Module descriptor is processed : org.scala-tools.sbt#process_2.8.1;0.10.1
+Module descriptor is processed : org.scala-tools.sbt#run_2.8.1;0.10.1
+Sort done for : org.scala-tools.sbt#main_2.8.1;0.10.1
+Sort dependencies of : org.scala-tools.sbt#compiler-interface;0.10.1 / Number of dependencies = 7
+Module descriptor is processed : org.scala-tools.sbt#interface;0.10.1
+Module descriptor is processed : org.scala-tools.sbt#io_2.8.1;0.10.1
+Module descriptor is processed : org.scala-tools.sbt#logging_2.8.1;0.10.1
+Module descriptor is processed : jline#jline;0.9.94
+Sort done for : org.scala-tools.sbt#compiler-interface;0.10.1
+Sort dependencies of : org.scala-tools.sbt#precompiled-2_9_0-1;0.10.1 / Number of dependencies = 4
+Module descriptor is processed : org.scala-tools.sbt#interface;0.10.1
+Module descriptor is processed : jline#jline;0.9.94
+Sort done for : org.scala-tools.sbt#precompiled-2_9_0-1;0.10.1
+Sort done for : org.scala-tools.sbt#sbt_2.8.1;0.10.1
+Module descriptor is processed : org.scala-tools.sbt#main_2.8.1;0.10.1
+Module descriptor is processed : org.scala-tools.sbt#compiler-interface;0.10.1
+Module descriptor is processed : org.scala-tools.sbt#precompiled-2_9_0-1;0.10.1
+Module descriptor is processed : org.scala-tools.sbt#actions_2.8.1;0.10.1
+Module descriptor is processed : org.scala-tools.sbt#interface;0.10.1
+Module descriptor is processed : org.scala-tools.sbt#io_2.8.1;0.10.1
+Module descriptor is processed : org.scala-tools.sbt#ivy_2.8.1;0.10.1
+Module descriptor is processed : org.scala-tools.sbt#launcher-interface_2.8.1;0.10.1
+Module descriptor is processed : org.scala-tools.sbt#logging_2.8.1;0.10.1
+Module descriptor is processed : org.scala-tools.sbt#process_2.8.1;0.10.1
+Module descriptor is processed : org.scala-tools.sbt#run_2.8.1;0.10.1
+Module descriptor is processed : org.scala-tools.sbt#classfile_2.8.1;0.10.1
+Module descriptor is processed : org.scala-tools.sbt#classpath_2.8.1;0.10.1
+Module descriptor is processed : org.scala-tools.sbt#incremental-compiler_2.8.1;0.10.1
+Module descriptor is processed : org.scala-tools.sbt#persist_2.8.1;0.10.1
+Module descriptor is processed : org.scala-tools.sbt#compile_2.8.1;0.10.1
+Module descriptor is processed : org.scala-tools.sbt#completion_2.8.1;0.10.1
+Module descriptor is processed : org.scala-tools.sbt#discovery_2.8.1;0.10.1
+Module descriptor is processed : org.scala-tools.sbt#task-system_2.8.1;0.10.1
+Module descriptor is processed : org.scala-tools.sbt#tasks_2.8.1;0.10.1
+Module descriptor is processed : org.scala-tools.sbt#tracking_2.8.1;0.10.1
+Module descriptor is processed : org.scala-tools.sbt#testing_2.8.1;0.10.1
+Module descriptor is processed : org.scala-tools.sbt#control_2.8.1;0.10.1
+Module descriptor is processed : org.scala-tools.sbt#collections_2.8.1;0.10.1
+Module descriptor is processed : org.scala-tools.sbt#api_2.8.1;0.10.1
+Module descriptor is processed : org.scala-tools.sbinary#sbinary_2.8.1;0.4.0
+Module descriptor is processed : org.apache.ivy#ivy;2.2.0
+Module descriptor is processed : com.jcraft#jsch;0.1.31
+Module descriptor is processed : commons-httpclient#commons-httpclient;3.1
+Module descriptor is processed : commons-logging#commons-logging;1.0.4
+Module descriptor is processed : commons-codec#commons-codec;1.2
+Module descriptor is processed : jline#jline;0.9.94
+Module descriptor is processed : org.scala-tools.sbt#cache_2.8.1;0.10.1
+Module descriptor is processed : org.scala-tools.testing#test-interface;0.5
+	resolved ivy file produced in C:\Users\Diego Pacheco\.ivy2\cache\resolved-org.scala-tools.sbt-boot-app-1.0.xml
+:: downloading artifacts ::
+	[NOT REQUIRED] org.scala-tools.sbt#sbt_2.8.1;0.10.1!sbt_2.8.1.jar
+	[NOT REQUIRED] org.scala-tools.sbt#main_2.8.1;0.10.1!main_2.8.1.jar
+	[NOT REQUIRED] org.scala-tools.sbt#compiler-interface;0.10.1!compiler-interface-src.jar
+	[NOT REQUIRED] org.scala-tools.sbt#compiler-interface;0.10.1!compiler-interface-bin.jar
+	[NOT REQUIRED] org.scala-tools.sbt#precompiled-2_9_0-1;0.10.1!compiler-interface-bin.jar
+	[NOT REQUIRED] org.scala-tools.sbt#actions_2.8.1;0.10.1!actions_2.8.1.jar
+	[NOT REQUIRED] org.scala-tools.sbt#interface;0.10.1!interface.jar
+	[NOT REQUIRED] org.scala-tools.sbt#io_2.8.1;0.10.1!io_2.8.1.jar
+	[NOT REQUIRED] org.scala-tools.sbt#ivy_2.8.1;0.10.1!ivy_2.8.1.jar
+	[NOT REQUIRED] org.scala-tools.sbt#launcher-interface_2.8.1;0.10.1!launcher-interface_2.8.1.jar
+	[NOT REQUIRED] org.scala-tools.sbt#logging_2.8.1;0.10.1!logging_2.8.1.jar
+	[NOT REQUIRED] org.scala-tools.sbt#process_2.8.1;0.10.1!process_2.8.1.jar
+	[NOT REQUIRED] org.scala-tools.sbt#run_2.8.1;0.10.1!run_2.8.1.jar
+	[NOT REQUIRED] org.scala-tools.sbt#classfile_2.8.1;0.10.1!classfile_2.8.1.jar
+	[NOT REQUIRED] org.scala-tools.sbt#classpath_2.8.1;0.10.1!classpath_2.8.1.jar
+	[NOT REQUIRED] org.scala-tools.sbt#incremental-compiler_2.8.1;0.10.1!incremental-compiler_2.8.1.jar
+	[NOT REQUIRED] org.scala-tools.sbt#persist_2.8.1;0.10.1!persist_2.8.1.jar
+	[NOT REQUIRED] org.scala-tools.sbt#compile_2.8.1;0.10.1!compile_2.8.1.jar
+	[NOT REQUIRED] org.scala-tools.sbt#completion_2.8.1;0.10.1!completion_2.8.1.jar
+	[NOT REQUIRED] org.scala-tools.sbt#discovery_2.8.1;0.10.1!discovery_2.8.1.jar
+	[NOT REQUIRED] org.scala-tools.sbt#task-system_2.8.1;0.10.1!task-system_2.8.1.jar
+	[NOT REQUIRED] org.scala-tools.sbt#tasks_2.8.1;0.10.1!tasks_2.8.1.jar
+	[NOT REQUIRED] org.scala-tools.sbt#tracking_2.8.1;0.10.1!tracking_2.8.1.jar
+	[NOT REQUIRED] org.scala-tools.sbt#testing_2.8.1;0.10.1!testing_2.8.1.jar
+	[NOT REQUIRED] org.scala-tools.sbt#control_2.8.1;0.10.1!control_2.8.1.jar
+	[NOT REQUIRED] org.scala-tools.sbt#collections_2.8.1;0.10.1!collections_2.8.1.jar
+	[NOT REQUIRED] org.scala-tools.sbt#api_2.8.1;0.10.1!api_2.8.1.jar
+	[NOT REQUIRED] org.scala-tools.sbinary#sbinary_2.8.1;0.4.0!sbinary_2.8.1.jar
+	[NOT REQUIRED] org.apache.ivy#ivy;2.2.0!ivy.jar
+	[NOT REQUIRED] com.jcraft#jsch;0.1.31!jsch.jar
+	[NOT REQUIRED] commons-httpclient#commons-httpclient;3.1!commons-httpclient.jar
+	[NOT REQUIRED] commons-logging#commons-logging;1.0.4!commons-logging.jar
+	[NOT REQUIRED] commons-codec#commons-codec;1.2!commons-codec.jar
+	[NOT REQUIRED] jline#jline;0.9.94!jline.jar
+	[NOT REQUIRED] org.scala-tools.sbt#cache_2.8.1;0.10.1!cache_2.8.1.jar
+	[NOT REQUIRED] org.scala-tools.testing#test-interface;0.5!test-interface.jar
+:: resolution report :: resolve 5454ms :: artifacts dl 256ms
+Nbr of module to sort : 35
+Sort dependencies of : org.scala-tools.sbt#sbt_2.8.1;0.10.1 / Number of dependencies = 5
+Sort dependencies of : org.scala-tools.sbt#main_2.8.1;0.10.1 / Number of dependencies = 11
+Sort dependencies of : org.scala-tools.sbt#actions_2.8.1;0.10.1 / Number of dependencies = 18
+Sort dependencies of : org.scala-tools.sbt#classfile_2.8.1;0.10.1 / Number of dependencies = 6
+Sort dependencies of : org.scala-tools.sbt#io_2.8.1;0.10.1 / Number of dependencies = 4
+Sort dependencies of : org.scala-tools.sbt#control_2.8.1;0.10.1 / Number of dependencies = 1
+Sort done for : org.scala-tools.sbt#control_2.8.1;0.10.1
+Sort done for : org.scala-tools.sbt#io_2.8.1;0.10.1
+Sort dependencies of : org.scala-tools.sbt#interface;0.10.1 / Number of dependencies = 1
+Sort done for : org.scala-tools.sbt#interface;0.10.1
+Sort dependencies of : org.scala-tools.sbt#logging_2.8.1;0.10.1 / Number of dependencies = 6
+Module descriptor is processed : org.scala-tools.sbt#interface;0.10.1
+Sort dependencies of : org.scala-tools.sbt#process_2.8.1;0.10.1 / Number of dependencies = 2
+Module descriptor is processed : org.scala-tools.sbt#io_2.8.1;0.10.1
+Sort done for : org.scala-tools.sbt#process_2.8.1;0.10.1
+Sort dependencies of : jline#jline;0.9.94 / Number of dependencies = 1
+Sort done for : jline#jline;0.9.94
+Sort done for : org.scala-tools.sbt#logging_2.8.1;0.10.1
+Sort done for : org.scala-tools.sbt#classfile_2.8.1;0.10.1
+Sort dependencies of : org.scala-tools.sbt#classpath_2.8.1;0.10.1 / Number of dependencies = 4
+Sort dependencies of : org.scala-tools.sbt#launcher-interface_2.8.1;0.10.1 / Number of dependencies = 1
+Sort done for : org.scala-tools.sbt#launcher-interface_2.8.1;0.10.1
+Module descriptor is processed : org.scala-tools.sbt#io_2.8.1;0.10.1
+Sort done for : org.scala-tools.sbt#classpath_2.8.1;0.10.1
+Sort dependencies of : org.scala-tools.sbt#incremental-compiler_2.8.1;0.10.1 / Number of dependencies = 7
+Sort dependencies of : org.scala-tools.sbt#collections_2.8.1;0.10.1 / Number of dependencies = 3
+Sort done for : org.scala-tools.sbt#collections_2.8.1;0.10.1
+Sort dependencies of : org.scala-tools.sbt#api_2.8.1;0.10.1 / Number of dependencies = 2
+Module descriptor is processed : org.scala-tools.sbt#interface;0.10.1
+Sort done for : org.scala-tools.sbt#api_2.8.1;0.10.1
+Module descriptor is processed : org.scala-tools.sbt#io_2.8.1;0.10.1
+Module descriptor is processed : org.scala-tools.sbt#logging_2.8.1;0.10.1
+Sort done for : org.scala-tools.sbt#incremental-compiler_2.8.1;0.10.1
+Sort dependencies of : org.scala-tools.sbt#persist_2.8.1;0.10.1 / Number of dependencies = 4
+Module descriptor is processed : org.scala-tools.sbt#incremental-compiler_2.8.1;0.10.1
+Module descriptor is processed : org.scala-tools.sbt#api_2.8.1;0.10.1
+Sort dependencies of : org.scala-tools.sbinary#sbinary_2.8.1;0.4.0 / Number of dependencies = 1
+Sort done for : org.scala-tools.sbinary#sbinary_2.8.1;0.4.0
+Sort done for : org.scala-tools.sbt#persist_2.8.1;0.10.1
+Sort dependencies of : org.scala-tools.sbt#compile_2.8.1;0.10.1 / Number of dependencies = 12
+Module descriptor is processed : org.scala-tools.sbt#launcher-interface_2.8.1;0.10.1
+Module descriptor is processed : org.scala-tools.sbt#interface;0.10.1
+Sort dependencies of : org.scala-tools.sbt#ivy_2.8.1;0.10.1 / Number of dependencies = 9
+Module descriptor is processed : org.scala-tools.sbt#interface;0.10.1
+Module descriptor is processed : org.scala-tools.sbt#launcher-interface_2.8.1;0.10.1
+Module descriptor is processed : org.scala-tools.sbt#logging_2.8.1;0.10.1
+Module descriptor is processed : org.scala-tools.sbt#io_2.8.1;0.10.1
+Sort dependencies of : org.apache.ivy#ivy;2.2.0 / Number of dependencies = 15
+Non matching revision detected when sorting.  org.apache.ivy#ivy depends on commons-httpclient#commons-httpclient;3.0, doesn't match commons-httpclient#commons-httpclient;3.1
+Sort dependencies of : com.jcraft#jsch;0.1.31 / Number of dependencies = 1
+Sort done for : com.jcraft#jsch;0.1.31
+Sort done for : org.apache.ivy#ivy;2.2.0
+Module descriptor is processed : com.jcraft#jsch;0.1.31
+Sort dependencies of : commons-httpclient#commons-httpclient;3.1 / Number of dependencies = 3
+Sort dependencies of : commons-logging#commons-logging;1.0.4 / Number of dependencies = 4
+Sort done for : commons-logging#commons-logging;1.0.4
+Sort dependencies of : commons-codec#commons-codec;1.2 / Number of dependencies = 0
+Sort done for : commons-codec#commons-codec;1.2
+Sort done for : commons-httpclient#commons-httpclient;3.1
+Sort done for : org.scala-tools.sbt#ivy_2.8.1;0.10.1
+Module descriptor is processed : org.scala-tools.sbt#io_2.8.1;0.10.1
+Module descriptor is processed : org.scala-tools.sbt#classpath_2.8.1;0.10.1
+Module descriptor is processed : org.scala-tools.sbt#logging_2.8.1;0.10.1
+Module descriptor is processed : org.scala-tools.sbt#api_2.8.1;0.10.1
+Sort done for : org.scala-tools.sbt#compile_2.8.1;0.10.1
+Sort dependencies of : org.scala-tools.sbt#completion_2.8.1;0.10.1 / Number of dependencies = 7
+Module descriptor is processed : org.scala-tools.sbt#collections_2.8.1;0.10.1
+Module descriptor is processed : org.scala-tools.sbt#control_2.8.1;0.10.1
+Module descriptor is processed : org.scala-tools.sbt#io_2.8.1;0.10.1
+Module descriptor is processed : jline#jline;0.9.94
+Sort done for : org.scala-tools.sbt#completion_2.8.1;0.10.1
+Sort dependencies of : org.scala-tools.sbt#discovery_2.8.1;0.10.1 / Number of dependencies = 6
+Module descriptor is processed : org.scala-tools.sbt#incremental-compiler_2.8.1;0.10.1
+Module descriptor is processed : org.scala-tools.sbt#api_2.8.1;0.10.1
+Module descriptor is processed : org.scala-tools.sbt#compile_2.8.1;0.10.1
+Sort done for : org.scala-tools.sbt#discovery_2.8.1;0.10.1
+Module descriptor is processed : org.scala-tools.sbt#interface;0.10.1
+Module descriptor is processed : org.scala-tools.sbt#io_2.8.1;0.10.1
+Module descriptor is processed : org.scala-tools.sbt#ivy_2.8.1;0.10.1
+Module descriptor is processed : org.scala-tools.sbt#logging_2.8.1;0.10.1
+Module descriptor is processed : org.scala-tools.sbt#process_2.8.1;0.10.1
+Sort dependencies of : org.scala-tools.sbt#run_2.8.1;0.10.1 / Number of dependencies = 5
+Module descriptor is processed : org.scala-tools.sbt#io_2.8.1;0.10.1
+Module descriptor is processed : org.scala-tools.sbt#logging_2.8.1;0.10.1
+Module descriptor is processed : org.scala-tools.sbt#classpath_2.8.1;0.10.1
+Module descriptor is processed : org.scala-tools.sbt#process_2.8.1;0.10.1
+Sort done for : org.scala-tools.sbt#run_2.8.1;0.10.1
+Sort dependencies of : org.scala-tools.sbt#task-system_2.8.1;0.10.1 / Number of dependencies = 8
+Sort dependencies of : org.scala-tools.sbt#tasks_2.8.1;0.10.1 / Number of dependencies = 5
+Module descriptor is processed : org.scala-tools.sbt#control_2.8.1;0.10.1
+Module descriptor is processed : org.scala-tools.sbt#collections_2.8.1;0.10.1
+Sort done for : org.scala-tools.sbt#tasks_2.8.1;0.10.1
+Module descriptor is processed : org.scala-tools.sbt#collections_2.8.1;0.10.1
+Module descriptor is processed : org.scala-tools.sbt#logging_2.8.1;0.10.1
+Module descriptor is processed : org.scala-tools.sbt#io_2.8.1;0.10.1
+Module descriptor is processed : org.scala-tools.sbt#process_2.8.1;0.10.1
+Sort done for : org.scala-tools.sbt#task-system_2.8.1;0.10.1
+Module descriptor is processed : org.scala-tools.sbt#tasks_2.8.1;0.10.1
+Sort dependencies of : org.scala-tools.sbt#tracking_2.8.1;0.10.1 / Number of dependencies = 3
+Sort dependencies of : org.scala-tools.sbt#cache_2.8.1;0.10.1 / Number of dependencies = 4
+Module descriptor is processed : org.scala-tools.sbt#io_2.8.1;0.10.1
+Module descriptor is processed : org.scala-tools.sbt#collections_2.8.1;0.10.1
+Module descriptor is processed : org.scala-tools.sbinary#sbinary_2.8.1;0.4.0
+Sort done for : org.scala-tools.sbt#cache_2.8.1;0.10.1
+Module descriptor is processed : org.scala-tools.sbt#io_2.8.1;0.10.1
+Sort done for : org.scala-tools.sbt#tracking_2.8.1;0.10.1
+Sort dependencies of : org.scala-tools.sbt#testing_2.8.1;0.10.1 / Number of dependencies = 5
+Module descriptor is processed : org.scala-tools.sbt#io_2.8.1;0.10.1
+Module descriptor is processed : org.scala-tools.sbt#classpath_2.8.1;0.10.1
+Module descriptor is processed : org.scala-tools.sbt#logging_2.8.1;0.10.1
+Sort dependencies of : org.scala-tools.testing#test-interface;0.5 / Number of dependencies = 0
+Sort done for : org.scala-tools.testing#test-interface;0.5
+Sort done for : org.scala-tools.sbt#testing_2.8.1;0.10.1
+Sort done for : org.scala-tools.sbt#actions_2.8.1;0.10.1
+Module descriptor is processed : org.scala-tools.sbt#interface;0.10.1
+Module descriptor is processed : org.scala-tools.sbt#io_2.8.1;0.10.1
+Module descriptor is processed : org.scala-tools.sbt#ivy_2.8.1;0.10.1
+Module descriptor is processed : org.scala-tools.sbt#launcher-interface_2.8.1;0.10.1
+Module descriptor is processed : org.scala-tools.sbt#logging_2.8.1;0.10.1
+Module descriptor is processed : org.scala-tools.sbt#process_2.8.1;0.10.1
+Module descriptor is processed : org.scala-tools.sbt#run_2.8.1;0.10.1
+Sort done for : org.scala-tools.sbt#main_2.8.1;0.10.1
+Sort dependencies of : org.scala-tools.sbt#compiler-interface;0.10.1 / Number of dependencies = 7
+Module descriptor is processed : org.scala-tools.sbt#interface;0.10.1
+Module descriptor is processed : org.scala-tools.sbt#io_2.8.1;0.10.1
+Module descriptor is processed : org.scala-tools.sbt#logging_2.8.1;0.10.1
+Module descriptor is processed : jline#jline;0.9.94
+Sort done for : org.scala-tools.sbt#compiler-interface;0.10.1
+Sort dependencies of : org.scala-tools.sbt#precompiled-2_9_0-1;0.10.1 / Number of dependencies = 4
+Module descriptor is processed : org.scala-tools.sbt#interface;0.10.1
+Module descriptor is processed : jline#jline;0.9.94
+Sort done for : org.scala-tools.sbt#precompiled-2_9_0-1;0.10.1
+Sort done for : org.scala-tools.sbt#sbt_2.8.1;0.10.1
+Module descriptor is processed : org.scala-tools.sbt#main_2.8.1;0.10.1
+Module descriptor is processed : org.scala-tools.sbt#actions_2.8.1;0.10.1
+Module descriptor is processed : org.scala-tools.sbt#classfile_2.8.1;0.10.1
+Module descriptor is processed : org.scala-tools.sbt#io_2.8.1;0.10.1
+Module descriptor is processed : org.scala-tools.sbt#control_2.8.1;0.10.1
+Module descriptor is processed : org.scala-tools.sbt#interface;0.10.1
+Module descriptor is processed : org.scala-tools.sbt#logging_2.8.1;0.10.1
+Module descriptor is processed : org.scala-tools.sbt#process_2.8.1;0.10.1
+Module descriptor is processed : org.scala-tools.sbt#classpath_2.8.1;0.10.1
+Module descriptor is processed : org.scala-tools.sbt#launcher-interface_2.8.1;0.10.1
+Module descriptor is processed : org.scala-tools.sbt#incremental-compiler_2.8.1;0.10.1
+Module descriptor is processed : org.scala-tools.sbt#collections_2.8.1;0.10.1
+Module descriptor is processed : org.scala-tools.sbt#api_2.8.1;0.10.1
+Module descriptor is processed : org.scala-tools.sbt#persist_2.8.1;0.10.1
+Module descriptor is processed : org.scala-tools.sbinary#sbinary_2.8.1;0.4.0
+Module descriptor is processed : org.scala-tools.sbt#compile_2.8.1;0.10.1
+Module descriptor is processed : org.scala-tools.sbt#ivy_2.8.1;0.10.1
+Module descriptor is processed : org.apache.ivy#ivy;2.2.0
+Module descriptor is processed : com.jcraft#jsch;0.1.31
+Module descriptor is processed : commons-httpclient#commons-httpclient;3.1
+Module descriptor is processed : commons-logging#commons-logging;1.0.4
+Module descriptor is processed : commons-codec#commons-codec;1.2
+Module descriptor is processed : org.scala-tools.sbt#completion_2.8.1;0.10.1
+Module descriptor is processed : jline#jline;0.9.94
+Module descriptor is processed : org.scala-tools.sbt#discovery_2.8.1;0.10.1
+Module descriptor is processed : org.scala-tools.sbt#run_2.8.1;0.10.1
+Module descriptor is processed : org.scala-tools.sbt#task-system_2.8.1;0.10.1
+Module descriptor is processed : org.scala-tools.sbt#tasks_2.8.1;0.10.1
+Module descriptor is processed : org.scala-tools.sbt#tracking_2.8.1;0.10.1
+Module descriptor is processed : org.scala-tools.sbt#cache_2.8.1;0.10.1
+Module descriptor is processed : org.scala-tools.sbt#testing_2.8.1;0.10.1
+Module descriptor is processed : org.scala-tools.testing#test-interface;0.5
+Module descriptor is processed : org.scala-tools.sbt#compiler-interface;0.10.1
+Module descriptor is processed : org.scala-tools.sbt#precompiled-2_9_0-1;0.10.1
+	report for org.scala-tools.sbt#boot-app;1.0 default produced in C:\Users\Diego Pacheco\.ivy2\cache\org.scala-tools.sbt-boot-app-default.xml
+	resolve done (5454ms resolve - 256ms download)
+:: retrieving :: org.scala-tools.sbt#boot-app
+	checkUpToDate=true
+no explicit confs given for retrieve, using ivy file: C:\Users\Diego Pacheco\.ivy2\cache\resolved-org.scala-tools.sbt-boot-app-1.0.xml
+using ivy parser to parse C:\Users\Diego Pacheco\.ivy2\cache\resolved-org.scala-tools.sbt-boot-app-1.0.xml
+post 1.3 ivy file: using exact as default matcher
+	confs: [default]
+	retrieving C:\Users\Diego Pacheco\.ivy2\cache\org.scala-tools.sbt\launcher-interface_2.8.1\jars\launcher-interface_2.8.1-0.10.1.jar
+		to C:\tmp\akka\project\boot\scala-2.8.1\org.scala-tools.sbt\sbt\0.10.1\launcher-interface_2.8.1-0.10.1.jar
+	retrieving C:\Users\Diego Pacheco\.ivy2\cache\org.scala-tools.sbt\compiler-interface\jars\compiler-interface-src-0.10.1.jar
+		to C:\tmp\akka\project\boot\scala-2.8.1\org.scala-tools.sbt\sbt\0.10.1\compiler-interface-src\compiler-interface-src-0.10.1.jar
+	retrieving C:\Users\Diego Pacheco\.ivy2\cache\org.scala-tools.sbt\discovery_2.8.1\jars\discovery_2.8.1-0.10.1.jar
+		to C:\tmp\akka\project\boot\scala-2.8.1\org.scala-tools.sbt\sbt\0.10.1\discovery_2.8.1-0.10.1.jar
+	retrieving C:\Users\Diego Pacheco\.ivy2\cache\org.scala-tools.sbt\process_2.8.1\jars\process_2.8.1-0.10.1.jar
+		to C:\tmp\akka\project\boot\scala-2.8.1\org.scala-tools.sbt\sbt\0.10.1\process_2.8.1-0.10.1.jar
+	retrieving C:\Users\Diego Pacheco\.ivy2\cache\org.scala-tools.sbt\ivy_2.8.1\jars\ivy_2.8.1-0.10.1.jar
+		to C:\tmp\akka\project\boot\scala-2.8.1\org.scala-tools.sbt\sbt\0.10.1\ivy_2.8.1-0.10.1.jar
+	retrieving C:\Users\Diego Pacheco\.ivy2\cache\org.scala-tools.sbt\main_2.8.1\jars\main_2.8.1-0.10.1.jar
+		to C:\tmp\akka\project\boot\scala-2.8.1\org.scala-tools.sbt\sbt\0.10.1\main_2.8.1-0.10.1.jar
+	retrieving C:\Users\Diego Pacheco\.ivy2\cache\org.scala-tools.sbt\logging_2.8.1\jars\logging_2.8.1-0.10.1.jar
+		to C:\tmp\akka\project\boot\scala-2.8.1\org.scala-tools.sbt\sbt\0.10.1\logging_2.8.1-0.10.1.jar
+	retrieving C:\Users\Diego Pacheco\.ivy2\cache\org.scala-tools.sbt\precompiled-2_9_0-1\jars\compiler-interface-bin-0.10.1.jar
+		to C:\tmp\akka\project\boot\scala-2.8.1\org.scala-tools.sbt\sbt\0.10.1\compiler-interface-bin_2.9.0.1\compiler-interface-bin-0.10.1.jar
+	retrieving C:\Users\Diego Pacheco\.ivy2\cache\jline\jline\jars\jline-0.9.94.jar
+		to C:\tmp\akka\project\boot\scala-2.8.1\org.scala-tools.sbt\sbt\0.10.1\jline-0.9.94.jar
+	retrieving C:\Users\Diego Pacheco\.ivy2\cache\org.scala-tools.sbt\io_2.8.1\jars\io_2.8.1-0.10.1.jar
+		to C:\tmp\akka\project\boot\scala-2.8.1\org.scala-tools.sbt\sbt\0.10.1\io_2.8.1-0.10.1.jar
+	retrieving C:\Users\Diego Pacheco\.ivy2\cache\org.scala-tools.sbt\persist_2.8.1\jars\persist_2.8.1-0.10.1.jar
+		to C:\tmp\akka\project\boot\scala-2.8.1\org.scala-tools.sbt\sbt\0.10.1\persist_2.8.1-0.10.1.jar
+	retrieving C:\Users\Diego Pacheco\.ivy2\cache\org.scala-tools.sbt\cache_2.8.1\jars\cache_2.8.1-0.10.1.jar
+		to C:\tmp\akka\project\boot\scala-2.8.1\org.scala-tools.sbt\sbt\0.10.1\cache_2.8.1-0.10.1.jar
+	retrieving C:\Users\Diego Pacheco\.ivy2\cache\org.scala-tools.sbt\control_2.8.1\jars\control_2.8.1-0.10.1.jar
+		to C:\tmp\akka\project\boot\scala-2.8.1\org.scala-tools.sbt\sbt\0.10.1\control_2.8.1-0.10.1.jar
+	retrieving C:\Users\Diego Pacheco\.ivy2\cache\org.scala-tools.sbinary\sbinary_2.8.1\jars\sbinary_2.8.1-0.4.0.jar
+		to C:\tmp\akka\project\boot\scala-2.8.1\org.scala-tools.sbt\sbt\0.10.1\sbinary_2.8.1-0.4.0.jar
+	retrieving C:\Users\Diego Pacheco\.ivy2\cache\com.jcraft\jsch\jars\jsch-0.1.31.jar
+		to C:\tmp\akka\project\boot\scala-2.8.1\org.scala-tools.sbt\sbt\0.10.1\jsch-0.1.31.jar
+	retrieving C:\Users\Diego Pacheco\.ivy2\cache\org.scala-tools.sbt\classfile_2.8.1\jars\classfile_2.8.1-0.10.1.jar
+		to C:\tmp\akka\project\boot\scala-2.8.1\org.scala-tools.sbt\sbt\0.10.1\classfile_2.8.1-0.10.1.jar
+	retrieving C:\Users\Diego Pacheco\.ivy2\cache\org.scala-tools.sbt\collections_2.8.1\jars\collections_2.8.1-0.10.1.jar
+		to C:\tmp\akka\project\boot\scala-2.8.1\org.scala-tools.sbt\sbt\0.10.1\collections_2.8.1-0.10.1.jar
+	retrieving C:\Users\Diego Pacheco\.ivy2\cache\org.scala-tools.testing\test-interface\jars\test-interface-0.5.jar
+		to C:\tmp\akka\project\boot\scala-2.8.1\org.scala-tools.sbt\sbt\0.10.1\test-interface-0.5.jar
+	retrieving C:\Users\Diego Pacheco\.ivy2\cache\org.scala-tools.sbt\sbt_2.8.1\jars\sbt_2.8.1-0.10.1.jar
+		to C:\tmp\akka\project\boot\scala-2.8.1\org.scala-tools.sbt\sbt\0.10.1\sbt_2.8.1-0.10.1.jar
+	retrieving C:\Users\Diego Pacheco\.ivy2\cache\org.scala-tools.sbt\interface\jars\interface-0.10.1.jar
+		to C:\tmp\akka\project\boot\scala-2.8.1\org.scala-tools.sbt\sbt\0.10.1\xsbti\interface-0.10.1.jar
+	retrieving C:\Users\Diego Pacheco\.ivy2\cache\org.scala-tools.sbt\compile_2.8.1\jars\compile_2.8.1-0.10.1.jar
+		to C:\tmp\akka\project\boot\scala-2.8.1\org.scala-tools.sbt\sbt\0.10.1\compile_2.8.1-0.10.1.jar
+	retrieving C:\Users\Diego Pacheco\.ivy2\cache\commons-logging\commons-logging\jars\commons-logging-1.0.4.jar
+		to C:\tmp\akka\project\boot\scala-2.8.1\org.scala-tools.sbt\sbt\0.10.1\commons-logging-1.0.4.jar
+	retrieving C:\Users\Diego Pacheco\.ivy2\cache\org.scala-tools.sbt\completion_2.8.1\jars\completion_2.8.1-0.10.1.jar
+		to C:\tmp\akka\project\boot\scala-2.8.1\org.scala-tools.sbt\sbt\0.10.1\completion_2.8.1-0.10.1.jar
+	retrieving C:\Users\Diego Pacheco\.ivy2\cache\org.scala-tools.sbt\run_2.8.1\jars\run_2.8.1-0.10.1.jar
+		to C:\tmp\akka\project\boot\scala-2.8.1\org.scala-tools.sbt\sbt\0.10.1\run_2.8.1-0.10.1.jar
+	retrieving C:\Users\Diego Pacheco\.ivy2\cache\commons-codec\commons-codec\jars\commons-codec-1.2.jar
+		to C:\tmp\akka\project\boot\scala-2.8.1\org.scala-tools.sbt\sbt\0.10.1\commons-codec-1.2.jar
+	retrieving C:\Users\Diego Pacheco\.ivy2\cache\org.scala-tools.sbt\compiler-interface\jars\compiler-interface-bin-0.10.1.jar
+		to C:\tmp\akka\project\boot\scala-2.8.1\org.scala-tools.sbt\sbt\0.10.1\compiler-interface-bin_2.8.1.final\compiler-interface-bin-0.10.1.jar
+	retrieving C:\Users\Diego Pacheco\.ivy2\cache\org.scala-tools.sbt\tasks_2.8.1\jars\tasks_2.8.1-0.10.1.jar
+		to C:\tmp\akka\project\boot\scala-2.8.1\org.scala-tools.sbt\sbt\0.10.1\tasks_2.8.1-0.10.1.jar
+	retrieving C:\Users\Diego Pacheco\.ivy2\cache\org.scala-tools.sbt\incremental-compiler_2.8.1\jars\incremental-compiler_2.8.1-0.10.1.jar
+		to C:\tmp\akka\project\boot\scala-2.8.1\org.scala-tools.sbt\sbt\0.10.1\incremental-compiler_2.8.1-0.10.1.jar
+	retrieving C:\Users\Diego Pacheco\.ivy2\cache\org.scala-tools.sbt\tracking_2.8.1\jars\tracking_2.8.1-0.10.1.jar
+		to C:\tmp\akka\project\boot\scala-2.8.1\org.scala-tools.sbt\sbt\0.10.1\tracking_2.8.1-0.10.1.jar
+	retrieving C:\Users\Diego Pacheco\.ivy2\cache\org.scala-tools.sbt\api_2.8.1\jars\api_2.8.1-0.10.1.jar
+		to C:\tmp\akka\project\boot\scala-2.8.1\org.scala-tools.sbt\sbt\0.10.1\api_2.8.1-0.10.1.jar
+	retrieving C:\Users\Diego Pacheco\.ivy2\cache\org.scala-tools.sbt\testing_2.8.1\jars\testing_2.8.1-0.10.1.jar
+		to C:\tmp\akka\project\boot\scala-2.8.1\org.scala-tools.sbt\sbt\0.10.1\testing_2.8.1-0.10.1.jar
+	retrieving C:\Users\Diego Pacheco\.ivy2\cache\org.scala-tools.sbt\actions_2.8.1\jars\actions_2.8.1-0.10.1.jar
+		to C:\tmp\akka\project\boot\scala-2.8.1\org.scala-tools.sbt\sbt\0.10.1\actions_2.8.1-0.10.1.jar
+	retrieving C:\Users\Diego Pacheco\.ivy2\cache\org.apache.ivy\ivy\jars\ivy-2.2.0.jar
+		to C:\tmp\akka\project\boot\scala-2.8.1\org.scala-tools.sbt\sbt\0.10.1\ivy-2.2.0.jar
+	retrieving C:\Users\Diego Pacheco\.ivy2\cache\commons-httpclient\commons-httpclient\jars\commons-httpclient-3.1.jar
+		to C:\tmp\akka\project\boot\scala-2.8.1\org.scala-tools.sbt\sbt\0.10.1\commons-httpclient-3.1.jar
+	retrieving C:\Users\Diego Pacheco\.ivy2\cache\org.scala-tools.sbt\classpath_2.8.1\jars\classpath_2.8.1-0.10.1.jar
+		to C:\tmp\akka\project\boot\scala-2.8.1\org.scala-tools.sbt\sbt\0.10.1\classpath_2.8.1-0.10.1.jar
+	retrieving C:\Users\Diego Pacheco\.ivy2\cache\org.scala-tools.sbt\task-system_2.8.1\jars\task-system_2.8.1-0.10.1.jar
+		to C:\tmp\akka\project\boot\scala-2.8.1\org.scala-tools.sbt\sbt\0.10.1\task-system_2.8.1-0.10.1.jar
+	36 artifacts copied, 0 already retrieved (6414kB/2494ms)
+	retrieve done (2494ms)
