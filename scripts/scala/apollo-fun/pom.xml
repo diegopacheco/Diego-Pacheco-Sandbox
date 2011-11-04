@@ -1,0 +1,57 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.github.diegopacheco.sandbox.scala.apollo</groupId>
+	<artifactId>apollo-fun</artifactId>
+	<version>1.0-SNAPSHOT</version>
+	<name>apollo-fun</name>
+	<description>apollo-fun</description>
+	<packaging>jar</packaging>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>2.3.2</version>
+				<configuration>
+					<source>1.5</source>
+					<target>1.5</target>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+
+	<dependencies>
+		<dependency>
+			<groupId>org.apache.activemq</groupId>
+			<artifactId>apollo-stomp</artifactId>
+			<version>1.0-beta5</version>
+			<exclusions>
+				<exclusion>
+					<groupId>org.scala-lang</groupId>
+					<artifactId>scala-library</artifactId>
+				</exclusion>
+				<exclusion>
+					<groupId>org.scala-lang</groupId>
+					<artifactId>scala-swing</artifactId>
+				</exclusion>
+				<exclusion>
+					<groupId>org.scala-lang</groupId>
+					<artifactId>scala-dbc</artifactId>
+				</exclusion>
+			</exclusions>
+		</dependency>
+		<dependency>
+			<groupId>org.fusesource.stompjms</groupId>
+			<artifactId>stompjms-client</artifactId>
+			<version>1.2</version>
+		</dependency>
+		<dependency>
+			<groupId>javax.jms</groupId>
+			<artifactId>jms-api</artifactId>
+			<version>1.1-rev-1</version>
+		</dependency>
+	</dependencies>
+
+</project>
