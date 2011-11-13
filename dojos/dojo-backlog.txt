@@ -5,6 +5,7 @@ redis-clojure
 FleetDB 
 
 [Java]
+FunctionalJava
 Spring Roo
 restsql
 Quartz
@@ -30,6 +31,7 @@ Spock
 Flask
 SQLObject
 Libcloud
+Twisted
 
 [Scala]
 scalaz
@@ -49,6 +51,7 @@ Padrino
 Riot
 Rake
 Halcyon
+Rack
 
 [Erlang]
 Tokyo Cabinet
