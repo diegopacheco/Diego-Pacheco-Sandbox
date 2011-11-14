@@ -52,6 +52,7 @@ Riot
 Rake
 Halcyon
 Rack
+Goliath
 
 [Erlang]
 Tokyo Cabinet
