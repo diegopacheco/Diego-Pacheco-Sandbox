@@ -27,4 +27,4 @@ To-Improve-It
 4. Think in ways to make a better usage of the time 
 5. Get a better route to gravatai, Poletto will give a Lt on it. 
 6. Jackson dind't like to leave the dojo before the others.
-7. You should lern more python
+7. You should learn more python

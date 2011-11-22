@@ -10,58 +10,58 @@ that the company must pay.
 Source Code:
 ------------
 
-
+https://github.com/diegopacheco/Diego-Pacheco-Sandbox/tree/master/dojos/python_pachecos4_liderados_18_11_2011_gravatai/python-dojo-18-11-2011
 
 Videos:
 -------
 
+http://vimeo.com/album/1679285
 
 Retrospective:
 --------------
 
+https://github.com/diegopacheco/Diego-Pacheco-Sandbox/blob/master/dojos/python_pachecos4_liderados_18_11_2011_gravatai/retrospective.txt
 
 Lightning Talks: 
 ----------------
 
 @diego_pacheco: 
-   * Rails 3:
-        slides: http://www.slideshare.net/diego.pacheco/rails-3-9821043
-        video : http://vimeo.com/30955301
-   * STM:
-        slides: http://www.slideshare.net/diego.pacheco/stm-9821099
-        video : http://vimeo.com/30956025 
+   * Python:
+        slides: http://www.slideshare.net/diego.pacheco/python-8496711
+        video : http://vimeo.com/32402038
+   * Akka:
+        slides: http://www.slideshare.net/diego.pacheco/akka-10242204
+        video : http://vimeo.com/32406737
+   * Apollo + Hawt Dispatch:
+        slides: http://www.slideshare.net/diego.pacheco/apollo-hawt-dispatch
+        video : http://vimeo.com/32409789 
 
 @alepoletto
-   * Qi4J:
-        slides: http://www.slideshare.net/AlexandrePoletto/qi4j
-        video : http://vimeo.com/30938307
+   * Node.js:
+        slides: http://www.slideshare.net/AlexandrePoletto/node-jslt
+        video : http://vimeo.com/32411763
    
 @toff63: 
-   * DBC:
-       slides: http://www.slideshare.net/toff63/design-by-contract-lightning-talk
-       video : http://vimeo.com/30958954
+   * Spring Batch:
+       slides: http://www.slideshare.net/toff63/spring-batchlightningtalk
+       video : http://vimeo.com/32408591
    
 @jefersonm
-   * JBoss Drools:
-       slides: http://www.slideshare.net/jefersonm/drools-presentation
-       video : http://vimeo.com/30953768
+   * Django:
+       slides: http://www.slideshare.net/jefersonm/django-presentation-10253464
+       video : http://vimeo.com/32413463
    
 @cyber_jso
-   * Jython:
-       slides: http://www.slideshare.net/cyber_jso/jython-presentation
-       video : http://vimeo.com/30954654
+   * Android:
+       slides: http://www.slideshare.net/cyber_jso/android-10253578
+       video : http://vimeo.com/32404309
    
 @jpcurevo
-   * Kaizen:   
-       slides: http://www.slideshare.net/jeporto/kaizen-9856513
-       video : http://vimeo.com/30952870
+   * Cassandra:   
+       slides: http://www.slideshare.net/jeporto/cassandra-10253347
+       video : http://vimeo.com/32405261
    
 @Andre_Mayer
-   * JavATE:
-       slides: http://www.slideshare.net/andre_mayer/jav-ate-9856801
-       video : http://vimeo.com/30951821   
-   
-@beto_zi
-   * Play
-       slides: http://www.slideshare.net/katwarrior/play-framework
-       video : http://vimeo.com/31046620    
+   * DWR:
+       slides: http://www.slideshare.net/andre_mayer/dwr-10257220
+       video : http://vimeo.com/32403034  
