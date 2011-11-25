@@ -19,6 +19,7 @@ Abdera
 
 [Groovy]
 GPars
+GContracts
 Ratpack
 Gradle
 Gant
