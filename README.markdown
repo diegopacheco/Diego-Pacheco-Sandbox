@@ -20,6 +20,7 @@ https://github.com/diegopacheco/Diego-Pacheco-Sandbox/tree/master/java
 # Scrips Sandbox(Clojure,Ruby,Groovy,Python,Scala,etc...)
 https://github.com/diegopacheco/Diego-Pacheco-Sandbox/tree/master/scripts 
 
+
 Cheers,
 Diego Pacheco (@diego_pacheco)
 Brazilian Software Architect / Agile Coach
