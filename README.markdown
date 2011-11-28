@@ -1,8 +1,8 @@
 Welcome to @diego_pacheco sandbox page!
 =======================================
 
-Here you will find all the (kinda of) geek stuff, code is everywere. I hope you have fun, 
-i'm updating this page/repository a lot, so watch for new stuff.
+Here you will find all the (kinda of) geek stuff, code is everywere. I hope you have fun, <br />
+i'm updating this page/repository a lot, so watch for new stuff. <br />
 
 ## Presentations(slides)
 http://www.slideshare.net/diego.pacheco/presentations
@@ -22,7 +22,7 @@ https://github.com/diegopacheco/Diego-Pacheco-Sandbox/tree/master/scripts
 
 --
 
-Cheers,
-Diego Pacheco (@diego_pacheco)
-Brazilian Software Architect / Agile Coach
-http://about.me/diegopacheco
+Cheers, <br />
+Diego Pacheco (@diego_pacheco) <br />
+Brazilian Software Architect / Agile Coach <br />
+http://about.me/diegopacheco <br />
