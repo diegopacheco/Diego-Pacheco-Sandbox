@@ -43,6 +43,8 @@ Dojo's Backlog
 * Twisted
 * Cyclone
 * Tornado
+* requests
+* webpy
 
 ## Scala
 * scalaz
