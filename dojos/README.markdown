@@ -1,3 +1,31 @@
+Previous Dojos
+==============
+
+## Clojure
+
+(7)  28/10/2011 -> http://tinyurl.com/6dg68xu
+(9)  02/12/2011 -> Coming Soon !!!
+
+## Scala
+
+(2)  28/05/2011 -> http://tinyurl.com/3s5ybqc
+(6)  02/09/2011 -> http://tinyurl.com/cwjrxac
+(10) 27/01/2012 -> Coming Soon !!!
+
+## Python
+
+(8)  18/11/2011 -> http://tinyurl.com/7zwudbh
+(3)  03/07/2011 -> http://tinyurl.com/c7wdodb
+
+## Ruby
+
+(1)  22/05/2011 -> http://tinyurl.com/dyqp6tc
+(5)  27/08/2011 -> http://tinyurl.com/bl936cz
+
+## Groovy
+
+(4)  31/07/2011 -> http://tinyurl.com/bneyofo
+
 Dojo's Backlog
 ==============
 
