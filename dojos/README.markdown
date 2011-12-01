@@ -23,6 +23,8 @@ Dojo's Backlog
 * Hadoop
 * Abdera
 * Apache ZooKeeper
+* Spring Social
+* Spring Gemfire
 
 ## Groovy
 * GPars
@@ -39,7 +41,8 @@ Dojo's Backlog
 * SQLObject
 * Libcloud
 * Twisted
-* cyclone
+* Cyclone
+* Tornado
 
 ## Scala
 * scalaz
@@ -75,3 +78,7 @@ Dojo's Backlog
 * JQuery
 * TCL/Rivet
 * RestMS
+* DSDM
+* Crystal (Clear, etc...)
+* Lisp
+* Cloud/PaaS/IaaS/SaaS
