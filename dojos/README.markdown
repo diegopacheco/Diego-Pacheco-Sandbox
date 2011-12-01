@@ -3,7 +3,7 @@ Previous Dojos
 
 ## Clojure
 
-(7)  28/10/2011 -> http://tinyurl.com/6dg68xu <br/>
+(7)  22/10/2011 -> http://tinyurl.com/6dg68xu <br/>
 (9)  02/12/2011 -> Coming Soon !!! <br/>
 
 ## Scala
