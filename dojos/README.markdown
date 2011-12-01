@@ -1,5 +1,5 @@
-Previous Dojos
-==============
+Dojos History
+=============
 
 ## Clojure
 
