@@ -7,6 +7,8 @@ Dojo's Backlog
 * redis-clojure
 * FleetDB 
 * avout
+* zookeeper-clj
+* aleph
 
 ## Java
 * FunctionalJava
@@ -20,6 +22,7 @@ Dojo's Backlog
 * Liquibase
 * Hadoop
 * Abdera
+* Apache ZooKeeper
 
 ## Groovy
 * GPars
