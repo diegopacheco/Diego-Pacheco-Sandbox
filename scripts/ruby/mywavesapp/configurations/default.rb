@@ -1,0 +1,14 @@
+module Mywavesapp
+  module Configurations
+    class Default  < Waves::Configurations::Default      
+	    resource Mywavesapp::Resources::Server
+      reloadable [ Mywavesapp ]
+      host '127.0.0.1' ; port 3000 ; log :level => :debug
+	    use Rack::Session::Pool, :expire_after => 1.day
+      use ::Rack::Static, :urls => %w( /css /images /javascript /favicon.ico ), :root => 'public'
+      dispatcher ::Waves::Dispatchers::Default
+      server Waves::Servers::Mongrel
+      dependencies []
+    end
+  end
+end
