@@ -23,45 +23,45 @@ http://www.flickr.com/photos/diego-pacheco/6444611567/in/photostream
 Lightning Talks 
 ===============
 
-* @diego_pacheco: 
-   * Lift:
-        slides: 
-        video : 
-   * Socket.io:
-        slides: 
-        video : 
+* @diego_pacheco
+   * Lift
+        slides: http://www.slideshare.net/diego.pacheco/lift-10432844 <br/>
+        video : <br/>
+   * Socket.io
+        slides: http://www.slideshare.net/diego.pacheco/socketio-10432641 <br/>
+        video : <br/>
 
 * @alepoletto
-   * ErLang:
-        slides: 
-        video : 
+   * ErLang
+        slides: http://www.slideshare.net/AlexandrePoletto/erlang-10425039 <br/>
+        video : http://vimeo.com/33060550 <br/>
    
-* @toff63: 
-   * Haskell:
-       slides: 
-       video : 
+* @toff63 
+   * Haskell
+       slides: http://www.slideshare.net/toff63/haskell-lightningtalk <br/>
+       video : <br/> 
    
 * @jefersonm
    * ErJang:
-       slides: 
+       slides: http://www.slideshare.net/jefersonm/erjang
        video : 
    
 * @cyber_jso
-   * Elastic Search:
-       slides: 
-       video : 
+   * Elastic Search 
+       slides: http://www.slideshare.net/cyber_jso/elastic-search-introduction <br/>
+       video : <br/>
    
 * @jpcurevo
-   * LanbdaJ:   
-       slides: 
-       video : 
+   * LanbdaJ
+       slides: <br/> 
+       video : <br/>
    
 * @Andre_Mayer
-   * Flask:
-       slides: 
-       video : 
+   * Flask
+       slides: <br/>
+       video : <br/>
 
 * @Willkirschner 
-   * Botanic:
-       slides: N/A
-       video :  
+   * Botanic
+       slides: N/A <br/>
+       video : <br/> 
