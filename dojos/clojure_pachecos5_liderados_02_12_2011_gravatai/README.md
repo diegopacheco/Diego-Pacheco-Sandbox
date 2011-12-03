@@ -1,17 +1,17 @@
-[Clojure Dojo - 02/12/2011] 
+# Clojure Dojo {02/12/2011}
 
-Problem: 
+Problem
 ========
 
 Sales Report, analyse data and procude a sumarized sales report with some indicators. <br/>
 More on: https://github.com/diegopacheco/Diego-Pacheco-Sandbox/blob/master/dojos/clojure_pachecos5_liderados_02_12_2011_gravatai/dojo-problem.txt
 
-Source Code:
-============
+Source Code
+===========
 
 https://github.com/diegopacheco/Diego-Pacheco-Sandbox/blob/master/dojos/clojure_pachecos5_liderados_02_12_2011_gravatai/sales-report.clj
 
-Videos:
+Videos
 =======
 
 http://vimeo.com/album/1679285
