@@ -30,7 +30,7 @@ Lightning Talks
         video : http://vimeo.com/33078837 <br/>
    * Socket.io <br/>
         slides: http://www.slideshare.net/diego.pacheco/socketio-10432641 <br/>
-        video : <br/>
+        video : http://vimeo.com/33085881 <br/>
 
 * @alepoletto
    * ErLang <br/>
@@ -55,7 +55,7 @@ Lightning Talks
 * @jpcurevo
    * LanbdaJ <br/>
        slides: <br/> 
-       video : http://vimeo.com/33076188 <br/>
+       video : <br/>
    
 * @Andre_Mayer
    * Flask <br/>
