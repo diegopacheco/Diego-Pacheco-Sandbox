@@ -25,40 +25,40 @@ Lightning Talks
 ===============
 
 * @diego_pacheco
-   * Lift
+   * Lift <br/>
         slides: http://www.slideshare.net/diego.pacheco/lift-10432844 <br/>
         video : <br/>
-   * Socket.io
+   * Socket.io <br/>
         slides: http://www.slideshare.net/diego.pacheco/socketio-10432641 <br/>
         video : <br/>
 
 * @alepoletto
-   * ErLang
+   * ErLang <br/>
         slides: http://www.slideshare.net/AlexandrePoletto/erlang-10425039 <br/>
         video : http://vimeo.com/33060550 <br/>
    
 * @toff63 
-   * Haskell
+   * Haskell <br/>
        slides: http://www.slideshare.net/toff63/haskell-lightningtalk <br/>
        video : <br/> 
    
 * @jefersonm
-   * ErJang:
-       slides: http://www.slideshare.net/jefersonm/erjang
-       video : 
+   * ErJang <br/>
+       slides: http://www.slideshare.net/jefersonm/erjang <br/>
+       video : <br/>
    
 * @cyber_jso
-   * Elastic Search 
+   * Elastic Search <br/>
        slides: http://www.slideshare.net/cyber_jso/elastic-search-introduction <br/>
        video : <br/>
    
 * @jpcurevo
-   * LanbdaJ
+   * LanbdaJ <br/>
        slides: <br/> 
        video : <br/>
    
 * @Andre_Mayer
-   * Flask
+   * Flask <br/>
        slides: <br/>
        video : <br/>
 
