@@ -45,7 +45,7 @@ Lightning Talks
 * @jefersonm
    * ErJang <br/>
        slides: http://www.slideshare.net/jefersonm/erjang <br/>
-       video : <br/>
+       video : http://vimeo.com/33081213 <br/>
    
 * @cyber_jso
    * Elastic Search <br/>
