@@ -40,7 +40,7 @@ Lightning Talks
 * @toff63 
    * Haskell <br/>
        slides: http://www.slideshare.net/toff63/haskell-lightningtalk <br/>
-       video : <br/> 
+       video : http://vimeo.com/33079809 <br/> 
    
 * @jefersonm
    * ErJang <br/>
