@@ -3,7 +3,8 @@
 Problem: 
 ========
 
-Sales Report, analyse data and procude a sumarized sales report with some indicators.
+Sales Report, analyse data and procude a sumarized sales report with some indicators. <br/>
+More on: https://github.com/diegopacheco/Diego-Pacheco-Sandbox/blob/master/dojos/clojure_pachecos5_liderados_02_12_2011_gravatai/dojo-problem.txt
 
 Source Code:
 ============
