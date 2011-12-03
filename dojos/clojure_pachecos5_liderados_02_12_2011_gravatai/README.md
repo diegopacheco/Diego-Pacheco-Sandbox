@@ -60,7 +60,7 @@ Lightning Talks
 * @Andre_Mayer
    * Flask <br/>
        slides: <br/>
-       video : <br/>
+       video : http://vimeo.com/33076883 <br/>
 
 * @Willkirschner 
    * Botanic <br/>
