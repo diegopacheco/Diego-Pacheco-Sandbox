@@ -50,7 +50,7 @@ Lightning Talks
 * @cyber_jso
    * Elastic Search <br/>
        slides: http://www.slideshare.net/cyber_jso/elastic-search-introduction <br/>
-       video : <br/>
+       video : http://vimeo.com/33075350 <br/>
    
 * @jpcurevo
    * LanbdaJ <br/>
@@ -63,6 +63,6 @@ Lightning Talks
        video : <br/>
 
 * @Willkirschner 
-   * Botanic
+   * Botanic <br/>
        slides: N/A <br/>
        video : <br/> 
