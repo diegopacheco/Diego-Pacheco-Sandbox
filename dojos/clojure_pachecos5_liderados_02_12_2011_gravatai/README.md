@@ -1,6 +1,6 @@
 # Clojure Dojo {02/12/2011}
 
-<a href="http://www.flickr.com/photos/diego-pacheco/6444609411/sizes/m/in/photostream/"></a>
+<img src="http://www.flickr.com/photos/diego-pacheco/6444609411/sizes/m/in/photostream/"/>
 
 Problem
 ========
@@ -21,6 +21,7 @@ http://vimeo.com/album/1679285
 Retrospective
 =============
 
+<img src="http://farm8.staticflickr.com/7033/6444611567_0d62a84a37.jpg"/><br/>
 http://www.flickr.com/photos/diego-pacheco/6444611567/in/photostream
 
 Lightning Talks 
