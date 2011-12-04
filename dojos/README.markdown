@@ -1,16 +1,22 @@
+Dojos History
+=============
+
 <table>
     <tr>
-		<td>
-		    <h3>22/05/2011</h3><br/>
+		<td>		    
 			<a href="http://tinyurl.com/dyqp6tc">
-				<img src="http://farm6.staticflickr.com/5188/5748621414_2c482a48e6_m.jpg"/>
-			</a>
+				<img src="http://farm6.staticflickr.com/5188/5748621414_2c482a48e6.jpg"/>
+			</a><br/>
+			22/05/2011
+		</tb>	
+		<td>		    
+			<a href="http://tinyurl.com/bl936cz">
+				<img src="http://farm7.staticflickr.com/6062/6074855860_abc956dfde.jpg"/>
+			</a><br/>
+			27/08/2011
 		</tb>	
 	</tr>	
 </table>
-
-Dojos History
-=============
 
 ## Clojure
 
