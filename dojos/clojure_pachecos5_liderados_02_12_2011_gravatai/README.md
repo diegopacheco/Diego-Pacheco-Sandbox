@@ -34,7 +34,7 @@ Lightning Talks
    * Socket.io <br/>
         slides: http://www.slideshare.net/diego.pacheco/socketio-10432641 <br/>
         video : http://vimeo.com/33085881 <br/>
-
+		<iframe src="http://player.vimeo.com/video/33085881" width="440" height="330" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe><br/>
 * @alepoletto
    * ErLang <br/>
         slides: http://www.slideshare.net/AlexandrePoletto/erlang-10425039 <br/>
