@@ -6,6 +6,8 @@ Dojos History
 		<td>
 			<h2>Clojure Dojos</h2>
 		</td>
+	</tr>	
+	<tr>
 		<td>		    
 			<a href="http://tinyurl.com/6dg68xu">
 				<img src="http://farm7.staticflickr.com/6089/6124176435_10934e7e39.jpg"/>
@@ -23,6 +25,8 @@ Dojos History
 		<td>
 			<h2>Python Dojos</h2>
 		</td>
+	</tr>	
+	<tr>
 		<td>		    
 			<a href="http://tinyurl.com/c7wdodb">
 				<img src="http://farm8.staticflickr.com/7156/6453571127_7e48ae8aef.jpg"/>
