@@ -57,21 +57,21 @@ Dojos History
 	</tr>	
 </table>
 
-### Clojure
-* (7)  22/10/2011 -> http://tinyurl.com/6dg68xu <br/>
-* (9)  02/12/2011 -> http://tinyurl.com/bojge5n
-### Scala
-* (2)  28/05/2011 -> http://tinyurl.com/3s5ybqc <br/>
-* (6)  02/09/2011 -> http://tinyurl.com/cwjrxac <br/>
-* (10) 27/01/2012 -> Coming Soon !!! <br/>
-### Python
-* (8)  18/11/2011 -> http://tinyurl.com/7zwudbh <br/>
-* (3)  03/07/2011 -> http://tinyurl.com/c7wdodb <br/>
-### Ruby
-* (1)  22/05/2011 -> http://tinyurl.com/dyqp6tc <br/>
-* (5)  27/08/2011 -> http://tinyurl.com/bl936cz <br/>
-### Groovy
-* (4)  31/07/2011 -> http://tinyurl.com/bneyofo <br/>
+* Clojure
+** (7)  22/10/2011 -> http://tinyurl.com/6dg68xu <br/>
+** (9)  02/12/2011 -> http://tinyurl.com/bojge5n <br/>
+* Scala
+** (2)  28/05/2011 -> http://tinyurl.com/3s5ybqc <br/>
+** (6)  02/09/2011 -> http://tinyurl.com/cwjrxac <br/>
+** (10) 27/01/2012 -> Coming Soon !!! <br/>
+* Python
+** (8)  18/11/2011 -> http://tinyurl.com/7zwudbh <br/>
+** (3)  03/07/2011 -> http://tinyurl.com/c7wdodb <br/>
+* Ruby
+** (1)  22/05/2011 -> http://tinyurl.com/dyqp6tc <br/>
+** (5)  27/08/2011 -> http://tinyurl.com/bl936cz <br/>
+* Groovy
+** (4)  31/07/2011 -> http://tinyurl.com/bneyofo <br/>
 
 Dojo's Backlog
 ==============
