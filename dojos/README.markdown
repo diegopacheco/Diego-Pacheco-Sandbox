@@ -23,6 +23,25 @@ Dojos History
 	</tr>
 	<tr>
 		<td>
+			<h2>Scala Dojos</h2>
+		</td>
+	</tr>	
+	<tr>
+		<td>		    
+			<a href="http://tinyurl.com/3s5ybqc">
+				<img src="http://farm6.staticflickr.com/5226/5769403120_e04dc32052_o.png"/>
+			</a><br/>
+			28/05/2011
+		</tb>	
+		<td>		    
+			<a href="http://tinyurl.com/cwjrxac">
+				<img src="http://farm7.staticflickr.com/6201/6113196558_85a599e000.jpg"/>
+			</a><br/>
+			02/09/2011
+		</tb>	
+	</tr>	
+	<tr>
+		<td>
 			<h2>Python Dojos</h2>
 		</td>
 	</tr>	
