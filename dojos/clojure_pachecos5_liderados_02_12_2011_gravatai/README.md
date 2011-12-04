@@ -55,7 +55,7 @@ Lightning Talks
 * @jpcurevo
    * LanbdaJ <br/>
        slides: <br/> 
-       video : <br/>
+       video : http://vimeo.com/33087141 <br/>
    
 * @Andre_Mayer
    * Flask <br/>
