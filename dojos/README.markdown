@@ -1,8 +1,10 @@
 <table>
     <tr>
 		<td>
-			<img src="http://farm6.staticflickr.com/5188/5748621414_2c482a48e6_m.jpg"/><br/>
-			<a href="http://tinyurl.com/dyqp6tc"/>
+		    (1) Ruby Dojo => 22/05/2011 <br/>
+			<a href="http://tinyurl.com/dyqp6tc">
+				<img src="http://farm6.staticflickr.com/5188/5748621414_2c482a48e6_m.jpg"/>
+			</a>
 		</tb>	
 	</tr>	
 </table>
