@@ -1,5 +1,7 @@
 # Clojure Dojo {02/12/2011}
 
+<a href="http://www.flickr.com/photos/diego-pacheco/6444609411/sizes/m/in/photostream/"></a>
+
 Problem
 ========
 
