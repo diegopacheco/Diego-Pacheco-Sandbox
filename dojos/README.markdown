@@ -6,16 +6,12 @@ Dojos History
 		<td>
 			<h2>Clojure Dojos</h2>
 		</td>
-	</tr>
-    <tr>
 		<td>		    
 			<a href="http://tinyurl.com/6dg68xu">
 				<img src="http://farm7.staticflickr.com/6089/6124176435_10934e7e39.jpg"/>
 			</a><br/>
 			22/10/2011
 		</tb>	
-	</tr>
-    <tr>
 		<td>		    
 			<a href="http://tinyurl.com/bojge5n">
 				<img src="http://farm8.staticflickr.com/7015/6444609411_db72f74940.jpg"/>
@@ -27,16 +23,12 @@ Dojos History
 		<td>
 			<h2>Python Dojos</h2>
 		</td>
-	</tr>
-    <tr>
 		<td>		    
 			<a href="http://tinyurl.com/c7wdodb">
 				<img src="http://farm8.staticflickr.com/7156/6453571127_7e48ae8aef.jpg"/>
 			</a><br/>
 			03/07/2011
 		</tb>	
-	</tr>
-    <tr>
 		<td>		    
 			<a href="http://tinyurl.com/7zwudbh">
 				<img src="http://farm8.staticflickr.com/7169/6453677305_c8f96efdf5.jpg"/>
