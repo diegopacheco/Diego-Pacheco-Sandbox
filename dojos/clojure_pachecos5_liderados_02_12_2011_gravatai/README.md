@@ -1,6 +1,6 @@
 # Clojure Dojo {02/12/2011}
 
-<img src="http://www.flickr.com/photos/diego-pacheco/6444609411/sizes/m/in/photostream/"/>
+<img src="http://farm8.staticflickr.com/7015/6444609411_db72f74940.jpg"/>
 
 Problem
 ========
