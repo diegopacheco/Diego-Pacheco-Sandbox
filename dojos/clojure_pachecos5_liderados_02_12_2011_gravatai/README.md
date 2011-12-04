@@ -62,7 +62,7 @@ Lightning Talks
    
 * @Andre_Mayer
    * Flask <br/>
-       slides: <br/>
+       slides: http://www.slideshare.net/andre_mayer/flask-python-microframework <br/>
        video : http://vimeo.com/33076883 <br/>
 
 * @Willkirschner 
