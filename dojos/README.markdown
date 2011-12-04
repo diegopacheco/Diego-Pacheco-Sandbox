@@ -53,6 +53,7 @@ Dojo's Backlog
 * Apache ZooKeeper
 * Spring Social
 * Spring Gemfire
+* JHaskell
 
 ## Groovy
 * GPars
@@ -65,7 +66,6 @@ Dojo's Backlog
 * Spock
 
 ## Python
-* Flask
 * SQLObject
 * Libcloud
 * Twisted
@@ -100,7 +100,7 @@ Dojo's Backlog
 * CouchDB
 * RabbitMQ
 
-## MISC
+### MISC
 * git
 * CoffeeScript
 * ParrotVM
