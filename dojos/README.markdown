@@ -1,3 +1,5 @@
+![(1)Ruby dojo - 27/08/2011](http://farm6.staticflickr.com/5188/5748621414_2c482a48e6_m.jpg)
+
 Dojos History
 =============
 
