@@ -2,6 +2,11 @@ Dojos History
 =============
 
 <table>
+	<tr>
+		<td>
+			<h2>Ruby Dojos</h2>
+		</td>
+	</tr>
     <tr>
 		<td>		    
 			<a href="http://tinyurl.com/dyqp6tc">
@@ -14,6 +19,19 @@ Dojos History
 				<img src="http://farm7.staticflickr.com/6062/6074855860_abc956dfde.jpg"/>
 			</a><br/>
 			27/08/2011
+		</tb>	
+	</tr>
+	<tr>
+		<td>
+			<h2>Groovy Dojos</h2>
+		</td>
+	</tr>
+    <tr>
+		<td>		    
+			<a href="http://tinyurl.com/bneyofo">
+				<img src="http://farm7.staticflickr.com/6010/5995250907_c74d4df58e.jpg"/>
+			</a><br/>
+			22/05/2011
 		</tb>	
 	</tr>	
 </table>
