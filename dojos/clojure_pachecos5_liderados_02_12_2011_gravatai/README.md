@@ -57,7 +57,7 @@ Lightning Talks
    
 * @jpcurevo
    * LanbdaJ <br/>
-       slides: <br/> 
+       slides: http://www.slideshare.net/jeporto/lambdaj <br/> 
        video : http://vimeo.com/33087141 <br/>
    
 * @Andre_Mayer
