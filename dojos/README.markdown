@@ -167,6 +167,8 @@ Dojo's Backlog
 * sbt
 * scalatest
 * rooscaloo
+* spark
+* scala.io
 
 ## Ruby
 * RSpec
