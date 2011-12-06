@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="jatran" default="package">
+	<property name="src.dir" value="${basedir}/src"/>
+	<property name="src.main" value="${src.dir}/main"/>
+	<property name="src.test" value="${src.dir}/test"/>
+
+	<property name="build.dir" value="${basedir}/bin"/>
+	<property name="lib.dir" value="${basedir}/lib"/>
+	<property name="dist.dir" value="${basedir}/dist"/>
+	<property name="test.dir" value="${basedir}/test"/>
+
+	<path id="project.classpath">
+    	<fileset dir="${lib.dir}">
+      		<include name="*.jar"/>
+    	</fileset>
+	</path>
+	
+	<path id="test.classpath">
+		<fileset dir="${lib.dir}/test">
+			<include name="*.jar"/>
+		</fileset>
+	</path>
+
+	
+	<target name="package" depends="clean,compile,test">
+		<mkdir dir="${dist.dir}"/>
+		<jar destfile="${dist.dir}/jatran.jar" basedir="${build.dir}"/>
+	</target>
+
+
+	<!-- compile -->
+	<target name="compile" depends="compile:java,compile:scala"/>
+
+	<target name="compile:java">
+		<mkdir dir="${build.dir}"/>
+		<javac srcdir="${src.main}" destdir="${build.dir}" classpathref="project.classpath">
+			<include name="**/*.java"/>
+		</javac>
+	</target>
+
+	<target name="compile:scala">
+		<!-- scala compiler command. -->
+		<taskdef resource="scala/tools/ant/antlib.xml">
+		  <classpath refid="project.classpath"/>
+		</taskdef>
+		
+		<mkdir dir="${build.dir}"/>
+		<scalac srcdir="${src.main}" destdir="${build.dir}" classpathref="project.classpath" force="changed">
+			<include name="**/*.scala"/>
+		</scalac>
+	</target>
+
+	<target name="compile:tests" depends="compile">
+		<mkdir dir="${build.dir}"/>
+		<scalac srcdir="${src.test}" destdir="${build.dir}" force="changed">
+			<classpath refid="project.classpath"/>
+			<classpath refid="test.classpath"/>
+			<include name="**/*.scala"/>
+		</scalac>
+	</target>
+
+
+    <target name="test:all" depends="compile">
+      <!-- Delete the ${build} and ${dist} directory trees -->
+      <java classname="org.scalatest.Runner" fork="true" failonerror="true">
+        <classpath refid="project.classpath"/>
+        <classpath refid="test.classpath" />			
+        <arg value="-p"/>
+        <arg value="build_tests"/>
+	
+        <arg value="-g"/>
+        <arg value="-o"/>
+        
+        <arg value="-s"/>
+        <arg value="org.scalatest.AllSuite"/>
+      </java>
+    </target>
+	
+    <target name="test" depends="compile:tests">
+      <mkdir dir="${test.dir}"/>
+      <property name="testng.verbose" value="false"/>
+      <property name="testng.quiet" value="true"/>
+      <property name="testng.debug" value="false"/>
+      <java classname="org.testng.TestNG" fork="yes" failonerror="yes">
+        <classpath refid="project.classpath"/>
+        <classpath refid="test.classpath" />
+        <classpath location="${build.dir}"/>
+        <jvmarg line="-ea" /> <!-- enable assertions -->
+        <arg line="testng.xml" />
+      </java>
+    </target>
+	
+    <target name="clean">
+      <delete dir="${build.dir}"/>
+      <delete dir="${dist.dir}"/>
+    </target>
+</project>

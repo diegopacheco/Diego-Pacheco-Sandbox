@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 26
+/svn/!svn/ver/16/trunk/lib
+END
+scalax-0.1-SNAPSHOT.jar
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/14/trunk/lib/scalax-0.1-SNAPSHOT.jar
+END
+scala-library-2.7.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/13/trunk/lib/scala-library-2.7.0.jar
+END
+antlr-2.7.7.jar
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/2/trunk/lib/antlr-2.7.7.jar
+END
+scala-compiler-2.7.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/13/trunk/lib/scala-compiler-2.7.0.jar
+END
