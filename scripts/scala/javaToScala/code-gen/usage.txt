@@ -1,0 +1,5 @@
+Put your java project at code-gen/in and run:
+
+$ ./java2scala.sh 
+
+Your scala code will be at code-gen/out
