@@ -1,5 +1,5 @@
 package com.github.diegopacheco.sandbox.scripts.scala.typesystem
-
+ 
 object AdvancedTypeSystemStuff {
     def run{
        println("@@@ implicits")
