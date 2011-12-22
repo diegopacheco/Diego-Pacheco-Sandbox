@@ -6,7 +6,7 @@ Problem
 ========
 
 Event Register System <br/>
-More on: X
+More on: https://github.com/diegopacheco/Diego-Pacheco-Sandbox/blob/master/dojos/ruby_21_12_2011_devopsday1_porto_alegre/devopsday-ruby-dojo/problem.txt
 
 Source Code
 ===========
