@@ -9,13 +9,13 @@ Dojos History
 	</tr>	
 	<tr>
 		<td>		    
-			<a href="http://tinyurl.com/6dg68xu">
+			<a href="http://tinyurl.com/6dg68xu" width="500" heigth="500" >
 				<img src="http://farm7.staticflickr.com/6089/6124176435_10934e7e39.jpg"/>
 			</a><br/>
 			22/10/2011
 		</tb>	
 		<td>		    
-			<a href="http://tinyurl.com/bojge5n">
+			<a href="http://tinyurl.com/bojge5n" width="500" heigth="500" >
 				<img src="http://farm8.staticflickr.com/7015/6444609411_db72f74940.jpg"/>
 			</a><br/>
 			02/12/2011
@@ -28,13 +28,13 @@ Dojos History
 	</tr>	
 	<tr>
 		<td>		    
-			<a href="http://tinyurl.com/3s5ybqc">
+			<a href="http://tinyurl.com/3s5ybqc" width="500" heigth="500" >
 				<img src="http://farm6.staticflickr.com/5226/5769403120_e04dc32052_o.png"/>
 			</a><br/>
 			28/05/2011
 		</tb>	
 		<td>		    
-			<a href="http://tinyurl.com/cwjrxac">
+			<a href="http://tinyurl.com/cwjrxac" width="500" heigth="500" >
 				<img src="http://farm7.staticflickr.com/6201/6113196558_85a599e000.jpg"/>
 			</a><br/>
 			02/09/2011
@@ -47,13 +47,13 @@ Dojos History
 	</tr>	
 	<tr>
 		<td>		    
-			<a href="http://tinyurl.com/c7wdodb">
+			<a href="http://tinyurl.com/c7wdodb" width="500" heigth="500" >
 				<img src="http://farm8.staticflickr.com/7156/6453571127_7e48ae8aef.jpg"/>
 			</a><br/>
 			03/07/2011
 		</tb>	
 		<td>		    
-			<a href="http://tinyurl.com/7zwudbh">
+			<a href="http://tinyurl.com/7zwudbh" width="500" heigth="500" >
 				<img src="http://farm8.staticflickr.com/7169/6453677305_c8f96efdf5.jpg"/>
 			</a><br/>
 			18/11/2011
@@ -66,13 +66,13 @@ Dojos History
 	</tr>
     <tr>
 		<td>		    
-			<a href="http://tinyurl.com/dyqp6tc">
+			<a href="http://tinyurl.com/dyqp6tc" width="500" heigth="500" >
 				<img src="http://farm6.staticflickr.com/5188/5748621414_2c482a48e6.jpg"/>
 			</a><br/>
 			22/05/2011
 		</tb>	
 		<td>		    
-			<a href="http://tinyurl.com/bl936cz">
+			<a href="http://tinyurl.com/bl936cz" width="500" heigth="500" >
 				<img src="http://farm7.staticflickr.com/6062/6074855860_abc956dfde.jpg"/>
 			</a><br/>
 			27/08/2011
@@ -80,7 +80,7 @@ Dojos History
 	</tr>
 	<tr>
 		<td>		    
-			<a href="https://github.com/diegopacheco/Diego-Pacheco-Sandbox/raw/master/dojos/ruby_21_12_2011_devopsday1_porto_alegre/">
+			<a href="https://github.com/diegopacheco/Diego-Pacheco-Sandbox/tree/master/dojos/ruby_21_12_2011_devopsday1_porto_alegre" width="500" heigth="500" >
 				<img src="https://github.com/diegopacheco/Diego-Pacheco-Sandbox/raw/master/dojos/ruby_21_12_2011_devopsday1_porto_alegre/cover.png"/>
 			</a><br/>
 			21/12/2011
@@ -93,7 +93,7 @@ Dojos History
 	</tr>
     <tr>
 		<td>		    
-			<a href="http://tinyurl.com/bneyofo">
+			<a href="http://tinyurl.com/bneyofo" width="500" heigth="500" >
 				<img src="http://farm7.staticflickr.com/6010/5995250907_c74d4df58e.jpg"/>
 			</a><br/>
 			31/07/2011
@@ -114,6 +114,7 @@ Dojos History
 * Ruby <br/>
 ** (1)  22/05/2011 -> http://tinyurl.com/dyqp6tc <br/>
 ** (5)  27/08/2011 -> http://tinyurl.com/bl936cz <br/>
+** (10) 21/12/2011 -> http://goo.gl/xnOj0 <br/>
 * Groovy <br/>
 ** (4)  31/07/2011 -> http://tinyurl.com/bneyofo <br/>
 
