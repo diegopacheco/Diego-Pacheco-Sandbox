@@ -79,6 +79,14 @@ Dojos History
 		</tb>	
 	</tr>
 	<tr>
+		<td>		    
+			<a href="https://github.com/diegopacheco/Diego-Pacheco-Sandbox/raw/master/dojos/ruby_21_12_2011_devopsday1_porto_alegre/">
+				<img src="https://github.com/diegopacheco/Diego-Pacheco-Sandbox/raw/master/dojos/ruby_21_12_2011_devopsday1_porto_alegre/cover.png"/>
+			</a><br/>
+			21/12/2011
+		</tb>	
+	</tr>	
+	<tr>
 		<td>
 			<h2>Groovy Dojos</h2>
 		</td>
