@@ -1,0 +1,17 @@
+Ruby Dojo Retrospective
+=======================
+
+## positive
+
+* Organization
+* Ruby Language
+* The Problem
+* Dojo format/style/layout
+* people/team integration
+* teamwork
+* 3mim to code
+
+## To be improved
+
+* More time
+* Missing record the whole dojo(video)

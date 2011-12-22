@@ -1,0 +1,7 @@
+Problem
+=======
+
+Build a small yet cool kick ass 'Event Register' system. You basicaly have people
+and thei can register in the events and events have date, description and max number of members
+you must not let people register on full events. After that you may crate sections on the events 
+and let people choose between different simultainous sections.
