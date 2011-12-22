@@ -1,6 +1,6 @@
 # Ruby Dojo {21/12/2011}
 
-<img src=""/>
+<img src="https://github.com/diegopacheco/Diego-Pacheco-Sandbox/raw/master/dojos/ruby_21_12_2011_devopsday1_porto_alegre/cover.png"/>
 
 Problem
 ========
