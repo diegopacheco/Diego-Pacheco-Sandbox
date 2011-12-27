@@ -146,6 +146,7 @@ Dojo's Backlog
 * Spring Social
 * Spring Gemfire
 * JHaskell
+* Spark
 
 ## Groovy
 * GPars
@@ -188,6 +189,7 @@ Dojo's Backlog
 * Halcyon
 * Rack
 * Goliath
+* Presto
 
 ## Erlang
 * Tokyo Cabinet
@@ -206,3 +208,4 @@ Dojo's Backlog
 * Crystal (Clear, etc...)
 * Lisp
 * Cloud/PaaS/IaaS/SaaS
+* OCaml
