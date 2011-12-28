@@ -188,6 +188,11 @@ Dojo's Backlog
 * rooscaloo
 * spark
 * scala.io
+* scalamacros
+* scalaforandroid
+* scala-deque
+* scalajpa
+* scalacheck
 
 ## Ruby
 * RSpec
