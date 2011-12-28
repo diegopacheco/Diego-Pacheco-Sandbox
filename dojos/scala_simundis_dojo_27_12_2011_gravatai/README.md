@@ -21,6 +21,6 @@ https://github.com/diegopacheco/Diego-Pacheco-Sandbox/blob/master/dojos/scala_si
 Photos
 ======
 
-http://www.flickr.com/photos/diego-pacheco/6587832895/in/photostream
-http://www.flickr.com/photos/diego-pacheco/6587824607/in/photostream
-http://www.flickr.com/photos/diego-pacheco/6587823705/in/photostream
+http://www.flickr.com/photos/diego-pacheco/6587832895/in/photostream <br/>
+http://www.flickr.com/photos/diego-pacheco/6587824607/in/photostream <br/>
+http://www.flickr.com/photos/diego-pacheco/6587823705/in/photostream <br/>

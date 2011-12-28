@@ -40,6 +40,14 @@ Dojos History
 			02/09/2011
 		</tb>	
 	</tr>	
+    <tr>
+		<td>		    
+			<a href="https://github.com/diegopacheco/Diego-Pacheco-Sandbox/tree/master/dojos/scala_simundis_dojo_27_12_2011_gravatai" width="500" height="500" >
+				<img src="http://farm8.staticflickr.com/7144/6587832895_5c4c96ca92_o.png"/>
+			</a><br/>
+			27/12/2011
+		</tb>	
+	</tr>		
 	<tr>
 		<td>
 			<h2>Python Dojos</h2>
@@ -108,6 +116,7 @@ Dojos History
 ** (2)  28/05/2011 -> http://tinyurl.com/3s5ybqc <br/>
 ** (6)  02/09/2011 -> http://tinyurl.com/cwjrxac <br/>
 ** (10) 27/01/2012 -> Coming Soon !!! <br/>
+** (11) 27/12/2011 -> http://goo.gl/t247U <br/>
 * Python <br/>
 ** (8)  18/11/2011 -> http://tinyurl.com/7zwudbh <br/>
 ** (3)  03/07/2011 -> http://tinyurl.com/c7wdodb <br/>
