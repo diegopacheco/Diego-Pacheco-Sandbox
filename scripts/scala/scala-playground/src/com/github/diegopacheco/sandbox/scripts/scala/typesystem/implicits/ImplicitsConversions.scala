@@ -18,9 +18,10 @@ object ImplicitsConversions extends App {
 	}
 	
 	object DateHelper{
-		val ago = "ago"
-        val from_now = "from_now"
-        implicit def convertInt2DateHelper(n:Int) = new DateHelper(n)  
+	    val ago = "ago"
+            val from_now = "from_now"
+        	
+            implicit def convertInt2DateHelper(n:Int) = new DateHelper(n)  
 	}
 	
 	import DateHelper._
