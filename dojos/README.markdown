@@ -223,3 +223,6 @@ Dojo's Backlog
 * Lisp
 * Cloud/PaaS/IaaS/SaaS
 * OCaml
+* Smalltalk
+* IO
+* R
