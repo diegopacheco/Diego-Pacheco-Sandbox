@@ -2,7 +2,7 @@ package com.github.diegopacheco.sandbox.scripts.scala.typesystem.implicits
 
 // Source: http://stackoverflow.com/questions/1538598/how-in-scala-to-find-unique-items-in-list
 object ListExtra{
-	def unique[A](ls: List[A]):List[A] = {
+	def unique[A](ls:List[A]):List[A] = {
 	    def loop(set: Set[A], ls: List[A]): List[A] = ls match {
 	  		case hd :: tail if set contains hd => loop(set, tail)
 	  		case hd :: tail => hd :: loop(set + hd, tail)
