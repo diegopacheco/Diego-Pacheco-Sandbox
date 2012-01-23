@@ -14,11 +14,11 @@ object ListExtra{
 
 object ListExtraImplicits{
 	implicit def listToSyntax[A](ls: List[A]) = new {
-		def unique = ListExtra.unique(ls)
+		def uniqueList = ListExtra.unique(ls)
 	}
 }
 
 object ImplicitsToSyntaxMain extends App {
 	import ListExtraImplicits._
-	println( List(1, 1, 2, 3, 4, 5, 4).unique  )		
+	println( List(1, 1, 2, 3, 4, 5, 4).uniqueList  )		
 }
