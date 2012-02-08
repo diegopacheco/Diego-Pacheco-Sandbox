@@ -1,4 +1,4 @@
 @echo OFF
 
-start /b cmd /c "D:\Diego\Java\bin\eclipse-scala\eclipse.exe"
+start /b cmd /c "C:\Program Files\eclipse\eclipse.exe"
 tasklist | grep eclipse

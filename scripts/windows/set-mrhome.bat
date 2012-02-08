@@ -6,11 +6,11 @@ if /i "%1" == "services" goto services
 goto error
   
 :arch
-set MR_HOME=D:\Diego\svn-repos\wcsiLegra\cortellis\Architecture-SRC\ngm-ztest-mr-conf\windows_dev
+set MR_HOME=D:\diego\svn-repos\wcsiLegra\cortellis-architecture\Architecture-SRC\ngm-ztest-mr-conf\windows_dev
 goto :done
 
 :services
-set MR_HOME=D:\Diego\svn-repos\wcsiLegra\cortellis\Services-SRC\conf\tr_dev\mr_home
+set MR_HOME=D:\diego\svn-repos\wcsiLegra\cortellis\trunk\Services-SRC\conf\tr_dev\mr_home
 goto :done
 
 :error
