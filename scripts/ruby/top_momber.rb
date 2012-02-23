@@ -5,6 +5,7 @@ class JavaMonster
 	@@pattern  = /.+\.java$/
 	@@total_refactorings = 0
 	@@total_doublecheck  = 0
+	@@total_ignore       = 0
 	
     class MonsterFile	
     	  attr_accessor :name, :size	
@@ -56,6 +57,7 @@ class JavaMonster
 	def print_annotations_count
 	   puts "@Refactoring => #{@@total_refactorings}"
 	   puts "@DoubleCheck => #{@@total_doublecheck}"
+	   puts "@Ignore => #{@@total_ignore}"	   
 	end
 	
 	def extract(entry)			
@@ -76,6 +78,7 @@ class JavaMonster
 		debug_if_needed(silence)
 		count_refactoring(name,javaClass)
 		count_doublecheck(name,javaClass)
+		count_ignore(name,javaClass)
 		
 		lines
 	end
@@ -95,6 +98,13 @@ class JavaMonster
 		count = javaClass.scan("@DoubleCheck").size.to_i
 		if count >= 1 
 			@@total_doublecheck = @@total_doublecheck + count
+		end	
+	end
+	
+	def count_ignore(name,javaClass)
+		count = javaClass.scan("@Ignore").size.to_i
+		if count >= 1 
+			@@total_ignore = @@total_ignore + count
 		end	
 	end
 	
