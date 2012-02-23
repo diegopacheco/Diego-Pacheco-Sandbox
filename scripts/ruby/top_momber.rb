@@ -7,7 +7,8 @@ class JavaMonster
 	@@total_doublecheck  = 0
 	@@total_ignore       = 0
 	@@total_java_classes = 0 
-	@@total_loc_classes  = 0 
+	@@total_loc_classes  = 0
+	@@total_unit_tests   = 0	
 	
     class MonsterFile	
     	  attr_accessor :name, :size	
@@ -53,7 +54,8 @@ class JavaMonster
 		   entry.include? "database" or
 		   entry.include? "/.settings" or 
 		   entry.include? "/target/" or 
-		   entry.include? "/ngs-storage")
+		   entry.include? "/ngs-storage" or 
+		   entry.include? "src/developer/test")
 		   return false
 		else
            return true
@@ -63,6 +65,7 @@ class JavaMonster
 	def print_annotations_count
 	   puts "@Refactoring => #{@@total_refactorings}"
 	   puts "@DoubleCheck => #{@@total_doublecheck}"
+	   puts "@Test => #{@@total_unit_tests}"
 	   puts "@Ignore => #{@@total_ignore}"	   
 	end
 	
@@ -84,6 +87,7 @@ class JavaMonster
 		count_refactoring(name,javaClass)
 		count_doublecheck(name,javaClass)
 		count_ignore(name,javaClass)
+		count_unit_tests(name,javaClass)
 		
 		@@total_java_classes = @@total_java_classes + 1
 		@@total_loc_classes  = @@total_loc_classes + lines
@@ -114,6 +118,14 @@ class JavaMonster
 			@@total_ignore = @@total_ignore + count
 		end	
 	end
+	
+	def count_unit_tests(name,javaClass)
+		count = javaClass.scan("@Test").size.to_i
+		if count >= 1 
+			@@total_unit_tests = @@total_unit_tests + count
+		end	
+	end
+	
 	
 	def score(lines,name)
 		if lines > @@hash_top[:first].size		   
