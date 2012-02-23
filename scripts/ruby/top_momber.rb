@@ -3,12 +3,14 @@ require 'find'
 class JavaMonster		
 	
 	@@pattern  = /.+\.java$/
+	@@last_printed = ""
+	
 	@@total_refactorings = 0
 	@@total_doublecheck  = 0
 	@@total_ignore       = 0
 	@@total_java_classes = 0 
 	@@total_loc_classes  = 0
-	@@total_unit_tests   = 0	
+	@@total_unit_tests   = 0		
 	
     class MonsterFile	
     	  attr_accessor :name, :size	
@@ -22,9 +24,9 @@ class JavaMonster
 		clear_score
   	    Find.find(path) do |entry|
 			if File.file?(entry) and entry[@@pattern] and should_scan?(path,entry)
-			    scan(path,entry,silence)				
-			end
-			printMonsters(path)			
+			    scan(path,entry,silence)		
+				printMonsters(path)					
+			end					
   		end				
 	end	
 	
@@ -124,8 +126,7 @@ class JavaMonster
 		if count >= 1 
 			@@total_unit_tests = @@total_unit_tests + count
 		end	
-	end
-	
+	end	
 	
 	def score(lines,name)
 		if lines > @@hash_top[:first].size		   
@@ -152,15 +153,20 @@ class JavaMonster
 	def printMonsters(path)			
 		size = @@hash_top[:first].size + @@hash_top[:second].size + @@hash_top[:third].size
 		if (size>=1)
-			puts " =============================================================== "
-			puts " =============== TOP MONSTERS ================================== "
-			puts " =============================================================== "
-			puts " Project: #{path}"
-			puts " =============================================================== "
-			puts " 1 [Bieber     ] is #{@@hash_top[:first].size.to_s.ljust(6)} LOC  - #{@@hash_top[:first].name}"
-			puts " 2 [Kutcher    ] is #{@@hash_top[:second].size.to_s.ljust(6)} LOC  - #{@@hash_top[:second].name}"
-			puts " 3 [Timberlake ] is #{@@hash_top[:third].size.to_s.ljust(6)} LOC  - #{@@hash_top[:third].name}"
-			puts " =============================================================== "
+		    printstr  = ""
+			printstr += " =============================================================== \n"
+			printstr += " =============== TOP MONSTERS ================================== \n"
+			printstr += " =============================================================== \n"
+			printstr += " Project: #{path} \n"
+			printstr += " =============================================================== \n"
+			printstr += " 1 [Bieber     ] is #{@@hash_top[:first].size.to_s.ljust(6)} LOC  - #{@@hash_top[:first].name} \n"
+			printstr += " 2 [Kutcher    ] is #{@@hash_top[:second].size.to_s.ljust(6)} LOC  - #{@@hash_top[:second].name} \n"
+			printstr += " 3 [Timberlake ] is #{@@hash_top[:third].size.to_s.ljust(6)} LOC  - #{@@hash_top[:third].name} \n"
+			printstr += " =============================================================== \n"
+			if (printstr != @@last_printed)
+			    puts printstr
+			    @@last_printed = printstr
+			end			
 		end		
 	end
 	
