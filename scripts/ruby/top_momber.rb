@@ -6,6 +6,8 @@ class JavaMonster
 	@@total_refactorings = 0
 	@@total_doublecheck  = 0
 	@@total_ignore       = 0
+	@@total_java_classes = 0 
+	@@total_loc_classes  = 0 
 	
     class MonsterFile	
     	  attr_accessor :name, :size	
@@ -19,15 +21,18 @@ class JavaMonster
 		clear_score
   	    Find.find(path) do |entry|
 			if File.file?(entry) and entry[@@pattern] and should_scan?(path,entry)
-			    scan(path,entry,silence)
-				printMonsters(path)
-			end	    			
+			    scan(path,entry,silence)				
+			end
+			printMonsters(path)			
   		end				
 	end	
 	
 	def post_proccess(path,t)
 		print_annotations_count
-		puts "This script run in #{t}"
+		
+		puts "AVG LOC => #{@@total_loc_classes / @@total_java_classes}"
+		puts "\nTotal classes analyzed [#{@@total_java_classes}]"
+		puts "This script run in [#{t}]"
 	end
 	
 	private
@@ -47,7 +52,8 @@ class JavaMonster
 		   entry.include? "/conf/" or
 		   entry.include? "database" or
 		   entry.include? "/.settings" or 
-		   entry.include? "/target/")
+		   entry.include? "/target/" or 
+		   entry.include? "/ngs-storage")
 		   return false
 		else
            return true
@@ -79,6 +85,8 @@ class JavaMonster
 		count_doublecheck(name,javaClass)
 		count_ignore(name,javaClass)
 		
+		@@total_java_classes = @@total_java_classes + 1
+		@@total_loc_classes  = @@total_loc_classes + lines
 		lines
 	end
 	
