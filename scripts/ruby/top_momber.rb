@@ -20,12 +20,12 @@ class JavaMonster
   	    Find.find(path) do |entry|
 			if File.file?(entry) and entry[@@pattern] and should_scan?(path,entry)
 			    scan(path,entry,silence)
+				printMonsters(path)
 			end	    			
   		end				
 	end	
 	
 	def post_proccess(path,t)
-		printMonsters(path)
 		print_annotations_count
 		puts "This script run in #{t}"
 	end
@@ -67,8 +67,7 @@ class JavaMonster
 	def search(entry,name,silence)
 	    javaClass = ""
 		lines = 0
-		
-		#puts "scanning name: #{name} - entry: #{entry} ;;; "
+
 		f = File.open(entry, "r")		
 		f.each_line { |l|
 			lines     = lines + 1 
