@@ -2,16 +2,28 @@ require 'find'
 
 class JavaMonster		
 	
-	@@pattern  = /.+\.java$/
-	@@last_printed = ""
-	
-	@@total_refactorings = 0
-	@@total_doublecheck  = 0
-	@@total_ignore       = 0
+	@@pattern            = /.+\.java$/
+	@@last_printed 		 = ""
 	@@total_java_classes = 0 
 	@@total_loc_classes  = 0
-	@@total_unit_tests   = 0		
 	
+	@@annotations = {  "@Test"         => 0,
+	                   "@Refactoring"  => 0,
+                       "@DoubleCheck"  => 0,
+                       "@Ignore"       => 0 }
+					   
+	@@exclusions  = [ ".svn",
+	                  ".gitignore",
+					  "ngs-ontology"
+					  "ngs-autocomplete",
+					  "no-jndi",
+					  "/conf/",
+					  "database",
+					  "/.settings",
+					  "/target/",
+					  "/ngs-storage",
+					  "src/developer/test" ]
+					  
     class MonsterFile	
     	  attr_accessor :name, :size	
     	  def initialize(namep = 'Unknown', sizep = 0)
@@ -31,9 +43,8 @@ class JavaMonster
 	end	
 	
 	def post_proccess(path,t)
-		print_annotations_count
-		
-		puts "AVG LOC => #{@@total_loc_classes / @@total_java_classes}"
+		print_annotations_count		
+		puts "AVG LOC         => #{@@total_loc_classes / @@total_java_classes}"
 		puts "\nTotal classes analyzed [#{@@total_java_classes}]"
 		puts "This script run in [#{t}]"
 	end
@@ -46,29 +57,13 @@ class JavaMonster
 		score(lines,name)
 	end
 	
-	def should_scan?(path,entry)
-		if (entry.include? ".svn" or 
-		   entry.include? ".gitignore" or
-		   entry.include? "ngs-ontology" or 
-		   entry.include? "ngs-autocomplete" or
-		   entry.include? "no-jndi" or
-		   entry.include? "/conf/" or
-		   entry.include? "database" or
-		   entry.include? "/.settings" or 
-		   entry.include? "/target/" or 
-		   entry.include? "/ngs-storage" or 
-		   entry.include? "src/developer/test")
-		   return false
-		else
-           return true
-		end	
-	end
-	
-	def print_annotations_count
-	   puts "@Refactoring => #{@@total_refactorings}"
-	   puts "@DoubleCheck => #{@@total_doublecheck}"
-	   puts "@Test => #{@@total_unit_tests}"
-	   puts "@Ignore => #{@@total_ignore}"	   
+	def should_scan?(path,entry)	    
+		@@exclusions.each { |e|
+		   if (entry.include? e)
+		      return false
+		   end
+		}
+		return true
 	end
 	
 	def extract(entry)			
@@ -86,10 +81,7 @@ class JavaMonster
 		}
 		
 		debug_if_needed(silence)
-		count_refactoring(name,javaClass)
-		count_doublecheck(name,javaClass)
-		count_ignore(name,javaClass)
-		count_unit_tests(name,javaClass)
+		count_annotations(name,javaClass)
 		
 		@@total_java_classes = @@total_java_classes + 1
 		@@total_loc_classes  = @@total_loc_classes + lines
@@ -100,33 +92,21 @@ class JavaMonster
 		puts "#{lines.to_s.ljust(6)} - #{name}" unless silence	
 	end
 	
-	def count_refactoring(name,javaClass)
-		count = javaClass.scan("@Refactoring").size.to_i
-		if count >= 1 
-			@@total_refactorings = @@total_refactorings + count
-		end	
+	def count_annotations(name,javaClass)	
+	    @@annotations.each { |k,v|
+		    count = javaClass.scan(k).size.to_i
+			if count >= 1 
+				@@annotations[k] = v + count
+			end
+		}
 	end
 	
-	def count_doublecheck(name,javaClass)
-		count = javaClass.scan("@DoubleCheck").size.to_i
-		if count >= 1 
-			@@total_doublecheck = @@total_doublecheck + count
-		end	
+	def print_annotations_count
+	   puts "=== Annotations Sumary "
+	   @@annotations.each { |k,v|
+		   puts "#{k}".ljust(15, " ") + " => #{v}"
+	   }
 	end
-	
-	def count_ignore(name,javaClass)
-		count = javaClass.scan("@Ignore").size.to_i
-		if count >= 1 
-			@@total_ignore = @@total_ignore + count
-		end	
-	end
-	
-	def count_unit_tests(name,javaClass)
-		count = javaClass.scan("@Test").size.to_i
-		if count >= 1 
-			@@total_unit_tests = @@total_unit_tests + count
-		end	
-	end	
 	
 	def score(lines,name)
 		if lines > @@hash_top[:first].size		   
