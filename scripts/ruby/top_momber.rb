@@ -2,11 +2,6 @@ require 'find'
 
 class JavaMonster		
 	
-	@@pattern            = /.+\.java$/
-	@@last_printed 		 = ""
-	@@total_java_classes = 0 
-	@@total_loc_classes  = 0
-	
 	@@annotations = {  "@Test"         => 0,
 	                   "@Refactoring"  => 0,
                        "@DoubleCheck"  => 0,
@@ -14,7 +9,7 @@ class JavaMonster
 					   
 	@@exclusions  = [ ".svn",
 	                  ".gitignore",
-					  "ngs-ontology"
+					  "ngs-ontology",
 					  "ngs-autocomplete",
 					  "no-jndi",
 					  "/conf/",
@@ -22,7 +17,12 @@ class JavaMonster
 					  "/.settings",
 					  "/target/",
 					  "/ngs-storage",
-					  "src/developer/test" ]
+					  "src/developer/test" ]					  
+		
+	@@pattern            = /.+\.java$/
+	@@last_printed 		 = ""
+	@@total_java_classes = 0 
+	@@total_loc_classes  = 0
 					  
     class MonsterFile	
     	  attr_accessor :name, :size	
