@@ -5,7 +5,11 @@ class JavaMonster
 	@@annotations = {  "@Test"         => 0,
 	                   "@Refactoring"  => 0,
                        "@DoubleCheck"  => 0,
-                       "@Ignore"       => 0 }
+                       "@Ignore"       => 0,
+					   "@Deprecated"   => 0,
+					   "@Warning"      => 0,
+					   "@Design"       => 0,
+					   "@TDD"          => 0}
 					   
 	@@exclusions  = [ ".svn",
 	                  ".gitignore",
