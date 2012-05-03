@@ -138,6 +138,7 @@ Dojo's Backlog
 * avout
 * zookeeper-clj
 * aleph
+* typed-clojure
 
 ## Java
 * FunctionalJava
@@ -145,7 +146,6 @@ Dojo's Backlog
 * restsql
 * Quartz
 * Buildr
-* HawtDB
 * Wicket
 * Lucene/Solr
 * Liquibase
@@ -158,7 +158,6 @@ Dojo's Backlog
 * Spark
 
 ## Groovy
-* GPars
 * GContracts
 * Ratpack
 * Gradle
@@ -170,7 +169,6 @@ Dojo's Backlog
 ## Python
 * SQLObject
 * Libcloud
-* Twisted
 * Cyclone
 * Tornado
 * requests
@@ -196,7 +194,6 @@ Dojo's Backlog
 
 ## Ruby
 * RSpec
-* EventMachine
 * Padrino
 * Riot
 * Rake
