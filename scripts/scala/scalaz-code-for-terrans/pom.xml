@@ -1,0 +1,35 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.github.diegopacheco.sandbox.scala</groupId>
+	<artifactId>scalaz-code-for-terrans</artifactId>
+	<version>1.0-SNAPSHOT</version>
+	<name>scalaz-code-for-terrans</name>
+	<description>scalaz-code-for-terrans</description>
+
+	<repositories>
+		<repository>
+			<id>scala-tools-releases</id>
+			<name>Scala-Tools Maven2 Repository Releases</name>
+			<url>http://scala-tools.org/repo-releases</url>
+		</repository>
+		<repository>
+			<id>scala-tools-snapshots</id>
+			<name>Scala-Tools Maven2 Repository - Snapshots</name>
+			<url>http://scala-tools.org/repo-snapshots</url>
+		</repository>
+	</repositories>
+	<properties>
+		<scala.version>2.9.1</scala.version>
+	</properties>
+	<dependencies>
+
+		<dependency>
+			<groupId>org.scalaz</groupId>
+			<artifactId>scalaz-core_${scala.version}</artifactId>
+			<version>6.0.4</version>
+		</dependency>
+		
+	</dependencies>
+
+</project>

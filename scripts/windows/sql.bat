@@ -1,0 +1,1 @@
+D:\diego\bin\sqldeveloper\sqldeveloper.exe &

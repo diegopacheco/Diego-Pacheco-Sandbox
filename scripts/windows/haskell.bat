@@ -1,0 +1,1 @@
+"C:\Program Files (x86)\Haskell Platform\2011.4.0.0\bin"\ghci.exe

@@ -1,0 +1,1 @@
+copy %1 D:\diego\bin\jboss-5.1.0.GA-jdk6\server\default\deploy\%1

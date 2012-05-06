@@ -1,0 +1,1 @@
+cd D:\diego\bin\jboss-5.1.0.GA-jdk6\server\default\deploy

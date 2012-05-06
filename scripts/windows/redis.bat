@@ -1,0 +1,1 @@
+redis-server D:\diego\bin\redis-2.4.5\64bit\redis.conf

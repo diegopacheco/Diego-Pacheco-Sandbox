@@ -1,0 +1,1 @@
+"C:\Program Files (x86)\Vim\vim73\vim.exe" %1

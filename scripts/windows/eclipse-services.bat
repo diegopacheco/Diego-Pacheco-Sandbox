@@ -1,0 +1,1 @@
+j6.bat && set-mrhome.bat services && eclipse

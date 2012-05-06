@@ -1,0 +1,1 @@
+"C:\Program Files (x86)\WinHugs"\hugs.exe
