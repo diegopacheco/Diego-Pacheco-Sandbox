@@ -3,6 +3,7 @@
 if /i "%1" == "arch" goto arch
 if /i "%1" == "services" goto services
 if /i "%1" == "science"  goto science
+if /i "%1" == "api" goto api
 
 goto error
   
@@ -18,6 +19,9 @@ goto :done
 set MR_HOME=D:\diego\svn-repos\wcsiLegra\cortellis\trunk\Services-SRC\conf\tr_dev_ngsi\mr_home
 goto :done
 
+:api
+set MR_HOME=D:\diego\svn-repos\wcsiLegra\cortellis-api\trunk\api-src\conf\tr_dev\mr_home
+goto :done
 
 :error
 echo invalid option '%1' use 'arch' or 'services'

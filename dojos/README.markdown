@@ -142,14 +142,12 @@ Dojo's Backlog
 
 ## Java
 * FunctionalJava
-* Spring Roo
 * restsql
 * Quartz
 * Buildr
 * Wicket
 * Lucene/Solr
 * Liquibase
-* Hadoop
 * Abdera
 * Apache ZooKeeper
 * Spring Social
@@ -162,22 +160,18 @@ Dojo's Backlog
 * Ratpack
 * Gradle
 * Gant
-* Griffon 
 * Gaelyk
 * Spock
 
 ## Python
 * SQLObject
-* Libcloud
 * Cyclone
 * Tornado
 * requests
 * webpy
 
 ## Scala
-* scalaz
 * blueeyes
-* kestrel
 * scalatra
 * scala-migrations
 * scalaquery
@@ -194,7 +188,6 @@ Dojo's Backlog
 
 ## Ruby
 * RSpec
-* Padrino
 * Riot
 * Rake
 * Halcyon
@@ -203,23 +196,18 @@ Dojo's Backlog
 * Presto
 
 ## Erlang
-* Tokyo Cabinet
-* CouchDB
-* RabbitMQ
+* OTP
 
 ## MISC
 * git
 * CoffeeScript
 * ParrotVM
 * HTML 5
-* JQuery
 * TCL/Rivet
 * RestMS
 * DSDM
 * Crystal (Clear, etc...)
-* Lisp
 * Cloud/PaaS/IaaS/SaaS
-* OCaml
 * Smalltalk
 * IO
 * R
