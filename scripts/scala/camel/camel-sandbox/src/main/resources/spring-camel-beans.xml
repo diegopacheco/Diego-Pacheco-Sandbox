@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xmlns:camel="http://camel.apache.org/schema/spring"
+	xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://camel.apache.org/schema/spring http://camel.apache.org/schema/spring/camel-spring.xsd">
+
+	<camel:camelContext id="camel" xmlns="http://camel.apache.org/schema/spring" autoStartup="false" >
+		<camel:routeBuilder ref="pojoRouteBuilder"/>
+	</camel:camelContext>
+	
+	<bean id="pojoRouteBuilder" class="com.github.diegopacheco.sandbox.scala.camel.routes.PojoRouteBuilder" />
+		
+	<bean id="start" class="com.github.diegopacheco.sandbox.scala.camel.beans.Start" />
+	<bean id="end"   class="com.github.diegopacheco.sandbox.scala.camel.beans.End" />
+	<bean id="stop"  class="com.github.diegopacheco.sandbox.scala.camel.beans.Stopper" />
+	
+	
+</beans>
