@@ -1,9 +1,7 @@
 package com.github.diegopacheco.sandbox.scala.camel.beans
 
-class Trigger {
+class WaitAndBlock {
 	
-    def start():String = {
-        "Started"
-    }
+    def process():Unit = Thread.sleep(5000L)
     
 }

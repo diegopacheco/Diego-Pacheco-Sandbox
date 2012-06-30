@@ -12,9 +12,11 @@
 	
 	<bean id="pojoRouteBuilder" class="com.github.diegopacheco.sandbox.scala.camel.routes.PojoRouteBuilder" />
 		
-	<bean id="start" class="com.github.diegopacheco.sandbox.scala.camel.beans.Start" />
-	<bean id="end"   class="com.github.diegopacheco.sandbox.scala.camel.beans.End" />
-	<bean id="stop"  class="com.github.diegopacheco.sandbox.scala.camel.beans.Stopper" />
+	<bean id="start"  class="com.github.diegopacheco.sandbox.scala.camel.beans.Start" />
+	<bean id="middle" class="com.github.diegopacheco.sandbox.scala.camel.beans.Middle" />
+	<bean id="end"    class="com.github.diegopacheco.sandbox.scala.camel.beans.End" />
 	
+	<bean id="wab"    class="com.github.diegopacheco.sandbox.scala.camel.beans.WaitAndBlock" />
+	<bean id="stop"   class="com.github.diegopacheco.sandbox.scala.camel.beans.Stopper" />
 	
 </beans>
