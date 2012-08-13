@@ -1,6 +1,6 @@
 cls
 
-SET ngmversion=3.2.0
+SET ngmversion=3.1.0
 SET base_arch=D:\diego\svn-repos\wcsiLegra\cortellis-architecture\Architecture-SRC\
 SET base_jboss=D:\diego\bin\jboss-5.1.0.GA-jdk6\server\default
 SET jboss_deploy=%base_jboss%\deploy
