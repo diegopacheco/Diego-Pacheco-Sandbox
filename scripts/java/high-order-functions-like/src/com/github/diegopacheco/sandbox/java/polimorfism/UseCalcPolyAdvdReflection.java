@@ -61,7 +61,7 @@ public class UseCalcPolyAdvdReflection {
 		for(String key: dados.keySet()){
 			try {
 				Operation<Number, Number,Number> oop = (Operation<Number, Number,Number>)
-														  instance.getClass().getDeclaredField(key).get(instance);
+			        instance.getClass().getDeclaredField(key).get(instance);
 				System.out.println( oop.func(dados.get(key).get(0), dados.get(key).get(1)) );
 			} catch (Exception e) {
 				throw new RuntimeException(e);
