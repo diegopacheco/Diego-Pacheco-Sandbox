@@ -134,73 +134,86 @@ Dojo's Backlog
 * clj-json
 * clamq 
 * redis-clojure
-* FleetDB 
 * avout
 * zookeeper-clj
 * aleph
 * typed-clojure
+* overtone
+* Aurinko
+* Datomic
+* webserver (clojure)
+* lamina
+* basil
 
 ## Java
 * FunctionalJava
 * restsql
-* Quartz
-* Buildr
-* Wicket
 * Lucene/Solr
-* Liquibase
 * Abdera
 * Apache ZooKeeper
 * Spring Social
 * Spring Gemfire
 * JHaskell
 * Spark
+* Apache Felix (OSGI)
 
 ## Groovy
-* GContracts
-* Ratpack
-* Gradle
-* Gant
-* Gaelyk
 * Spock
+* GroovyLab
+* gbench
+* Tellurium
+* glu
+* quoddy
 
 ## Python
 * SQLObject
-* Cyclone
-* Tornado
 * requests
-* webpy
+* hammock
+* httpie
+* blessings
+* animals
+* gd (python GD module)
+* python-jabber
+* googlemaps (python)
+* cython
 
 ## Scala
 * blueeyes
 * scalatra
 * scala-migrations
 * scalaquery
-* sbt
-* scalatest
 * rooscaloo
 * spark
-* scala.io
 * scalamacros
 * scalaforandroid
 * scala-deque
 * scalajpa
-* scalacheck
 
 ## Ruby
-* RSpec
 * Riot
-* Rake
 * Halcyon
 * Rack
 * Goliath
-* Presto
+* jekyll
 
-## Erlang
-* OTP
+## ErLang
+* cowboy
+* axiom
+
+## Haskell
+* yesod
+* fay
+
+## JavaScript / Node.js
+* impress.js
+* reveal.js
+* t.js
+* three.js
+* less.js
+* 
+* 
 
 ## MISC
-* git
-* CoffeeScript
 * ParrotVM
 * HTML 5
 * TCL/Rivet
@@ -210,4 +223,5 @@ Dojo's Backlog
 * Cloud/PaaS/IaaS/SaaS
 * Smalltalk
 * IO
-* R
+* Arduino
+* C++
