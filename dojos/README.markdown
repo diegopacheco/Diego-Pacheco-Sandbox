@@ -157,6 +157,7 @@ Dojo's Backlog
 * Spark
 * Apache Felix (OSGI)
 * JeroMQ
+* Cascading
 
 ## Groovy
 * Spock

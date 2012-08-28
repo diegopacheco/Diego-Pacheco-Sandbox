@@ -7,4 +7,4 @@ ipconfig /flushdns
 ipconfig /renew
 
 cls
-echo flush-net [ipconfig /flushdns /release /renew] DONE at [%DATE% - %TIME%].
+echo flush-net [ipconfig /flushdns /release /renew] DONE.
