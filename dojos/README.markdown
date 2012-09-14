@@ -212,8 +212,7 @@ Dojo's Backlog
 * t.js
 * three.js
 * less.js
-* 
-* 
+* Angular
 
 ## MISC
 * ParrotVM
@@ -227,3 +226,4 @@ Dojo's Backlog
 * IO
 * Arduino
 * C++
+* FoundationDB
