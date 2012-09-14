@@ -144,6 +144,8 @@ Dojo's Backlog
 * webserver (clojure)
 * lamina
 * basil
+* FnParse
+* parsatron
 
 ## Java
 * FunctionalJava
