@@ -134,13 +134,10 @@ Dojo's Backlog
 * clj-json
 * clamq 
 * redis-clojure
-* avout
 * zookeeper-clj
 * aleph
 * typed-clojure
 * overtone
-* Aurinko
-* Datomic
 * webserver (clojure)
 * lamina
 * basil
@@ -152,7 +149,6 @@ Dojo's Backlog
 * restsql
 * Lucene/Solr
 * Abdera
-* Apache ZooKeeper
 * Spring Social
 * Spring Gemfire
 * JHaskell
@@ -185,18 +181,15 @@ Dojo's Backlog
 * blueeyes
 * scalatra
 * scala-migrations
-* scalaquery
 * rooscaloo
 * spark
 * scalamacros
 * scalaforandroid
-* scala-deque
 * scalajpa
 
 ## Ruby
 * Riot
 * Halcyon
-* Rack
 * Goliath
 * jekyll
 
@@ -205,7 +198,6 @@ Dojo's Backlog
 * axiom
 
 ## Haskell
-* yesod
 * fay
 
 ## JavaScript / Node.js
@@ -215,6 +207,7 @@ Dojo's Backlog
 * three.js
 * less.js
 * Angular
+* Bootstrap
 
 ## MISC
 * ParrotVM
@@ -228,4 +221,3 @@ Dojo's Backlog
 * IO
 * Arduino
 * C++
-* FoundationDB
