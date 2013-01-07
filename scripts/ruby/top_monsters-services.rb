@@ -4,23 +4,23 @@ class JavaMonster
 	
 	@@annotations = {  "@Test"         => 0,
 	                   "@Refactoring"  => 0,
-                       	   "@DoubleCheck"  => 0,
-                       	   "@Ignore"       => 0,
-			   "@Deprecated"   => 0,
-			   "@Warning"      => 0,
-			   "@Design"       => 0,
-			   "@TDD"          => 0,
-		           "@Kill"         => 0 }
+                       "@DoubleCheck"  => 0,
+                       "@Ignore"       => 0,
+					   "@Deprecated"   => 0,
+					   "@Warning"      => 0,
+					   "@Design"       => 0,
+					   "@TDD"          => 0,
+					   "@Kill"         => 0 }
 					   
 	@@exclusions  = [ ".svn",
 	                  ".gitignore",
-			  "no-jndi",
-			  "/conf/",
-			  "database",
-			  "/.settings",
-			  "/target/",
-			  "/ngs-storage",
-			  "src/developer/test" ]					  
+					  "no-jndi",
+					  "/conf/",
+					  "database",
+					  "/.settings",
+					  "/target/",
+					  "/ngs-storage",
+					  "src/developer/test" ]					  
 		
 	@@pattern            = /.+\.java$/
 	@@last_printed 	     = ""
@@ -101,7 +101,13 @@ class JavaMonster
 	    @@annotations.each { |k,v|
 		    count = javaClass.scan(k).size.to_i
 			if count >= 1 
-				@@annotations[k] = v + count
+				if k == "@Ignore"
+					if javaClass.scan("IgnoreSizeOf").size.to_i == 0
+						@@annotations[k] = v + count
+					end
+				else
+					@@annotations[k] = v + count
+				end
 			end
 		}
 	end

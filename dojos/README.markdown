@@ -134,7 +134,6 @@ Dojo's Backlog
 * clj-json
 * clamq 
 * redis-clojure
-* zookeeper-clj
 * aleph
 * typed-clojure
 * overtone
@@ -156,6 +155,7 @@ Dojo's Backlog
 * Apache Felix (OSGI)
 * JeroMQ
 * Cascading
+* Apache Gora
 
 ## Groovy
 * Spock
@@ -185,7 +185,6 @@ Dojo's Backlog
 * spark
 * scalamacros
 * scalaforandroid
-* scalajpa
 
 ## Ruby
 * Riot
@@ -221,3 +220,4 @@ Dojo's Backlog
 * IO
 * Arduino
 * C++
+* swagger
