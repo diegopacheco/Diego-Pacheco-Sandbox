@@ -4,24 +4,24 @@ class JavaMonster
 	
 	@@annotations = {  "@Test"         => 0,
 	                   "@Refactoring"  => 0,
-                           "@DoubleCheck"  => 0,
-                           "@Ignore"       => 0,
-			   "@Deprecated"   => 0,
-			   "@Warning"      => 0,
-			   "@Design"       => 0,
-			   "@TDD"          => 0,
-			   "@Kill"         => 0  }
+                       "@DoubleCheck"  => 0,
+                       "@Ignore"       => 0,
+					   "@Deprecated"   => 0,
+					   "@Warning"      => 0,
+				       "@Design"       => 0,
+					   "@TDD"          => 0,
+				       "@Kill"         => 0  }
 					   
 	@@exclusions  = [ ".svn",
 	                  ".gitignore",
-			  "/sql/",
-			  "no-jndi",
-			  "/conf/",
-			  "database",
-			  "/.settings",
-			  "/target/",
-			  "/ngs-storage",
-			  "src/developer/test" ]					  
+					  "/sql/",
+					  "no-jndi",
+					  "/conf/",
+					  "database",
+					  "/.settings",
+					  "/target/",
+					  "/ngs-storage",
+					  "src/developer/test" ]					  
 		
 	@@pattern            = /.+\.java$/
 	@@last_printed 	     = ""
