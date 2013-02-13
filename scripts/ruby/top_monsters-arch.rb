@@ -166,7 +166,7 @@ end
 
 start   = Time.now
 monster = JavaMonster.new
-path    = "D:/diego/svn-repos/wcsiLegra/cortellis-architecture/Architecture-SRC"
+path    = "D:/diego/svn-repos/wcsiLegra/SAFE_SAMMI_Cortellis/trunk/Architecture-SRC"
 	   
 Dir.foreach(path) { |d|
    if !File.file?(d)
