@@ -8,19 +8,19 @@ if /i "%1" == "api" goto api
 goto error
   
 :arch
-set MR_HOME=D:\diego\svn-repos\wcsiLegra\cortellis-architecture\Architecture-SRC\ngm-ztest-mr-conf\windows_dev
+set MR_HOME=D:\diego\svn-repos\wcsiLegra\SAFE_SAMMI_Cortellis\trunk\Architecture-SRC\ngm-ztest-mr-conf\windows_dev
 goto :done
 
 :services
-set MR_HOME=D:\diego\svn-repos\wcsiLegra\cortellis\trunk\Services-SRC\conf\tr_dev\mr_home
+set MR_HOME=D:\diego\svn-repos\wcsiLegra\SAFE_SAMMI_Cortellis\trunk\Services-SRC\conf\tr_dev_ngsi\mr_home
 goto :done
 
 :science
-set MR_HOME=D:\diego\svn-repos\wcsiLegra\cortellis\trunk\Services-SRC\conf\tr_dev_ngsi\mr_home
+set MR_HOME=D:\diego\svn-repos\wcsiLegra\SAFE_SAMMI_Cortellis\trunk\Services-SRC\conf\tr_dev_ngsi\mr_home
 goto :done
 
 :api
-set MR_HOME=D:\diego\svn-repos\wcsiLegra\cortellis-api\trunk\api-src\conf\tr_dev\mr_home
+set MR_HOME=D:\diego\svn-repos\wcsiLegra\SAFE_SAMMI_Cortellis_api\api-src\conf\tr_dev\mr_home
 goto :done
 
 :error
