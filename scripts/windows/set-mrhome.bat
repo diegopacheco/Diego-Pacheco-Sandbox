@@ -12,15 +12,15 @@ set MR_HOME=D:\diego\svn-repos\wcsiLegra\SAFE_SAMMI_Cortellis\trunk\Architecture
 goto :done
 
 :services
-set MR_HOME=D:\diego\svn-repos\wcsiLegra\SAFE_SAMMI_Cortellis\trunk\Services-SRC\conf\tr_dev_ngsi\mr_home
+set MR_HOME=D:\diego\svn-repos\wcsiLegra\SAFE_SAMMI_Cortellis\trunk\Services-SRC\app-conf\dev
 goto :done
 
 :science
-set MR_HOME=D:\diego\svn-repos\wcsiLegra\SAFE_SAMMI_Cortellis\trunk\Services-SRC\conf\tr_dev_ngsi\mr_home
+set MR_HOME=D:\diego\svn-repos\wcsiLegra\SAFE_SAMMI_Cortellis\trunk\Services-SRC\app-conf\dev
 goto :done
 
 :api
-set MR_HOME=D:\diego\svn-repos\wcsiLegra\SAFE_SAMMI_Cortellis_api\api-src\conf\tr_dev\mr_home
+set MR_HOME=D:\diego\svn-repos\wcsiLegra\SAFE_SAMMI_Cortellis_api\api-src\app-conf\dev
 goto :done
 
 :error
