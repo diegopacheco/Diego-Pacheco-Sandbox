@@ -14,21 +14,17 @@
 	<context:component-scan base-package="com.github" />
 
 	<!-- Swagger writers -->
-	<bean id="resourceWriter"
-		class="com.wordnik.swagger.jaxrs.listing.ResourceListingProvider" />
-	<bean id="apiWriter"
-		class="com.wordnik.swagger.jaxrs.listing.ApiDeclarationProvider" />
-
-	<!-- JSON mapper -->
-	<bean id="jsonProvider" class="com.wordnik.swagger.sample.util.JacksonJsonProvider" />
-
-	<!-- Exception mapper -->
-	<bean id="exceptionMapper"
-		class="com.wordnik.swagger.sample.resource.SampleExceptionMapper" />
+	<bean id="resourceWriter"   class="com.wordnik.swagger.jaxrs.listing.ResourceListingProvider"  />
+	<bean id="apiWriter"  	    class="com.wordnik.swagger.jaxrs.listing.ApiDeclarationProvider"   />
 
 	<!-- Swagger API listing resource -->
-	<bean id="swaggerResourceJSON"
-		class="com.wordnik.swagger.jaxrs.listing.ApiListingResourceJSON" />
+	<bean id="swaggerResourceJSON"  class="com.wordnik.swagger.jaxrs.listing.ApiListingResourceJSON" />
+
+	<!-- JSON mapper -->
+	<bean id="jsonProvider"     class="com.wordnik.swagger.sample.util.JacksonJsonProvider" />
+
+	<!-- Exception mapper -->
+	<bean id="exceptionMapper" 	class="com.github.diegopacheco.scala.playground.swagger.app.SwaggerScalaExceptionMapper" />
 
 	<cxf:bus>
 		<cxf:features>
