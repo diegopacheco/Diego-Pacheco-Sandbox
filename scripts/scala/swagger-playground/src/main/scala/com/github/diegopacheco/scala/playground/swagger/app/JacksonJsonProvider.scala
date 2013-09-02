@@ -11,12 +11,9 @@ import com.fasterxml.jackson.databind.SerializationFeature
 import com.fasterxml.jackson.jaxrs.json.JacksonJaxbJsonProvider
 
 @Provider
-@Produces(MediaType.APPLICATION_JSON)
-class JacksonJsonProvider extends JacksonJaxbJsonProvider {
-  
-  var commonMapper:ObjectMapper = null
+@Produces(Array(MediaType.APPLICATION_JSON))
+class JacksonJsonProvider(var commonMapper:ObjectMapper = null) extends JacksonJaxbJsonProvider {
 
-  def this JacksonJsonProvider() {
     if(commonMapper == null){
         val mapper:ObjectMapper = new ObjectMapper()
 
@@ -28,7 +25,5 @@ class JacksonJsonProvider extends JacksonJaxbJsonProvider {
         commonMapper = mapper
     }
     super.setMapper(commonMapper)
-    this
-  }
   
 }

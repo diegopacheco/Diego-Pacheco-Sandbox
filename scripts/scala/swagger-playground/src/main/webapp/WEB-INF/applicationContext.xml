@@ -21,10 +21,10 @@
 	<bean id="swaggerResourceJSON"  class="com.wordnik.swagger.jaxrs.listing.ApiListingResourceJSON" />
 
 	<!-- JSON mapper -->
-	<bean id="jsonProvider"     class="com.wordnik.swagger.sample.util.JacksonJsonProvider" />
+	<bean id="jsonProvider"         class="com.github.diegopacheco.scala.playground.swagger.app.JacksonJsonProvider" />
 
 	<!-- Exception mapper -->
-	<bean id="exceptionMapper" 	class="com.github.diegopacheco.scala.playground.swagger.app.SwaggerScalaExceptionMapper" />
+	<bean id="exceptionMapper" 	    class="com.github.diegopacheco.scala.playground.swagger.app.SwaggerScalaExceptionMapper" />
 
 	<cxf:bus>
 		<cxf:features>
@@ -37,8 +37,6 @@
 		<property name="serviceBeans">
 			<list>
 				<ref bean="userResource" />
-				<ref bean="petResource" />
-				<ref bean="petStoreResource" />
 				<ref bean="swaggerResourceJSON" />
 			</list>
 		</property>
@@ -67,8 +65,7 @@
 	</bean>
 		
 	<!-- Application resources -->
-	<bean id="userResource" class="com.wordnik.swagger.sample.resource.UserResource" />
-	<bean id="petResource" class="com.wordnik.swagger.sample.resource.PetResource" />
-	<bean id="petStoreResource" class="com.wordnik.swagger.sample.resource.PetStoreResource" />
+	<bean id="userResource" class="com.github.diegopacheco.scala.playground.swagger.app..UserResource" />
+
 	
 </beans>
