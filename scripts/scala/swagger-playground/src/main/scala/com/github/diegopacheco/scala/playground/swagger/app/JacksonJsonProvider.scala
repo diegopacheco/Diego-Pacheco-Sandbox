@@ -12,7 +12,14 @@ import com.fasterxml.jackson.jaxrs.json.JacksonJaxbJsonProvider
 
 @Provider
 @Produces(Array(MediaType.APPLICATION_JSON))
-class JacksonJsonProvider(var commonMapper:ObjectMapper = null) extends JacksonJaxbJsonProvider {
+class JacksonJsonProvider extends JacksonJaxbJsonProvider {
+	
+    var commonMapper:ObjectMapper = null
+    
+	def this(commonMapper:ObjectMapper){
+		this()
+		super.setMapper( initMapper() )
+	}
 	
 	def initMapper():ObjectMapper = {
 	    if(commonMapper == null) {
@@ -26,7 +33,5 @@ class JacksonJsonProvider(var commonMapper:ObjectMapper = null) extends JacksonJ
 	        return commonMapper
 	    }
 	}
-  
-	def this() = this( commonMapper = initMapper() )
- 
+	
 }
