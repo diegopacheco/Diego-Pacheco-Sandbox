@@ -1,6 +1,5 @@
 package com.github.diegopacheco.scala.playground.swagger.app
 
-
 import javax.ws.rs.core.Response
 import javax.ws.rs._
 import com.wordnik.swagger.annotations.ApiParam

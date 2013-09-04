@@ -32,6 +32,12 @@
 			<groupId>org.reflections</groupId>
 			<artifactId>reflections</artifactId>
 			<version>0.9.8</version>
+			<exclusions>
+				<exclusion>
+					<artifactId>xml-apis</artifactId>
+					<groupId>xml-apis</groupId>
+				</exclusion>
+			</exclusions>
 		</dependency>
 
 		<!-- Spring -->
@@ -100,7 +106,6 @@
 			<groupId>org.slf4j</groupId>
 			<artifactId>log4j-over-slf4j</artifactId>
 			<version>${slf4j-version}</version>
-			<scope>runtime</scope>
 		</dependency>
 
 		<dependency>
@@ -119,7 +124,6 @@
 			<groupId>ch.qos.logback</groupId>
 			<artifactId>logback-classic</artifactId>
 			<version>1.0.9</version>
-			<scope>runtime</scope>
 		</dependency>
 
 		<!-- Swagger Stuff -->
@@ -127,13 +131,11 @@
 			<groupId>com.wordnik</groupId>
 			<artifactId>swagger-core_2.10</artifactId>
 			<version>1.3.0</version>
-			<scope>compile</scope>
 		</dependency>
 		<dependency>
 			<groupId>com.wordnik</groupId>
 			<artifactId>swagger-jaxrs_2.10</artifactId>
 			<version>1.3.0</version>
-			<scope>compile</scope>
 		</dependency>
 
 		<!-- Runtime dependencies provided by Tomcat -->

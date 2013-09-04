@@ -65,7 +65,7 @@
 	</bean>
 		
 	<!-- Application resources -->
-	<bean id="userResource" class="com.github.diegopacheco.scala.playground.swagger.app..UserResource" />
+	<bean id="userResource" class="com.github.diegopacheco.scala.playground.swagger.app.UserResource" />
 
 	
 </beans>
