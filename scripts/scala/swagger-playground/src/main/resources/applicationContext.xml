@@ -11,7 +11,7 @@
 
 	<import resource="classpath:META-INF/cxf/cxf.xml" />
 
-	<context:component-scan base-package="com.github" />
+	<context:component-scan base-package="com.github.diegopacheco.scala.playground.swagger.app" />
 
 	<!-- Swagger writers -->
 	<bean id="resourceWriter"   class="com.wordnik.swagger.jaxrs.listing.ResourceListingProvider"  />
@@ -53,9 +53,9 @@
 	
 	<!-- this scans the classes for resources -->
 	<bean id="swaggerConfig" class="com.wordnik.swagger.jaxrs.config.BeanConfig">
-		<property name="resourcePackage" value="com.github" />
+		<property name="resourcePackage" value="com.github.diegopacheco.scala.playground.swagger.app" />
 		<property name="version" value="1.0.0" />
-		<property name="basePath" value="http://localhost:8080/swagger" />
+		<property name="basePath" value="http://localhost:8080/api" />
 		<property name="title" value="Petstore sample app" />
 		<property name="description" value="This is a app." />
 		<property name="contact" value="apiteam@wordnik.com" />
