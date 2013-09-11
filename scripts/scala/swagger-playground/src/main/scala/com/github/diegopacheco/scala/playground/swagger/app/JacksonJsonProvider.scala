@@ -13,25 +13,16 @@ import com.fasterxml.jackson.jaxrs.json.JacksonJaxbJsonProvider
 @Provider
 @Produces(Array(MediaType.APPLICATION_JSON))
 class JacksonJsonProvider extends JacksonJaxbJsonProvider {
-	
-    var commonMapper:ObjectMapper = null
-    
-	def this(commonMapper:ObjectMapper){
-		this()
-		super.setMapper( initMapper() )
-	}
-	
-	def initMapper():ObjectMapper = {
-	    if(commonMapper == null) {
-	        var mapper:ObjectMapper = new ObjectMapper()
-	    	mapper.setSerializationInclusion(JsonInclude.Include.NON_NULL)
-	    	mapper.setSerializationInclusion(JsonInclude.Include.NON_DEFAULT)
-	    	mapper.configure(SerializationFeature.WRITE_DATES_AS_TIMESTAMPS, false)
-	    	mapper.configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false)
-	    	return mapper
-	    } else {
-	        return commonMapper
-	    }
-	}
-	
+
+  initMapper
+
+  def initMapper(): Unit = {
+      var mapper: ObjectMapper = new ObjectMapper()
+      mapper.setSerializationInclusion(JsonInclude.Include.NON_NULL)
+      mapper.setSerializationInclusion(JsonInclude.Include.NON_DEFAULT)
+      mapper.configure(SerializationFeature.WRITE_DATES_AS_TIMESTAMPS, false)
+      mapper.configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false)
+      super.setMapper(mapper)
+  }
+
 }

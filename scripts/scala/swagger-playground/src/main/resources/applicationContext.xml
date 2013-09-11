@@ -11,7 +11,7 @@
 
 	<import resource="classpath:META-INF/cxf/cxf.xml" />
 
-	<context:component-scan base-package="com.github.diegopacheco.scala.playground.swagger.app" />
+<!-- 	<context:component-scan base-package="com.github.diegopacheco.scala.playground.swagger" /> -->
 
 	<!-- Swagger writers -->
 	<bean id="resourceWriter"   class="com.wordnik.swagger.jaxrs.listing.ResourceListingProvider"  />
@@ -27,9 +27,9 @@
 	<bean id="exceptionMapper" 	    class="com.github.diegopacheco.scala.playground.swagger.app.SwaggerScalaExceptionMapper" />
 
 	<cxf:bus>
-		<cxf:features>
-			<cxf:logging />
-		</cxf:features>
+<!-- 		<cxf:features> -->
+			<!-- <cxf:logging /> -->
+<!-- 		</cxf:features> -->
 	</cxf:bus>
 
 	<bean class="org.apache.cxf.jaxrs.JAXRSServerFactoryBean" init-method="create">
@@ -44,28 +44,26 @@
 			<list>
 				<ref bean="jsonProvider" />
 				<ref bean="exceptionMapper" />
-				<!-- required for writing swagger classes -->
 				<ref bean="resourceWriter" />
 				<ref bean="apiWriter" />
 			</list>
 		</property>
 	</bean>	
 	
+	<!-- Application resources -->
+	<bean id="userResource" class="com.github.diegopacheco.scala.playground.swagger.rest.UserResource" />
+	
 	<!-- this scans the classes for resources -->
-	<bean id="swaggerConfig" class="com.wordnik.swagger.jaxrs.config.BeanConfig">
-		<property name="resourcePackage" value="com.github.diegopacheco.scala.playground.swagger.app" />
-		<property name="version" value="1.0.0" />
-		<property name="basePath" value="http://localhost:8080/api" />
-		<property name="title" value="Petstore sample app" />
+	<bean id="swaggerConfig" class="com.wordnik.swagger.jaxrs.config.BeanConfig" >
+		<property name="resourcePackage" value="com.github.diegopacheco.scala.playground.swagger.rest" />
+		<property name="version" value="1.0" />
+		<property name="basePath" value="http://localhost:8080/swagger-playground-1.0-SNAPSHOT" />
+		<property name="title" value="User sample app" />
 		<property name="description" value="This is a app." />
 		<property name="contact" value="apiteam@wordnik.com" />
 		<property name="license" value="Apache 2.0 License" />
 		<property name="licenseUrl" value="http://www.apache.org/licenses/LICENSE-2.0.html" />
 		<property name="scan" value="true" />
 	</bean>
-		
-	<!-- Application resources -->
-	<bean id="userResource" class="com.github.diegopacheco.scala.playground.swagger.app.UserResource" />
-
 	
 </beans>
