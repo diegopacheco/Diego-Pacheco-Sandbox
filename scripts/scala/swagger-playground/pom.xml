@@ -133,11 +133,11 @@
 			<artifactId>swagger-jersey-jaxrs_2.10</artifactId>
 			<version>${swagger.version}</version>
 		</dependency>
-<!-- 		<dependency> -->
-<!-- 			<groupId>com.wordnik</groupId> -->
-<!-- 			<artifactId>swagger-servlet_2.10.0</artifactId> -->
-<!-- 			<version>${swagger.version}</version> -->
-<!-- 		</dependency> -->
+		<dependency>
+			<groupId>com.wordnik</groupId>
+			<artifactId>swagger-servlet_2.10</artifactId>
+			<version>${swagger.version}</version>
+		</dependency>
 
 		<!-- Runtime dependencies provided by Tomcat -->
 		<dependency>
