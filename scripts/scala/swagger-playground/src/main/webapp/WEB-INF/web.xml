@@ -8,11 +8,11 @@
 		<param-name>contextConfigLocation</param-name>
 		<param-value>classpath:applicationContext.xml</param-value>
 	</context-param>
-	
+
 	<listener>
 		<listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
 	</listener>
-	 
+
 	<servlet>
 		<servlet-name>cxf</servlet-name>
 		<servlet-class>org.apache.cxf.transport.servlet.CXFServlet</servlet-class>
@@ -22,50 +22,54 @@
 		<url-pattern>/*</url-pattern>
 	</servlet-mapping>
 
-  <!-- Swagger Jersey JAXRS - Stuff that words :-)  -->
-	
-  <servlet>
-    <servlet-name>jersey</servlet-name>
-    <servlet-class>com.sun.jersey.spi.container.servlet.ServletContainer</servlet-class>
-    <init-param>
-      <param-name>com.sun.jersey.config.property.packages</param-name>
-      <param-value>com.github.diegopacheco.scala.playground.swagger.rest;com.wordnik.swagger.jaxrs.listing</param-value>
-    </init-param>
-    <init-param>
-      <param-name>com.sun.jersey.spi.container.ContainerRequestFilters</param-name>
-      <param-value>com.sun.jersey.api.container.filter.PostReplaceFilter</param-value>
-    </init-param>
-    <init-param>
-      <param-name>com.sun.jersey.api.json.POJOMappingFeature</param-name>
-      <param-value>true</param-value>
-    </init-param>
-    <init-param> 
-      <param-name>com.sun.jersey.config.feature.DisableWADL</param-name> 
-      <param-value>true</param-value> 
-    </init-param> 
-   <load-on-startup>1</load-on-startup>
-  </servlet>
-  <servlet-mapping>
-    <servlet-name>jersey</servlet-name>
-    <url-pattern>/swagger/*</url-pattern>
-  </servlet-mapping>
+	<!-- Swagger Jersey JAXRS - Stuff that words :-) -->
 
-  <servlet>
-    <servlet-name>DefaultJaxrsConfig</servlet-name>
-    <servlet-class>com.wordnik.swagger.jaxrs.config.DefaultJaxrsConfig</servlet-class>
-    <init-param>
-      <param-name>api.version</param-name>
-      <param-value>1.0.0</param-value>
-    </init-param>
-    <load-on-startup>2</load-on-startup>
-  </servlet>
-  <filter>
-    <filter-name>ApiOriginFilter</filter-name>
-    <filter-class>com.github.diegopacheco.scala.playground.swagger.app.ApiOriginFilter</filter-class>
-  </filter>
-  <filter-mapping>
-      <filter-name>ApiOriginFilter</filter-name>
-      <url-pattern>/swagger/*</url-pattern>
-  </filter-mapping>
+	<servlet>
+		<servlet-name>jersey</servlet-name>
+		<servlet-class>com.sun.jersey.spi.container.servlet.ServletContainer</servlet-class>
+		<init-param>
+			<param-name>com.sun.jersey.config.property.packages</param-name>
+			<param-value>com.github.diegopacheco.scala.playground.swagger.rest;com.wordnik.swagger.jaxrs.listing</param-value>
+		</init-param>
+		<init-param>
+			<param-name>com.sun.jersey.spi.container.ContainerRequestFilters</param-name>
+			<param-value>com.sun.jersey.api.container.filter.PostReplaceFilter</param-value>
+		</init-param>
+		<init-param>
+			<param-name>com.sun.jersey.api.json.POJOMappingFeature</param-name>
+			<param-value>true</param-value>
+		</init-param>
+		<init-param>
+			<param-name>com.sun.jersey.config.feature.DisableWADL</param-name>
+			<param-value>true</param-value>
+		</init-param>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>jersey</servlet-name>
+		<url-pattern>/swagger/*</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>DefaultJaxrsConfig</servlet-name>
+		<servlet-class>com.wordnik.swagger.jaxrs.config.DefaultJaxrsConfig</servlet-class>
+		<init-param>
+			<param-name>api.version</param-name>
+			<param-value>1.0.0</param-value>
+		</init-param>
+		<init-param>
+			<param-name>swagger.api.basepath</param-name>
+			<param-value>http://localhost:8080/swagger-playground-1.0-SNAPSHOT/swagger</param-value>
+		</init-param>
+		<load-on-startup>2</load-on-startup>
+	</servlet>
+	<filter>
+		<filter-name>ApiOriginFilter</filter-name>
+		<filter-class>com.github.diegopacheco.scala.playground.swagger.app.ApiOriginFilter</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>ApiOriginFilter</filter-name>
+		<url-pattern>/swagger/*</url-pattern>
+	</filter-mapping>
 
 </web-app>
