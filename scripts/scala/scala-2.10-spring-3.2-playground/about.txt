@@ -1,0 +1,6 @@
+Eclipse Kepler: 20130614-0229
+Scala-IDE: 3.0.1.v2_10
+M2E: 1.4.0
+Scala: 2.10.2
+Spring: 3.2.3.RELEASE
+Junit: 4.11 

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:jee="http://www.springframework.org/schema/jee"
+	xsi:schemaLocation="
+       http://www.springframework.org/schema/beans      http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+       http://www.springframework.org/schema/context    http://www.springframework.org/schema/context/spring-context-3.0.xsd
+       http://www.springframework.org/schema/jee        http://www.springframework.org/schema/jee/spring-jee-3.0.xsd">
+
+	<context:annotation-config />
+	<context:component-scan base-package="com.github" />
+
+	<bean id="teams" name="endpoints" class="java.util.ArrayList">
+		<constructor-arg type="java.util.Collection">
+			<list>
+				<bean class="com.github.diegopacheco.scala.playground.spring.SoccerTeam">
+					<property name="name" 	 value="Gremio" />
+					<property name="address" value="Porto Alegre" />
+				</bean>
+				<bean class="com.github.diegopacheco.scala.playground.spring.SoccerTeam">
+					<property name="name"	 value="Ceramica" />
+					<property name="address" value="Gravatai" />
+				</bean>
+			</list>
+		</constructor-arg>
+	</bean>
+
+</beans>
