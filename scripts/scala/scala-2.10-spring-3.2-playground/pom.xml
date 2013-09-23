@@ -15,152 +15,42 @@
 	</properties>
 
 	<build>
-		<!-- <sourceDirectory>src/main/java</sourceDirectory> -->
-		<!-- <testSourceDirectory>src/test/java</testSourceDirectory> -->
 
 		<pluginManagement>
 			<plugins>
-				<!-- <plugin> -->
-				<!-- <groupId>net.alchim31.maven</groupId> -->
-				<!-- <artifactId>scala-maven-plugin</artifactId> -->
-				<!-- <version>${scala.plugin.version}</version> -->
-				<!-- </plugin> -->
 				<plugin>
-					<groupId>org.scala-tools</groupId>
-					<artifactId>maven-scala-plugin</artifactId>
-					<version>2.9.1</version>
+					<groupId>net.alchim31.maven</groupId>
+					<artifactId>scala-maven-plugin</artifactId>
+					<version>3.1.5</version>
 				</plugin>
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-compiler-plugin</artifactId>
-					<version>2.0.2</version>
+					<version>3.1</version>
 				</plugin>
-				<!-- <plugin> -->
-				<!-- <groupId>org.apache.maven.plugins</groupId> -->
-				<!-- <artifactId>maven-source-plugin</artifactId> -->
-				<!-- <version>2.2.1</version> -->
-				<!-- </plugin> -->
 			</plugins>
 		</pluginManagement>
 
 		<plugins>
-			<!-- <plugin> -->
-			<!-- <groupId>org.apache.maven.plugins</groupId> -->
-			<!-- <artifactId>maven-source-plugin</artifactId> -->
-			<!-- <configuration> -->
-			<!-- <lifecycleMappingMetadata> -->
-			<!-- <pluginExecutions> -->
-			<!-- <pluginExecution> -->
-			<!-- <pluginExecutionFilter> -->
-			<!-- <groupId>org.apache.maven.plugins</groupId> -->
-			<!-- <artifactId>maven-source-plugin</artifactId> -->
-			<!-- <goals> -->
-			<!-- <goal>jar</goal> -->
-			<!-- </goals> -->
-			<!-- </pluginExecutionFilter> -->
-			<!-- <action> -->
-			<!-- <execute /> -->
-			<!-- </action> -->
-			<!-- </pluginExecution> -->
-			<!-- </pluginExecutions> -->
-			<!-- </lifecycleMappingMetadata> -->
-			<!-- </configuration> -->
-			<!-- </plugin> -->
-			<!-- <plugin> -->
-			<!-- <groupId>org.apache.maven.plugins</groupId> -->
-			<!-- <artifactId>maven-compiler-plugin</artifactId> -->
-			<!-- <configuration> -->
-			<!-- <source>1.6</source> -->
-			<!-- <target>1.6</target> -->
-			<!-- <lifecycleMappingMetadata> -->
-			<!-- <pluginExecutions> -->
-			<!-- <pluginExecution> -->
-			<!-- <pluginExecutionFilter> -->
-			<!-- <groupId>org.apache.maven.plugins</groupId> -->
-			<!-- <artifactId>maven-compiler-plugin</artifactId> -->
-			<!-- <phase>compile</phase> -->
-			<!-- <goals> -->
-			<!-- <goal>compile</goal> -->
-			<!-- </goals> -->
-			<!-- </pluginExecutionFilter> -->
-			<!-- <action> -->
-			<!-- <execute /> -->
-			<!-- </action> -->
-			<!-- </pluginExecution> -->
-			<!-- </pluginExecutions> -->
-			<!-- </lifecycleMappingMetadata> -->
-			<!-- </configuration> -->
-			<!-- </plugin> -->
-			<!-- <plugin> -->
-			<!-- <groupId>net.alchim31.maven</groupId> -->
-			<!-- <artifactId>scala-maven-plugin</artifactId> -->
-			<!-- <configuration> -->
-			<!-- <lifecycleMappingMetadata> -->
-			<!-- <pluginExecutions> -->
-			<!-- <pluginExecution> -->
-			<!-- <pluginExecutionFilter> -->
-			<!-- <groupId>net.alchim31.maven</groupId> -->
-			<!-- <artifactId>scala-maven-plugin</artifactId> -->
-			<!-- <phase>process-resources</phase> -->
-			<!-- <goals> -->
-			<!-- <goal>add-source</goal> -->
-			<!-- <goal>compile</goal> -->
-			<!-- <goal>testCompile</goal> -->
-			<!-- </goals> -->
-			<!-- </pluginExecutionFilter> -->
-			<!-- <action> -->
-			<!-- <execute /> -->
-			<!-- </action> -->
-			<!-- </pluginExecution> -->
-			<!-- </pluginExecutions> -->
-			<!-- </lifecycleMappingMetadata> -->
-			<!-- </configuration> -->
-			<!-- </plugin> -->
-			<!-- <plugin> -->
-			<!-- <groupId>org.scala-tools</groupId> -->
-			<!-- <artifactId>maven-scala-plugin</artifactId> -->
-			<!-- <configuration> -->
-			<!-- <lifecycleMappingMetadata> -->
-			<!-- <pluginExecutions> -->
-			<!-- <pluginExecution> -->
-			<!-- <pluginExecutionFilter> -->
-			<!-- <groupId>org.scala-tools</groupId> -->
-			<!-- <artifactId>maven-scala-plugin</artifactId> -->
-			<!-- <id>scala-compile-first</id> -->
-			<!-- <phase>process-resources</phase> -->
-			<!-- <goals> -->
-			<!-- <goal>add-source</goal> -->
-			<!-- <goal>compile</goal> -->
-			<!-- </goals> -->
-			<!-- </pluginExecutionFilter> -->
-			<!-- <action> -->
-			<!-- <execute /> -->
-			<!-- </action> -->
-			<!-- </pluginExecution> -->
-			<!-- <pluginExecution> -->
-			<!-- <pluginExecutionFilter> -->
-			<!-- <groupId>org.scala-tools</groupId> -->
-			<!-- <artifactId>maven-scala-plugin</artifactId> -->
-			<!-- <id>scala-test-compile</id> -->
-			<!-- <phase>process-test-resources</phase> -->
-			<!-- <goals> -->
-			<!-- <goal>testCompile</goal> -->
-			<!-- </goals> -->
-			<!-- </pluginExecutionFilter> -->
-			<!-- <action> -->
-			<!-- <execute /> -->
-			<!-- </action> -->
-			<!-- </pluginExecution> -->
-			<!-- </pluginExecutions> -->
-			<!-- </lifecycleMappingMetadata> -->
-			<!-- </configuration> -->
-			<!-- </plugin> -->
 			<plugin>
-				<groupId>org.scala-tools</groupId>
-				<artifactId>maven-scala-plugin</artifactId>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<executions>
+					<execution>
+						<phase>compile</phase>
+						<goals>
+							<goal>compile</goal>
+						</goals>
+					</execution>
+				</executions>
 				<configuration>
-					<scalaVersion>${scala.version}</scalaVersion>
+					<source>1.6</source>
+					<target>1.6</target>
 				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>net.alchim31.maven</groupId>
+				<artifactId>scala-maven-plugin</artifactId>
 				<executions>
 					<execution>
 						<id>scala-compile-first</id>
@@ -190,11 +80,8 @@
 						</goals>
 					</execution>
 				</executions>
-				<configuration>
-					<source>1.6</source>
-					<target>1.6</target>
-				</configuration>
 			</plugin>
+
 
 		</plugins>
 	</build>
