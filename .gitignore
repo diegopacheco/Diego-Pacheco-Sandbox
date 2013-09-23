@@ -3,3 +3,4 @@
 /scripts/scala/camel/camel-sandbox/target
 /scripts/clojure/fleetdb/test_fleetdb_clojure/target
 /scripts/scala/scala-2.10-spring-3.2-playground/target
+/scripts/scala/coherence-playground/bin
