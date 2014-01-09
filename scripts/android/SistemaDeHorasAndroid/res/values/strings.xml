@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Horas Android</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+	<string name="idade">Idade</string>
+	<string name="nome">Nome</string>
+	<string name="digite">Digite Algo Aqui...</string>
+	<string name="salvar">Login</string>
+	<string name="bemvindo">Bem Vindo</string>
+	<string name="blablabla">     Ao sistema de horas da ilegra. Bla, Bla bla bla... </string>
+	<string name="adicionarBtn">Adicionar nova Atividade</string>
+	<string name="fecharBtn">Fechar Aplicação</string>
+	<string name="data">Data</string>
+	<string name="desc">Descrição</string>
+	<string name="salve">Salvar</string>
+    
+</resources>

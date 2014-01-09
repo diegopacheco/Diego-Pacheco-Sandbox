@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/l10001"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="59dp"
+            android:layout_marginRight="10dp"
+            android:text="@string/bemvindo" />
+
+        <TextView
+            android:id="@+id/lblTextoBemVindo"
+            android:layout_width="wrap_content"
+            android:layout_height="59dp" />
+
+        <TextView
+            android:id="@+id/textView102213123"
+            android:layout_width="194dp"
+            android:layout_height="59dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1.93"
+            android:text="@string/blablabla" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/l100011"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/buttonAtividade"
+            android:layout_width="137dp"
+            android:layout_height="97dp"
+            android:background="@xml/shapebutton"
+            android:text="@string/adicionarBtn"
+            android:textColor="#FFFFFF" >
+        </Button>
+
+        <Button
+            android:id="@+id/buttonFechar"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:background="@xml/shapebutton"
+            android:text="@string/fecharBtn"
+            android:textColor="#FFFFFF" >
+        </Button>
+    </LinearLayout>
+
+</LinearLayout>
