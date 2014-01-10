@@ -24,7 +24,7 @@
             android:layout_marginLeft="10dp"
             android:background="@xml/shapeborderblack"
             android:ems="10"
-            android:inputType="text" >
+            android:inputType="datetime" >
 
             <requestFocus />
         </EditText>
@@ -71,8 +71,16 @@
             android:background="@xml/shapebutton"
             android:text="@string/salve"
             android:textColor="#FFFFFF" 
-            android:layout_marginTop="10dp">
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            >
         </Button>
     </LinearLayout>
+
+    <ListView
+        android:id="@+id/lv1"
+        android:layout_width="match_parent"
+        android:layout_height="162dp" >
+    </ListView>
 
 </LinearLayout>

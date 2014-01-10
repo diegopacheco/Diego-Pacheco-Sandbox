@@ -1,11 +1,18 @@
 package com.example.sistemadehorasandroid;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import android.app.Activity;
 import android.os.Bundle;
 import android.view.View;
 import android.view.View.OnClickListener;
-import android.widget.EditText;
-import android.widget.Toast;
+import android.widget.ListView;
+
+import com.example.sistemadehorasandroid.comp.HorasAdapter;
+import com.example.sistemadehorasandroid.dao.HorasDAO;
+import com.example.sistemadehorasandroid.model.Horas;
+import com.example.sistemadehorasandroid.utils.UIUtils;
 
 public class HorasActivity extends Activity {
 
@@ -13,22 +20,35 @@ public class HorasActivity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_horas);
+		
 		findViewById(R.id.buttonSalvarHorASX).setOnClickListener(new OnClickListener(){
+			
 			@Override
             public void onClick(View v) {
-				String data = ((EditText)findViewById(R.id.txtData)).getText().toString();
-				String desc = ((EditText)findViewById(R.id.txtDescricao)).getText().toString();
 				
-				if(data == null ||data.equals(""))
-					 Toast.makeText(getApplicationContext(), "Preencha Data", Toast.LENGTH_SHORT).show();
+				String data = UIUtils.getTextById(HorasActivity.this, R.id.txtData);
+				String desc = UIUtils.getTextById(HorasActivity.this, R.id.txtDescricao);
 				
-				if(desc == null ||desc.equals(""))
-					 Toast.makeText(getApplicationContext(), "Preencha Descricao", Toast.LENGTH_SHORT).show();
+				if(data == null ||data.equals("")) UIUtils.alert(HorasActivity.this, "Preencha Data");
+				if(desc == null ||desc.equals("")) UIUtils.alert(HorasActivity.this, "Preencha Descricao");
 				
-				android.os.Process.killProcess(android.os.Process.myPid());
-
-			}	
+				Horas horas = new Horas(data,desc);
+				HorasDAO dao = new HorasDAO(HorasActivity.this);
+				dao.persist(horas);
+				
+				UIUtils.alert(HorasActivity.this, "From DB: " + dao.retrieve().toString() );
+				//KernelUtils.kill();
+			}
+			
 		});
+		
+		List<Horas> itens = new ArrayList<Horas>();
+		itens.add(new Horas("100","test"));
+		itens.add(new Horas("101","test2"));
+		itens.add(new Horas("102","test3"));
+		
+	    ((ListView) findViewById(R.id.lv1)).setAdapter(new HorasAdapter(getBaseContext(), R.layout.horas_listview, itens));
+
 	}
 
 }
