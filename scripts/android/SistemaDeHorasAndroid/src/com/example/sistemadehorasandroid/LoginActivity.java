@@ -10,6 +10,7 @@ import android.view.View.OnClickListener;
 
 import com.example.sistemadehorasandroid.mocks.DataMocks;
 import com.example.sistemadehorasandroid.utils.InternalStorageUtils;
+import com.example.sistemadehorasandroid.utils.KernelUtils;
 import com.example.sistemadehorasandroid.utils.PreferencesUtils;
 import com.example.sistemadehorasandroid.utils.UIUtils;
 import com.example.sistemadehorasandroid.utils.Utils;
@@ -52,6 +53,15 @@ public class LoginActivity extends Activity {
 		super.onStart();
 		UIUtils.persistentBehavior(LoginActivity.this,R.id.txtNome,Utils.APP_SETTINGS_USER);
 		UIUtils.persistentBehavior(LoginActivity.this,R.id.txtIdade,Utils.APP_SETTINGS_PASS);
+		
+		// If Already logged
+		if (UIUtils.getTextById(LoginActivity.this, R.id.txtNome) != null && UIUtils.getTextById(LoginActivity.this, R.id.txtNome)!= ""){
+			Intent i = new Intent(getApplicationContext(), BemVindoActivity.class);
+			i.putExtra("nome",  UIUtils.getTextById(LoginActivity.this, R.id.txtNome) );
+			startActivity(i);
+			KernelUtils.kill();
+		}
+		
 	}
 
 	@Override
