@@ -1,0 +1,20 @@
+https://github.com/rafaelpsouza/hadoop-worldcount
+
+
+Instruções para Rodar:
+#Criar o arquivo de imput
+$ cd /home/hduser
+$ mkdir myinput
+$ cat > myinput/file
+This is one line
+This is another one
+
+#Add this directory to HDFS:
+$ bin/hadoop dfs -copyFromLocal myinput /myinput
+
+#Run wordcount example provided:
+$ hadoop jar wordcount.jar /myinput /myoutput
+
+Monitoring
+http://<ip do host>:8088/cluster/apps - Informações do cluster
+http://<ip do host>:50070/dfshealth.jsp - Informações do file system

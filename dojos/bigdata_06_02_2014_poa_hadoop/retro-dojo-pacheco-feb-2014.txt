@@ -1,0 +1,30 @@
+bom:
+ - participacao dos caras da infra
+ - infra convidada
+ - bons lightning talks
+ - ótimas discussoes
+ - muito bom o exemplo / explicacao do map / reduce feito pelo Borges
+ - big data
+ - code com hadoop
+ - borges fez funcionar
+ - salgadinhos
+ - pré organização para o próximo dojo
+ - discusao durante o map/reduce
+ - codigo funcionando
+ - nivel tecnico alto das discussoes
+ - training explanation skills
+ - participacao de todo mundo nas discussoes
+ - assunto bem distribuidos (todo mundo falou da mesma arquitetura)
+
+a melhorar:
+ - começar no horário
+ - ceva
+ - video game
+ - local
+ - explciacoes dos arch
+ - Fun (cerveja, videogame, churrasco ...)
+ - no trash talk
+ - a idéia como o evento em sí poderia ser mais divulgado na infra
+ - (caso seja do interesse) abertamente convidar outras pessoas (leia-se infra)
+ - avisar mais cedo os LTs (para convidados)
+ - deixar claro os objetivos e como funciona com antecedencia
