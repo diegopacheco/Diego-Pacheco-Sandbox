@@ -5,5 +5,6 @@ public class LambdaRules {
 		
 		 Runnable r1 = ()-> System.out.println("Hello world 1!");
 		 r1.run();
+		 
 	}
 }
