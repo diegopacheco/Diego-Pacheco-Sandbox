@@ -14,4 +14,16 @@
     NSLog(@"Hello %@.", self.name);
 }
 
+- (void)doItAll{
+    Person *diego = [[Person alloc] init];
+    
+    [diego setName: @"Diego"];
+    NSLog(@"Created a %@", [diego name]);
+    
+    diego.name = @"Diego Pacheco";
+    NSLog(@"Changed the PERSON to a %@", diego.name);
+    
+    [diego sayHi];
+}
+
 @end

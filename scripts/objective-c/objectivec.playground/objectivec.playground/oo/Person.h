@@ -13,5 +13,6 @@
 @property (copy) NSString *name;
 
 - (void)sayHi;
+- (void)doItAll;
 
 @end

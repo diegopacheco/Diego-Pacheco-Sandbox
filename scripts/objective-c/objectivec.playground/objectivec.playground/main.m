@@ -11,23 +11,14 @@
 #import "BasicMath.h"
 
 int main(int argc, const char * argv[]){
- @autoreleasepool {
-    
-    BasicMath *bm = [[BasicMath alloc] init];
-    NSLog(@"POw: %@", [bm pow:[NSNumber numberWithInt:(int)10]]);
-    
-    NSLog(@"FODA-SE");
-    
-    Person *diego = [[Person alloc] init];
-    
-    [diego setName: @"Diego"];
-    NSLog(@"Created a %@", [diego name]);
-    
-    diego.name = @"Diego Pacheco";
-    NSLog(@"Changed the PERSON to a %@", diego.name);
-    
-    [diego sayHi];
-    
-  }
+    @autoreleasepool {
+        
+        BasicMath *math = [[BasicMath alloc] init];
+        [math doItAll];
+        
+        Person *diego = [[Person alloc] init];
+        [diego doItAll];
+        
+    }
     return 0;
 }

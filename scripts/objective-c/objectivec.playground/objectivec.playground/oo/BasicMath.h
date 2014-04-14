@@ -11,5 +11,9 @@
 @interface BasicMath : NSObject
 
 - (NSNumber *)pow:(NSNumber *)a;
+- (NSNumber *)sum:(NSNumber *)a : (NSNumber *)b;
+- (NSNumber *)subA:(NSNumber *)a b: (NSNumber *)b;
+- (NSNumber *)div:(NSNumber *)a : (NSNumber *)b;
+- (void)doItAll;
 
 @end
