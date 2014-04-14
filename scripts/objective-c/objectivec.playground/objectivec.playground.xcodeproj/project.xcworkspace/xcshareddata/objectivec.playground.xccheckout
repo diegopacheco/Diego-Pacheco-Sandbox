@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>CB6D0F33-ED8E-41CB-838F-F7352F5272FE</string>
+	<key>IDESourceControlProjectName</key>
+	<string>objectivec.playground</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>8EFFDAB2-B345-4159-A12B-7C2A73CFCBFA</key>
+		<string>https://github.com/diegopacheco/Diego-Pacheco-Sandbox.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>scripts/objective-c/objectivec.playground/objectivec.playground.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>8EFFDAB2-B345-4159-A12B-7C2A73CFCBFA</key>
+		<string>../../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/diegopacheco/Diego-Pacheco-Sandbox.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>8EFFDAB2-B345-4159-A12B-7C2A73CFCBFA</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>8EFFDAB2-B345-4159-A12B-7C2A73CFCBFA</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Diego-Pacheco-Sandbox</string>
+		</dict>
+	</array>
+</dict>
+</plist>

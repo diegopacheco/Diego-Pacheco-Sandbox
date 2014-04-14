@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D7CC751618F826D600468C6A"
-               BuildableName = "objectivec_cli_playground"
-               BlueprintName = "objectivec_cli_playground"
-               ReferencedContainer = "container:objectivec_cli_playground.xcodeproj">
+               BlueprintIdentifier = "D7C4B8DE18FC5DC100C9C7AD"
+               BuildableName = "objectivec.playground"
+               BlueprintName = "objectivec.playground"
+               ReferencedContainer = "container:objectivec.playground.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +32,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D7CC751618F826D600468C6A"
-            BuildableName = "objectivec_cli_playground"
-            BlueprintName = "objectivec_cli_playground"
-            ReferencedContainer = "container:objectivec_cli_playground.xcodeproj">
+            BlueprintIdentifier = "D7C4B8DE18FC5DC100C9C7AD"
+            BuildableName = "objectivec.playground"
+            BlueprintName = "objectivec.playground"
+            ReferencedContainer = "container:objectivec.playground.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -51,10 +51,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D7CC751618F826D600468C6A"
-            BuildableName = "objectivec_cli_playground"
-            BlueprintName = "objectivec_cli_playground"
-            ReferencedContainer = "container:objectivec_cli_playground.xcodeproj">
+            BlueprintIdentifier = "D7C4B8DE18FC5DC100C9C7AD"
+            BuildableName = "objectivec.playground"
+            BlueprintName = "objectivec.playground"
+            ReferencedContainer = "container:objectivec.playground.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -69,10 +69,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D7CC751618F826D600468C6A"
-            BuildableName = "objectivec_cli_playground"
-            BlueprintName = "objectivec_cli_playground"
-            ReferencedContainer = "container:objectivec_cli_playground.xcodeproj">
+            BlueprintIdentifier = "D7C4B8DE18FC5DC100C9C7AD"
+            BuildableName = "objectivec.playground"
+            BlueprintName = "objectivec.playground"
+            ReferencedContainer = "container:objectivec.playground.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

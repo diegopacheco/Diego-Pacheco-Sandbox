@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:objectivec_cli_playground.xcodeproj">
+      location = "self:objectivec.playground.xcodeproj">
    </FileRef>
 </Workspace>

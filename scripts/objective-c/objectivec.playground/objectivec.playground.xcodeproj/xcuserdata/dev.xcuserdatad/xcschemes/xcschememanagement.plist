@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>objectivec_cli_playground.xcscheme</key>
+		<key>objectivec.playground.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,7 +12,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>D7CC751618F826D600468C6A</key>
+		<key>D7C4B8DE18FC5DC100C9C7AD</key>
 		<dict>
 			<key>primary</key>
 			<true/>

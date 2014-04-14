@@ -8,10 +8,16 @@
 
 #import <Foundation/Foundation.h>
 #import "Person.h"
+#import "BasicMath.h"
 
 int main(int argc, const char * argv[]){
-    @autoreleasepool {
+   // @autoreleasepool {
         
+      //  BasicMath *bm = [[BasicMath alloc] init];
+      //  NSLog(@"POw: %@", [bm pow:[NSNumber numberWithInt 10]]);
+    
+    NSLog(@"FODA-SE");
+    
         Person *diego = [[Person alloc] init];
         
         [diego setName: @"Diego"];
@@ -21,8 +27,8 @@ int main(int argc, const char * argv[]){
         NSLog(@"Changed the PERSON to a %@", diego.name);
         
         [diego sayHi];
-        
-    }
+    
+   // }
     return 0;
 }
 
