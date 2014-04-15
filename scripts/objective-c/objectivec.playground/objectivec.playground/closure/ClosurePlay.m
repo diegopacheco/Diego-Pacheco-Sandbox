@@ -28,7 +28,22 @@
     NSLog(@"%qi", result);
 }
 
+-(void) doClosureForFun{
+    NSDictionary *cities = @{
+        @"POA": @"Porto Alegre",
+        @"GTI": @"Gravatai",
+        @"CNH": @"Cachoeirinha",
+        @"VIA": @"Viamao"
+    };
+    
+    [cities enumerateKeysAndObjectsUsingBlock:^(id key, id obj, BOOL *stop) {
+        NSLog(@"%@", cities[key]);
+       }
+    ];
+}
+
 -(void) doItAll{
     [self doFunWithClosure];
+    [self doClosureForFun];
 }
 @end
