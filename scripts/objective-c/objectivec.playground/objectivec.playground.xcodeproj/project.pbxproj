@@ -12,6 +12,7 @@
 		D7C4B8EA18FC5DC100C9C7AD /* objectivec_playground.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = D7C4B8E918FC5DC100C9C7AD /* objectivec_playground.1 */; };
 		D7C4B8F618FC5E1500C9C7AD /* BasicMath.m in Sources */ = {isa = PBXBuildFile; fileRef = D7C4B8F218FC5E1500C9C7AD /* BasicMath.m */; };
 		D7C4B8F818FC5E1500C9C7AD /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = D7C4B8F518FC5E1500C9C7AD /* Person.m */; };
+		D7C4B8FC18FCD63200C9C7AD /* BasicOC.m in Sources */ = {isa = PBXBuildFile; fileRef = D7C4B8FB18FCD63200C9C7AD /* BasicOC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,6 +38,8 @@
 		D7C4B8F218FC5E1500C9C7AD /* BasicMath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicMath.m; sourceTree = "<group>"; };
 		D7C4B8F418FC5E1500C9C7AD /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		D7C4B8F518FC5E1500C9C7AD /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		D7C4B8FA18FCD63200C9C7AD /* BasicOC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicOC.h; sourceTree = "<group>"; };
+		D7C4B8FB18FCD63200C9C7AD /* BasicOC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicOC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +82,7 @@
 		D7C4B8E418FC5DC100C9C7AD /* objectivec.playground */ = {
 			isa = PBXGroup;
 			children = (
+				D7C4B8F918FCD60100C9C7AD /* basic */,
 				D7C4B8F018FC5E1500C9C7AD /* oo */,
 				D7C4B8E518FC5DC100C9C7AD /* main.m */,
 				D7C4B8E918FC5DC100C9C7AD /* objectivec_playground.1 */,
@@ -104,6 +108,15 @@
 				D7C4B8F518FC5E1500C9C7AD /* Person.m */,
 			);
 			path = oo;
+			sourceTree = "<group>";
+		};
+		D7C4B8F918FCD60100C9C7AD /* basic */ = {
+			isa = PBXGroup;
+			children = (
+				D7C4B8FA18FCD63200C9C7AD /* BasicOC.h */,
+				D7C4B8FB18FCD63200C9C7AD /* BasicOC.m */,
+			);
+			path = basic;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -157,6 +170,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7C4B8FC18FCD63200C9C7AD /* BasicOC.m in Sources */,
 				D7C4B8F618FC5E1500C9C7AD /* BasicMath.m in Sources */,
 				D7C4B8F818FC5E1500C9C7AD /* Person.m in Sources */,
 				D7C4B8E618FC5DC100C9C7AD /* main.m in Sources */,

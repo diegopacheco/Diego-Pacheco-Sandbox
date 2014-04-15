@@ -9,6 +9,7 @@
 #import <Foundation/Foundation.h>
 #import "Person.h"
 #import "BasicMath.h"
+#import "BasicOC.h"
 
 int main(int argc, const char * argv[]){
     @autoreleasepool {
@@ -18,6 +19,9 @@ int main(int argc, const char * argv[]){
         
         Person *diego = [[Person alloc] init];
         [diego doItAll];
+        
+        BasicOC *bc = [[BasicOC alloc] init];
+        [bc doBasicStuff];
         
     }
     return 0;
