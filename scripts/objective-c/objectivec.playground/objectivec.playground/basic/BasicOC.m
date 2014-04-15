@@ -61,9 +61,25 @@
     }
 }
 
+-(void) doArrays{
+   NSArray *dayz = @[@"Segunda", @"Terca", @"Quarta"];
+   NSLog(@"Day: %@", dayz[0]);
+   NSLog(@"Day: %@", dayz[1]);
+   NSLog(@"Day: %@", dayz[2]);
+}
+
+-(void) doForLoop{
+    NSArray *dayz = @[@"Dia 1", @"Dia 2", @"Dia 3"];
+    for (NSString *d in dayz) {
+        NSLog(@"%@",d);
+    }
+}
+
 -(void) doBasicStuff{
     [self doIFBooleans];
     [self doIsEqualStrings];
     [self doSwitch];
+    [self doArrays];
+    [self doForLoop];
 }
 @end

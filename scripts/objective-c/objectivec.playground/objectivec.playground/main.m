@@ -10,6 +10,8 @@
 #import "Person.h"
 #import "BasicMath.h"
 #import "BasicOC.h"
+#import "DataTypes.h"
+#import "ClosurePlay.h"
 
 int main(int argc, const char * argv[]){
     @autoreleasepool {
@@ -22,6 +24,12 @@ int main(int argc, const char * argv[]){
         
         BasicOC *bc = [[BasicOC alloc] init];
         [bc doBasicStuff];
+        
+        DataTypes *dt = [[DataTypes alloc] init];
+        [dt doItAll];
+        
+        ClosurePlay *cp = [[ClosurePlay alloc] init];
+        [cp doItAll];
         
     }
     return 0;
