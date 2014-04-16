@@ -8,9 +8,13 @@
 
 #import <Foundation/Foundation.h>
 
-@interface OOAdvanced : NSObject {
+// NSCopying is a protocol
+@interface OOAdvanced : NSObject <NSCopying>{
+    // count is a instance variable
     NSNumber *_count;
 }
+
+- (OOAdvanced *) initReflection;
 
 @property NSString *name;
 @property (readonly) NSNumber *age;

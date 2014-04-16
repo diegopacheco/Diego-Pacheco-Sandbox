@@ -10,6 +10,9 @@
 
 @implementation ClosurePlay
 
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wall"
+
 -(void) doFunWithClosure{
     void (^myBlock)(void) = ^{
         NSLog(@"Hello from inside the block");
@@ -27,6 +30,8 @@
     NSUInteger *result = sumNumbers(10,10);
     NSLog(@"%qi", result);
 }
+
+#pragma clang diagnostic pop
 
 -(void) doClosureForFun{
     NSDictionary *cities = @{

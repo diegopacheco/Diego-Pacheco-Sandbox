@@ -26,11 +26,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "objectivec.playground/closure/ClosurePlay.m"
-            timestampString = "419277847.409639"
+            timestampString = "419379195.656377"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "28"
-            endingLineNumber = "28"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
             landmarkName = "-doFunWithClosure"
             landmarkType = "5">
          </BreakpointContent>
