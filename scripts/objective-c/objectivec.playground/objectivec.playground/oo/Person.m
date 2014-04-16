@@ -24,6 +24,10 @@
     NSLog(@"Changed the PERSON to a %@", diego.name);
     
     [diego sayHi];
+    
+    [diego setLastName: @"Pacheco"];
+     NSLog(@"%@", [diego lastName]);
+    
 }
 
 @end
