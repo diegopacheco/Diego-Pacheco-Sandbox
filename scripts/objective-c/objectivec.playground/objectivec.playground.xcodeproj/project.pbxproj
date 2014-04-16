@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D73CB4E118FF292C009E7273 /* OOAdvanced.m in Sources */ = {isa = PBXBuildFile; fileRef = D73CB4E018FF292C009E7273 /* OOAdvanced.m */; };
 		D7C4B8E318FC5DC100C9C7AD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7C4B8E218FC5DC100C9C7AD /* Foundation.framework */; };
 		D7C4B8E618FC5DC100C9C7AD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D7C4B8E518FC5DC100C9C7AD /* main.m */; };
 		D7C4B8EA18FC5DC100C9C7AD /* objectivec_playground.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = D7C4B8E918FC5DC100C9C7AD /* objectivec_playground.1 */; };
@@ -31,6 +32,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		D73CB4DF18FF292C009E7273 /* OOAdvanced.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOAdvanced.h; sourceTree = "<group>"; };
+		D73CB4E018FF292C009E7273 /* OOAdvanced.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OOAdvanced.m; sourceTree = "<group>"; };
 		D7C4B8DF18FC5DC100C9C7AD /* objectivec.playground */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = objectivec.playground; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7C4B8E218FC5DC100C9C7AD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D7C4B8E518FC5DC100C9C7AD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -114,6 +117,8 @@
 				D7C4B8F218FC5E1500C9C7AD /* BasicMath.m */,
 				D7C4B8F418FC5E1500C9C7AD /* Person.h */,
 				D7C4B8F518FC5E1500C9C7AD /* Person.m */,
+				D73CB4DF18FF292C009E7273 /* OOAdvanced.h */,
+				D73CB4E018FF292C009E7273 /* OOAdvanced.m */,
 			);
 			path = oo;
 			sourceTree = "<group>";
@@ -198,6 +203,7 @@
 			files = (
 				D7C4B8FC18FCD63200C9C7AD /* BasicOC.m in Sources */,
 				D7C4B8F618FC5E1500C9C7AD /* BasicMath.m in Sources */,
+				D73CB4E118FF292C009E7273 /* OOAdvanced.m in Sources */,
 				D7C4B8F818FC5E1500C9C7AD /* Person.m in Sources */,
 				D7C4B90018FD643100C9C7AD /* DataTypes.m in Sources */,
 				D7C4B8E618FC5DC100C9C7AD /* main.m in Sources */,
@@ -315,6 +321,7 @@
 				D7C4B8EF18FC5DC100C9C7AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

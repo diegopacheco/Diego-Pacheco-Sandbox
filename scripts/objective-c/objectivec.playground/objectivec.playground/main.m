@@ -12,6 +12,7 @@
 #import "BasicOC.h"
 #import "DataTypes.h"
 #import "ClosurePlay.h"
+#import "OOAdvanced.h"
 
 int main(int argc, const char * argv[]){
     @autoreleasepool {
@@ -30,6 +31,9 @@ int main(int argc, const char * argv[]){
         
         ClosurePlay *cp = [[ClosurePlay alloc] init];
         [cp doItAll];
+        
+        OOAdvanced *ooa = [[OOAdvanced alloc] init];
+        [ooa doItAll];
         
     }
     return 0;
