@@ -4,25 +4,20 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>objectivec.playground.xcscheme</key>
+		<key>Functional.IOS.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
-		<key>objectivec.playground_test.xcscheme</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>1</integer>
-		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>D7A59945190701F30098BD4C</key>
+		<key>D7A59960190703330098BD4C</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>D7C4B8DE18FC5DC100C9C7AD</key>
+		<key>D7A59977190703330098BD4C</key>
 		<dict>
 			<key>primary</key>
 			<true/>

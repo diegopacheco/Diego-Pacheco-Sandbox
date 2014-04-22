@@ -22,12 +22,12 @@
     myBlock();
     myBlock();
     
-    NSUInteger (^sumNumbers)(NSUInteger, NSUInteger) = ^(NSUInteger num1, NSUInteger num2){
+    NSInteger (^sumNumbers)(NSInteger, NSInteger) = ^(NSInteger num1, NSInteger num2){
         NSLog(@"The sum of the numbers is %lu", num1 + num2);
         return num1 + num2;
     };
     
-    NSUInteger *result = sumNumbers(10,10);
+    NSInteger result = sumNumbers(10,10);
     NSLog(@"%qi", result);
 }
 

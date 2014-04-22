@@ -8,7 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		D73CB4E118FF292C009E7273 /* OOAdvanced.m in Sources */ = {isa = PBXBuildFile; fileRef = D73CB4E018FF292C009E7273 /* OOAdvanced.m */; };
-		D7C4B8E318FC5DC100C9C7AD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7C4B8E218FC5DC100C9C7AD /* Foundation.framework */; };
+		D7A59947190701F30098BD4C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7A599401906FFAA0098BD4C /* XCTest.framework */; };
+		D7A5994D190701F30098BD4C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D7A5994B190701F30098BD4C /* InfoPlist.strings */; };
+		D7A5994F190701F30098BD4C /* objectivec_playground_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = D7A5994E190701F30098BD4C /* objectivec_playground_Tests.m */; };
+		D7A59956190702220098BD4C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7C4B8E218FC5DC100C9C7AD /* Foundation.framework */; };
+		D7A599A719070D510098BD4C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7A599A619070D510098BD4C /* Cocoa.framework */; };
+		D7A599A919070D5F0098BD4C /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7A599A819070D5F0098BD4C /* CoreData.framework */; };
+		D7A599AB19070D670098BD4C /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7A599AA19070D670098BD4C /* AppKit.framework */; };
+		D7A599CE190711B30098BD4C /* Functional.IOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7A599CA190711AA0098BD4C /* Functional.IOS.framework */; };
 		D7C4B8E618FC5DC100C9C7AD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D7C4B8E518FC5DC100C9C7AD /* main.m */; };
 		D7C4B8EA18FC5DC100C9C7AD /* objectivec_playground.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = D7C4B8E918FC5DC100C9C7AD /* objectivec_playground.1 */; };
 		D7C4B8F618FC5E1500C9C7AD /* BasicMath.m in Sources */ = {isa = PBXBuildFile; fileRef = D7C4B8F218FC5E1500C9C7AD /* BasicMath.m */; };
@@ -17,6 +24,16 @@
 		D7C4B90018FD643100C9C7AD /* DataTypes.m in Sources */ = {isa = PBXBuildFile; fileRef = D7C4B8FF18FD643100C9C7AD /* DataTypes.m */; };
 		D7C4B90418FDA78A00C9C7AD /* ClosurePlay.m in Sources */ = {isa = PBXBuildFile; fileRef = D7C4B90318FDA78A00C9C7AD /* ClosurePlay.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D7A59951190701F30098BD4C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D7C4B8D718FC5DC100C9C7AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D7C4B8DE18FC5DC100C9C7AD;
+			remoteInfo = objectivec.playground;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		D7C4B8DD18FC5DC100C9C7AD /* CopyFiles */ = {
@@ -34,6 +51,16 @@
 /* Begin PBXFileReference section */
 		D73CB4DF18FF292C009E7273 /* OOAdvanced.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOAdvanced.h; sourceTree = "<group>"; };
 		D73CB4E018FF292C009E7273 /* OOAdvanced.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OOAdvanced.m; sourceTree = "<group>"; };
+		D7A599401906FFAA0098BD4C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D7A59946190701F30098BD4C /* objectivec.playground Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "objectivec.playground Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7A5994A190701F30098BD4C /* objectivec.playground Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "objectivec.playground Tests-Info.plist"; sourceTree = "<group>"; };
+		D7A5994C190701F30098BD4C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D7A5994E190701F30098BD4C /* objectivec_playground_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = objectivec_playground_Tests.m; sourceTree = "<group>"; };
+		D7A59950190701F30098BD4C /* objectivec.playground Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "objectivec.playground Tests-Prefix.pch"; sourceTree = "<group>"; };
+		D7A599A619070D510098BD4C /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		D7A599A819070D5F0098BD4C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		D7A599AA19070D670098BD4C /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		D7A599CA190711AA0098BD4C /* Functional.IOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Functional.IOS.framework; path = "../../../../Library/Developer/Xcode/DerivedData/Functional.IOS-gsoxopkfkgpqgsfsatigggfprmmu/Build/Products/Release/Functional.IOS.framework"; sourceTree = "<group>"; };
 		D7C4B8DF18FC5DC100C9C7AD /* objectivec.playground */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = objectivec.playground; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7C4B8E218FC5DC100C9C7AD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D7C4B8E518FC5DC100C9C7AD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -52,21 +79,53 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		D7A59943190701F30098BD4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7A59947190701F30098BD4C /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D7C4B8DC18FC5DC100C9C7AD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D7C4B8E318FC5DC100C9C7AD /* Foundation.framework in Frameworks */,
+				D7A599CE190711B30098BD4C /* Functional.IOS.framework in Frameworks */,
+				D7A599AB19070D670098BD4C /* AppKit.framework in Frameworks */,
+				D7A599A919070D5F0098BD4C /* CoreData.framework in Frameworks */,
+				D7A599A719070D510098BD4C /* Cocoa.framework in Frameworks */,
+				D7A59956190702220098BD4C /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D7A59948190701F30098BD4C /* objectivec.playground Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D7A5994E190701F30098BD4C /* objectivec_playground_Tests.m */,
+				D7A59949190701F30098BD4C /* Supporting Files */,
+			);
+			path = "objectivec.playground Tests";
+			sourceTree = "<group>";
+		};
+		D7A59949190701F30098BD4C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D7A5994A190701F30098BD4C /* objectivec.playground Tests-Info.plist */,
+				D7A5994B190701F30098BD4C /* InfoPlist.strings */,
+				D7A59950190701F30098BD4C /* objectivec.playground Tests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		D7C4B8D618FC5DC100C9C7AD = {
 			isa = PBXGroup;
 			children = (
 				D7C4B8E418FC5DC100C9C7AD /* objectivec.playground */,
+				D7A59948190701F30098BD4C /* objectivec.playground Tests */,
 				D7C4B8E118FC5DC100C9C7AD /* Frameworks */,
 				D7C4B8E018FC5DC100C9C7AD /* Products */,
 			);
@@ -76,6 +135,7 @@
 			isa = PBXGroup;
 			children = (
 				D7C4B8DF18FC5DC100C9C7AD /* objectivec.playground */,
+				D7A59946190701F30098BD4C /* objectivec.playground Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -83,6 +143,11 @@
 		D7C4B8E118FC5DC100C9C7AD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D7A599CA190711AA0098BD4C /* Functional.IOS.framework */,
+				D7A599AA19070D670098BD4C /* AppKit.framework */,
+				D7A599A819070D5F0098BD4C /* CoreData.framework */,
+				D7A599A619070D510098BD4C /* Cocoa.framework */,
+				D7A599401906FFAA0098BD4C /* XCTest.framework */,
 				D7C4B8E218FC5DC100C9C7AD /* Foundation.framework */,
 			);
 			name = Frameworks;
@@ -153,6 +218,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		D7A59945190701F30098BD4C /* objectivec.playground Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7A59953190701F30098BD4C /* Build configuration list for PBXNativeTarget "objectivec.playground Tests" */;
+			buildPhases = (
+				D7A59942190701F30098BD4C /* Sources */,
+				D7A59943190701F30098BD4C /* Frameworks */,
+				D7A59944190701F30098BD4C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D7A59952190701F30098BD4C /* PBXTargetDependency */,
+			);
+			name = "objectivec.playground Tests";
+			productName = "objectivec.playground Tests";
+			productReference = D7A59946190701F30098BD4C /* objectivec.playground Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		D7C4B8DE18FC5DC100C9C7AD /* objectivec.playground */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D7C4B8ED18FC5DC100C9C7AD /* Build configuration list for PBXNativeTarget "objectivec.playground" */;
@@ -178,6 +261,11 @@
 			attributes = {
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = Dev;
+				TargetAttributes = {
+					D7A59945190701F30098BD4C = {
+						TestTargetID = D7C4B8DE18FC5DC100C9C7AD;
+					};
+				};
 			};
 			buildConfigurationList = D7C4B8DA18FC5DC100C9C7AD /* Build configuration list for PBXProject "objectivec.playground" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -192,11 +280,31 @@
 			projectRoot = "";
 			targets = (
 				D7C4B8DE18FC5DC100C9C7AD /* objectivec.playground */,
+				D7A59945190701F30098BD4C /* objectivec.playground Tests */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		D7A59944190701F30098BD4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7A5994D190701F30098BD4C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		D7A59942190701F30098BD4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7A5994F190701F30098BD4C /* objectivec_playground_Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D7C4B8DB18FC5DC100C9C7AD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -213,7 +321,60 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		D7A59952190701F30098BD4C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D7C4B8DE18FC5DC100C9C7AD /* objectivec.playground */;
+			targetProxy = D7A59951190701F30098BD4C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D7A5994B190701F30098BD4C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7A5994C190701F30098BD4C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
+		D7A59954190701F30098BD4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "objectivec.playground Tests/objectivec.playground Tests-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "objectivec.playground Tests/objectivec.playground Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		D7A59955190701F30098BD4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "objectivec.playground Tests/objectivec.playground Tests-Prefix.pch";
+				INFOPLIST_FILE = "objectivec.playground Tests/objectivec.playground Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
 		D7C4B8EB18FC5DC100C9C7AD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -246,6 +407,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(inherited)/Functional.IOS.framework",
+				);
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
@@ -279,6 +445,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(inherited)/Functional.IOS.framework",
+				);
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				SDKROOT = macosx;
 			};
@@ -287,8 +458,18 @@
 		D7C4B8EE18FC5DC100C9C7AD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(PROJECT_DIR)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/Functional.IOS-gsoxopkfkgpqgsfsatigggfprmmu/Build/Products/Release",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "objectivec.playground/objectivec.playground-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -296,8 +477,18 @@
 		D7C4B8EF18FC5DC100C9C7AD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(PROJECT_DIR)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/Functional.IOS-gsoxopkfkgpqgsfsatigggfprmmu/Build/Products/Release",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "objectivec.playground/objectivec.playground-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -305,6 +496,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		D7A59953190701F30098BD4C /* Build configuration list for PBXNativeTarget "objectivec.playground Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7A59954190701F30098BD4C /* Debug */,
+				D7A59955190701F30098BD4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		D7C4B8DA18FC5DC100C9C7AD /* Build configuration list for PBXProject "objectivec.playground" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

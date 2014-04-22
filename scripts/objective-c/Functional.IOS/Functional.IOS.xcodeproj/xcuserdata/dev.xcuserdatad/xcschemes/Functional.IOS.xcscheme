@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D7C4B8DE18FC5DC100C9C7AD"
-               BuildableName = "objectivec.playground"
-               BlueprintName = "objectivec.playground"
-               ReferencedContainer = "container:objectivec.playground.xcodeproj">
+               BlueprintIdentifier = "D7A59960190703330098BD4C"
+               BuildableName = "Functional.IOS.framework"
+               BlueprintName = "Functional.IOS"
+               ReferencedContainer = "container:Functional.IOS.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,41 +32,23 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D7A59945190701F30098BD4C"
-               BuildableName = "objectivec.playground Tests.xctest"
-               BlueprintName = "objectivec.playground Tests"
-               ReferencedContainer = "container:objectivec.playground.xcodeproj">
+               BlueprintIdentifier = "D7A59977190703330098BD4C"
+               BuildableName = "Functional.IOSTests.xctest"
+               BlueprintName = "Functional.IOSTests"
+               ReferencedContainer = "container:Functional.IOS.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D7C4B8DE18FC5DC100C9C7AD"
-            BuildableName = "objectivec.playground"
-            BlueprintName = "objectivec.playground"
-            ReferencedContainer = "container:objectivec.playground.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
    </TestAction>
    <LaunchAction
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       launchStyle = "0"
       useCustomWorkingDirectory = "NO"
-      buildConfiguration = "Debug"
+      buildConfiguration = "Release"
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D7C4B8DE18FC5DC100C9C7AD"
-            BuildableName = "objectivec.playground"
-            BlueprintName = "objectivec.playground"
-            ReferencedContainer = "container:objectivec.playground.xcodeproj">
-         </BuildableReference>
-      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -76,15 +58,6 @@
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D7C4B8DE18FC5DC100C9C7AD"
-            BuildableName = "objectivec.playground"
-            BlueprintName = "objectivec.playground"
-            ReferencedContainer = "container:objectivec.playground.xcodeproj">
-         </BuildableReference>
-      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

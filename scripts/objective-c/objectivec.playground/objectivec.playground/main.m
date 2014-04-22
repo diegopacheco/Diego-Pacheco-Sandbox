@@ -13,6 +13,7 @@
 #import "DataTypes.h"
 #import "ClosurePlay.h"
 #import "OOAdvanced.h"
+//#import "FPFun.h"
 
 int main(int argc, const char * argv[]){
     @autoreleasepool {
@@ -34,6 +35,9 @@ int main(int argc, const char * argv[]){
         
         OOAdvanced *ooa = [[OOAdvanced alloc] init];
         [ooa doItAll];
+        
+//        FPFun *fp = [[FPFun alloc] init];
+//        [fp doFunFP];
         
     }
     return 0;
