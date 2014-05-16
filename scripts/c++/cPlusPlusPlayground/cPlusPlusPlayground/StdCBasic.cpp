@@ -11,7 +11,7 @@ StdCBasic::~StdCBasic() {
 };
 
 void StdCBasic::doWork() {
-
+	
 	double in;
 	double result = 5 + 5;
 
