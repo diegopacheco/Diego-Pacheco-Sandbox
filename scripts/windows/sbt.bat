@@ -1,2 +1,2 @@
 set SCRIPT_DIR=%~dp0
-java -Xmx512M -jar "%SCRIPT_DIR%sbt-launch.jar" %*
+java -XX:ReservedCodeCacheSize=1024M -XX:+CMSClassUnloadingEnabled -XX:+CMSClassUnloadingEnabled -XX:MaxPermSize=512M -Xmx1024M -Xss2M -jar "%SCRIPT_DIR%sbt-launch.jar" %*
