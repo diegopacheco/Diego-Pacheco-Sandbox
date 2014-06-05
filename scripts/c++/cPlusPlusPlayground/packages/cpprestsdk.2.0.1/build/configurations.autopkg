@@ -1,0 +1,24 @@
+configurations {
+    Configurations { 
+        key : "Configuration";
+        choices : { Release, Debug };
+    };
+    Toolsets { 
+        key : "PlatformToolset";
+        choices : { v120, v110_wp80, v110_xp, v110 };
+    };
+    Platforms { 
+        key : "Platform";
+        choices : { Win32, ARM, x64 };
+        Win32.aliases : { x86, win32, ia32, 386 };
+        ARM.aliases : { arm, woa };
+        x64.aliases : { x64, amd64, em64t, intel64, x86-64, x86_64 };
+    };
+    TargetApplicationTypes { 
+        key : "TargetApplicationType";
+        choices : { Desktop, Phone8, WinRT };
+        Desktop.aliases : { desktop, notwinrt };
+        Phone8.aliases : { phone8, phone, windowsphone };
+        WinRT.aliases : { winrt, metro, modern };
+    };
+};

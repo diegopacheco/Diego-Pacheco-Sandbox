@@ -1,0 +1,17 @@
+﻿Build started 5/16/2014 9:30:57 PM.
+     1>Project "D:\diego\github\diego.pacheco\Diego-Pacheco-Sandbox\scripts\c++\cPlusPlusPlayground\UnitTest1\UnitTest1.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         D:\install_bin\ms_vs_2013_ultimate\VC\bin\CL.exe /c /ID:\install_bin\ms_vs_2013_ultimate\VC\UnitTest\include /I"D:\diego\github\diego.pacheco\Diego-Pacheco-Sandbox\scripts\c++\cPlusPlusPlayground\cPlusPlusPlayground" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\UnitTest1.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /FC /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         D:\install_bin\ms_vs_2013_ultimate\VC\bin\CL.exe /c /ID:\install_bin\ms_vs_2013_ultimate\VC\UnitTest\include /I"D:\diego\github\diego.pacheco\Diego-Pacheco-Sandbox\scripts\c++\cPlusPlusPlayground\cPlusPlusPlayground" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\UnitTest1.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /FC /errorReport:prompt unittest1.cpp
+         unittest1.cpp
+       Link:
+         D:\install_bin\ms_vs_2013_ultimate\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\diego\github\diego.pacheco\Diego-Pacheco-Sandbox\scripts\c++\cPlusPlusPlayground\Debug\UnitTest1.dll" /INCREMENTAL /NOLOGO /LIBPATH:D:\install_bin\ms_vs_2013_ultimate\VC\UnitTest\lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\diego\github\diego.pacheco\Diego-Pacheco-Sandbox\scripts\c++\cPlusPlusPlayground\Debug\UnitTest1.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\diego\github\diego.pacheco\Diego-Pacheco-Sandbox\scripts\c++\cPlusPlusPlayground\Debug\UnitTest1.lib" /MACHINE:X86 /DLL Debug\stdafx.obj
+         Debug\unittest1.obj
+            Creating library D:\diego\github\diego.pacheco\Diego-Pacheco-Sandbox\scripts\c++\cPlusPlusPlayground\Debug\UnitTest1.lib and object D:\diego\github\diego.pacheco\Diego-Pacheco-Sandbox\scripts\c++\cPlusPlusPlayground\Debug\UnitTest1.exp
+         UnitTest1.vcxproj -> D:\diego\github\diego.pacheco\Diego-Pacheco-Sandbox\scripts\c++\cPlusPlusPlayground\Debug\UnitTest1.dll
+     1>Done Building Project "D:\diego\github\diego.pacheco\Diego-Pacheco-Sandbox\scripts\c++\cPlusPlusPlayground\UnitTest1\UnitTest1.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.86

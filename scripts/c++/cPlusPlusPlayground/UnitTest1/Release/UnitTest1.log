@@ -1,0 +1,13 @@
+﻿Build started 5/16/2014 8:07:00 PM.
+     1>Project "D:\diego\github\diego.pacheco\Diego-Pacheco-Sandbox\scripts\c++\cPlusPlusPlayground\UnitTest1\UnitTest1.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         D:\install_bin\ms_vs_2013_ultimate\VC\bin\CL.exe /c /ID:\install_bin\ms_vs_2013_ultimate\VC\UnitTest\include /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Release\UnitTest1.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /FC /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         D:\install_bin\ms_vs_2013_ultimate\VC\bin\CL.exe /c /ID:\install_bin\ms_vs_2013_ultimate\VC\UnitTest\include /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\UnitTest1.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /FC /errorReport:prompt unittest1.cpp
+         unittest1.cpp
+     1>d:\diego\github\diego.pacheco\diego-pacheco-sandbox\scripts\c++\cplusplusplayground\unittest1\unittest1.cpp(9): fatal error C1083: Cannot open include file: 'SimpeMath.h': No such file or directory
+     1>Done Building Project "D:\diego\github\diego.pacheco\Diego-Pacheco-Sandbox\scripts\c++\cPlusPlusPlayground\UnitTest1\UnitTest1.vcxproj" (Rebuild target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.38
