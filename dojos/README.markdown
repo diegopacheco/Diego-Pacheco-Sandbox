@@ -131,30 +131,20 @@ Dojo's Backlog
 ==============
 
 ## Clojure
-* clj-json
-* clamq 
-* redis-clojure
 * aleph
 * typed-clojure
 * overtone
-* webserver (clojure)
 * lamina
 * basil
-* FnParse
 * parsatron
 
 ## Java
-* FunctionalJava
-* restsql
-* Lucene/Solr
+* jooq
 * Abdera
 * Spring Social
 * Spring Gemfire
-* JHaskell
-* Spark
 * Apache Felix (OSGI)
 * JeroMQ
-* Cascading
 * Apache Gora
 
 ## Groovy
@@ -166,23 +156,15 @@ Dojo's Backlog
 * quoddy
 
 ## Python
-* SQLObject
 * requests
 * hammock
 * httpie
 * blessings
-* animals
-* gd (python GD module)
 * python-jabber
-* googlemaps (python)
-* cython
 
 ## Scala
 * blueeyes
-* scalatra
 * scala-migrations
-* rooscaloo
-* spark
 * scalamacros
 * scalaforandroid
 
@@ -206,18 +188,11 @@ Dojo's Backlog
 * three.js
 * less.js
 * Angular
-* Bootstrap
 
 ## MISC
 * ParrotVM
-* HTML 5
 * TCL/Rivet
 * RestMS
 * DSDM
 * Crystal (Clear, etc...)
-* Cloud/PaaS/IaaS/SaaS
 * Smalltalk
-* IO
-* Arduino
-* C++
-* swagger
