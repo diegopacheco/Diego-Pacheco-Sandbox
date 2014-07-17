@@ -12,4 +12,5 @@ import java.lang.annotation.Target;
 @Target(ElementType.TYPE)
 public @interface JNIService {
     String name() default "";
+    String cPath() default "../../src/include/contract/";
 }

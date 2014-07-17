@@ -20,6 +20,7 @@ public class CentralService {
         return null;
     }
 
+    @JNIServiceOperation
     public List<Central> retrieveConfiguredCentrals(User user){
         return null;
     }
