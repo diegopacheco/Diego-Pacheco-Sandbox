@@ -1,5 +1,7 @@
 package com.github.diegopacheco.sandbox.java.generator.jni.generator;
 
+import com.github.diegopacheco.sandbox.java.generator.jni.builtin.BuiltInFunction;
+import com.github.diegopacheco.sandbox.java.generator.jni.builtin.JStringToCString;
 import com.github.diegopacheco.sandbox.java.generator.jni.converter.ClassConverter;
 import com.github.diegopacheco.sandbox.java.generator.jni.converter.TypeConverter;
 import com.github.diegopacheco.sandbox.java.generator.jni.metadata.JNIService;
@@ -8,6 +10,7 @@ import com.github.diegopacheco.sandbox.java.generator.jni.reflections.JavaReflec
 
 import java.lang.reflect.Method;
 import java.util.ArrayList;
+import java.util.LinkedHashSet;
 import java.util.List;
 import java.util.Set;
 
@@ -19,6 +22,7 @@ public class JNIReflectionGenerator {
     private String basePackageScan;
     private ClassConverter classConverter = new ClassConverter();
     private TypeConverter typeConverter = new TypeConverter();
+    private Set<BuiltInFunction> buildInFunctions = new LinkedHashSet<BuiltInFunction>();
     private List<Include> cppIncludes;
 
     public static void main(String args[]) {
@@ -28,6 +32,10 @@ public class JNIReflectionGenerator {
         includes.add(new Include("<string.h>"));
         includes.add(new Include("<jni.h>"));
 
+        Set<BuiltInFunction> fns = new LinkedHashSet<BuiltInFunction>();
+        fns.add(new JStringToCString());
+
+        generator.setBuildInFunctions(fns);
         generator.setCppIncludes(includes);
         generator.generate();
     }
@@ -43,15 +51,28 @@ public class JNIReflectionGenerator {
         builder.append(addCClassImports(services));
         builder.append(addExtern());
 
+        builder.append(addBuitInFunctions());
+        addJNIExports(builder, reflectionService, services);
+
+        builder.append(closeExtern());
+        System.out.println(builder.toString());
+    }
+
+    private String addBuitInFunctions() {
+        StringBuffer sb = new StringBuffer("");
+        for(BuiltInFunction fn: buildInFunctions){
+            sb.append(fn.getCode() + "\n\n");
+        }
+        return sb.toString();
+    }
+
+    private void addJNIExports(StringBuffer builder, JavaReflectionService reflectionService, Set<Class<?>> services) {
         for (Class serviceClass : services) {
             Set<Method> methods = reflectionService.methods(serviceClass, JNIServiceOperation.class);
             for (Method m : methods) {
                 builder.append(exportMethod(serviceClass, m));
             }
         }
-
-        builder.append(closeExtern());
-        System.out.println(builder.toString());
     }
 
     private String addCClassImports(Set<Class<?>> services){
@@ -116,5 +137,9 @@ public class JNIReflectionGenerator {
 
     public void setClassConverter(ClassConverter classConverter) {
         this.classConverter = classConverter;
+    }
+
+    public void setBuildInFunctions(Set<BuiltInFunction> buildInFunctions) {
+        this.buildInFunctions = buildInFunctions;
     }
 }

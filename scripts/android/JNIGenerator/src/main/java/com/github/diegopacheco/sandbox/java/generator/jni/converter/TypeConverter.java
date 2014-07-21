@@ -8,21 +8,25 @@ import java.util.Map;
  */
 public class TypeConverter implements Converter {
 
-   private Map<String,String> typez = new HashMap<String, String>();
+    private Map<String, String> typez = new HashMap<String, String>();
 
-   public TypeConverter(){
-       typez.put("boolean","jboolean");
-       typez.put("byte","jbyte");
-       typez.put("char","jchar");
-       typez.put("short","jshort");
-       typez.put("int","jint");
-       typez.put("float","jfloat");
-       typez.put("double","jdouble");
-       typez.put("void","void");
-   }
+    public TypeConverter() {
+        typez.put("boolean", "jboolean");
+        typez.put("byte", "jbyte");
+        typez.put("char", "jchar");
+        typez.put("short", "jshort");
+        typez.put("int", "jint");
+        typez.put("float", "jfloat");
+        typez.put("double", "jdouble");
+        typez.put("void", "void");
+    }
 
-   public String transform(String source){
-       return typez.get(source);
-   }
+    public String transform(String source) {
+        String result = typez.get(source);
+        if (result == null || "".equals(result)) {
+            return "jobject";
+        }
+        return result;
+    }
 
 }
