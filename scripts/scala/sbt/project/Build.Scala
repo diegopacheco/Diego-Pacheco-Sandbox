@@ -10,7 +10,7 @@ object SbtIdeaBuild extends Build with BuildExtra {
     name := "sbt-idea",
     version := "1.7.0-SNAPSHOT",
     sbtVersion in Global := "0.13.2",
-    scalaVersion in Global := "2.10.3",
+    scalaVersion in Global := "2.11.0",
     publishTo <<= version { (v: String) =>
       val nexus = "https://oss.sonatype.org/"
       if (v.trim.endsWith("SNAPSHOT")) Some("snapshots" at nexus + "content/repositories/snapshots")
@@ -26,7 +26,10 @@ object SbtIdeaBuild extends Build with BuildExtra {
     ),
     scalacOptions ++= Seq("-deprecation", "-unchecked", "-feature"),
     libraryDependencies ++= Seq(
-      "commons-io" % "commons-io" % "2.4"
+      "commons-io" % "commons-io" % "2.4",
+      "junit" % "junit" % "4.11",
+      "com.novocode" % "junit-interface" % "0.8" % "test->default",
+      "org.scalatest" %% "scalatest" % "1.9.1" % "test"
     )
   ) ++ addSbtPlugin("com.github.mpeltonen" % "sbt-idea" % "1.6.0")
 
