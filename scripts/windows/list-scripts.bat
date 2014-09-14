@@ -1,6 +1,6 @@
-ls "/cygdrive/D/diego/github/diego.pacheco/Diego-Pacheco-Sandbox/scripts/windows" --color
+ls "D:/diego/github/diego.pacheco/Diego-Pacheco-Sandbox/scripts/windows"
 
-ls "/cygdrive/D/diego/github/diego.pacheco/Diego-Pacheco-Sandbox/scripts/linux" --color
+ls "D:/diego/github/diego.pacheco/Diego-Pacheco-Sandbox/scripts/linux"
 
-ls "/cygdrive/D/diego/win-scripts" --color
+ls "D:/diego/win-scripts"
 

@@ -1,1 +1,1 @@
-mvn clean install -T 1C %1 %2
+mvn clean install -T 2C %1 %2
