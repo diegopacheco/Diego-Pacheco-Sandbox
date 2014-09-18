@@ -10,6 +10,7 @@ public class Producers {
 		String day();
 	}
 	
+	@SuppressWarnings("deprecation")
 	public static void main(String[] args) {
 		
 		Clock c = () -> { return new Date().getDate() + ""; };
