@@ -1,6 +1,0 @@
-(def diego {:name "Diego Pacheco" :age 26})
-(def diegocode (with-meta diego {:code "clojure"}))
-(println (= diego diegocode))
-(println (identical? diego diegocode))
-(println (meta diego))
-(println (meta diegocode))

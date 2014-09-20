@@ -1,0 +1,5 @@
+(doto (System/getProperties)
+   (.setProperty "name" "Diego")
+   (.setProperty "code" "Clojure")
+)
+(println (System/getProperties))

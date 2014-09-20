@@ -1,5 +1,0 @@
-(def visitors (ref #{}))
-(dosync (alter visitors conj "Diego"))
-(dosync (alter visitors conj "Pacheco"))
-(dosync (alter visitors conj "Clojure"))
-(println ref visitors)
