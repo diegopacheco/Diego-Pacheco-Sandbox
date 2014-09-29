@@ -1,6 +1,5 @@
 package com.github.diegopacheco.sandbox.java.ioc.scala.cake.thin
 
-
 object CakeThinApp extends App {
   
     case class Car(var model:String)
@@ -39,5 +38,10 @@ object CakeThinApp extends App {
     val c:Car = Car("Gol")
     println( new LocalApp().tollOneWay )
     println( new LocalApp().doit.tollOneWay )
+    
+    println( new TaxService with BrazillianTollService  ().tollOneWay )
+    println( new TaxService with ArgentinianTollService ().tollOneWay )
+    
+    
   
 }
