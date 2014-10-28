@@ -1,1 +1,1 @@
-"C:\Program Files (x86)\Haskell Platform\2011.4.0.0\bin"\ghci.exe
+"D:\diego\bin\Haskell_Platform\2014.2.0.0\bin"\ghci.exe
