@@ -25,7 +25,14 @@ fn main() {
     println!("You inputed: {}", input);
 
     hello::print_hello();
-    
+
+    let add_one = |x| { 1i + x };
+	println!("The sum of 5 plus 1 is {}.", add_one(5i));
+
+	for x in range(0i, 10i) {
+    	println!("{:d}", x);
+	}
+
 }
 
 mod hello {
