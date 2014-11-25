@@ -1,0 +1,17 @@
+<classpath>
+  <classpathentry output="target\scala-2.11\classes" kind="src" path="src\main\scala"/>
+  <classpathentry output="target\scala-2.11\classes" kind="src" path="src\main\java"/>
+  <classpathentry output="target\scala-2.11\test-classes" kind="src" path="src\test\scala"/>
+  <classpathentry output="target\scala-2.11\test-classes" kind="src" path="src\test\java"/>
+  <classpathentry kind="con" path="org.scala-ide.sdt.launching.SCALA_CONTAINER"/>
+  <classpathentry kind="lib" path="C:\Users\diego\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\jars\akka-actor_2.11-2.3.6.jar"/>
+  <classpathentry kind="lib" path="C:\Users\diego\.ivy2\cache\com.typesafe\config\bundles\config-1.2.1.jar"/>
+  <classpathentry kind="lib" path="C:\Users\diego\.ivy2\cache\com.typesafe.akka\akka-cluster_2.11\jars\akka-cluster_2.11-2.3.6.jar"/>
+  <classpathentry kind="lib" path="C:\Users\diego\.ivy2\cache\com.typesafe.akka\akka-remote_2.11\jars\akka-remote_2.11-2.3.6.jar"/>
+  <classpathentry kind="lib" path="C:\Users\diego\.ivy2\cache\io.netty\netty\bundles\netty-3.8.0.Final.jar"/>
+  <classpathentry kind="lib" path="C:\Users\diego\.ivy2\cache\com.google.protobuf\protobuf-java\bundles\protobuf-java-2.5.0.jar"/>
+  <classpathentry kind="lib" path="C:\Users\diego\.ivy2\cache\org.uncommons.maths\uncommons-maths\jars\uncommons-maths-1.2.2a.jar"/>
+  <classpathentry kind="lib" path="C:\Users\diego\.ivy2\cache\com.typesafe.akka\akka-kernel_2.11\jars\akka-kernel_2.11-2.3.6.jar"/>
+  <classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+  <classpathentry kind="output" path="bin"/>
+</classpath>
