@@ -9,3 +9,7 @@
 /scripts/c++/cPlusPlusPlayground/ipch
 /scripts/c++/cPlusPlusPlayground/Debug
 *.exe
+scripts/scala/scala_11_akka_23_full_playground/project/project/target/config-classes/$5b6108a4f3464dbde88f.cache
+scripts/scala/scala_11_akka_23_full_playground/project/project/target/config-classes/$6fb2f4529c8c85fba76a.cache
+*.cache
+*.history
