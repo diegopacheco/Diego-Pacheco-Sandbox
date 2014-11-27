@@ -1,0 +1,6 @@
+*.class
+**/*.class
+/target
+/target/*
+/project/project/target/*
+/project/target/* 	
