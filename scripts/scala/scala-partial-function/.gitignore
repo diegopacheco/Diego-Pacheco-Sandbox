@@ -1,0 +1,10 @@
+*.class
+**/*.class
+/target
+/target/*
+/project/project/target/
+/project/target/
+/project/project/target/*
+/project/target/** 	
+project/project/target/*
+/bin/
