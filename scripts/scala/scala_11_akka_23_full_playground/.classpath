@@ -4,6 +4,7 @@
 	<classpathentry kind="src" output="target/scala-2.11/test-classes" path="src/test/scala"/>
 	<classpathentry kind="src" output="target/scala-2.11/test-classes" path="src/test/java"/>
 	<classpathentry kind="src" path="src/main/scala"/>
+	<classpathentry kind="src" path="src/main/resources"/>
 	<classpathentry kind="con" path="org.scala-ide.sdt.launching.SCALA_CONTAINER"/>
 	<classpathentry kind="lib" path="C:/Users/diego/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/jars/akka-actor_2.11-2.3.7.jar"/>
 	<classpathentry kind="lib" path="C:/Users/diego/.ivy2/cache/com.typesafe/config/bundles/config-1.2.1.jar"/>
