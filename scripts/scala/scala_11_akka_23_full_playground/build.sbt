@@ -10,6 +10,8 @@ resolvers += "Typesafe Repo" at "http://repo.typesafe.com/typesafe/releases/"
 
 resolvers += "Sonatype Repo" at "https://oss.sonatype.org/content/repositories/releases/"
 
+resolvers += "Twitter Repo" at "http://maven.twttr.com/"
+
 libraryDependencies += "com.typesafe.akka" % "akka-actor_2.11" % "2.3.7"
 
 libraryDependencies += "com.typesafe.akka" % "akka-cluster_2.11" % "2.3.7"
