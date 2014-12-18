@@ -29,16 +29,15 @@
     <orderEntry type="library" name="SBT: org.scala-lang:scala-library:2.11.4" level="project" />
     <orderEntry type="library" name="SBT: com.typesafe.akka:akka-actor_2.11:2.3.7" level="project" />
     <orderEntry type="library" name="SBT: com.typesafe:config:1.2.1" level="project" />
-    <orderEntry type="library" name="SBT: com.typesafe.akka:akka-cluster_2.11:2.3.7" level="project" />
-    <orderEntry type="library" name="SBT: com.typesafe.akka:akka-remote_2.11:2.3.7" level="project" />
-    <orderEntry type="library" name="SBT: io.netty:netty:3.8.0.Final" level="project" />
-    <orderEntry type="library" name="SBT: com.google.protobuf:protobuf-java:2.5.0" level="project" />
-    <orderEntry type="library" name="SBT: org.uncommons.maths:uncommons-maths:1.2.2a" level="project" />
     <orderEntry type="library" name="SBT: com.typesafe.akka:akka-kernel_2.11:2.3.7" level="project" />
     <orderEntry type="library" name="SBT: com.typesafe.akka:akka-testkit_2.11:2.3.7" level="project" />
     <orderEntry type="library" name="SBT: org.scalatest:scalatest_2.11:2.2.2" level="project" />
     <orderEntry type="library" name="SBT: org.scala-lang:scala-reflect:2.11.2" level="project" />
     <orderEntry type="library" name="SBT: org.scala-lang.modules:scala-xml_2.11:1.0.2" level="project" />
+    <orderEntry type="library" name="SBT: com.typesafe.akka:akka-remote_2.11:2.3.7" level="project" />
+    <orderEntry type="library" name="SBT: io.netty:netty:3.8.0.Final" level="project" />
+    <orderEntry type="library" name="SBT: com.google.protobuf:protobuf-java:2.5.0" level="project" />
+    <orderEntry type="library" name="SBT: org.uncommons.maths:uncommons-maths:1.2.2a" level="project" />
     <orderEntry type="library" name="SBT: com.typesafe.akka:akka-persistence-experimental_2.11:2.3.7" level="project" />
     <orderEntry type="library" name="SBT: org.iq80.leveldb:leveldb:0.5" level="project" />
     <orderEntry type="library" name="SBT: org.iq80.leveldb:leveldb-api:0.5" level="project" />
@@ -68,6 +67,8 @@
     <orderEntry type="library" name="SBT: com.esotericsoftware.minlog:minlog:1.2" level="project" />
     <orderEntry type="library" name="SBT: org.objenesis:objenesis:2.1" level="project" />
     <orderEntry type="library" name="SBT: net.jpountz.lz4:lz4:1.2.0" level="project" />
+    <orderEntry type="library" name="SBT: com.esotericsoftware.reflectasm:reflectasm:1.09" level="project" />
+    <orderEntry type="library" name="SBT: org.ow2.asm:asm:4.0" level="project" />
     <orderEntry type="library" name="scala-sdk-2.11.4" level="application" />
   </component>
 </module>

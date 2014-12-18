@@ -5,6 +5,7 @@ import com.github.diegopacheco.sandbox.scala.akka.util.{GenericActor, Try}
 
 case class KryoMessage(msg: String)
 
+// classloading issues with reflectASM and kryo 2.2.4
 object AkkaKryoSeralizationApp extends App {
 
   val system = ActorSystem("RemoteActorSimpleAS")

@@ -12,11 +12,11 @@ resolvers += "Typesafe Repo" at "http://repo.typesafe.com/typesafe/releases/"
 
 resolvers += "Sonatype Repo" at "https://oss.sonatype.org/content/repositories/releases/"
 
+resolvers += "Sonatype snapshots" at "https://oss.sonatype.org/content/repositories/snapshots/"
+
 resolvers += "Twitter Repo" at "http://maven.twttr.com/"
 
 libraryDependencies += "com.typesafe.akka" % "akka-actor_2.11" % "2.3.7"
-
-libraryDependencies += "com.typesafe.akka" % "akka-cluster_2.11" % "2.3.7"
 
 libraryDependencies += "com.typesafe.akka" % "akka-kernel_2.11" % "2.3.7"
 
@@ -36,3 +36,7 @@ libraryDependencies += "com.romix.akka" % "akka-quickser-serialization" % "0.1-S
 
 // recompiled to akka 2.3.7 and scala 2.11
 libraryDependencies += "com.github.romix.akka" %% "akka-kryo-serialization" % "0.3.2"
+
+libraryDependencies += "com.esotericsoftware.kryo" % "kryo" % "2.24.0"
+
+//libraryDependencies += "com.esotericsoftware.reflectasm" % "reflectasm" % "1.09"
