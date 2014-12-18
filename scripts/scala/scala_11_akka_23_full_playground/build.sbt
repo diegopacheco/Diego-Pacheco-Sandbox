@@ -35,4 +35,4 @@ libraryDependencies += "com.romix.akka" % "akka-protostuff-serialization" % "0.1
 libraryDependencies += "com.romix.akka" % "akka-quickser-serialization" % "0.1-SNAPSHOT"
 
 // recompiled to akka 2.3.7 and scala 2.11
-libraryDependencies += "com.romix.akka" % "akka-quickser-serialization" % "0.1-SNAPSHOT"
+libraryDependencies += "com.github.romix.akka" %% "akka-kryo-serialization" % "0.3.2"
