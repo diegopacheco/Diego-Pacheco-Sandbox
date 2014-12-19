@@ -1,0 +1,24 @@
+<classpath>
+  <classpathentry output="target\scala-2.11\classes" kind="src" path="src\main\scala"/>
+  <classpathentry output="target\scala-2.11\classes" kind="src" path="src\main\java"/>
+  <classpathentry output="target\scala-2.11\test-classes" kind="src" path="src\test\scala"/>
+  <classpathentry output="target\scala-2.11\test-classes" kind="src" path="src\test\java"/>
+  <classpathentry kind="con" path="org.scala-ide.sdt.launching.SCALA_CONTAINER"/>
+  <classpathentry kind="lib" path="C:\Users\diego\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\jars\akka-actor_2.11-2.3.7.jar"/>
+  <classpathentry kind="lib" path="C:\Users\diego\.ivy2\cache\com.typesafe\config\bundles\config-1.2.1.jar"/>
+  <classpathentry kind="lib" path="C:\Users\diego\.ivy2\cache\com.typesafe.akka\akka-kernel_2.11\jars\akka-kernel_2.11-2.3.7.jar"/>
+  <classpathentry kind="lib" path="C:\Users\diego\.ivy2\cache\org.scalatest\scalatest_2.11\bundles\scalatest_2.11-2.2.2.jar"/>
+  <classpathentry kind="lib" path="C:\Users\diego\.ivy2\cache\org.scala-lang.modules\scala-xml_2.11\bundles\scala-xml_2.11-1.0.2.jar"/>
+  <classpathentry kind="lib" path="C:\Users\diego\.ivy2\cache\com.typesafe.akka\akka-remote_2.11\jars\akka-remote_2.11-2.3.7.jar"/>
+  <classpathentry kind="lib" path="C:\Users\diego\.ivy2\cache\io.netty\netty\bundles\netty-3.8.0.Final.jar"/>
+  <classpathentry kind="lib" path="C:\Users\diego\.ivy2\cache\com.google.protobuf\protobuf-java\bundles\protobuf-java-2.5.0.jar"/>
+  <classpathentry kind="lib" path="C:\Users\diego\.ivy2\cache\org.uncommons.maths\uncommons-maths\jars\uncommons-maths-1.2.2a.jar"/>
+  <classpathentry kind="lib" path="C:\Users\diego\.ivy2\local\com.romix.akka\akka-protostuff-serialization\0.1-SNAPSHOT\jars\akka-protostuff-serialization.jar"/>
+  <classpathentry kind="lib" path="C:\Users\diego\.ivy2\cache\com.dyuproject.protostuff\protostuff-runtime\jars\protostuff-runtime-1.0.8.jar"/>
+  <classpathentry kind="lib" path="C:\Users\diego\.ivy2\cache\com.dyuproject.protostuff\protostuff-api\jars\protostuff-api-1.0.8.jar"/>
+  <classpathentry kind="lib" path="C:\Users\diego\.ivy2\cache\com.dyuproject.protostuff\protostuff-collectionschema\jars\protostuff-collectionschema-1.0.8.jar"/>
+  <classpathentry kind="lib" path="C:\Users\diego\.ivy2\cache\com.dyuproject.protostuff\protostuff-runtime-registry\jars\protostuff-runtime-registry-1.0.8.jar"/>
+  <classpathentry kind="lib" path="C:\Users\diego\.ivy2\cache\com.dyuproject.protostuff\protostuff-core\jars\protostuff-core-1.0.8.jar"/>
+  <classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+  <classpathentry kind="output" path="bin"/>
+</classpath>
