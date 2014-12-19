@@ -1,9 +1,10 @@
 package com.github.diegopacheco.scala.sandbox.akka.cluster
 
-import akka.cluster.Cluster
-import akka.cluster.ClusterEvent._
 import akka.actor.ActorLogging
 import akka.actor.Actor
+
+import akka.cluster.Cluster
+import akka.cluster.ClusterEvent._
 
 class SimpleClusterListener extends Actor with ActorLogging {
 

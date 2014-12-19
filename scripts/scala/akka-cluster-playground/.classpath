@@ -13,6 +13,7 @@
   <classpathentry kind="lib" path="C:\Users\diego\.ivy2\cache\io.netty\netty\bundles\netty-3.8.0.Final.jar"/>
   <classpathentry kind="lib" path="C:\Users\diego\.ivy2\cache\com.google.protobuf\protobuf-java\bundles\protobuf-java-2.5.0.jar"/>
   <classpathentry kind="lib" path="C:\Users\diego\.ivy2\cache\org.uncommons.maths\uncommons-maths\jars\uncommons-maths-1.2.2a.jar"/>
+  <classpathentry kind="lib" path="C:\Users\diego\.ivy2\cache\com.typesafe.akka\akka-cluster_2.11\jars\akka-cluster_2.11-2.3.7.jar"/>
   <classpathentry kind="lib" path="C:\Users\diego\.ivy2\local\com.romix.akka\akka-protostuff-serialization\0.1-SNAPSHOT\jars\akka-protostuff-serialization.jar"/>
   <classpathentry kind="lib" path="C:\Users\diego\.ivy2\cache\com.dyuproject.protostuff\protostuff-runtime\jars\protostuff-runtime-1.0.8.jar"/>
   <classpathentry kind="lib" path="C:\Users\diego\.ivy2\cache\com.dyuproject.protostuff\protostuff-api\jars\protostuff-api-1.0.8.jar"/>

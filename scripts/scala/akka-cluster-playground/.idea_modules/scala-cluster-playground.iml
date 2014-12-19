@@ -1,5 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="scala" name="Scala">
+      <configuration>
+        <option name="compilerLibraryLevel" value="Project" />
+        <option name="compilerLibraryName" value="SBT: scala:2.11.4" />
+        <option name="languageLevel" value="Scala 2.11" />
+        <option name="fsc" value="true" />
+        <option name="compilerOptions" value="" />
+      </configuration>
+    </facet>
+  </component>
   <component name="NewModuleRootManager" inherit-compiler-output="false">
     <output url="file://$MODULE_DIR$/../target\scala-2.11\classes" />
     <output-test url="file://$MODULE_DIR$/../target\scala-2.11\test-classes" />
@@ -15,6 +26,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="SBT: org.scala-lang:scala-library:2.11.4" level="project" />
     <orderEntry type="library" name="SBT: com.typesafe.akka:akka-actor_2.11:2.3.7" level="project" />
     <orderEntry type="library" name="SBT: com.typesafe:config:1.2.1" level="project" />
     <orderEntry type="library" name="SBT: com.typesafe.akka:akka-kernel_2.11:2.3.7" level="project" />
@@ -25,12 +37,13 @@
     <orderEntry type="library" name="SBT: io.netty:netty:3.8.0.Final" level="project" />
     <orderEntry type="library" name="SBT: com.google.protobuf:protobuf-java:2.5.0" level="project" />
     <orderEntry type="library" name="SBT: org.uncommons.maths:uncommons-maths:1.2.2a" level="project" />
+    <orderEntry type="library" name="SBT: com.typesafe.akka:akka-cluster_2.11:2.3.7" level="project" />
     <orderEntry type="library" name="SBT: com.romix.akka:akka-protostuff-serialization:0.1-SNAPSHOT" level="project" />
     <orderEntry type="library" name="SBT: com.dyuproject.protostuff:protostuff-runtime:1.0.8" level="project" />
     <orderEntry type="library" name="SBT: com.dyuproject.protostuff:protostuff-api:1.0.8" level="project" />
     <orderEntry type="library" name="SBT: com.dyuproject.protostuff:protostuff-collectionschema:1.0.8" level="project" />
     <orderEntry type="library" name="SBT: com.dyuproject.protostuff:protostuff-runtime-registry:1.0.8" level="project" />
     <orderEntry type="library" name="SBT: com.dyuproject.protostuff:protostuff-core:1.0.8" level="project" />
-    <orderEntry type="library" name="SBT: org.scala-lang:scala-library:2.11.4" level="project" />
+    <orderEntry type="library" name="scala-sdk-2.11.4" level="application" />
   </component>
 </module>
