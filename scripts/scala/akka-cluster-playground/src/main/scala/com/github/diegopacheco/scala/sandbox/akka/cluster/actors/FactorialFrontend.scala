@@ -6,8 +6,8 @@ import scala.concurrent.duration._
 
 class FactorialFrontend(upToN: Int, repeat: Boolean) extends Actor with ActorLogging {
 
-  val backend = context.actorOf(FromConfig.props(),
-    name = "factorialBackendRouter")
+  val backend = context.actorOf(FromConfig.props(),  name = "factorialBackendRouter")
+  println("BackendActor: " + backend.path)
 
   override def preStart(): Unit = {
     sendJobs()
