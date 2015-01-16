@@ -61,5 +61,7 @@
     <orderEntry type="library" name="SBT: org.scalatest:scalatest_2.11:2.2.2:jar" level="project" />
     <orderEntry type="library" name="SBT: org.uncommons.maths:uncommons-maths:1.2.2a:jar" level="project" />
     <orderEntry type="library" name="SBT: com.typesafe.akka:akka-cluster_2.11:2.3.7:jar" level="project" />
+    <orderEntry type="library" name="SBT: log4j:log4j:1.2.15:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.fusesource:sigar:1.6.4:jar" level="project" />
   </component>
 </module>

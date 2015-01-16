@@ -6,6 +6,8 @@ scalaVersion := "2.11.4"
 
 scalaVersion in ThisBuild := "2.11.4"
 
+javaOptions in run += s"-Djava.library.path=D:/diego/github/diego.pacheco/Diego-Pacheco-Sandbox/scripts/scala/scala_11_akka_23_full_playground/src/main/lib/sigar-amd64-winnt.dll"
+
 resolvers += "Akka Repo" at "http://repo.akka.io/releases" 
 
 resolvers += "Typesafe Repo" at "http://repo.typesafe.com/typesafe/releases/"
@@ -29,6 +31,8 @@ libraryDependencies += "com.typesafe.akka" % "akka-remote_2.11" % "2.3.7"
 libraryDependencies += "com.typesafe.akka" % "akka-persistence-experimental_2.11" % "2.3.7"
 
 libraryDependencies += "com.typesafe.akka" %% "akka-cluster" % "2.3.7"
+
+libraryDependencies += "org.fusesource" % "sigar" % "1.6.4"
 
 // recompiled to akka 2.3.7 and scala 2.11
 libraryDependencies += "com.romix.akka" % "akka-protostuff-serialization" % "0.1-SNAPSHOT"
