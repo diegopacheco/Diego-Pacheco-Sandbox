@@ -28,6 +28,8 @@ libraryDependencies += "com.typesafe.akka" % "akka-remote_2.11" % "2.3.7"
 
 libraryDependencies += "com.typesafe.akka" % "akka-persistence-experimental_2.11" % "2.3.7"
 
+libraryDependencies += "com.typesafe.akka" %% "akka-cluster" % "2.3.7"
+
 // recompiled to akka 2.3.7 and scala 2.11
 libraryDependencies += "com.romix.akka" % "akka-protostuff-serialization" % "0.1-SNAPSHOT"
 

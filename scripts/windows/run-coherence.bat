@@ -1,1 +1,1 @@
-C:\Oracle\Middleware\Oracle_Home\coherence\bin\coherence.cmd
+D:\diego\bin\coherence\bin\coherence.cmd

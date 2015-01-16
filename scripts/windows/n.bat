@@ -1,1 +1,1 @@
-"C:\Program Files (x86)\Notepad++\notepad++.exe" %1 &
+"D:\diego\bin\Notepad_pp_ortable\Notepad++Portable.exe" %1 %2 %3

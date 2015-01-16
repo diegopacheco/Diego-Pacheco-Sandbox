@@ -1,4 +1,4 @@
 cls
-cd d:\diego\bin\apache-activemq-5.5.0\bin\
-activemq.bat
+cd d:\diego\bin\apache-activemq-5.10.0\bin\
+activemq.bat start
 
