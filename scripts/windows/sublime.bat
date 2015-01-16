@@ -1,0 +1,1 @@
+C:\Progra~1\Sublim~1\sublime_text.exe %1 %2 %3

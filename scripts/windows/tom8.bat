@@ -1,0 +1,1 @@
+D:\diego\bin\apache-tomcat-8.0.3\bin\catalina.bat start

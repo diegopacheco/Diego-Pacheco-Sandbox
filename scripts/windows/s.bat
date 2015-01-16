@@ -1,0 +1,1 @@
+D:\diego\bin\sublime-text-portable\sublime_text.exe %1 %2 %3

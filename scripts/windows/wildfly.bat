@@ -1,0 +1,1 @@
+D:\diego\bin\wildfly-8.2.0.Final\bin\standalone.bat --server-config=standalone.xml

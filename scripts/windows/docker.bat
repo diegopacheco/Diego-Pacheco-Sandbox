@@ -1,0 +1,1 @@
+gitbash D:/diego/github/diego.pacheco/Diego-Pacheco-Sandbox/scripts/windows/docker-start.sh
