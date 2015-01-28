@@ -1,1 +1,1 @@
-call D:\diego\win-cygwin\bash.exe
+call D:\diego\bin\cygwin64\bin\mintty.exe -i /Cygwin-Terminal.ico -

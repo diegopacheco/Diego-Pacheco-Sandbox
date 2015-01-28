@@ -2,8 +2,11 @@
 rem -- Run Vim --
 
 set VIM_EXE_DIR=D:\diego\bin\Vim\vim74
-if exist "%VIM_EXE_DIR%\vim.exe" goto havevim
-echo "%VIM_EXE_DIR%\vim.exe" not found
+if exist "%VIM%\vim74\vimtutor.bat" set VIM_EXE_DIR=%VIM%\vim74
+if exist "%VIMRUNTIME%\vimtutor.bat" set VIM_EXE_DIR=%VIMRUNTIME%
+
+if exist "%VIM_EXE_DIR%\vimtutor.bat" goto havevim
+echo "%VIM_EXE_DIR%\vimtutor.bat" not found
 goto eof
 
 :havevim
@@ -18,12 +21,12 @@ goto loopstart
 
 if .%OS%==.Windows_NT goto ntaction
 
-"%VIM_EXE_DIR%\vim.exe"  %VIMARGS%
+"%VIM_EXE_DIR%\vimtutor.bat"  %VIMARGS%
 goto eof
 
 :ntaction
 rem for WinNT we can use %*
-"%VIM_EXE_DIR%\vim.exe"  %*
+"%VIM_EXE_DIR%\vimtutor.bat"  %*
 goto eof
 
 
