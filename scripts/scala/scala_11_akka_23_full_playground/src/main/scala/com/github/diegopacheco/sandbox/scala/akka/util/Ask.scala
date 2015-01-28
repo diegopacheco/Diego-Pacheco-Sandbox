@@ -8,11 +8,10 @@ import akka.actor.ActorRef
 
 object Ask {
     
-      import scala.concurrent.duration._
-      import akka.util.Timeout
-      import akka.pattern.ask
-  
-      implicit val timeout = Timeout(5 seconds) 
+   import scala.concurrent.duration._
+   import akka.util.Timeout
+   import akka.pattern.ask
+   implicit val timeout = Timeout(20 seconds) 
       
    def get[T](actor:ActorRef,message:Any):T = {
       val future = actor ? message
