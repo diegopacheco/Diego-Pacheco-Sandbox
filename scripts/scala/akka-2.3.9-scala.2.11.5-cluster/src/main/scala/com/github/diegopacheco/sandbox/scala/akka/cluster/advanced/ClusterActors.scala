@@ -10,8 +10,14 @@ import scala.math.BigInt
 import scala.concurrent.Future
 import scala.concurrent.duration._
 import scala.concurrent.ExecutionContext
-import akka.dispatch.ExecutionContexts
 import akka.pattern.pipe
+ 
+class DummyActor extends Actor {
+  def receive = {
+    case d: DeadLetter => println("Dummy Received a DeadLetter: " + d)
+    case o:Any => println("DummyActor received: " + o) ; sender ! "OK"
+  }
+} 
 
 class StatsWorker extends Actor {
   var cache = Map.empty[String, Int]

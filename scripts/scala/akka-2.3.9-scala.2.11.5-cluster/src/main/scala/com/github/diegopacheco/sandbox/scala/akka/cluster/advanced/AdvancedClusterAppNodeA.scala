@@ -1,31 +1,48 @@
 package com.github.diegopacheco.sandbox.scala.akka.cluster.advanced
 
+import akka.actor.{ActorLogging, ActorSystem, Deploy, Props}
 import akka.cluster.Cluster
-import akka.actor.Props
-import com.github.diegopacheco.sandbox.scala.akka.util.Ask
-import akka.routing.FromConfig
-import akka.actor.ActorSystem
+import akka.cluster.ClusterEvent.{CurrentClusterState, MemberUp}
+import akka.cluster.routing.{ClusterRouterPoolSettings, SystemLoadAverageMetricsSelector, AdaptiveLoadBalancingPool, ClusterRouterPool}
+import akka.remote.RemoteScope
 import com.typesafe.config.ConfigFactory
-import akka.actor.Address
-    
+
+import scala.concurrent.duration._
 
 object AdvancedClusterAppNodeA extends App{
 
-
   System.setProperty("akka.remote.netty.tcp.port", "2556")
-  System.setProperty("akka.cluster.seed-nodes.0","akka.tcp://ClusterSystem@127.0.0.1:2556")
-  
-  val clusterSystem = ActorSystem("ClusterSystem", ConfigFactory.load(AdvancedClusterAppConfig.conf))
-  Cluster.get(clusterSystem).join(Address("akka.tcp","ClusterSystem", "127.0.0.1", 2556))
-  
-  val actorStats = clusterSystem.actorOf(FromConfig.props(Props(classOf[StatsWorker]).withRouter(FromConfig())),"statsRouter")
-  println("Actor Path: " + actorStats.path)
-  val result = Ask.get[Int](actorStats, "Hello World")
-  println("Scala Akka Cluster: StatsWorker Actor => " + result)
-  
-  //val actor = clusterSystem.actorOf(FromConfig.props(Props(classOf[FactorialFrontend], 3, true).withRouter(FromConfig())),"factorialFrontendRouter")
-  //println("Actor FrontEnd Path: " + actor.path)
-  //val factorial = Ask.get[BigInt](actor, 2)
-  //println("Scala Akka Cluster: FrontEnd Actor - Factorial 6 => " + factorial)
+  val config = ConfigFactory.load()
+  val systemName = config.getString("akka.system")
+  implicit val system = ActorSystem(systemName)
+  val cluster = Cluster(system)
+  val joinAddress = cluster.selfAddress
+  cluster.join(joinAddress)
+
+  Thread.sleep(6.seconds.toMillis)
+
+  import akka.actor.ActorDSL._
+  val client = actor(new Act with ActorLogging {
+    become {
+      case ccs:CurrentClusterState  =>
+          val act = system.actorOf(Props[DummyActor].withDeploy(
+                                   Deploy(scope = RemoteScope(ccs.getLeader))).
+                                   withRouter( ClusterRouterPool( AdaptiveLoadBalancingPool(
+                                       SystemLoadAverageMetricsSelector), ClusterRouterPoolSettings(
+                                                totalInstances = 10, maxInstancesPerNode = 3,
+                                                allowLocalRoutees = false, useRole = Some("frontend")))),
+                                   name = "DummyActorRemoteCluster")
+          println("Deployed: " + act.path)
+      case o:Any =>
+          println("Got Event: " + o)
+    }
+  })
+  cluster.subscribe(client, classOf[MemberUp])
+
+  Thread.sleep(6.seconds.toMillis)
+
+  val rcActor = system.actorSelection("akka.tcp://ClusterSystem@127.0.0.1:2556/user/DummyActorRemoteCluster")
+  println("Got Actor: " + rcActor.pathString)
+  rcActor ! "Ha"
 
 }
