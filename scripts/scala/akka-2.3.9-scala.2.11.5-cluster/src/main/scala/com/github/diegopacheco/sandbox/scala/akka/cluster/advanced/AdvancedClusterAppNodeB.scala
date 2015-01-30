@@ -1,15 +1,9 @@
 package com.github.diegopacheco.sandbox.scala.akka.cluster.advanced
 
-import akka.actor.Props
 import com.github.diegopacheco.sandbox.scala.akka.util.ClusterUtils
 
-object AdvancedClusterAppNodeB extends App{
-
-  val (cluster,system) = ClusterUtils.join(2257)
-  system.actorOf(Props[SimpleClusterListener], "SimpleClusterListener")
-
-  val actor = system.actorOf(Props[DummyActorFrontend], "DummyActorRemoteCluster")
-  println("Got Actor: " + actor)
-  actor ! SimpleTextMessage("Ha")
-
+object AdvancedClusterAppNodeB{
+  def main(args:Array[String]):Unit = {
+     ClusterUtils.join( args(0).toInt )
+  }
 }
