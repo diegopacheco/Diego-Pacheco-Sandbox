@@ -5,7 +5,7 @@ import akka.cluster.ClusterEvent._
 
 class SimpleClusterListener extends Actor with ActorLogging {
   def receive = {
-    case state:CurrentClusterState  			     =>  log.info("ListenerActor: Current members: {}", state.members.mkString(", "))
+    case state:CurrentClusterState  			     =>  log.info("ListenerActor: Current members: {} - Leader: {} ", state.members.mkString(", "), state.getLeader)
     case MemberUp(member)                      =>  log.info("ListenerActor: Member is Up: {}", member.address)
     case UnreachableMember(member)             =>  log.info("ListenerActor: Member detected as unreachable: {}", member)
     case MemberRemoved(member, previousStatus) =>  log.info("ListenerActor: Member is Removed: {} after {}", member.address, previousStatus)

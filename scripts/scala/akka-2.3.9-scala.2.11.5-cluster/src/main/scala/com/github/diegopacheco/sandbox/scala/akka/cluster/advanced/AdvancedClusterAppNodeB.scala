@@ -4,6 +4,6 @@ import com.github.diegopacheco.sandbox.scala.akka.util.ClusterUtils
 
 object AdvancedClusterAppNodeB{
   def main(args:Array[String]):Unit = {
-     ClusterUtils.join( args(0).toInt )
+     ClusterUtils.join2( args(0).toInt )
   }
 }
