@@ -8,4 +8,8 @@ object AdvancedClusterAppNodeB extends App{
   val (cluster,system) = ClusterUtils.join(2257)
   system.actorOf(Props[SimpleClusterListener], "SimpleClusterListener")
 
+  val actor = system.actorOf(Props[DummyActorFrontend], "DummyActorRemoteCluster")
+  println("Got Actor: " + actor)
+  actor ! SimpleTextMessage("Ha")
+
 }
