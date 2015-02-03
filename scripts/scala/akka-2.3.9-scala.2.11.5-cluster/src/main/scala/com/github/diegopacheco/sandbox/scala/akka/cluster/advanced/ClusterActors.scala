@@ -2,7 +2,7 @@ package com.github.diegopacheco.sandbox.scala.akka.cluster.advanced
 
 import akka.actor._
 
-class DummyActorFrontend extends Actor {
+class gi extends Actor {
 
   val backend = context.actorOf(Props[DummyActorBackend], name = "DummyActorBackend")
 
