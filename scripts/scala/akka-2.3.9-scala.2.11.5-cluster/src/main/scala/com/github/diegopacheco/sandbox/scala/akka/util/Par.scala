@@ -6,5 +6,9 @@ object Par {
         Thread.sleep(500)
         new Thread( new Runnable(){ def run = { f() } } ).start
     }
-  
+
+    def background()(f:()=>Any):Unit = {
+      new Thread( new Runnable(){ def run = { f() } } ).start
+    }
+
 }

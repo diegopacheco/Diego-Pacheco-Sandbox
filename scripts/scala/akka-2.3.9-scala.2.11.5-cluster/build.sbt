@@ -1,7 +1,12 @@
 import com.typesafe.sbt.SbtMultiJvm
 import com.typesafe.sbt.SbtMultiJvm.MultiJvmKeys.MultiJvm
+import NativePackagerKeys._
+
+packageArchetype.akka_application
 
 name := "akka-2.3.9-scala.2.11.5-cluster"
+
+mainClass in Compile := Some("com.github.diegopacheco.sandbox.scala.akka.cluster.advanced.boot.ActorSystemClusterBoot")
 
 version := "1.0"
 
