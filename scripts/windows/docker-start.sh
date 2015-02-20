@@ -7,7 +7,6 @@ clear
 cd "$(dirname "$BASH_SOURCE")"
 
 ISO="C:/Users/diego/.boot2docker/boot2docker.iso"
-
 if [ ! -e "$ISO" ]; then
 	echo 'copying initial boot2docker.iso (run "boot2docker.exe download" to update)'
 	mkdir -p "$(dirname "$ISO")"

@@ -33,8 +33,9 @@ object ClusterUtils {
 
     def joinSimple(port:Int): (akka.cluster.Cluster,akka.actor.ActorSystem) ={
       System.setProperty("akka.remote.netty.tcp.port", port.toString)
-      val system = ActorSystem("ActorSystem")
+      val system = ActorSystem("ClusterSystem")
       val cluster = Cluster(system)
+      csHolder = (cluster,system)
       (cluster,system)
     }
 

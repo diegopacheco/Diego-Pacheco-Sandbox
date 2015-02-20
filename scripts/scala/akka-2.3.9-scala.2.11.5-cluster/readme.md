@@ -26,12 +26,12 @@ open another 4 consoles:
 ###(2) console 2  <BR>
    $ sbt console  <BR>
    $ import  com.github.diegopacheco.sandbox.scala.akka.util._ <BR>
-   $ ClusterUtils.join2(2557) <BR>
+   $ ClusterUtils.joinSimple(2557) <BR>
 
 ###(3) console 3  <BR>
    $ sbt console  <BR>
    $ import  com.github.diegopacheco.sandbox.scala.akka.util._ <BR>
-   $ ClusterUtils.join2(2558)    <BR>
+   $ ClusterUtils.joinSimple(2558)    <BR>
 
 ###(4) console 4  <BR>
    $ sbt console  <BR>

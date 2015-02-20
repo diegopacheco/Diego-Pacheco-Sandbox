@@ -1,1 +1,3 @@
-redis-server D:\diego\bin\redis-2.4.5\64bit\redis.conf
+@ECHO off
+CD D:\diego\bin\redis-2.8.17\
+redis-server D:\diego\bin\redis-2.8.17\redis.windows.conf
