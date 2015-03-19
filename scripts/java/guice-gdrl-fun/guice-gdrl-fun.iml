@@ -21,5 +21,9 @@
     <orderEntry type="library" exported="" scope="RUNTIME" name="Gradle: aopalliance:aopalliance:1.0" level="project" />
     <orderEntry type="library" exported="" scope="RUNTIME" name="Gradle: org.sonatype.sisu.inject:cglib:2.2.1-v20090111" level="project" />
     <orderEntry type="library" exported="" scope="RUNTIME" name="Gradle: asm:asm:3.1" level="project" />
+    <orderEntry type="library" exported="" scope="RUNTIME" name="Gradle: log4j:log4j:1.2.17" level="project" />
+    <orderEntry type="library" exported="" scope="RUNTIME" name="Gradle: org.slf4j:slf4j-log4j12:1.7.10" level="project" />
+    <orderEntry type="library" exported="" scope="RUNTIME" name="Gradle: commons-logging:commons-logging:1.2" level="project" />
+    <orderEntry type="library" exported="" scope="RUNTIME" name="Gradle: org.slf4j:slf4j-api:1.7.10" level="project" />
   </component>
 </module>
