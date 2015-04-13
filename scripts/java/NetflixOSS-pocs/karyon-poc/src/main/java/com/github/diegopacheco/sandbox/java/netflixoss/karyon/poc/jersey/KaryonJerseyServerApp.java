@@ -22,7 +22,7 @@ import com.netflix.governator.annotations.Modules;
         KaryonWebAdminModule.class,
         KaryonServoModule.class,
         KaryonJerseyModuleImpl.class
-        // KaryonEurekaModule.class 
+        ,KaryonEurekaModule.class 
 })
 public interface KaryonJerseyServerApp {
 	 class KaryonJerseyModuleImpl extends KaryonJerseyModule {
