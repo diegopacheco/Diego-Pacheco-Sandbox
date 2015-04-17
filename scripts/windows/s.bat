@@ -1,1 +1,1 @@
-D:\diego\bin\sublime-text-portable\sublime_text.exe %1 %2 %3
+D:\diego\bin\SublimeText3Portable\App\sublime\sublime_text.exe %1 %2 %3
