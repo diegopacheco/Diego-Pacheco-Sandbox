@@ -26,5 +26,6 @@ repositories {
 
 dependencies {
 	compile(['org.scala-lang:scala-library:2.11.5',
-			  'io.gatling:gatling-core:2.1.5'])
+			  'io.gatling:gatling-core:2.1.5',
+			  'io.gatling:gatling-http:2.1.5'])
 }
