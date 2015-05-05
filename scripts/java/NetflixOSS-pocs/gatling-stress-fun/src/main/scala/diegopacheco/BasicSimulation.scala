@@ -19,6 +19,6 @@ class BasicSimulation extends Simulation {
       .post("/?gws_rd=ssl#q=java")
       .headers( Map("Content-Type" -> """application/x-www-form-urlencoded""") )
       .formParam("""q""", """java"""))
-      
+
   setUp(scn.inject(atOnceUsers(1)).protocols(httpConf))
 }
