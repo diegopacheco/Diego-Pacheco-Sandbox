@@ -1,0 +1,290 @@
+ 1  ls
+    2  pwd
+    3  ssh-add ~/.ssh/keypair.pem
+    4  ssh-add zerotocloud.pem
+    5  chmod 400 zerotocloud.pem
+    6  ssh-add zerotocloud.pem
+    7  cls
+    8  ls
+    9  clear
+   10  ls
+   11  alias cls=clear
+   12  python ec2.py --list
+   13  sudo pip install boto
+   14  cls
+   15  python ec2.py --list
+   16  cls
+   17  ls
+   20  python ec2.py --list
+   21  export AWS_ACCESS_KEY_ID='xxx'
+   22  export AWS_SECRET_ACCESS_KEY='xxx'
+   23  python ec2.py --list
+   24  touch ~/,boto
+   25  touch ~/.boto
+   26  ls
+   27  rm -rf ,boto
+   28  ls
+   29  ll
+   30  vim .boto
+   31  python ec2.py --list
+   32  vim .boto
+   33  python ec2.py --list
+   34  vim .boto
+   35  cls
+   36  python ec2.py --list
+   37  cat .boto
+   38  cls
+   39  python ec2.py --list
+   40  cls
+   44  python ec2.py --list
+   45  vim .boto
+   46  cls
+   47  python ec2.py --list
+   48  cls
+   49  ansible all -m ping
+   50  chmod +x /home/ubuntu/ec2.py
+   51  ansible all -m ping
+   52  ansible -m ping tag_Ansible_Slave
+   53  ansible all -a "/bin/echo hello"
+   54  ls
+   55  ansible all -a "/bin/echo hello" --private-key zerotocloud.pem
+   56  cls
+   57  ansible all -a "/bin/echo hello" --private-key zerotocloud.pem
+   58  python ec2.py --list
+   59  cls
+   60  ls
+   61  cat ansible_hosts
+   62  ls
+   63  vim ansible_hosts
+   64  ansible all -a "/bin/echo hello" --private-key zerotocloud.pem
+   65  cls
+   66  ls
+   67  vim ansible_hosts
+   68  cat ansible_hosts
+   69  touch test_pb.ymal
+   70  vim test_pb.ymal
+   71  cls
+   72  ansible-playbook test_pb.ymal -f 1
+   73  vim test_pb.ymal
+   74  ls
+   75  mv test_pb.ymal  test_pb.yml
+   76  cls
+   77  ansible-playbook test_pb.ymal -f 1
+   78  ansible-playbook test_pb.yml -f 1
+   79  ls
+   80  vim ansible_hosts
+   81  ansible-playbook test_pb.yml -f 1
+   82  vim ansible_hosts
+   83  ansible-playbook test_pb.yml -f 1
+   84  ansible-playbook test_pb.yml -f 1 -h ansible_hosts
+   85  sudo touch /etc/ansible/hosts
+   86  sudo mkdir /etc/ansible
+   87  sudo touch /etc/ansible/hosts
+   88  cat ansible_hosts
+   89  vim /etc/ansible/hosts
+   90  sudo vim /etc/ansible/hosts
+   91  cls
+   92  ansible-playbook test_pb.yml -f 1 -h ansible_hosts
+   93  ansible-playbook test_pb.yml -f 1
+   94  cat test_pb.yml
+   95  alias cls=clear
+   96  cls
+   97  ls
+   98  cd /home
+   99  ls
+  100  cd ubuntu
+  101  ls
+  102  clear
+  103  ls
+  104  pwd
+  105  python -v
+  106  cls
+  107  sudo pip install paramiko PyYMAL jinja2
+  108  sudo apt-get install python-pip
+  109  pip
+  110  sudo apt-get install python-pip
+  111  sudo apt-get update
+  112  sudo apt-get install python-pip
+  113  pip
+  114  cls
+  115  ls
+  116  sudo pip install ansible
+  117  ansible
+  118  git clone git://github.com/ansible/ansible.git --recursive
+  119  sudo apt-get install git
+  120  git
+  121  cls
+  122  ls
+  123  cd ansible/
+  124  ls
+  125  source ./hacking/env-setup
+  126  sudo pip install paramiko PyYAML Jinja2 httplib2
+  127  ls
+  128  cls
+  129  git pull --rebase
+  130  git submodule update --init --recursive
+  131  echo "127.0.0.1" > ~/ansible_hosts
+  132  export ANSIBLE_HOSTS=~/ansible_hosts
+  133  ansible all -m ping --ask-pass
+  134  ansible all -m ping
+  135  sudo ansible all -m ping
+  136  euso echo "127.0.0.1" > ~/ansible_hosts
+  137  sudo echo "127.0.0.1" > ~/ansible_hosts
+  138  sudo export ANSIBLE_HOSTS=~/ansible_hosts
+  139  export ANSIBLE_HOSTS=~/ansible_hosts
+  140  sudo ansible all -m ping
+  141  sudo ansible all -m ping --ask-pass
+  142  ls
+  143  clear
+  144  sudo ansible all -m ping --ask-pass
+  145  ls
+  146  sudo source ./hacking/env-setup
+  147  cls
+  148  sudo ansible all -m ping
+  149  ls
+  150  cd examples/
+  151  ls
+  152  cat ansible.cfg
+  153  cd..
+  154  ls
+  155  cls
+  156  ls
+  157  cd playbooks/
+  158  la
+  159  cat README.md
+  160  cd ...
+  161  cd ..
+  162  cls
+  163  ls
+  164  sudo ansible all -m ping
+  165  cat /etc/ansible/hosts
+  166  sudo touch /etc/ansible/hosts
+  167  cat ~/ansible_hosts
+  168  ls ~/
+  169  cd ~
+  170  pwd
+  171  ls
+  172  cat ansible_hosts
+  173  ansible all -m ping
+  174  sudo ansible all -m ping
+  175  ls
+  176  cls
+  177  ansible all -m ping -i ansible_hosts
+  178  cls
+  179  sudo ansible all -m ping -i ansible_hosts
+  180  cls
+  181  sudo ansible all -m ping -i ansible_hosts --private-key
+  182  ls
+  183  sudo ansible all -m ping -i ansible_hosts --private-key zerotocloud.pem
+  184  ls
+  185  chmod 777 zerotocloud.pem
+  186  ls
+  187  cls
+  188  sudo ansible all -m ping -i ansible_hosts --private-key zerotocloud.pem
+  189  cls
+  190  ls
+  191  wget https://raw.githubusercontent.com/ansible/ansible/devel/plugins/inventory/ec2.py
+  192  ls
+  193  wget https://raw.githubusercontent.com/ansible/ansible/devel/plugins/inventory/ec2.ini
+  194  ls
+  195  cls
+  196  ls
+  197  export ANSIBLE_HOSTS=/etc/ansible/ec2.py
+  198  pwd
+  199  ls
+  200  export ANSIBLE_HOSTS=/home/ubuntu/ec2.py
+  201  export EC2_INI_PATH=/home/ubuntu/ec2.ini
+  202  ssh-agent bash
+  203  ls
+  204  cls
+  205  cler
+  206  clear
+  207  ls
+  208  ssh -i zerotocloud.pem ubuntu@ec2-52-25-34-255.us-west-2.compute.amazonaws.com
+  209  ks
+  210  ls
+  211  alias cls=clear
+  212  ls
+  213  clear
+  214  ansible-playbook test_pb.yml -f 1
+  215  cls
+  216  ls
+  217  sudo ansible-playbook test_pb.yml -f 1
+  218  cls
+  219  ansible all -m ping -i ansible_hosts --private-key zerotocloud.pem
+  220  cls
+  221  cat /etc/ansible/hosts
+  222  cls
+  223  cat /etc/ansible/hosts
+  224  ansible all -m ping -i ansible_hosts --private-key zerotocloud.pem
+  225  ansible-playbook test_pb.yml -f 1
+  226  cls
+  227  ansible-playbook test_pb.yml -f 1
+  228  cls
+  229  cat test_pb.
+  230  cat test_pb.yml
+  231  cls
+  232  cat test_pb.yml
+  233  cls
+  234  ansible-playbook test_pb.yml -f 1
+  235  sudo ansible-playbook test_pb.yml -f 1
+  236  ansible all -m ping -i ansible_hosts --private-key zerotocloud.pem
+  237  sudo ansible-playbook test_pb.yml -f 1 --private-key zerotocloud.pem
+  238  cls
+  239  sudo ansible-playbook test_pb.yml -f 1 --private-key zerotocloud.pem
+  240  ks
+  241  cls
+  242  ls
+  243  vim test_pb.yml
+  244  sudo ansible-playbook test_pb.yml -f 1 --private-key zerotocloud.pem
+  245  vim test_pb.yml
+  246  sudo ansible-playbook test_pb.yml -f 1 --private-key zerotocloud.pem
+  247  vim test_pb.yml
+  248  cls
+  249  sudo ansible-playbook test_pb.yml -f 1 --private-key zerotocloud.pem
+  250  vim test_pb.yml
+  251  cls
+  252  sudo ansible-playbook test_pb.yml -f 1 --private-key zerotocloud.pem
+  253  cls
+  254  vim test_pb.yml
+  255  sudo ansible-playbook test_pb.yml -f 1 --private-key zerotocloud.pem
+  256  vim test_pb.yml
+  257  sudo ansible-playbook test_pb.yml -f 1 --private-key zerotocloud.pem
+  258  vim test_pb.yml
+  259  sudo ansible-playbook test_pb.yml -f 1 --private-key zerotocloud.pem
+  260  vim test_pb.yml
+  261  cls
+  262  sudo ansible-playbook test_pb.yml -f 1 --private-key zerotocloud.pem
+  263  vim test_pb.yml
+  264  cls
+  265  sudo ansible-playbook test_pb.yml -f 1 --private-key zerotocloud.pem
+  266  cls
+  267  vim test_pb.yml
+  268  sudo ansible-playbook test_pb.yml -f 1 --private-key zerotocloud.pem
+  269  cls
+  270  vim test_pb.yml
+  271  cls
+  272  sudo ansible-playbook test_pb.yml -f 1 --private-key zerotocloud.pem
+  273  vim test_pb.yml
+  274  cls
+  275  sudo ansible-playbook test_pb.yml -f 1 --private-key zerotocloud.pem
+  276  cls
+  277  vim test_pb.yml
+  278  sudo ansible-playbook test_pb.yml -f 1 --private-key zerotocloud.pem
+  279  vim test_pb.yml
+  280  sudo ansible-playbook test_pb.yml -f 1 --private-key zerotocloud.pem
+  281  vim test_pb.yml
+  282  sudo ansible-playbook test_pb.yml -f 1 --private-key zerotocloud.pem
+  283  vim test_pb.yml
+  284  sudo ansible-playbook test_pb.yml -f 1 --private-key zerotocloud.pem
+  285  cls
+  286  vim test_pb.yml
+  287  sudo ansible-playbook test_pb.yml -f 1 --private-key zerotocloud.pem
+  288  vim test_pb.yml
+  289  sudo ansible-playbook test_pb.yml -f 1 --private-key zerotocloud.pem
+  290  vim test_pb.yml
+  291  sudo ansible-playbook test_pb.yml -f 1 --private-key zerotocloud.pem
+  292  cat test_pb.yml
+  293  vim test_pb.yml
+  294  cls
+  295  history
