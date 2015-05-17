@@ -1,0 +1,20 @@
+  204  cd packer/
+  205  ls
+  206  cls
+  207  clear
+  208  ls
+  209  ./packer build \
+  210  ./packer build -var 'aws_access_key=KEY' -var 'aws_secret_key=SECRET' template-packer.json
+  211  clear
+  212  ./packer build -var 'aws_access_key=KEY' -var 'aws_secret_key=SECRET' template-packer.json
+  213  ls
+  214  cat template-packer.json
+  215  vim template-packer.json
+  216  clear
+  217  ./packer build -var 'aws_access_key=KEY' -var 'aws_secret_key=SECRET' template-packer.json
+  218  vim template-packer.json
+  219  ./packer build -var 'aws_access_key=KEY' -var 'aws_secret_key=SECRET' template-packer.json
+  220  vim template-packer.json
+  221  ./packer build -var 'aws_access_key=KEY' -var 'aws_secret_key=SECRET' template-packer.json
+  222  clear
+  223  history
