@@ -1,0 +1,28 @@
+#
+# On Host Windows
+#
+$ docker-machine create --driver amazonec2 \ 
+  --amazonec2-access-key=XXX_KEY \ 
+  --amazonec2-secret-key=XXX_SECRET \ 
+  --amazonec2-vpc-id=vpc-XXX_VPCID \ 
+  --amazonec2-region=us-west-2 \
+  amazon-machine
+$ docker-machine ls  
+$ docker-machine env amazon-machine
+$ docker-machine ssh amazon-machine
+
+#
+# (Dont forget to add the Security group to your IP - 22 and 2376)
+#
+# Docker on AWS
+#
+$ sudo docker run -t -i ubuntu /bin/bash
+$ sudo docker images
+$ CTRL + D
+$ CTRL + D
+
+#
+# On Host Windows
+#
+$ docker-machine stop amazon-machine
+$ docker-machine ls 

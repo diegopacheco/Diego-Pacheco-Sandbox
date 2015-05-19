@@ -1,0 +1,22 @@
+#
+# On windows machine
+#
+$ docker-machine ls
+$ docker-machine create -d virtualbox dev
+$ docker-machine stop dev
+$ docker-machine start dev
+$ docker-machine ssh dev
+
+#
+# On Docker on VirtualBOX
+#
+$ docker images
+$ docker run busybox echo hello world
+$ docker images
+$ CTRL + D
+
+#
+# On windows machine
+#
+docker-machine stop dev
+$ docker-machine ls
