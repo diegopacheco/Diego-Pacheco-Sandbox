@@ -1,0 +1,31 @@
+buildscript {
+    repositories { jcenter() }
+    dependencies { classpath ('com.netflix.nebula:nebula-plugin-plugin:2.2.+',  
+                   'com.netflix.nebula:gradle-ospackage-plugin:2.0.+') }
+}
+
+apply plugin: 'java'
+apply plugin: 'application'
+apply plugin: 'os-package'
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+mainClassName = "com.github.Hello"
+
+ospackage {
+    release '3'
+    os = LINUX // only applied to RPM
+    into '/opt/app1'
+    from ('dist') {
+        user 'builds'
+    }
+}
+
+buildRpm {
+    arch = I386
+}
+
+task wrapper(type: Wrapper) {
+    gradleVersion = '2.0'
+}
