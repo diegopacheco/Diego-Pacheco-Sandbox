@@ -1,0 +1,17 @@
+# Links: SSH docker user and pass
+# http://stackoverflow.com/questions/24286007/how-do-i-ssh-into-the-boot2docker-host-vm-that-the-vagrant-1-6-docker-provider-s
+# Docker compose on windows: https://registry.hub.docker.com/u/dduportal/docker-compose/
+#
+
+#
+# On windows Machine (copy via winscp the docker-compose app settings to the box)
+#
+$ docker-machine start dev
+$ docker-machine shh dev
+
+
+#
+# On Docker VirtualBox
+#
+$ cd your_docker_compose_app_dir
+$ docker run -v "$(pwd)":/app -v /var/run/docker.sock:/var/run/docker.sock -ti dduportal/docker-compose:latest up
