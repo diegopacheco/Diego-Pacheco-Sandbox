@@ -26,6 +26,14 @@ buildRpm {
     arch = I386
 }
 
+buildDeb {
+    arch = I386
+}
+
 task wrapper(type: Wrapper) {
     gradleVersion = '2.0'
 }
+
+//
+// https://github.com/nebula-plugins/nebula-ospackage-plugin  https://github.com/nebula-plugins/gradle-ospackage-plugin
+//
