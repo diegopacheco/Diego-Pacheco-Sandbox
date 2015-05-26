@@ -1,0 +1,9 @@
+---
+- hosts: machine1
+  user: ubuntu
+  sudo: yes
+  tasks:
+    - name: remove apache2
+      apt: name=apache2 update_cache=yes state=absent
+           purge=yes
+           force=yes

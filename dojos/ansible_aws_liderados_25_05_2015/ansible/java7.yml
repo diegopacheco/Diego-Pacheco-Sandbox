@@ -1,0 +1,9 @@
+---
+- hosts: machine1
+  user: ubuntu
+  sudo: yes
+  tasks:
+    - name: update apt-get
+      apt:  update_cache=yes
+    - name: install open jdk7
+      apt: name=openjdk-7-jdk update_cache=yes state=latest

@@ -1,0 +1,21 @@
+---
+- hosts: machine1
+  user: ubuntu
+  sudo: yes
+  tasks:
+    - name: install scala
+      get_url: url=http://downloads.typesafe.com/scala/2.11.6/scala-2.11.6.tgz?_ga=1.21823483.1152464043.1432598727 dest=/home/ubuntu/ mode=0755
+    - name: create dir
+      file: path=/home/ubuntu/scala state=directory
+    - name: install tar
+      apt: name=unzip,tar state=latest
+    - name: unzip
+      unarchive: src=/home/ubuntu/scala-2.11.6.tgz dest=/home/ubuntu/scala copy=no
+    - name: Setting env variable
+      copy: src=env.sh dest=/etc/profile.d/ mode=755
+    - name: deploy scala code
+      copy: src=hello.scala dest=/home/ubuntu
+#    - name: compile scala code
+#      shell: scalac /home/ubuntu/hello.scala
+#    - name: start scala code
+#      raw: scala Main

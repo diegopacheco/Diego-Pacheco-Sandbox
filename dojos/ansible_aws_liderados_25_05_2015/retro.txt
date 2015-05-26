@@ -1,0 +1,13 @@
+Keep Rocking:
+ * Coding dojo aws/cloud ansible
+ * Coding on ansible was fun
+ * Good LTs 
+ * Env was setup by diego: aws, ansible, hosts, etc. 
+
+To Improve:
+ * time schedule confusion
+ * Poletto was not with us 
+ * coding dojo timebox
+ * Beer for borges/french (but today is monday)
+
+ 
