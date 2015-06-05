@@ -1,0 +1,8 @@
+vagrant box add hashicorp/precise32
+vagrant init hashicorp/precise32
+vagrant up
+vagrant ssh
+$ sudo apt-get update
+$ sudo apt-get nginx
+$ sudo service nginx start
+
