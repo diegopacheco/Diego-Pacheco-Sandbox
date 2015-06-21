@@ -1,0 +1,33 @@
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+Vagrant.configure(2) do |config|
+
+  config.vm.box = "ubuntu/trusty64"
+  config.vm.network "private_network", ip: "55.55.55.101"
+  config.vm.synced_folder "shared", "/home/vagrant/shared/"
+
+  config.vm.provision "shell", inline: <<-SHELL
+     sudo apt-get update     
+     sudo apt-get install -y wget
+     sudo apt-get install -y curl
+     sudo apt-get install -y vim
+     sudo apt-get install -y git    
+     sudo apt-get install -y build-essential
+     sudo curl -sL https://deb.nodesource.com/setup_0.12 | sudo bash -
+     sudo apt-get install -y nodejs
+     sudo curl -L https://npmjs.org/install.sh | sudo sh
+     sudo npm install -g express
+     sudo npm install -g angular
+     sudo npm install -g bower
+     sudo npm install -g grunt
+     sudo npm install -g gulp
+     sudo npm install -g gulp-cli
+     sudo npm install -g yo
+     sudo npm install -g browserify
+     sudo npm install -g karma
+     sudo npm install -g jasmine 
+     sudo npm install -g qunit
+  SHELL
+
+end

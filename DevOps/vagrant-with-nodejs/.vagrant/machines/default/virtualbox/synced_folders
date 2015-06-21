@@ -1,0 +1,1 @@
+{"virtualbox":{"/home/vagrant/shared":{"guestpath":"/home/vagrant/shared","hostpath":"D:/diego/github/diego.pacheco/Diego-Pacheco-Sandbox/DevOps/vagrant-with-nodejs/shared","disabled":false},"/vagrant":{"guestpath":"/vagrant","hostpath":"D:/diego/github/diego.pacheco/Diego-Pacheco-Sandbox/DevOps/vagrant-with-nodejs","disabled":false}}}
