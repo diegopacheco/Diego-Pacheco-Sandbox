@@ -1,40 +1,24 @@
-#
-# 
-#
+
 alias cls='clear'
 
-#
-# Java 8
-#
 export JAVA_HOME=/opt/jdk1.8.0_45
 export JRE_HOME=/opt/jdk1.8.0_45/jre
 export PATH=$PATH:/opt/jdk1.8.0_45/bin:/opt/jdk1.8.0_45/jre/bin
-#
-# Apache Maven 3.3
-#
+
 export M2_HOME=/opt/apache-maven-3.3.3
 export PATH=$PATH:/opt/apache-maven-3.3.3/bin
-#
-# Groovy 2.4
-#
+
 export GROOVY_HOME=/opt/groovy-2.4.3
 export PATH=$PATH:/opt/groovy-2.4.3/bin
-#
-# Gradle 2.4
-#
+
 export GRADLE_HOME=/opt/gradle-2.4
 export PATH=$PATH:/opt/gradle-2.4/bin
-#
-# Clojure 1/6
-#
+
 export CLOJURE_HOME=/opt/clojure-1.6.0
 export PATH=$PATH:/opt/clojure-1.6.0
-#
-# Lein
-# 
+
 export PATH=$PATH:/home/vagrant/bin
-#
-# Scala 2.11
-#
-export SCALA_HOME=/opt/scala-2.11.6
-export PATH=$PATH:/opt/scala-2.11.6/bin
+
+export SCALA_HOME=/home/vagrant/bin/scala-2.11.6
+export PATH=$PATH:/home/vagrant/bin/scala-2.11.6/bin
+
