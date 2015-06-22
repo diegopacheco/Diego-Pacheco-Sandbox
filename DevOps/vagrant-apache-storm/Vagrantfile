@@ -1,0 +1,91 @@
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+Vagrant.configure(2) do |config|
+
+  config.vm.box = "ubuntu/trusty64"
+  config.vm.network "private_network", ip: "55.55.55.105"
+  config.vm.synced_folder ".", "/home/vagrant/shared/"
+   
+  config.vm.provision "shell", inline: <<-SHELL    
+    #
+    # Update and install basic linux programs for development
+    #
+    sudo apt-get update -y     
+    sudo apt-get install -y wget
+    sudo apt-get install -y curl
+    sudo apt-get install -y vim
+    sudo apt-get install -y git    
+    sudo apt-get install -y build-essential
+    sudo apt-get install -y unzip 
+    sudo apt-get install -y dos2unix
+    sudo apt-get install -y libtool
+    sudo apt-get install -y automake
+    sudo apt-get install -y uuid-dev
+    sudo apt-get install -y g++
+    sudo apt-get install -y gcc-multilib
+    #
+    # Install Java OpenJDK 7
+    #
+    sudo apt-get install -y openjdk-7-jdk
+    #
+    # Install Java 8 
+    #
+    cd /opt
+    sudo wget --no-cookies --no-check-certificate --header "Cookie: gpw_e24=http%3A%2F%2Fwww.oracle.com%2F; oraclelicense=accept-securebackup-cookie" "http://download.oracle.com/otn-pub/java/jdk/8u45-b14/jdk-8u45-linux-x64.tar.gz"
+    sudo tar -xzvf jdk-8u45-linux-x64.tar.gz
+    sudo rm -rf jdk-8u45-linux-x64.tar.gz
+    #
+    # Install Maven 3.3
+    #
+    sudo wget http://mirror.nbtelecom.com.br/apache/maven/maven-3/3.3.3/binaries/apache-maven-3.3.3-bin.tar.gz
+    sudo tar -xzvf apache-maven-3.3.3-bin.tar.gz
+    sudo rm -rf apache-maven-3.3.3-bin.tar.gz
+    #
+    # Install Gradle 2.4
+    #
+    sudo wget https://services.gradle.org/distributions/gradle-2.4-bin.zip
+    sudo unzip gradle-2.4-bin.zip -d /opt/
+    sudo rm -rf gradle-2.4-bin.zip 
+    #
+    # Install Clojure 1.6
+    #
+    sudo wget http://repo1.maven.org/maven2/org/clojure/clojure/1.6.0/clojure-1.6.0.zip
+    sudo unzip clojure-1.6.0.zip -d /opt/
+    sudo rm -rf clojure-1.6.0.zip
+    sudo cp /home/vagrant/shared/conf/clojure.sh /opt/clojure-1.6.0/clojure
+    sudo chmod +x /opt/clojure-1.6.0/clojure
+    #
+    # Install Apache Zookeper
+    #
+    sudo mkdir /var/log/zookeper/
+    sudo cd /opt/
+    wget http://mirror.nbtelecom.com.br/apache/zookeeper/zookeeper-3.4.6/zookeeper-3.4.6.tar.gz
+    tar -zxvf zookeeper-3.4.6.tar.gz
+    touch zookeeper-3.4.6/conf/zoo.cfg
+    sudo mkdir /var/lib/zookeeper
+    rm -rf zookeeper-3.4.6.tar.gz
+    sudo cp /home/vagrant/shared/conf/zoo.cfg /opt/zookeeper-3.4.6/conf/zoo.cfg
+    #
+    # Install Apache Storm
+    #
+    sudo cd /opt/
+    sudo git clone https://github.com/apache/storm.git
+    sudo wget http://ftp.unicamp.br/pub/apache/storm/apache-storm-0.9.5/apache-storm-0.9.5.tar.gz
+    sudo tar -zxvf apache-storm-0.9.5.tar.gz
+    sudo rm -rf apache-storm-0.9.5.tar.gz
+    sudo cp /home/vagrant/shared/conf/start_storm.sh /opt/apache-storm-0.9.5/bin/start_storm
+    sudo chmod +x /opt/apache-storm-0.9.5/bin/start_storm
+    sudo mkdir /opt/apache-storm-0.9.5/logs
+    sudo chmod 777 /opt/apache-storm-0.9.5/logs/
+    sudo mkdir /home/vagrant/storm
+    sudo cat /home/vagrant/shared/conf/storm.yaml >> /opt/apache-storm-0.9.5/conf/storm.yaml
+    #
+    # Source the new bashrc
+    # We also need finish install lein, it will self install thats why we do lein for last
+    #
+    sudo cat /home/vagrant/shared/conf/bashrc.txt >> /home/vagrant/.bashrc
+    source /home/vagrant/.bashrc
+  SHELL
+
+end
