@@ -29,7 +29,7 @@ Vagrant.configure(2) do |config|
     sudo rm -rf jdk-8u45-linux-x64.tar.gz
     sudo echo "export JAVA_HOME=/opt/jdk1.8.0_45" >> /home/vagrant/.bashrc
     sudo echo "export JRE_HOME=/opt/jdk1.8.0_45/jre" >> /home/vagrant/.bashrc
-    sudo echo "export PATH=$PATH:/opt/jdk1.8.0_45/bin:/opt/jdk1.8.0_45/jre/bin" >> /home/vagrant/.bashrc
+    sudo echo "export PATH=\$PATH:/opt/jdk1.8.0_45/bin:/opt/jdk1.8.0_45/jre/bin" >> /home/vagrant/.bashrc
     #
     # Install Maven 3.3
     #
@@ -37,7 +37,7 @@ Vagrant.configure(2) do |config|
     sudo tar -xzvf apache-maven-3.3.3-bin.tar.gz
     sudo rm -rf apache-maven-3.3.3-bin.tar.gz
     sudo echo "export M2_HOME=/opt/apache-maven-3.3.3" >> /home/vagrant/.bashrc
-    sudo echo "export PATH=$PATH:/opt/apache-maven-3.3.3/bin" >> /home/vagrant/.bashrc
+    sudo echo "export PATH=\$PATH:/opt/apache-maven-3.3.3/bin" >> /home/vagrant/.bashrc
     #
     # Install Groovy 2.4
     #
@@ -45,7 +45,7 @@ Vagrant.configure(2) do |config|
     sudo unzip groovy-binary-2.4.3.zip -d /opt/
     sudo rm -rf groovy-binary-2.4.3.zip
     sudo echo "export GROOVY_HOME=/opt/groovy-2.4.3" >> /home/vagrant/.bashrc
-    sudo echo "export PATH=$PATH:/opt/groovy-2.4.3/bin" >> /home/vagrant/.bashrc
+    sudo echo "export PATH=\$PATH:/opt/groovy-2.4.3/bin" >> /home/vagrant/.bashrc
 
     #
     # Install Gradle 2.4
@@ -54,7 +54,7 @@ Vagrant.configure(2) do |config|
     sudo unzip gradle-2.4-bin.zip -d /opt/
     sudo rm -rf gradle-2.4-bin.zip 
     sudo echo "export GRADLE_HOME=/opt/gradle-2.4" >> /home/vagrant/.bashrc
-    sudo echo "export PATH=$PATH:/opt/gradle-2.4/bin" >> /home/vagrant/.bashrc
+    sudo echo "export PATH=\$PATH:/opt/gradle-2.4/bin" >> /home/vagrant/.bashrc
     #
     # Install Clojure 1.6
     #
@@ -64,7 +64,7 @@ Vagrant.configure(2) do |config|
     sudo cp /home/vagrant/shared/conf/clojure.sh /opt/clojure-1.6.0/clojure
     sudo chmod +x /opt/clojure-1.6.0/clojure
     sudo echo "export CLOJURE_HOME=/opt/clojure-1.6.0" >> /home/vagrant/.bashrc
-    sudo echo "export PATH=$PATH:/opt/clojure-1.6.0" >> /home/vagrant/.bashrc
+    sudo echo "export PATH=\$PATH:/opt/clojure-1.6.0" >> /home/vagrant/.bashrc
     #
     # Install Lein
     #
@@ -72,7 +72,7 @@ Vagrant.configure(2) do |config|
     cd /home/vagrant/bin/
     sudo wget https://raw.githubusercontent.com/technomancy/leiningen/stable/bin/lein
     sudo chmod a+x /home/vagrant/bin/lein
-    sudo echo "export PATH=$PATH:/home/vagrant/bin" >> /home/vagrant/.bashrc
+    sudo echo "export PATH=\$PATH:/home/vagrant/bin" >> /home/vagrant/.bashrc
     #
     # Install Scala 2.11
     #
@@ -80,7 +80,7 @@ Vagrant.configure(2) do |config|
     sudo tar -xzvf scala-2.11.6.tgz
     sudo rm -rf scala-2.11.6.tgz
     sudo echo "export SCALA_HOME=/opt/scala-2.11.6" >> /home/vagrant/.bashrc
-    sudo echo "export PATH=$PATH:/opt/scala-2.11.6/bin" >> /home/vagrant/.bashrc
+    sudo echo "export PATH=\$PATH:/opt/scala-2.11.6/bin" >> /home/vagrant/.bashrc
     #
     # Install SBT 0.13
     #
@@ -93,6 +93,7 @@ Vagrant.configure(2) do |config|
     # Source the new bashrc
     # We also need finish install lein, it will self install thats why we do lein for last
     #
+    sudo echo "alias cls='clear'" >> /home/vagrant/.bashrc
     source /home/vagrant/.bashrc
   SHELL
 
