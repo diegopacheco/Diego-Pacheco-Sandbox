@@ -1,3 +1,3 @@
-public object Main{
+object Main extends App{
    println("Hello World")
 }
