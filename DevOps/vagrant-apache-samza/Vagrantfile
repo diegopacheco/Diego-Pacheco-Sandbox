@@ -1,0 +1,75 @@
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+Vagrant.configure(2) do |config|
+
+  config.vm.box = "ubuntu/trusty64"
+  config.vm.network "private_network", ip: "55.55.55.106"
+  config.vm.synced_folder ".", "/home/vagrant/shared/"
+   
+  config.vm.provision "shell", inline: <<-SHELL    
+    #
+    # Update and install basic linux programs for development
+    #
+    sudo apt-get update -y     
+    sudo apt-get install -y wget
+    sudo apt-get install -y curl
+    sudo apt-get install -y vim
+    sudo apt-get install -y git    
+    sudo apt-get install -y build-essential
+    sudo apt-get install -y unzip 
+    sudo apt-get install -y dos2unix
+    sudo apt-get install -y libtool
+    sudo apt-get install -y automake
+    sudo apt-get install -y uuid-dev
+    sudo apt-get install -y g++
+    sudo apt-get install -y gcc-multilib
+    #
+    # Install Java OpenJDK 7
+    #
+    sudo apt-get install -y openjdk-7-jdk
+    #
+    # Install Java 8 
+    #
+    cd /opt
+    sudo wget --no-cookies --no-check-certificate --header "Cookie: gpw_e24=http%3A%2F%2Fwww.oracle.com%2F; oraclelicense=accept-securebackup-cookie" "http://download.oracle.com/otn-pub/java/jdk/8u45-b14/jdk-8u45-linux-x64.tar.gz"
+    sudo tar -xzvf jdk-8u45-linux-x64.tar.gz
+    sudo rm -rf jdk-8u45-linux-x64.tar.gz
+    #
+    # Install Maven 3.3
+    #
+    sudo wget http://mirror.nbtelecom.com.br/apache/maven/maven-3/3.3.3/binaries/apache-maven-3.3.3-bin.tar.gz
+    sudo tar -xzvf apache-maven-3.3.3-bin.tar.gz
+    sudo rm -rf apache-maven-3.3.3-bin.tar.gz
+    #
+    # Install Gradle 2.4
+    #
+    sudo wget https://services.gradle.org/distributions/gradle-2.4-bin.zip
+    sudo unzip gradle-2.4-bin.zip -d /opt/
+    sudo rm -rf gradle-2.4-bin.zip 
+    #
+    # Install Hello Samza
+    #
+    cd /home/vagrant/
+    git clone git://git.apache.org/samza-hello-samza.git hello-samza
+    cd hello-samza
+    #
+    # Copy Scripts
+    #
+    cd /opt/
+    sudo mkdir /opt/scripts-bin/
+    sudo cp /home/vagrant/shared/conf/j7.sh /opt/scripts-bin/j7
+    sudo cp /home/vagrant/shared/conf/j8.sh /opt/scripts-bin/j8
+    sudo chmod +x /opt/scripts-bin/j7
+    sudo chmod +x /opt/scripts-bin/j8
+    sudo ln -s /usr/lib/jvm/java-1.7.0-openjdk-amd64/bin/java /opt/scripts-bin/java7
+    sudo ln -s /opt/jdk1.8.0_45/bin/java /opt/scripts-bin/java8
+    #
+    # Source the new bashrc
+    # We also need finish install lein, it will self install thats why we do lein for last
+    #
+    sudo cat /home/vagrant/shared/conf/bashrc.txt >> /home/vagrant/.bashrc
+    source /home/vagrant/.bashrc
+  SHELL
+
+end
