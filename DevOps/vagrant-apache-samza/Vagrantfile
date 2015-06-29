@@ -53,6 +53,7 @@ Vagrant.configure(2) do |config|
     cd /home/vagrant/
     git clone git://git.apache.org/samza-hello-samza.git hello-samza
     cd hello-samza
+    sudo bin/grid install all
     #
     # Copy Scripts
     #

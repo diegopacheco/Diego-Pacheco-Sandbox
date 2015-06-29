@@ -6,6 +6,10 @@ Vagrant.configure(2) do |config|
   config.vm.box = "ubuntu/trusty64"
   config.vm.network "private_network", ip: "55.55.55.106"
   config.vm.synced_folder ".", "/home/vagrant/shared/"
+
+  config.vm.provider "virtualbox" do |vb|
+     vb.memory = "2048"
+  end
    
   config.vm.provision "shell", inline: <<-SHELL    
     #
@@ -66,7 +70,8 @@ Vagrant.configure(2) do |config|
     #
     cd /home/vagrant
     sudo git clone https://github.com/apache/spark.git
-    #build/mvn -DskipTests clean package
+    cd /home/vagrant/spark
+    sudo build/mvn -DskipTests clean package
     #
     # Copy Scripts
     #
