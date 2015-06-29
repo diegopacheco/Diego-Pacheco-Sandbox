@@ -15,3 +15,6 @@ export PATH=$PATH:/opt/gradle-2.4/bin
 
 export PATH=$PATH:/home/vagrant/bin
 export PATH=$PATH:/opt/scripts-bin
+
+export SCALA_HOME=/home/vagrant/bin/scala-2.11.6
+export PATH=$PATH:/home/vagrant/bin/scala-2.11.6/bin

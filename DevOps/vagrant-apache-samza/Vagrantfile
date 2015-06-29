@@ -7,6 +7,10 @@ Vagrant.configure(2) do |config|
   config.vm.network "private_network", ip: "55.55.55.106"
   config.vm.synced_folder ".", "/home/vagrant/shared/"
    
+  config.vm.provider "virtualbox" do |vb|
+     vb.memory = "4096"
+  end
+
   config.vm.provision "shell", inline: <<-SHELL    
     #
     # Update and install basic linux programs for development
@@ -48,12 +52,34 @@ Vagrant.configure(2) do |config|
     sudo unzip gradle-2.4-bin.zip -d /opt/
     sudo rm -rf gradle-2.4-bin.zip 
     #
+    # Install Scala 2.11
+    #
+    sudo mkdir /home/vagrant/bin/
+    cd /home/vagrant/bin/
+    sudo wget http://downloads.typesafe.com/scala/2.11.6/scala-2.11.6.tgz
+    sudo tar -xzvf scala-2.11.6.tgz
+    sudo rm -rf scala-2.11.6.tgz
+    #
+    # Install SBT 0.13
+    #
+    cd /home/vagrant/bin/
+    sudo wget https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/sbt-launch/0.13.8/sbt-launch.jar
+    sudo cp /home/vagrant/shared/conf/sbt.sh /home/vagrant/bin/sbt
+    sudo chmod u+x /home/vagrant/bin/sbt
+    sudo chmod +x /home/vagrant/bin/sbt    
+    #
+    # Install Samza
+    #
+    cd /home/vagrant
+    sudo git clone https://github.com/apache/samza.git
+    cd samza
+    #
     # Install Hello Samza
     #
     cd /home/vagrant/
     git clone git://git.apache.org/samza-hello-samza.git hello-samza
     cd hello-samza
-    sudo bin/grid install all
+    #sudo bin/grid install all
     #
     # Copy Scripts
     #
