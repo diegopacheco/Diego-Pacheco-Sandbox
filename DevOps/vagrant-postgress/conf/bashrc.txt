@@ -1,0 +1,18 @@
+
+alias cls='clear'
+
+export JAVA_HOME=/opt/jdk1.8.0_45
+export JRE_HOME=/opt/jdk1.8.0_45/jre
+export PATH=$PATH:/opt/jdk1.8.0_45/bin:/opt/jdk1.8.0_45/jre/bin
+
+export M2_HOME=/opt/apache-maven-3.3.3
+export PATH=$PATH:/opt/apache-maven-3.3.3/bin
+
+export GRADLE_HOME=/opt/gradle-2.4
+export PATH=$PATH:/opt/gradle-2.4/bin
+
+export PATH=$PATH:/home/vagrant/bin
+
+export SCALA_HOME=/home/vagrant/bin/scala-2.11.6
+export PATH=$PATH:/home/vagrant/bin/scala-2.11.6/bin
+

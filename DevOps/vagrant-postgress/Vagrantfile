@@ -1,0 +1,71 @@
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+Vagrant.configure(2) do |config|
+
+  config.vm.box = "ubuntu/trusty64"
+  config.vm.network "private_network", ip: "55.55.55.107"
+  config.vm.synced_folder ".", "/home/vagrant/shared/"
+
+  config.vm.network "forwarded_port", guest: 5432, host: 35432
+
+  #config.vm.provision "file", source: "conf/sbt.sh", destination: "/home/vagrant/bin/sbt"
+    
+  config.vm.provision "shell", inline: <<-SHELL    
+    #
+    # Update and install basic linux programs for development
+    #
+    sudo apt-get update     
+    sudo apt-get install -y wget
+    sudo apt-get install -y curl
+    sudo apt-get install -y vim
+    sudo apt-get install -y git    
+    sudo apt-get install -y build-essential
+    sudo apt-get install -y unzip 
+    #
+    # Install Java 8 
+    #
+    cd /opt
+    sudo wget --no-cookies --no-check-certificate --header "Cookie: gpw_e24=http%3A%2F%2Fwww.oracle.com%2F; oraclelicense=accept-securebackup-cookie" "http://download.oracle.com/otn-pub/java/jdk/8u45-b14/jdk-8u45-linux-x64.tar.gz"
+    sudo tar -xzvf jdk-8u45-linux-x64.tar.gz
+    sudo rm -rf jdk-8u45-linux-x64.tar.gz
+    #
+    # Install Maven 3.3
+    #
+    sudo wget http://mirror.nbtelecom.com.br/apache/maven/maven-3/3.3.3/binaries/apache-maven-3.3.3-bin.tar.gz
+    sudo tar -xzvf apache-maven-3.3.3-bin.tar.gz
+    sudo rm -rf apache-maven-3.3.3-bin.tar.gz
+    #
+    # Install Gradle 2.4
+    #
+    sudo wget https://services.gradle.org/distributions/gradle-2.4-bin.zip
+    sudo unzip gradle-2.4-bin.zip -d /opt/
+    sudo rm -rf gradle-2.4-bin.zip 
+    #
+    # Install Scala 2.11
+    #
+    sudo wget http://downloads.typesafe.com/scala/2.11.6/scala-2.11.6.tgz
+    sudo tar -xzvf scala-2.11.6.tgz
+    sudo rm -rf scala-2.11.6.tgz
+    #
+    # Install SBT 0.13
+    #
+    cd /home/vagrant/bin/
+    sudo wget https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/sbt-launch/0.13.8/sbt-launch.jar
+    sudo cp /home/vagrant/shared/conf/sbt.sh /home/vagrant/bin/sbt
+    sudo chmod u+x /home/vagrant/bin/sbt
+    sudo chmod +x /home/vagrant/bin/sbt
+    #
+    # Install Postgress SQL
+    #
+    sudo apt-get install -y postgresql postgresql-contrib    
+    sudo apt-get install -y postgresql-client
+    #
+    # Source the new bashrc
+    # We also need finish install lein, it will self install thats why we do lein for last
+    #
+    sudo cat /home/vagrant/shared/conf/bashrc.txt >> /home/vagrant/.bashrc
+    source /home/vagrant/.bashrc
+  SHELL
+
+end
