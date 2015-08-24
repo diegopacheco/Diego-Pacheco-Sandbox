@@ -1,0 +1,8 @@
+$ chef-apply hello.rb
+$ more motd
+$ chef-apply hello.rb
+$ echo 'hello robots' > motd
+$ chef-apply hello.rb
+$ chef-apply goodbye.rb
+$ more motd
+$ sudo chef-apply webserver.rb
