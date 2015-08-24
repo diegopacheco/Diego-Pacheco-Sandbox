@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="src" path="src/main/scala"/>
+	<classpathentry kind="src" path="src/main/scala">
+		<attributes>
+			<attribute name="FROM_GRADLE_MODEL" value="true"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER" exported="true"/>
 	<classpathentry kind="con" path="org.scala-ide.sdt.launching.SCALA_CONTAINER" exported="true"/>
 	<classpathentry kind="output" path="bin"/>
 	<classpathentry sourcepath="C:/Users/diego/.gradle/caches/modules-2/files-2.1/com.twitter/finagle-core_2.11/6.27.0/f60a00b9a4b0ff81f3c6dea9e5c7cad2f829f32/finagle-core_2.11-6.27.0-sources.jar" kind="lib" path="C:/Users/diego/.gradle/caches/modules-2/files-2.1/com.twitter/finagle-core_2.11/6.27.0/e1f44cede11e589a7d62aa78f155f379a09afcf3/finagle-core_2.11-6.27.0.jar" exported="true"/>
 	<classpathentry sourcepath="C:/Users/diego/.gradle/caches/modules-2/files-2.1/com.twitter/finagle-http_2.11/6.27.0/34f221b145d9b5b27b01468c8cfbaff50eb3caa5/finagle-http_2.11-6.27.0-sources.jar" kind="lib" path="C:/Users/diego/.gradle/caches/modules-2/files-2.1/com.twitter/finagle-http_2.11/6.27.0/71ef606f9a4085350371782a68aba3b3785e72ae/finagle-http_2.11-6.27.0.jar" exported="true"/>
 	<classpathentry sourcepath="C:/Users/diego/.gradle/caches/modules-2/files-2.1/com.twitter/finagle-httpx_2.11/6.27.0/bf252c8510f773f06a700bc947ac7a52bbec12ec/finagle-httpx_2.11-6.27.0-sources.jar" kind="lib" path="C:/Users/diego/.gradle/caches/modules-2/files-2.1/com.twitter/finagle-httpx_2.11/6.27.0/e668f54e60f6c7ff950a8fbb7d7d28fe081ff66a/finagle-httpx_2.11-6.27.0.jar" exported="true"/>
-	<classpathentry sourcepath="C:/Users/diego/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.11.6/81e74f4ba7915a8256022e6bc1436a00a916fdbe/scala-library-2.11.6-sources.jar" kind="lib" path="C:/Users/diego/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.11.6/be3457b4b748df35bffba675d8cddf44e9df4f7b/scala-library-2.11.6.jar" exported="true"/>
+	<classpathentry sourcepath="C:/Users/diego/.gradle/caches/modules-2/files-2.1/com.twitter/finagle-thrift_2.11/6.27.0/bf20d96028fd3fc4fb294305a5e5f78debca020d/finagle-thrift_2.11-6.27.0-sources.jar" kind="lib" path="C:/Users/diego/.gradle/caches/modules-2/files-2.1/com.twitter/finagle-thrift_2.11/6.27.0/8f1527a9d6c700bdf65b8adef2a7e0612e19b356/finagle-thrift_2.11-6.27.0.jar" exported="true"/>
 	<classpathentry sourcepath="C:/Users/diego/.gradle/caches/modules-2/files-2.1/io.netty/netty/3.10.1.Final/b961126f78f3e853973c2e99a6f40a8cef5a7262/netty-3.10.1.Final-sources.jar" kind="lib" path="C:/Users/diego/.gradle/caches/modules-2/files-2.1/io.netty/netty/3.10.1.Final/ca63e69a44f86ce822c73fee02267de6526acb68/netty-3.10.1.Final.jar" exported="true"/>
 	<classpathentry sourcepath="C:/Users/diego/.gradle/caches/modules-2/files-2.1/com.twitter/util-app_2.11/6.26.0/d8a060c64d2032f761ccec8087d06d9476af10fd/util-app_2.11-6.26.0-sources.jar" kind="lib" path="C:/Users/diego/.gradle/caches/modules-2/files-2.1/com.twitter/util-app_2.11/6.26.0/66586acf5db093f3281066fbbf4f308b3179a735/util-app_2.11-6.26.0.jar" exported="true"/>
 	<classpathentry sourcepath="C:/Users/diego/.gradle/caches/modules-2/files-2.1/com.twitter/util-core_2.11/6.26.0/fd86a22c33cac2ba8345aefbbcc59e8cca42f76c/util-core_2.11-6.26.0-sources.jar" kind="lib" path="C:/Users/diego/.gradle/caches/modules-2/files-2.1/com.twitter/util-core_2.11/6.26.0/28ea2c628eb641f70e99eba8990fce737a5b428e/util-core_2.11-6.26.0.jar" exported="true"/>
@@ -20,6 +24,7 @@
 	<classpathentry kind="lib" path="C:/Users/diego/.m2/repository/com/twitter/jsr166e/1.0.0/jsr166e-1.0.0.jar" exported="true"/>
 	<classpathentry sourcepath="C:/Users/diego/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6-sources.jar" kind="lib" path="C:/Users/diego/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar" exported="true"/>
 	<classpathentry kind="lib" path="C:/Users/diego/.m2/repository/com/google/guava/guava/16.0.1/guava-16.0.1.jar" exported="true"/>
+	<classpathentry kind="lib" path="C:/Users/diego/.m2/repository/org/apache/thrift/libthrift/0.5.0/libthrift-0.5.0.jar" exported="true"/>
 	<classpathentry sourcepath="C:/Users/diego/.gradle/caches/modules-2/files-2.1/com.twitter/util-registry_2.11/6.26.0/6fbc544e49f002560326b51998639c5ef9907a28/util-registry_2.11-6.26.0-sources.jar" kind="lib" path="C:/Users/diego/.gradle/caches/modules-2/files-2.1/com.twitter/util-registry_2.11/6.26.0/2d2630db0e128294455a76182b21e8d345c159bf/util-registry_2.11-6.26.0.jar" exported="true"/>
 	<classpathentry sourcepath="C:/Users/diego/.gradle/caches/modules-2/files-2.1/com.twitter/util-function_2.11/6.26.0/a12dfc508fc935c1c4861cd8e230ebd7fcf1e979/util-function_2.11-6.26.0-sources.jar" kind="lib" path="C:/Users/diego/.gradle/caches/modules-2/files-2.1/com.twitter/util-function_2.11/6.26.0/6046bc60cdedfa42b2018d7963b950151d7f05d3/util-function_2.11-6.26.0.jar" exported="true"/>
 	<classpathentry kind="lib" path="C:/Users/diego/.m2/repository/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.2/scala-parser-combinators_2.11-1.0.2.jar" exported="true"/>
@@ -27,4 +32,7 @@
 	<classpathentry sourcepath="C:/Users/diego/.m2/repository/javax/inject/javax.inject/1/javax.inject-1-sources.jar" kind="lib" path="C:/Users/diego/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar" exported="true"/>
 	<classpathentry kind="lib" path="C:/Users/diego/.m2/repository/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar" exported="true"/>
 	<classpathentry kind="lib" path="C:/Users/diego/.m2/repository/commons-codec/commons-codec/1.6/commons-codec-1.6.jar" exported="true"/>
+	<classpathentry sourcepath="C:/Users/diego/.m2/repository/org/slf4j/slf4j-api/1.5.8/slf4j-api-1.5.8-sources.jar" kind="lib" path="C:/Users/diego/.m2/repository/org/slf4j/slf4j-api/1.5.8/slf4j-api-1.5.8.jar" exported="true"/>
+	<classpathentry sourcepath="C:/Users/diego/.gradle/caches/modules-2/files-2.1/com.twitter/scrooge-core_2.11/3.20.0/9b4207b0ee2946cf8e3332024f9643ee08b34e49/scrooge-core_2.11-3.20.0-sources.jar" kind="lib" path="C:/Users/diego/.gradle/caches/modules-2/files-2.1/com.twitter/scrooge-core_2.11/3.20.0/3b75ffc8c0383bac7a6b66bbf3015354bb587c82/scrooge-core_2.11-3.20.0.jar" exported="true"/>
+	<classpathentry sourcepath="C:/Users/diego/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.11.7/b3cf65e92414af4ce51ad3507147cc9f31fd708c/scala-library-2.11.7-sources.jar" kind="lib" path="C:/Users/diego/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.11.7/f75e7acabd57b213d6f61483240286c07213ec0e/scala-library-2.11.7.jar" exported="true"/>
 </classpath>
