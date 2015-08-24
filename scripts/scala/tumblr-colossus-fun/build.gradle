@@ -1,0 +1,33 @@
+apply plugin: 'scala'
+apply plugin: 'eclipse'
+apply plugin: 'java'
+
+sourceSets {
+    main {
+        scala {
+            srcDirs = ['src/main/java','src/main/scala']
+        }
+    }
+    test {
+        scala {
+            srcDirs = ['test/main/java','test/main/scala']
+        }
+    }
+}
+
+sourceCompatibility = 1.8 
+targetCompatibility = 1.8 
+
+repositories {
+	mavenLocal() 
+    mavenCentral()
+    maven {
+       url "https://oss.sonatype.org/content/groups/public/"
+    } 
+}
+
+dependencies {
+	compile([
+		'com.tumblr:colossus_2.11:0.6.5'
+	])
+}
