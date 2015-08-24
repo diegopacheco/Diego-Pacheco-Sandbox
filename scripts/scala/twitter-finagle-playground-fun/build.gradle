@@ -1,0 +1,35 @@
+apply plugin: 'scala'
+apply plugin: 'eclipse'
+apply plugin: 'java'
+
+sourceSets {
+    main {
+        scala {
+            srcDirs = ['src/main/java','src/main/scala']
+        }
+    }
+    test {
+        scala {
+            srcDirs = ['test/main/java','test/main/scala']
+        }
+    }
+}
+
+sourceCompatibility = 1.8 
+targetCompatibility = 1.8 
+
+repositories {
+	mavenLocal() 
+    mavenCentral()
+    maven {
+       url "https://oss.sonatype.org/content/groups/public/"
+    } 
+}
+
+dependencies {
+	compile([
+		'com.twitter:finagle-core_2.11:6.27.0',
+		'com.twitter:finagle-http_2.11:6.27.0',
+		'com.twitter:finagle-httpx_2.11:6.27.0'		
+	])
+}
