@@ -1,0 +1,36 @@
+apply plugin: 'java'
+apply plugin: 'scala'
+apply plugin: 'eclipse'
+
+sourceSets {
+    main {
+        scala {
+            srcDirs = ['src/main/java','src/main/scala']
+        }
+    }
+    test {
+        scala {
+            srcDirs = ['test/main/java','test/main/scala']
+        }
+    }
+}
+
+sourceCompatibility = 1.8 
+targetCompatibility = 1.8 
+
+repositories {
+    jcenter() 
+    mavenCentral()
+    maven {
+       url "https://oss.sonatype.org/content/groups/public/"
+    } 
+    mavenLocal()
+}
+
+dependencies {
+    compile([ 
+    	'com.typesafe.akka:akka-stream-experimental_2.11:1.0',
+		'com.typesafe.akka:akka-http-core-experimental_2.11:1.0',
+		'com.typesafe.akka:akka-http-experimental_2.11:1.0'
+    ])
+}
