@@ -1,3 +1,4 @@
+*/**/.vagrant/
 *.class
 **/*.class
 /scripts/scala/camel/camel-sandbox/target
