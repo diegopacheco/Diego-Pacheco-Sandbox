@@ -36,3 +36,8 @@ hist(iris$Sepal.Length)
 plot(density(iris$Sepal.Length))
 pie(table(iris$Species))
 barplot(table(iris$Species))
+boxplot(iris$Sepal.Length ~ iris$Species, data = iris)
+
+with(iris,plot(iris$Sepal.Length, iris$Sepal.Width, col = iris$Species, pch=as.numeric(iris$Species)))
+
+
