@@ -1,0 +1,18 @@
+{
+    "contents" : "v = 1:10\n\n",
+    "created" : 1442033905583.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "422080469",
+    "id" : "9B531026",
+    "lastKnownWriteTime" : 1442033997,
+    "path" : "C:/Users/diego/Desktop/r-fun/r-fun-project/basic.r",
+    "project_path" : "basic.r",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "type" : "r_source"
+}
