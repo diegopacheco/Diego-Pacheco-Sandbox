@@ -30,3 +30,4 @@ scripts/scala/scala_11_akka_23_full_playground/target/streams/test/externalDepen
 scripts/scala/scala_11_akka_23_full_playground/target/streams/test/managedClasspath/$global/streams/export
 scripts/scala/scala_11_akka_23_full_playground/target/streams/test/unmanagedClasspath/$global/streams/export
 scripts/scala/scala_11_akka_23_full_playground/target/streams/test/unmanagedJars/$global/streams/export
+.Rproj.user
