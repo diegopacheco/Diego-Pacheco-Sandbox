@@ -76,3 +76,6 @@ df[df$Name %in% c("CAT","ALIGATTOR"),]
 1 + 2 
 c(1,2,3) + c(4,5,6)
 
+# HELP
+?c
+
