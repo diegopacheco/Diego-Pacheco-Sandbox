@@ -1,15 +1,32 @@
 package main
 
-import "fmt"
-import "math"
 
-func sqrt(x float64) string {
-	if x < 0 {
-		return sqrt(-x) + "i"
+
+
+func saque(x int) int {
+	var count100 = 0
+	var count50 = 0
+	if x / 100 > 0 {
+		count100 = x / 100
+		x = x % 100
+		return 0
 	}
-	return fmt.Sprint(math.Sqrt(x))
+	
+	if x / 50 > 0 {
+		count50 = x / 50
+		return 0
+	}
+	
+	count100 = count50
+	count50 = count100
+	
+	if x % 20 == 0|| x % 10 == 0 { 
+		return 0 
+	} else { 
+		return 1
+	}
 }
 
-func main() {
-	fmt.Println(sqrt(2), sqrt(-4))
+func main(){
+	
 }
