@@ -1,0 +1,10 @@
+Positivos:
+ + horario
+ + DOJO first
+ + TEMA dojo + lts
+ 
+A melhorar:
+ - Algorithms
+ + Alghorithms DOJOs (NO TDD)
+ - No Food(diego told 2 times noboddy took actions)
+ - DOJOS at Officce
