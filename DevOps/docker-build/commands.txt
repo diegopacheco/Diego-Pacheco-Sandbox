@@ -1,0 +1,5 @@
+docker build -t docker-whale .
+
+docker images
+
+docker run docker-whale

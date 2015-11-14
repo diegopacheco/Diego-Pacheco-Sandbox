@@ -1,1 +1,0 @@
-gitbash D:/diego/github/diego.pacheco/Diego-Pacheco-Sandbox/scripts/windows/docker-start.sh %1 %2 %3
