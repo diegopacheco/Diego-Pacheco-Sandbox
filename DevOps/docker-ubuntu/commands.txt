@@ -1,0 +1,5 @@
+winpty docker build -t docker-ubuntu .
+
+winpty docker images
+
+winpty docker run -it docker-ubuntu
