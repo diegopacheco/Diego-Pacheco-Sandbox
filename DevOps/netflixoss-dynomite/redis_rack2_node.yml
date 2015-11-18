@@ -1,0 +1,14 @@
+dyn_o_mite:
+  datacenter: dc
+  rack: rack2
+  dyn_listen: 0.0.0.0:8101
+  dyn_seeds:
+  - 10.0.1.67:8101:rack1:dc:1383429731
+  - 10.0.1.119:8101:rack3:dc:1383429731
+  listen: 0.0.0.0:8102
+  servers:
+  - 127.0.0.1:6379:1
+  tokens: '1383429731'
+  secure_server_option: datacenter
+  pem_key_file: conf/dynomite.pem
+  data_store: 0
