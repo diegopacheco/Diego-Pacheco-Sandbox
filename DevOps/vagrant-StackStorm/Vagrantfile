@@ -1,0 +1,37 @@
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+# All Vagrant configuration is done below. The "2" in Vagrant.configure
+# configures the configuration version (we support older styles for
+# backwards compatibility). Please don't change it unless you know what
+# you're doing.
+Vagrant.configure(2) do |config|
+    
+  config.vm.provider "virtualbox"
+    
+  config.vm.provider "virtualbox" do |vb|
+  end
+
+  config.vm.box = "bento/centos-7.1"
+  config.vm.network "private_network", ip: "55.55.55.150"
+  config.vm.synced_folder ".", "/home/vagrant/shared/"
+  
+  config.vm.provision "shell", inline: <<-SHELL    
+    #
+    # Update and install basic linux programs for development
+    #
+    sudo yum update -y     
+    sudo yum install -y wget
+    sudo yum install -y curl
+    sudo yum install -y vim
+    sudo yum install -y git    
+    sudo yum install -y build-essential
+    sudo yum install -y unzip 
+    #
+    # Install Stack Storm
+    #
+    cd /opt/
+    sudo curl -sSL http://stackstorm.com/install.sh | sudo sh
+  SHELL
+
+end
