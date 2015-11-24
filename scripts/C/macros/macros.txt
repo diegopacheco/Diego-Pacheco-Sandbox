@@ -1,0 +1,12 @@
+#
+# Override to NUM = 5
+#
+sudo gcc -DNUM=5 main.c -o main
+./main
+
+#
+# Default NUM should be 10
+#
+sudo gcc main.c -o main
+./main
+
