@@ -1,0 +1,25 @@
+#!/bin/bash
+
+PACKER_FILE=config.json
+AMI_ID="ami-858694e4"
+BUILD_NUMBER=001
+JENKINS_URI=jenkins/apache/$BUILD_NUMBER
+APPLICATION_NAME=apache_cluster
+APPLICATION_VERSION=1.0.0
+RELEASE=snapshot
+ANSIBLE_PLAYBOOKS_PATH="$(pwd)"
+REGION=us-west-2
+
+sudo PACKER_LOG=INFO ./packer build -debug \
+-machine-readable \
+-var hvm_amiid=$AMI_ID \
+-var build=$BUILD_NUMBER \
+-var jenkins_uri=$JENKINS_URI \
+-var application_name=$APPLICATION_NAME \
+-var application_version=$APPLICATION_VERSION \
+-var release=$RELEASE \
+-var date=$DATE \
+-var region=$REGION \
+-var store=$STORE \
+-var ansible_playbooks_path=$ANSIBLE_PLAYBOOKS_PATH \
+$PACKER_FILE \

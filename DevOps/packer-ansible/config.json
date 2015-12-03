@@ -1,0 +1,68 @@
+{
+  "variables":{
+    "hvm_amiid":"",
+    "region":"",
+    "application_name":"",
+    "application_version":"",
+    "release":"",
+    "jenkins_uri":"",
+    "build":"",
+    "date":"",
+    "store":""
+  },
+
+"builders":[
+{
+  "name":"hvm_builder",
+  "type": "amazon-chroot",
+  "access_key": "YOUR_KEY_HERE",
+  "secret_key": "YOUR_SECRET_HERE",
+  "ami_virtualization_type": "hvm",
+  "source_ami": "{{user `hvm_amiid`}}",
+  "ami_name": "{{user `application_name`|clean_ami_name}}-v{{user `application_version`|clean_ami_name}}-{{user `release`}}-b{{user `build`}}_Source-{{user `hvm_amiid`}}_Built-{{user `date`}}",
+  "region":"{{user `region`}}",
+  "tags": {
+    "Name":"{{user `application_name`}}-{{user `application_version`}}",
+    "ami_date":"{{user `date`}}",
+    "jenkins_uri":"{{user `jenkins_uri`}}",
+    "ancestor_id":"{{user `hvm_amiid`}}",
+    "build":"{{user `build`}}",
+    "store":"{{user `store`}}",
+    "virtualization_type":"hvm",
+    "application_version":"{{user `application_version`}}",
+    "release":"{{user `release`}}",
+    "application":"{{user `application_name`}}"
+  },
+  "ami_users":[
+  "369874303498"
+  ]
+}
+],
+
+"provisioners":[
+  {
+    "type":"shell",
+    "inline_shebang":"/bin/bash",
+    "inline":[
+      "sudo yum -y update",
+      "sudo yum -y install git python-jinja2 python-paramiko PyYAML make MySQL-python",
+      "sudo pip install ansible",
+      "sudo mkdir -p /tmp/packer-provisioner-ansible-local/roles",
+      "sudo chmod 777 /tmp/packer-provisioner-ansible-local/roles"
+    ]
+  },
+  {
+      "type": "file",
+      "source":"./",
+      "destination": "/tmp/packer-provisioner-ansible-local"
+  },
+  {
+    "type":"shell",
+    "inline_shebang":"/bin/bash",
+    "inline":[
+      "/usr/local/src/ansible/bin/ansible-playbook /tmp/packer-provisioner-ansible-local/apache.yml"
+    ]
+  }
+ ]
+
+}
