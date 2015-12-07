@@ -25,14 +25,18 @@ public class MainApp {
 		  CollectionEntity myArangoCollection = arangoDriver.createCollection("myCollection");
 		  System.out.println(myArangoCollection);
 		  
-		  MyObject myObject = new MyObject("Homer", 38);
-		  DocumentEntity<MyObject> myDocument = arangoDriver.createDocument("myCollection", myObject);
-		  System.out.println(myDocument);
-		  
-	      arangoDriver.createDocument("myCollection", new MyObject("Marge", 36));
-	      arangoDriver.createDocument("myCollection", new MyObject("Bart", 10));
-	      arangoDriver.createDocument("myCollection", new MyObject("Lisa", 8));
-	      arangoDriver.createDocument("myCollection", new MyObject("Maggie", 2));
+		  try{
+			  MyObject myObject = new MyObject("Homer", 38);
+			  DocumentEntity<MyObject> myDocument = arangoDriver.createDocument("myCollection", myObject);
+			  System.out.println(myDocument);
+			  
+		      arangoDriver.createDocument("myCollection", new MyObject("Marge", 36));
+		      arangoDriver.createDocument("myCollection", new MyObject("Bart", 10));
+		      arangoDriver.createDocument("myCollection", new MyObject("Lisa", 8));
+		      arangoDriver.createDocument("myCollection", new MyObject("Maggie", 2));
+		  }catch(Exception e){
+			  System.out.println("Duplicated not adding again...");
+		  }
 	      
 	      String query = "FOR t IN myCollection FILTER t.age >= @age SORT t.age RETURN t";
 	      Map<String, Object> bindVars = new MapBuilder().put("age", 3).get();
