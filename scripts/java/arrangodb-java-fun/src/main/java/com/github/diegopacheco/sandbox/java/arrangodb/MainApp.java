@@ -19,7 +19,11 @@ public class MainApp {
 		  configure.init();
 		  ArangoDriver arangoDriver = new ArangoDriver(configure);
 		  
-		  arangoDriver.createDatabase("db1");
+		  try{
+			  arangoDriver.createDatabase("db1"); 
+		  }catch(Exception e){
+			  System.out.println("DB created already");
+		  }
 		  arangoDriver.setDefaultDatabase("db1");
 		  
 		  CollectionEntity myArangoCollection = arangoDriver.createCollection("myCollection");
