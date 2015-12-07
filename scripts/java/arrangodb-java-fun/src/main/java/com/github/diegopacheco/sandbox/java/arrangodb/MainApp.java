@@ -29,7 +29,6 @@ public class MainApp {
 		  DocumentEntity<MyObject> myDocument = arangoDriver.createDocument("myCollection", myObject);
 		  System.out.println(myDocument);
 		  
-	      arangoDriver.createDocument("myCollection", new MyObject("Homer", 38));
 	      arangoDriver.createDocument("myCollection", new MyObject("Marge", 36));
 	      arangoDriver.createDocument("myCollection", new MyObject("Bart", 10));
 	      arangoDriver.createDocument("myCollection", new MyObject("Lisa", 8));
