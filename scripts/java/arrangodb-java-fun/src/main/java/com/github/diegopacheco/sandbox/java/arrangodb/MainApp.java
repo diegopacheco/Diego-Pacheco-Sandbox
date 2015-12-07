@@ -1,10 +1,15 @@
 package com.github.diegopacheco.sandbox.java.arrangodb;
 
+import java.util.Iterator;
+import java.util.Map;
+
 import com.arangodb.ArangoConfigure;
 import com.arangodb.ArangoDriver;
 import com.arangodb.ArangoHost;
+import com.arangodb.DocumentCursor;
 import com.arangodb.entity.CollectionEntity;
 import com.arangodb.entity.DocumentEntity;
+import com.arangodb.util.MapBuilder;
 
 public class MainApp {
 	public static void main(String[] args) throws Throwable {
@@ -23,5 +28,25 @@ public class MainApp {
 		  MyObject myObject = new MyObject("Homer", 38);
 		  DocumentEntity<MyObject> myDocument = arangoDriver.createDocument("myCollection", myObject);
 		  System.out.println(myDocument);
+		  
+	      arangoDriver.createDocument("myCollection", new MyObject("Homer", 38));
+	      arangoDriver.createDocument("myCollection", new MyObject("Marge", 36));
+	      arangoDriver.createDocument("myCollection", new MyObject("Bart", 10));
+	      arangoDriver.createDocument("myCollection", new MyObject("Lisa", 8));
+	      arangoDriver.createDocument("myCollection", new MyObject("Maggie", 2));
+	      
+	      String query = "FOR t IN myCollection FILTER t.age >= @age SORT t.age RETURN t";
+	      Map<String, Object> bindVars = new MapBuilder().put("age", 3).get();
+
+	      DocumentCursor<MyObject> documentCursor = arangoDriver.executeDocumentQuery(
+	        query, bindVars, arangoDriver.getDefaultAqlQueryOptions(), MyObject.class);
+
+	      Iterator<DocumentEntity<MyObject>> iterator = documentCursor.iterator();
+	      while (iterator.hasNext()) {
+	        DocumentEntity<MyObject> documentEntity = iterator.next();
+	        MyObject obj = documentEntity.getEntity();
+	        System.out.println(obj.getName());
+	      }
+	      
 	}
 }
