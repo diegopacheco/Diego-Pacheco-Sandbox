@@ -1,0 +1,85 @@
+{
+    "File": {
+        "ID": "fc348eeb-474e-ab46-c8d6-adcc10f3254c",
+        "Path": "D:\\diego\\github\\diego.pacheco\\Diego-Pacheco-Sandbox\\DevOps\\otto-fun\\otto\\ruby\\Appfile",
+        "Source": "",
+        "Application": {
+            "Name": "example",
+            "Type": "ruby",
+            "Dependencies": null
+        },
+        "Project": {
+            "Name": "ruby",
+            "Infrastructure": "ruby"
+        },
+        "Infrastructure": [
+            {
+                "Name": "ruby",
+                "Type": "aws",
+                "Flavor": "simple",
+                "Foundations": [
+                    {
+                        "Name": "consul",
+                        "Config": null
+                    }
+                ]
+            }
+        ],
+        "Customization": {
+            "Raw": [
+                {
+                    "Type": "ruby",
+                    "Config": {
+                        "ruby_version": "2.0"
+                    }
+                }
+            ]
+        },
+        "Imports": null
+    },
+    "Vertices": [
+        {
+            "File": {
+                "ID": "fc348eeb-474e-ab46-c8d6-adcc10f3254c",
+                "Path": "D:\\diego\\github\\diego.pacheco\\Diego-Pacheco-Sandbox\\DevOps\\otto-fun\\otto\\ruby\\Appfile",
+                "Source": "",
+                "Application": {
+                    "Name": "example",
+                    "Type": "ruby",
+                    "Dependencies": null
+                },
+                "Project": {
+                    "Name": "ruby",
+                    "Infrastructure": "ruby"
+                },
+                "Infrastructure": [
+                    {
+                        "Name": "ruby",
+                        "Type": "aws",
+                        "Flavor": "simple",
+                        "Foundations": [
+                            {
+                                "Name": "consul",
+                                "Config": null
+                            }
+                        ]
+                    }
+                ],
+                "Customization": {
+                    "Raw": [
+                        {
+                            "Type": "ruby",
+                            "Config": {
+                                "ruby_version": "2.0"
+                            }
+                        }
+                    ]
+                },
+                "Imports": null
+            },
+            "Dir": "",
+            "NameValue": "example"
+        }
+    ],
+    "Edges": []
+}
