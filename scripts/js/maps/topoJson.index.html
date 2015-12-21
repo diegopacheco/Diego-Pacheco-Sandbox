@@ -1,0 +1,77 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html>
+	<head>
+		<meta charset="utf-8">
+		<style type="text/css">
+
+		.limites-boundary {
+		fill: #ddd;
+		stroke-width: 1px;
+		stroke: #000;
+		}
+
+		.distrito-boundary {
+		fill: none;
+		stroke: #999;
+		stroke-width: 0.1px;
+		}
+		
+		.canton-boundary {
+		fill: none;
+		stroke: red;
+		stroke-width: 0.5px;
+		}
+		
+		.provincia-boundary {
+		fill: none;
+		stroke: #000;
+		stroke-width: 1px;
+		}
+
+		</style>
+		<title></title>
+	</head>
+	<body>
+		<script src="http://d3js.org/d3.v3.min.js" type="text/javascript">
+</script><script src="http://d3js.org/topojson.v1.min.js" type="text/javascript">
+</script><script type="text/javascript">
+
+		var width = 960,
+		height = 700;
+
+		var projection = d3.geo.mercator()
+		.scale(12000)
+		.center([-84.5, 10.1]);
+
+		var path = d3.geo.path()
+		.projection(projection);
+
+		var svg = d3.select("body").append("svg")
+		.attr("width", width)
+		.attr("height", height);
+
+		d3.json("division.json", function(error, topology) {
+		    svg.append("path")
+		         .datum(topojson.feature(topology, topology.objects.limites))
+		         .attr("d", path)
+		         .attr("class", "limites-boundary");
+				 
+			svg.append("path")
+			  .datum(topojson.feature(topology, topology.objects.distritos, function(a, b) { return a !== b; }))
+			  .attr("d", path)
+			  .attr("class", "distrito-boundary");
+		  
+			svg.append("path")
+			  .datum(topojson.mesh(topology, topology.objects.cantones, function(a, b) { return a !== b; }))
+			  .attr("d", path)
+			  .attr("class", "canton-boundary");
+		  
+			svg.append("path")
+			.datum(topojson.mesh(topology, topology.objects.provincias, function(a, b) { return a !== b; }))
+			.attr("d", path)
+			.attr("class", "provincia-boundary");
+		});
+		
+		</script>
+	</body>
+</html>
