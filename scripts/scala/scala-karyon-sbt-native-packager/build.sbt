@@ -7,8 +7,9 @@ scalaVersion := "2.11.7"
 scalaVersion in ThisBuild := "2.11.7"
 
 import NativePackagerKeys._
+import com.typesafe.sbt.packager.docker._
 
-enablePlugins(JavaAppPackaging)
+enablePlugins(JavaAppPackaging, DockerSpotifyClientPlugin)
 
 resolvers += DefaultMavenRepository 
 resolvers += JavaNet1Repository
