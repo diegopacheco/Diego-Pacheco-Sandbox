@@ -1,0 +1,31 @@
+apply plugin: 'scala'
+apply plugin: 'eclipse'
+ 
+repositories {
+  mavenCentral()
+}
+ 
+dependencies {
+  compile 'org.scala-lang:scala-library:2.11.7'
+}
+ 
+tasks.withType(ScalaCompile) {
+  scalaCompileOptions.useAnt = false
+}
+
+eclipse {
+    classpath {
+       downloadSources=true
+    }
+}
+ 
+dependencies {
+  compile group: 'com.typesafe.akka', name: 'akka-actor_2.11', version: '2.4.1'
+  compile group: 'org.scala-lang', name: 'scala-library', version: '2.11.7'
+}
+
+task run(type: JavaExec, dependsOn: classes) {
+    main = 'com.github.diegopacheco.sandbox.scala.akka.gradle.MainApp'
+    classpath sourceSets.main.runtimeClasspath
+    classpath configurations.runtime
+}
