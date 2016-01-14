@@ -1,4 +1,4 @@
-FROM ubuntu
+FROM java:8
 MAINTAINER Diego Pacheco - diego.pacheco.it@gmail.com
 
 RUN apt-get update && apt-get install -y \
@@ -11,15 +11,22 @@ RUN apt-get update && apt-get install -y \
 	python-software-properties \
 	redis-server \
 	tcl8.5 \
-	dos2unix 
+	dos2unix \ 
+	unzip
 
 RUN git clone https://github.com/Netflix/dynomite.git
 RUN echo 'Git repo has been cloned in your Docker VM'
 
 ADD redis.conf /etc/redis/
 ADD start.sh /usr/local/dynomite/
+ADD provision-prana.sh /usr/local/dynomite/
+ADD dynomite_prana.properties /usr/local/dynomite/
+
 RUN chmod 777 /usr/local/dynomite/start.sh
+RUN chmod 777 /usr/local/dynomite/provision-prana.sh
 RUN dos2unix -k -o /usr/local/dynomite/start.sh	
+
+RUN /usr/local/dynomite/provision-prana.sh
 
 WORKDIR /dynomite/
 
