@@ -8,7 +8,7 @@ RUN apt-get update && \
 
 WORKDIR /usr/local/
 
-RUN rm -rf jetty*
+RUN rm -rf tomcat*
 
 RUN wget --no-check-certificate -O tomcat.tar.gz http://ftp.unicamp.br/pub/apache/tomcat/tomcat-7/v7.0.67/bin/apache-tomcat-7.0.67.tar.gz > /dev/null 2>&1
 
