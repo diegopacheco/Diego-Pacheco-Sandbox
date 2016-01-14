@@ -24,6 +24,6 @@ CMD ["java", "-jar", "/usr/local/jetty9/start.jar"]
 
 #
 # to Build: $ docker docker build -t diegopacheco/eureka . 
-# to Run  : $ docker run -P diegopacheco/eureka
+# to Run  : $ docker run -P -d diegopacheco/eureka
 # to Enter: $ docker exec -it CONTAINER_ID bash
 # 
