@@ -10,17 +10,17 @@ WORKDIR /usr/local/
 
 RUN rm -rf jetty*
 
-RUN wget --no-check-certificate -O jetty.tar.gz http://eclipse.org/downloads/download.php?file=/jetty/9.3.3.v20150827/dist/jetty-distribution-9.3.3.v20150827.tar.gz > /dev/null 2>&1
+RUN wget --no-check-certificate -O tomcat.tar.gz http://ftp.unicamp.br/pub/apache/tomcat/tomcat-7/v7.0.67/bin/apache-tomcat-7.0.67.tar.gz > /dev/null 2>&1
 
-RUN tar -xzvf jetty.tar.gz
-RUN rm -rf jetty.tar.gz
-RUN mv jetty-distribution-9.3.3.v20150827/ jetty9
+RUN tar -xzvf tomcat.tar.gz
+RUN rm -rf tomcat.tar.gz
+RUN mv apache-tomcat-7.0.67/ tomcat7
 
-RUN wget -O /usr/local/jetty9/webapps/eureka.war -q http://central.maven.org/maven2/com/netflix/eureka/eureka-server/1.3.7/eureka-server-1.3.7.war
+RUN wget -O /usr/local/tomcat7/webapps/eureka.war -q http://central.maven.org/maven2/com/netflix/eureka/eureka-server/1.3.7/eureka-server-1.3.7.war
 
 EXPOSE 8080
-WORKDIR /usr/local/jetty9
-CMD ["java", "-jar", "/usr/local/jetty9/start.jar"]
+WORKDIR /usr/local/tomcat7
+CMD ["bin/catalina.sh", "run"]
 
 #
 # to Build: $ docker docker build -t diegopacheco/eureka . 
