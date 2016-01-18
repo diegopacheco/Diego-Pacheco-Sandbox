@@ -20,6 +20,7 @@ ADD redis.conf /etc/redis/
 ADD start.sh /usr/local/dynomite/
 ADD provision-prana.sh /usr/local/dynomite/
 ADD dynomite_prana.properties /usr/local/dynomite/
+COPY redis_single.yml /dynomite/conf/redis_single.yml
 
 RUN chmod 777 /usr/local/dynomite/start.sh
 RUN chmod 777 /usr/local/dynomite/provision-prana.sh
@@ -35,7 +36,7 @@ RUN autoreconf -fvi \
 	&& make install
 
 EXPOSE 8101
-EXPOSE 22221
+EXPOSE 6379
 EXPOSE 22222
 EXPOSE 8102
 
