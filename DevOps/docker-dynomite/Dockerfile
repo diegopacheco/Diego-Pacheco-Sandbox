@@ -21,6 +21,7 @@ ADD start.sh /usr/local/dynomite/
 ADD provision-prana.sh /usr/local/dynomite/
 ADD dynomite_prana.properties /usr/local/dynomite/
 COPY redis_single.yml /dynomite/conf/redis_single.yml
+COPY hosts /usr/local/dynomite/hosts
 
 RUN chmod 777 /usr/local/dynomite/start.sh
 RUN chmod 777 /usr/local/dynomite/provision-prana.sh
