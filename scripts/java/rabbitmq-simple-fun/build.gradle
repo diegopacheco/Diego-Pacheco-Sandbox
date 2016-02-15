@@ -26,6 +26,8 @@ eclipse {
 
 dependencies {
 	compile([
-				'com.rabbitmq:amqp-client:3.6.0'
+				'com.rabbitmq:amqp-client:3.6.0',
+				'commons-io:commons-io:1.2',
+				'commons-cli:commons-cli:1.1'
 			])
 }
