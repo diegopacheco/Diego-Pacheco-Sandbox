@@ -1,0 +1,20 @@
+## alert.rules ##
+
+# Alert for any instance that is unreachable for >5 minutes.
+ALERT pmx_down
+  IF up == 0
+  FOR 5m
+  WITH {
+    severity="page"
+  }
+  SUMMARY "Instance {{$labels.instance}} down"
+  DESCRIPTION "{{$labels.instance}} of job {{$labels.job}} has been down for more than 5 minutes."
+
+ALERT memory_high
+  IF prometheus_local_storage_memory_series > 200
+  FOR 1s
+  ANNOTATIONS {
+    summary = "Prometheus using more memory than it should  {{ $labels.instance }}",
+    description = "{{ $labels.instance }} has lots of memory man (current value: {{ $value }}s)",
+  }
+

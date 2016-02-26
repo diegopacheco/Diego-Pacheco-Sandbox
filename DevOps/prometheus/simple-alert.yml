@@ -1,0 +1,49 @@
+global:
+  smtp_smarthost: 'localhost:25'
+  smtp_from: 'alertmanager@example.org'
+
+templates: 
+- '/etc/alertmanager/template/*.tmpl'
+
+route:
+  group_by: ['alertname', 'cluster', 'service']
+
+  group_wait: 30s
+
+  group_interval: 1m
+
+  repeat_interval: 1m 
+
+  # A default receiver
+  receiver: WH
+
+  routes:
+  - match_re:
+      service: ^(prm|prometheus|p)$
+    receiver: WH
+    routes:
+    - match:
+        severity: critical
+      receiver: WH
+  - match:
+      service: files
+    receiver: WH
+
+    routes:
+    - match:
+        severity: critical
+      receiver: WH
+
+inhibit_rules:
+- source_match:
+    severity: 'critical'
+  target_match:
+    severity: 'warning'
+  equal: ['alertname', 'cluster', 'service']
+
+
+receivers:
+- name: 'WH'
+  webhook_configs:
+    - url: 'http://requestb.in/101xk0t1' 
+
