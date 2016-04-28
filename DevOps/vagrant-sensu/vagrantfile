@@ -17,7 +17,7 @@ servers=[
   }
 ]
 
-1Vagrant.configure(2) do |config|
+Vagrant.configure(2) do |config|
     servers.each do |machine|
         config.vm.define machine[:hostname] do |node|
             node.vm.box = machine[:box]
@@ -34,9 +34,7 @@ servers=[
             node.vm.provider "virtualbox" do |vb|
                 vb.customize ["modifyvm", :id, "--memory", machine[:ram]]
 
-            config.vm.provision "shell" do |s|
-              s.path [:provision]
-            end
+            config.vm.provision "shell", :path => machine[:provision]
 
            end
        end 
