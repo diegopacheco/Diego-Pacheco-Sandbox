@@ -23,7 +23,7 @@ Vagrant.configure(2) do |config|
             node.vm.box = machine[:box]
             node.vm.hostname = machine[:hostname]
            
-            if [:hostname] == "sensu-server" 
+            if machine[:hostname] == "sensu-server" 
                 node.vm.provision "file", source: "uchiwa-config.json", destination: "/home/vagrant/uchiwa-config.json"
             else
                 node.vm.provision "file", source: "sensu-client.json", destination: "/home/vagrant/sensu-client.json"
