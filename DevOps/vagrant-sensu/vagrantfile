@@ -1,19 +1,19 @@
 servers=[
   {
-    :hostname => "sensu-server",
-    :ip => "10.10.99.60",
-    :box => "ubuntu/trusty64",
-    :ram => 2024,
-    :cpu => 4,
-    :provision => "provision-server.sh"
-  },
-  {
     :hostname => "sensu-client",
     :ip => "10.10.99.50",
     :box => "ubuntu/trusty64",
     :ram => 1024,
     :cpu => 2,
     :provision => "provision.client.sh"
+  },
+  {
+    :hostname => "sensu-server",
+    :ip => "10.10.99.60",
+    :box => "ubuntu/trusty64",
+    :ram => 2024,
+    :cpu => 4,
+    :provision => "provision-server.sh"
   }
 ]
 
