@@ -20,23 +20,21 @@ servers=[
 Vagrant.configure(2) do |config|
     servers.each do |machine|
         config.vm.define machine[:hostname] do |node|
-            node.vm.box = machine[:box]
-            node.vm.hostname = machine[:hostname]
-           
-            if machine[:hostname] == "sensu-server" 
-                node.vm.provision "file", source: "uchiwa-config.json", destination: "/home/vagrant/uchiwa-config.json"
-            else
-                node.vm.provision "file", source: "sensu-client.json", destination: "/home/vagrant/sensu-client.json"
-                node.vm.provision "file", source: "client-config.json", destination: "/home/vagrant/client-config.json"            
-            end   
+                node.vm.box = machine[:box]
+                node.vm.hostname = machine[:hostname]
+                node.vm.network "private_network", ip: machine[:ip]
 
-            node.vm.network "private_network", ip: machine[:ip]
-            node.vm.provider "virtualbox" do |vb|
-                vb.customize ["modifyvm", :id, "--memory", machine[:ram]]
+                if machine[:hostname] == "sensu-server" 
+                    node.vm.provision "file", source: "uchiwa-config.json", destination: "/home/vagrant/uchiwa-config.json"
+                else
+                    node.vm.provision "file", source: "sensu-client.json", destination: "/home/vagrant/sensu-client.json"
+                    node.vm.provision "file", source: "client-config.json", destination: "/home/vagrant/client-config.json"            
+                end   
 
-            node.vm.provision "shell", :path => machine[:provision]
-
-           end
-       end 
-   end
+                node.vm.provision "shell", :path => machine[:provision]
+                node.vm.provider "virtualbox" do |vb|
+                    vb.customize ["modifyvm", :id, "--memory", machine[:ram]]
+                end    
+        end 
+    end
 end
