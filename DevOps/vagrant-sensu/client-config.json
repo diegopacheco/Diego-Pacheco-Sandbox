@@ -1,6 +1,6 @@
 {
   "client": {
-    "name": "sensu-client(10.10.99.50)",
+    "name": "10.10.99.50",
     "address": "10.10.99.50",
     "subscriptions": [
       "test"
