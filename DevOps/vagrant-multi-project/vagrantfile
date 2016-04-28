@@ -13,7 +13,7 @@ servers=[
     :box => "hashicorp/precise64",
     :ram => 1024,
     :cpu => 2,
-    :provision => "sudo apt-get update -y && sudo apt-get install -y mysql"
+    :provision => "sudo apt-get update -y && export DEBIAN_FRONTEND=\"noninteractive\" && sudo apt-get install -y debconf-utils && sudo debconf-set-selections <<< 'mysql-server mysql-server/root_password password root' && sudo debconf-set-selections <<< 'mysql-server mysql-server/root_password_again password root' && sudo apt-get -y install mysql-server"
   }
 ]
 
