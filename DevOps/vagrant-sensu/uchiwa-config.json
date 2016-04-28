@@ -1,7 +1,7 @@
 {
   "sensu": [
     {
-      "name": "local-server",
+      "name": "local-server(10.10.99.60)",
       "host": "127.0.0.1",
       "port": 4567,
       "timeout": 5
