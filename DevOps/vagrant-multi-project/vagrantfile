@@ -22,7 +22,7 @@ Vagrant.configure(2) do |config|
         config.vm.define machine[:hostname] do |node|
             node.vm.box = machine[:box]
             node.vm.hostname = machine[:hostname]
-            node.vm.provision "shell", inline: [:provision]
+            node.vm.provision "shell", inline: machine[:provision]
             node.vm.network "private_network", ip: machine[:ip]
             node.vm.provider "virtualbox" do |vb|
                 vb.customize ["modifyvm", :id, "--memory", machine[:ram]]
