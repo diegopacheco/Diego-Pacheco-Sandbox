@@ -1,0 +1,9 @@
+{
+  "client": {
+    "name": "sensu-client",
+    "address": "client-ip",
+    "subscriptions": [
+      "test"
+    ]
+  }
+}
