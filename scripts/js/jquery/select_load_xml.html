@@ -1,0 +1,35 @@
+<html>
+<head>
+<title>jQuery Hello World</title>
+<script type="text/javascript" src="jquery-1.7.2.min.js"></script>
+</head>
+<body>
+
+<script>
+
+$.get( "https://api.github.com/users/diegopacheco/repos", function( data ) {
+   $.each(data, function(i, item){
+     $('#repos').append($("<option></option>")
+                    .attr("value",item.id)
+                    .text(item.name)); 
+
+    $('#repos').bind('change',function(item){
+        var $this = $(this),
+        $value = $this.val();
+        console.log('clicked: ' + $value);
+        alert('clicked: ' + $value);
+    });
+
+   });
+});
+</script>
+
+<h3>Github Repos:</h3>
+<div id="github">
+<select id="repos" class="repos">
+  <option value="Loading">Loading</option>
+</select>
+</div>
+
+</body>
+</html>
