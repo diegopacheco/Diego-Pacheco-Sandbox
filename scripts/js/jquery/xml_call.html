@@ -1,0 +1,24 @@
+<html>
+<head>
+<title>jQuery Hello World</title>
+<script type="text/javascript" src="jquery-1.7.2.min.js"></script>
+</head>
+<body>
+
+<script>
+var start = new Date().getTime();
+$.get( "https://api.github.com/users/diegopacheco/repos", function( data ) {
+   $.each(data, function(i, item){
+     $('#repos').val( $('#repos').val() + " " + item.name + "\n");
+   });
+   $(".github").append("<br/>Done in: <b>" + (new Date().getTime() - start) + "</b> ms" );
+});
+</script>
+
+<h3>Github Repos:</h3>
+<div id="github" class="github">
+<textarea rows="50" cols="60" id="repos" name="repos" placeholder="loading..." ></textarea>
+</div>
+
+</body>
+</html>

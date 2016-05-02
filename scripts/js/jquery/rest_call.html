@@ -1,0 +1,43 @@
+<html>
+<head>
+<title>jQuery Hello World</title>
+<script type="text/javascript" src="jquery-1.7.2.min.js"></script>
+</head>
+<body>
+
+<script>
+
+$.get( "https://api.github.com/users/diegopacheco/repos", function( data ) {
+   $.each(data, function(i, item){
+     $('#repos').val( $('#repos').val() + " " + item.name + "\n");
+   });
+});
+
+(function() {
+  var flickerAPI = "http://api.flickr.com/services/feeds/photos_public.gne?jsoncallback=?";
+  $.getJSON( flickerAPI, {
+    tags: "batman",
+    tagmode: "any",
+    format: "json"
+  })
+    .done(function( data ) {
+      $.each( data.items, function( i, item ) {
+        $( "<img>" ).attr( "src", item.media.m ).appendTo( "#images" );
+        if ( i === 3 ) {
+          return false;
+        }
+      });
+    });
+})();
+</script>
+
+<h3>Github Repos:</h3>
+<div id="github">
+<textarea rows="31" cols="60" id="repos" placeholder="loading..." class="repos" ></textarea>
+</div>
+
+<h3>Some flicker Photos of Batman:</h3>
+<div id="images"></div>
+
+</body>
+</html>
