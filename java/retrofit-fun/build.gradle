@@ -16,6 +16,7 @@ dependencies {
 	compile([
               'com.squareup.retrofit:retrofit:2.0.2',
               'com.squareup.retrofit2:converter-jackson:2.0.2',
+              'com.squareup.retrofit2:converter-simplexml:2.0.2',
               'junit:junit:4.12'
 		    ])
 }
