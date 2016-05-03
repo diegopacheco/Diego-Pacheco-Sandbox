@@ -1,0 +1,45 @@
+<html>
+<head>
+<title>jQuery Hello World</title>
+<script type="text/javascript" src="jquery-1.7.2.min.js"></script>
+</head>
+<body>
+
+<script>
+var start = new Date().getTime();
+$.get( "http://127.0.0.1:8080/eureka/v2/apps/", function( data ) {
+
+   app = $(data.children).find("application").each(function(index,item){
+   	  appName = $(item).find("name")[0].innerHTML
+   	  
+   	  ip = null;
+	  $($(item).find("instance")).each(function(i,d){
+	  	 ip = $(d).find("ipAddr")[0].innerHTML;	
+	  });
+
+   	  $('#eurekaApps').append($("<option></option>")
+                    .attr("value",ip)
+                    .text(appName)); 
+
+      $('#eurekaApps').bind('change',function(item){
+          var $this = $(this),
+          $value = $this.val();
+          alert('clicked: ' + $value);
+      });
+
+   });
+
+   $(".eureka").append("<br/>Done in: <b>" + (new Date().getTime() - start) + "</b> ms" );
+
+});
+</script>
+
+<h3>Eureka Apps:</h3>
+<div id="eureka" class="eureka">
+<select id="eurekaApps" class="eurekaApps">
+  <option value="Loading">Loading...</option>
+</select>
+</div>
+</body>
+</html>
+
