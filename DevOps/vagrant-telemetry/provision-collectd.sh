@@ -1,4 +1,6 @@
 #!/bin/bash
 
-yum install -y collectd
+sudo yum --enablerepo=epel install -y collectd
 
+#sudo systemctl start collectd
+#sudo systemctl enable collectd
