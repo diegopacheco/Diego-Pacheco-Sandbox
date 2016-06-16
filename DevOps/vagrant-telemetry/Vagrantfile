@@ -1,8 +1,15 @@
 Vagrant.configure(2) do |config|
   config.vm.define "telemetry" do |node|
+    config.ssh.username = "root"
+    config.ssh.password = "vagrant"
+
     config.vm.box = "bento/centos-7.1"
     config.vm.network "private_network", ip: "10.10.10.255"
     config.vm.synced_folder ".", "/home/vagrant/shared/"
+    config.vm.provider "virtualbox" do |v|
+          v.memory = 2048
+    end
+
     config.vm.provision "shell", :path => "provision-base.sh"
     config.vm.provision "shell", :path => "provision-java-scala.sh"
     config.vm.provision "shell", :path => "provision-ansible.sh"
@@ -11,5 +18,9 @@ Vagrant.configure(2) do |config|
     config.vm.provision "shell", :path => "provision-jetty.sh"
     config.vm.provision "shell", :path => "provision-collectd.sh"
     config.vm.provision "shell", :path => "provision-elk.sh"    
+    config.vm.provision "file", source: "logstash.conf", destination: "/etc/logstash/conf.d/logstash.conf"
+    config.vm.provision "file", source: "elasticsearch", destination: "/etc/init.d/elasticsearch"
+    config.vm.provision "file", source: "collectd.conf", destination: "/etc/collectd.conf"
+    config.vm.provision "file", source: "start.sh", destination: "/home/vagrant/start.sh" 
   end  
 end
