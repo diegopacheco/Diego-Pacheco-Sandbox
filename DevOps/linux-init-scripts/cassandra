@@ -9,7 +9,8 @@ start() {
    export JRE_HOME=/home/ec2-user/jdk1.8.0_45/jre
    export PATH=$PATH:/home/ec2-user/jdk1.8.0_45/bin:/home/ec2-user/jdk1.8.0_45/jre/bin
 
-   cd /home/ec2-user/apache-cassandra-2.1.14/bin && /home/ec2-user/apache-cassandra-2.1.14/bin/cassandra start & 
+   cd /home/ec2-user/apache-cassandra-2.1.14
+   bin/cassandra start & 
 }
 
 stop() {
