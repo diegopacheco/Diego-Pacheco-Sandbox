@@ -2,8 +2,11 @@
 
 /etc/init.d/tomcat stop
 sudo rm -rf ~/apache-tomcat-8.0.35/logs/*
+sudo rm -rf ~/apache-tomcat-8.0.35/webapps/DM/
+sudo rm -rf ~/apache-tomcat-8.0.35/webapps/DM.war
 
 cd ~/dynomite-manager-diego/dynomite-manager-1/
+git pull
 ./gradlew clean build
 
 cp ~/dynomite-manager-diego/dynomite-manager-1/dynomitemanager-web/build/libs/dynomitemanager-web-0.1.0-SNAPSHOT.war ~/apache-tomcat-8.0.35/webapps/DM.war

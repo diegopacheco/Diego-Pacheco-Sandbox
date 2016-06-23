@@ -1,0 +1,5 @@
+#!/bin/bash
+
+sudo rm -rf /home/ec2-user/apache-tomcat-8.0.35/logs/*.*
+
+
