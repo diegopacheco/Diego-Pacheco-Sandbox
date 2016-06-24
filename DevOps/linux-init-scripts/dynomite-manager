@@ -14,7 +14,7 @@ start() {
    export AUTO_SCALE_GROUP="asg_dynomite"
 
    cd /home/ec2-user/dynomite-manager-diego/dynomite-manager-1/
-   ./gradlew jettyRun > /logs/system/dynomite-manager/dynomite-manager.log  & 
+   /home/ec2-user/dynomite-manager-diego/dynomite-manager-1/gradlew jettyRun > /logs/system/dynomite-manager/dynomite-manager.log & 
 }
 
 stop() {
