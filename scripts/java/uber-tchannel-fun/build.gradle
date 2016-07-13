@@ -22,7 +22,12 @@ eclipse {
 }
 
 dependencies {
+    
+    compile group: 'com.uber.tchannel', name: 'tchannel', version: '0.4.1', ext: 'pom'
+    
 	compile([
-			  'com.uber.tchannel:tchannel-core:0.4.2-SNAPSHOT'
+			  'com.uber.tchannel:tchannel-core:0.4.1',
+			  'com.uber.tchannel:tchannel-example:0.4.1',
+			  'com.uber.tchannel:tchannel-hyperbahn:0.4.1'
 			])
 }
