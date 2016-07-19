@@ -44,7 +44,7 @@ public class AntRunner {
 			javaTask.setFork(true);
 			javaTask.setFailonerror(true);
 			javaTask.setClassname(MyHelloWorldClass.class.getName());
-			Path path = new Path(project, new File( new File(new File(".").getCanonicalPath() + "/build") + "/classes").getAbsolutePath());
+			Path path = new Path(project, new File( new File(new File(".").getCanonicalPath() + "/build") + "/classes/main/").getAbsolutePath());
 			javaTask.setClasspath(path);
 			javaTask.init();
 			int ret = javaTask.executeJava();
