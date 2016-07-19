@@ -18,7 +18,10 @@ public class Client {
 		System.setProperty("https.proxyHost", "localhost");
         System.setProperty("https.proxyPort", "8888");        
 		
-        URL url = new URL("https://api.github.com/users/diegopacheco/repos");
+        //URL url = new URL("https://api.github.com/users/diegopacheco/repos");
+        URL url = new URL("http://www.wikipedia.com");
+        //URL url = new URL("http://www.error.com");
+        
         URLConnection cnn = url.openConnection();
         
         BufferedReader in = new BufferedReader(new InputStreamReader(cnn.getInputStream()));
