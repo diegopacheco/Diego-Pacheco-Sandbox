@@ -1,4 +1,4 @@
-package com.github.diegopacheco.sandbox.java.junit.test;
+package com.github.diegopacheco.sandbox.java.junit.test.par;
 
 import java.util.Arrays;
 import java.util.Collection;
