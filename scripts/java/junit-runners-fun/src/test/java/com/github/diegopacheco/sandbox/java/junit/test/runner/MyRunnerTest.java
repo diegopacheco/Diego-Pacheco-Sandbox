@@ -19,6 +19,7 @@ public class MyRunnerTest {
 	}
 	
 	@Test
+	@DateLogger(message = "This is my test")
 	public void testItC(){
 		System.out.println("OK C");
 	}
