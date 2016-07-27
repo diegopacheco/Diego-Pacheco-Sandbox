@@ -1,0 +1,10 @@
+Console 1
+$ webdriver-manager update
+$ webdriver-manager start
+
+Console 2
+$ protractor conf.js
+
+Console 3
+$ sudo -E gulp protractor-test
+
