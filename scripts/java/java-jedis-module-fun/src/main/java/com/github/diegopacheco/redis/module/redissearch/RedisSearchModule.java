@@ -40,14 +40,18 @@ public class RedisSearchModule {
 	    }
 	  }
 	
-	public Map<String,Object> FT_SEARCH(String[] cmdArgs){
+	public List<Map<String,Object>> FT_SEARCH(String[] cmdArgs){
 		Connection c = jedis.getClient().sendCommand(SearchModuleCommand.SEARCH,cmdArgs);
 		List<byte[]> out = c.getBinaryMultiBulkReply();
 		
+		List<Map<String, Object>> collection = new ArrayList<>();
 		HashMap<String, Object> result = new HashMap<>();
+		int count  = 0;
+		int factor = 3;
 		for(Object bs : out){
+			count++;
 			if ("class java.lang.Long".equals(bs.getClass().toString())){
-				result.put("count", new Long(bs.toString()));
+				result.put("count" , new Long(bs.toString()));
 			}
 			if ("class [B".equals(bs.getClass().toString())){
 				result.put("doc", new String((byte[])bs));
@@ -61,8 +65,17 @@ public class RedisSearchModule {
 				}
 				result.put("items", items);
 			}
+			if (count==factor) {
+				Map<String, Object> e = new HashMap<String, Object>();
+				e.putAll(result);
+				collection.add( e );
+				result = new HashMap<String, Object>();
+				if (count==3)
+					factor--;
+				count=0;
+			}
 		}
-		return result;
+		return collection;
 	}
 	
 	public List<String> FT_SUGGET(String[] cmdArgs){

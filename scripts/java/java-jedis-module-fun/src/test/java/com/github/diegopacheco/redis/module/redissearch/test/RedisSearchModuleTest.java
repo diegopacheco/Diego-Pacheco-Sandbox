@@ -55,7 +55,7 @@ public class RedisSearchModuleTest {
 	@Test
 	public void test5Search(){
 		RedisSearchModule rsm = new RedisSearchModule();
-		Map<String,Object> result = rsm.FT_SEARCH(new String[]{"myIdx", "hello world", "LIMIT", "0", "10"});
+		List<Map<String,Object>> result = rsm.FT_SEARCH(new String[]{"myIdx", "hello world", "LIMIT", "0", "10"});
 		Assert.assertNotNull(result);
 		System.out.println("FT_SEARCH: " + result);
 	}
