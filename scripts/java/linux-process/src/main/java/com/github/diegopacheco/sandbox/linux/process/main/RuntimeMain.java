@@ -10,7 +10,7 @@ public class RuntimeMain {
 		   Process p;
 		
 			try {
-				p = Runtime.getRuntime().exec("ls -lsa");
+				p = Runtime.getRuntime().exec(new String[]{"bash","-c","ps aux | grep java | wc -l"});
 				p.waitFor();
 				BufferedReader reader = new BufferedReader(new InputStreamReader(p.getInputStream()));
 
@@ -18,7 +18,7 @@ public class RuntimeMain {
 				while ((line = reader.readLine())!= null) {
 					output.append(line + "\n");
 				}
-				System.out.println(output.toString());
+				System.out.println("There are " + output.toString() + " java process running... ");
 			}catch(Exception e){
 				System.out.println(e.getMessage());
 			}

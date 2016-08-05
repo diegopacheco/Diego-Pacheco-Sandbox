@@ -12,8 +12,9 @@ public class LinuxProcessMain {
 		Process process = null;
 		try{
 			List<String> command = Lists.newArrayList();
-			command.add("ls");
-			command.add("-lsa");
+			command.add("bash");
+			command.add("-c");
+			command.add("ps aux | grep java | wc -l");
 			
 			ProcessBuilder builder = new ProcessBuilder(command);
 			builder.directory(new File("/"));
@@ -25,7 +26,7 @@ public class LinuxProcessMain {
 			int code = process.exitValue();
 			String result = new String(ByteStreams.toByteArray(process.getInputStream()),Charsets.UTF_8);
 	        if (code == 0) {
-	        	System.out.println(result);
+	        	System.out.println("There are " + result.trim() + " java process running");
 	        }else {
 	        	String error = new String(ByteStreams.toByteArray(process.getErrorStream()),Charsets.UTF_8);
 	        	System.out.println("Error: " + code);
@@ -40,3 +41,4 @@ public class LinuxProcessMain {
 		}
 	}
 }
+
