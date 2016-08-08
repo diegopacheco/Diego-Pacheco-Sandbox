@@ -12,8 +12,11 @@ public class Maingraph {
 	public static void main(String[] args) {
 		
 		Graph graph = TinkerFactory.createModern();
+		GraphTraversalSource g = graph.traversal();
 		graph = TinkerGraph.open();
 		System.out.println(graph);
+		System.out.println(g.V().values("name").toList() );
+		System.out.println(g.V().toList());
 		
 		Vertex v1 = graph.addVertex(T.id, 1, T.label, "person", "name", "diego", "age", 31);
 		System.out.println(v1);
@@ -24,7 +27,7 @@ public class Maingraph {
 		Edge e4 = v1.addEdge("follows", v2);
 		System.out.println(e4);
 		
-		GraphTraversalSource g = graph.traversal();
+		g = graph.traversal();
 		System.out.println(g.V(1).values("name").toList() );
 		System.out.println(g.V(2).values("name").toList() );
 		System.out.println(g.V().values("name").toList() );
