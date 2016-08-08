@@ -29,5 +29,6 @@ public class Maingraph {
 		System.out.println(g.V(2).values("name").toList() );
 		System.out.println(g.V().values("name").toList() );
 		System.out.println(g.V().values("age").toList() );
+		System.out.println(g.V().has("name","diego").out("follows").values("name").toList() );
 	}
 }
