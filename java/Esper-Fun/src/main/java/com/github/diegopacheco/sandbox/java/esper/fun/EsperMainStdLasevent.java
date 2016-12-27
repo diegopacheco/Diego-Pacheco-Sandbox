@@ -21,7 +21,7 @@ public class EsperMainStdLasevent {
 		epService.getEPAdministrator().getConfiguration().addEventType("StatusEvent", updatedFieldDef);
 
 		epService.getEPAdministrator().createEPL(
-				"create window StatusEventWindow.win:time(30 sec) as select status,timestamp from StatusEvent");
+				"create window StatusEventWindow.std:lastevent() as select status,timestamp from StatusEvent");
 		epService.getEPAdministrator().createEPL(
 				"insert into StatusEventWindow(status, timestamp) select status, timestamp from com.github.diegopacheco.sandbox.java.esper.fun.StatusEvent.std:lastevent()");
 		EPStatement statement = epService.getEPAdministrator().createEPL("select * from StatusEventWindow", "exp1");
