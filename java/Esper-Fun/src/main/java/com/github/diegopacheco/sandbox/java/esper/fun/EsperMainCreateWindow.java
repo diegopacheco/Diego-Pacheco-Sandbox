@@ -2,20 +2,27 @@ package com.github.diegopacheco.sandbox.java.esper.fun;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.HashMap;
+import java.util.Map;
 
 import com.espertech.esper.client.EPServiceProvider;
 import com.espertech.esper.client.EPServiceProviderManager;
 import com.espertech.esper.client.EPStatement;
 import com.espertech.esper.client.UpdateListener;
 
-public class EsperMain {
-	
+public class EsperMainCreateWindow {
 	public static void main(String[] args) {
-
-		EPServiceProvider epService = EPServiceProviderManager.getDefaultProvider();
 		
-		String expression = "select status,timestamp from com.github.diegopacheco.sandbox.java.esper.fun.StatusEvent.win:time(30 sec)";
-		EPStatement statement = epService.getEPAdministrator().createEPL(expression,"exp1");
+		EPServiceProvider epService = EPServiceProviderManager.getDefaultProvider();
+
+		Map<String, Object> updatedFieldDef = new HashMap<String, Object>();
+		updatedFieldDef.put("status", String.class);
+		updatedFieldDef.put("timestamp", String.class);
+		epService.getEPAdministrator().getConfiguration().addEventType("StatusEvent", updatedFieldDef);
+		
+		epService.getEPAdministrator().createEPL("create window StatusEventWindow.win:time(30 sec) as select status,timestamp from StatusEvent");
+		epService.getEPAdministrator().createEPL("insert into StatusEventWindow(status, timestamp) select status, timestamp from com.github.diegopacheco.sandbox.java.esper.fun.StatusEvent.win:time(30 sec)");
+		EPStatement statement = epService.getEPAdministrator().createEPL("select * from StatusEventWindow","exp1");
 		
 		UpdateListener listener = new ConsoleListener();
 		statement.addListener(listener);
@@ -41,17 +48,18 @@ public class EsperMain {
 		
 		sleep(3000L);
 		epService.getEPAdministrator().getStatement("exp1").destroy();
-		statement = epService.getEPAdministrator().createEPL("select status from com.github.diegopacheco.sandbox.java.esper.fun.StatusEvent.win:time(30 sec)","exp1");
+		statement = epService.getEPAdministrator().createEPL("select * from StatusEventWindow","exp1");
 		statement.addListener(listener);
 		
-		statement = epService.getEPAdministrator().createEPL("select status,timestamp from com.github.diegopacheco.sandbox.java.esper.fun.StatusEvent.win:time(30 sec)","exp2");
+		statement = epService.getEPAdministrator().createEPL("select * from StatusEventWindow","exp2");
 		statement.addListener(listener);
 		
-		statement = epService.getEPAdministrator().createEPL("select status,timestamp from com.github.diegopacheco.sandbox.java.esper.fun.StatusEvent.win:time(30 sec)","exp3");
+		statement = epService.getEPAdministrator().createEPL("select * from StatusEventWindow","exp3");
 		statement.addListener(listener);
 		
 	}
 	
+
 	public static String getCurrentTimeStamp() {
 	    return new SimpleDateFormat("yyyy-MM-dd HH:mm:ss.SSS").format(new Date());
 	}
@@ -62,4 +70,4 @@ public class EsperMain {
 		} catch (InterruptedException e) {}
 	}
 	
-}
+}	
