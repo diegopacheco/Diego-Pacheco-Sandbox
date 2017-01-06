@@ -1,0 +1,8 @@
+
+aws configure
+
+kappa --config kappa.yml.sample --env dev deploy
+
+kappa --config kappa.yml.sample invoke _tests/test_one.json
+
+

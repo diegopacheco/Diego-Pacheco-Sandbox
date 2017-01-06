@@ -1,0 +1,14 @@
+dev:
+  config_md5: !!binary |
+    ZDgzYmVlYWI2OGQxZmQ0YTIzZDEzZGY3YmRkZjcyNjk=
+  policy_md5: !!binary |
+    ZGYzOTk3NTkwZTEwZGQ3MzY4MjIzYjE3OGJhNjE3M2I=
+  zip_md5: !!binary |
+    MjM0NzlkMWFlMjk5YjA5YTU5NmFjZGY1ZGViNmNmZDg=
+prod:
+  config_md5: !!binary |
+    ZTAxMjc4MTI3Y2IzN2MwOGJlNDUwMzViMjdjY2QxNzY=
+  policy_md5: !!binary |
+    ZGYzOTk3NTkwZTEwZGQ3MzY4MjIzYjE3OGJhNjE3M2I=
+  zip_md5: !!binary |
+    MjM0NzlkMWFlMjk5YjA5YTU5NmFjZGY1ZGViNmNmZDg=
