@@ -1,0 +1,14 @@
+npm install -g lambdoku
+
+export AWS_DEFAULT_REGION=us-west-2
+export AWS_ACCESS_KEY_ID=.
+export AWS_SECRET_ACCESS_KEY=.
+
+
+lambdoku init arn:aws:lambda:us-west-2:...
+
+lambdoku config:set ONE=1 TWO=2
+lambdoku config:get ONE
+lambdoku releases
+
+
