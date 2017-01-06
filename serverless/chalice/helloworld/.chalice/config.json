@@ -1,0 +1,5 @@
+{
+  "lambda_arn": "arn:aws:lambda:us-west-2:246604972757:function:helloworld", 
+  "app_name": "helloworld", 
+  "stage": "dev"
+}
