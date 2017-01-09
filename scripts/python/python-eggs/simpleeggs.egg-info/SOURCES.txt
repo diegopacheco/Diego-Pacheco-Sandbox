@@ -1,0 +1,8 @@
+setup.py
+simpleeggs/__init__.py
+simpleeggs/emath.py
+simpleeggs.egg-info/PKG-INFO
+simpleeggs.egg-info/SOURCES.txt
+simpleeggs.egg-info/dependency_links.txt
+simpleeggs.egg-info/requires.txt
+simpleeggs.egg-info/top_level.txt
