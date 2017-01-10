@@ -5,4 +5,8 @@ kappa --config kappa.yml.sample --env dev deploy
 
 kappa --config kappa.yml.sample invoke _tests/test_one.json
 
-
+#
+# Install 3rd party python deps - goto _src/ 
+#
+pip install requests -t .
+pip install --egg ~/github/diegopacheco/Diego-Pacheco-Sandbox/scripts/python/python-eggs/  -t .

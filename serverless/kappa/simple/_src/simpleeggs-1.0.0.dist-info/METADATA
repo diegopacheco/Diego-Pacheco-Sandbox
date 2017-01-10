@@ -1,0 +1,15 @@
+Metadata-Version: 2.0
+Name: simpleeggs
+Version: 1.0.0
+Summary: A simple python eggs
+Home-page: https://github.com/diegopacheco
+Author: diegopacheco
+Author-email: diego.pacheco.it@gmail.com
+License: BSD License
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: BSD License
+Requires-Dist: requests
+
+UNKNOWN
+
+

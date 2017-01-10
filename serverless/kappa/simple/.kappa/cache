@@ -1,14 +1,4 @@
-dev:
-  config_md5: !!binary |
-    ZDgzYmVlYWI2OGQxZmQ0YTIzZDEzZGY3YmRkZjcyNjk=
-  policy_md5: !!binary |
-    ZGYzOTk3NTkwZTEwZGQ3MzY4MjIzYjE3OGJhNjE3M2I=
-  zip_md5: !!binary |
-    MjM0NzlkMWFlMjk5YjA5YTU5NmFjZGY1ZGViNmNmZDg=
-prod:
-  config_md5: !!binary |
-    ZTAxMjc4MTI3Y2IzN2MwOGJlNDUwMzViMjdjY2QxNzY=
-  policy_md5: !!binary |
-    ZGYzOTk3NTkwZTEwZGQ3MzY4MjIzYjE3OGJhNjE3M2I=
-  zip_md5: !!binary |
-    MjM0NzlkMWFlMjk5YjA5YTU5NmFjZGY1ZGViNmNmZDg=
+dev: {config_md5: d83beeab68d1fd4a23d13df7bddf7269, policy_md5: 12273b7917929c02cfc755f4700e1e2b,
+  zip_md5: 280d9859465df139a6d1f3367d2b097f}
+prod: {config_md5: e01278127cb37c08be45035b27ccd176, policy_md5: df3997590e10dd7368223b178ba6173b,
+  zip_md5: 23479d1ae299b09a596acdf5deb6cfd8}
