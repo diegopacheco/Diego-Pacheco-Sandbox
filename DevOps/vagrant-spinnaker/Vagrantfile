@@ -1,0 +1,22 @@
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+Vagrant.configure(2) do |config|
+
+  config.vm.box = "ubuntu/trusty64"
+  #config.vm.network "private_network", ip: "10.10.21.16"
+  config.vm.synced_folder ".", "/home/vagrant/shared/"
+   
+  config.vm.provision "shell", inline: <<-SHELL    
+    #
+    # Update and install basic linux programs for development
+    #
+    sudo apt-get update -y     
+
+    #
+    # Install Spinnaker
+    #	
+    bash <(curl --silent https://spinnaker.bintray.com/scripts/InstallSpinnaker.sh)
+  SHELL
+
+end
