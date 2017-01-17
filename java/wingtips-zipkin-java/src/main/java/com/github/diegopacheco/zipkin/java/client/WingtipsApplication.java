@@ -16,7 +16,6 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.nike.wingtips.Span;
-import com.nike.wingtips.Span.SpanPurpose;
 import com.nike.wingtips.Tracer;
 import com.nike.wingtips.zipkin.WingtipsToZipkinLifecycleListener;
 
@@ -55,17 +54,17 @@ public class WingtipsApplication {
 		    Thread.sleep(1000L);
 		    Tracer.getInstance().completeRequestSpan();
 		    
-		    Span child2 = Tracer.getInstance().startRequestWithChildSpan(child1, "callProfile");
+		    Tracer.getInstance().startRequestWithChildSpan(child1, "callProfile");
 		    Thread.sleep(3000L);
-		    
 		    String res = sendGet("");
+		    Tracer.getInstance().completeRequestSpan();
+		    
 		    return res;
 		}
 		catch(Exception e){
 			throw new RuntimeException(e);
 		}
 		finally {
-		    Tracer.getInstance().completeRequestSpan();
 		}
 	}
 	
