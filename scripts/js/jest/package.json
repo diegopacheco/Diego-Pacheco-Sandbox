@@ -1,0 +1,21 @@
+{
+  "name": "jest-fun",
+  "version": "0.1.0",
+  "description": "jest-fun",
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {},
+  "engines": {},
+  "keywords": [
+    "js",
+    "jest",
+    "test"
+  ],
+  "author": "Diego Pacheco",
+  "contributors": [],
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^19.0.0"
+  }
+}
