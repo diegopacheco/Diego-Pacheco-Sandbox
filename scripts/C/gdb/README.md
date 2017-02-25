@@ -16,4 +16,5 @@ print -> p
 next  -> n
 list  -> l
 disable
+backtrace -> bt
 ```
