@@ -15,4 +15,5 @@ step
 print -> p
 next  -> n
 list  -> l
+disable
 ```
