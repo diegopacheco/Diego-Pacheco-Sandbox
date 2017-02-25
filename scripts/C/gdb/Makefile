@@ -1,9 +1,9 @@
 build:
 		mkdir dist/ 2> /dev/null || true
-		gcc simple.c -o dist/simple
+		gcc -g src/simple.c -o dist/simple
 
 debug:
-		gdb dist/simple
+		gdb dist/simple -tui
 
 run:
 		dist/simple
