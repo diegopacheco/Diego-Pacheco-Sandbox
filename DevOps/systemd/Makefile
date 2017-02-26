@@ -5,6 +5,7 @@ run:
 		./buggy-app
 
 install:
+	  sudo touch /tmp/buggy-app.log
 		sudo touch /etc/systemd/system/buggy-app.service
 		sudo sh -c "cat service.conf > /etc/systemd/system/buggy-app.service"
 		systemctl start buggy-app.service
