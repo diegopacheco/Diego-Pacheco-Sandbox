@@ -1,0 +1,8 @@
+build: Use gcc to build the binary.
+run: Run the C binary app.
+install: Install the C binary as a SystemD service.
+status: Show systemCTL status.
+restart: Restart systemCTL service.
+tail: Show app log.
+remove: Delete app from systemD configs.
+clean: Delete binaries and logs.
