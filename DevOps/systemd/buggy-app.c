@@ -18,8 +18,8 @@ void process(){
      while(1){
         sleep(2);
         writeToDisk();
-        if (i==5){
-           //introduce_bug();
+        if (i==10){
+           introduce_bug();
         }else{
            i++;
         }
