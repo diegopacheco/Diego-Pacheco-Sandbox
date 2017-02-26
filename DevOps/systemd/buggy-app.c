@@ -5,6 +5,7 @@
 void process(void);
 void printTime(void);
 void writeToDisk(void);
+void introduce_bug(void);
 
 int main(){
   process();
@@ -12,10 +13,22 @@ int main(){
 }
 
 void process(){
+     int i = 0;
+
      while(1){
-       sleep(2);
-       writeToDisk();
+        sleep(2);
+        writeToDisk();
+        if (i==3){
+           introduce_bug();
+        }else{
+           i++;
+        }
      }
+}
+
+void introduce_bug(){
+    char c[20]="11";
+    c[30] = 100; // this make the program crash :D
 }
 
 void writeToDisk(){
