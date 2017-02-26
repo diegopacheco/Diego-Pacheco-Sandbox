@@ -12,8 +12,10 @@ int main(){
 }
 
 void process(){
-     sleep(2);
-     writeToDisk();
+     while(1){
+       sleep(2);
+       writeToDisk();
+     }
 }
 
 void writeToDisk(){
