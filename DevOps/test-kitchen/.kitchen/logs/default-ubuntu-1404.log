@@ -1,0 +1,118 @@
+I, [2017-04-25T19:07:31.217674 #11432]  INFO -- default-ubuntu-1404: -----> Cleaning up any prior instances of <default-ubuntu-1404>
+I, [2017-04-25T19:07:31.217958 #11432]  INFO -- default-ubuntu-1404: -----> Destroying <default-ubuntu-1404>...
+I, [2017-04-25T19:07:31.219368 #11432]  INFO -- default-ubuntu-1404: Finished destroying <default-ubuntu-1404> (0m0.00s).
+I, [2017-04-25T19:07:31.219709 #11432]  INFO -- default-ubuntu-1404: -----> Testing <default-ubuntu-1404>
+I, [2017-04-25T19:07:31.219886 #11432]  INFO -- default-ubuntu-1404: -----> Creating <default-ubuntu-1404>...
+I, [2017-04-25T19:07:35.566575 #11432]  INFO -- default-ubuntu-1404: Bringing machine 'default' up with 'virtualbox' provider...
+I, [2017-04-25T19:07:36.119556 #11432]  INFO -- default-ubuntu-1404: ==> default: Importing base box 'bento/ubuntu-14.04'...
+I, [2017-04-25T19:08:02.337648 #11432]  INFO -- default-ubuntu-1404: [KProgress: 10%[KProgress: 20%[KProgress: 30%[KProgress: 40%[KProgress: 50%[KProgress: 60%[KProgress: 70%[KProgress: 90%[K==> default: Matching MAC address for NAT networking...
+I, [2017-04-25T19:08:02.676034 #11432]  INFO -- default-ubuntu-1404: ==> default: Checking if box 'bento/ubuntu-14.04' is up to date...
+I, [2017-04-25T19:08:04.593850 #11432]  INFO -- default-ubuntu-1404: ==> default: Setting the name of the VM: kitchen-tk-default-ubuntu-1404_default_1493172484487_38691
+I, [2017-04-25T19:08:06.557358 #11432]  INFO -- default-ubuntu-1404: ==> default: Clearing any previously set network interfaces...
+I, [2017-04-25T19:08:06.738308 #11432]  INFO -- default-ubuntu-1404: ==> default: Preparing network interfaces based on configuration...
+I, [2017-04-25T19:08:06.738993 #11432]  INFO -- default-ubuntu-1404:     default: Adapter 1: nat
+I, [2017-04-25T19:08:06.913721 #11432]  INFO -- default-ubuntu-1404: ==> default: Forwarding ports...
+I, [2017-04-25T19:08:07.066875 #11432]  INFO -- default-ubuntu-1404:     default: 22 (guest) => 2222 (host) (adapter 1)
+I, [2017-04-25T19:08:07.763613 #11432]  INFO -- default-ubuntu-1404: ==> default: Booting VM...
+I, [2017-04-25T19:08:12.665392 #11432]  INFO -- default-ubuntu-1404: ==> default: Waiting for machine to boot. This may take a few minutes...
+I, [2017-04-25T19:08:13.286151 #11432]  INFO -- default-ubuntu-1404:     default: SSH address: 127.0.0.1:2222
+I, [2017-04-25T19:08:13.286582 #11432]  INFO -- default-ubuntu-1404:     default: SSH username: vagrant
+I, [2017-04-25T19:08:13.286947 #11432]  INFO -- default-ubuntu-1404:     default: SSH auth method: private key
+I, [2017-04-25T19:10:01.481770 #11432]  INFO -- default-ubuntu-1404:     default: Warning: Remote connection disconnect. Retrying...
+I, [2017-04-25T19:10:11.483959 #11432]  INFO -- default-ubuntu-1404:     default: Warning: Remote connection disconnect. Retrying...
+I, [2017-04-25T19:10:21.617132 #11432]  INFO -- default-ubuntu-1404:     default: Warning: Remote connection disconnect. Retrying...
+I, [2017-04-25T19:10:31.838205 #11432]  INFO -- default-ubuntu-1404:     default: Warning: Remote connection disconnect. Retrying...
+I, [2017-04-25T19:11:47.056855 #11432]  INFO -- default-ubuntu-1404:     default: 
+I, [2017-04-25T19:11:47.056959 #11432]  INFO -- default-ubuntu-1404:     default: Vagrant insecure key detected. Vagrant will automatically replace
+I, [2017-04-25T19:11:47.056990 #11432]  INFO -- default-ubuntu-1404:     default: this with a newly generated keypair for better security.
+I, [2017-04-25T19:12:09.301093 #11432]  INFO -- default-ubuntu-1404:     default: 
+I, [2017-04-25T19:12:11.530484 #11432]  INFO -- default-ubuntu-1404:     default: Inserting generated public key within guest...
+I, [2017-04-25T19:12:32.971130 #11432]  INFO -- default-ubuntu-1404:     default: Removing insecure key from the guest if it's present...
+I, [2017-04-25T19:12:38.701948 #11432]  INFO -- default-ubuntu-1404:     default: Key inserted! Disconnecting and reconnecting using new SSH key...
+I, [2017-04-25T19:12:39.740121 #11432]  INFO -- default-ubuntu-1404: ==> default: Machine booted and ready!
+I, [2017-04-25T19:12:39.740474 #11432]  INFO -- default-ubuntu-1404: ==> default: Checking for guest additions in VM...
+I, [2017-04-25T19:12:39.869472 #11432]  INFO -- default-ubuntu-1404:     default: The guest additions on this VM do not match the installed version of
+I, [2017-04-25T19:12:39.869596 #11432]  INFO -- default-ubuntu-1404:     default: VirtualBox! In most cases this is fine, but in rare cases it can
+I, [2017-04-25T19:12:39.869644 #11432]  INFO -- default-ubuntu-1404:     default: prevent things such as shared folders from working properly. If you see
+I, [2017-04-25T19:12:39.869689 #11432]  INFO -- default-ubuntu-1404:     default: shared folder errors, please make sure the guest additions within the
+I, [2017-04-25T19:12:39.869776 #11432]  INFO -- default-ubuntu-1404:     default: virtual machine match the version of VirtualBox you have installed on
+I, [2017-04-25T19:12:39.869820 #11432]  INFO -- default-ubuntu-1404:     default: your host and reload your VM.
+I, [2017-04-25T19:12:39.869862 #11432]  INFO -- default-ubuntu-1404:     default: 
+I, [2017-04-25T19:12:39.869903 #11432]  INFO -- default-ubuntu-1404:     default: Guest Additions Version: 5.1.18 r114002
+I, [2017-04-25T19:12:39.869945 #11432]  INFO -- default-ubuntu-1404:     default: VirtualBox Version: 5.0
+I, [2017-04-25T19:12:39.870258 #11432]  INFO -- default-ubuntu-1404: ==> default: Setting hostname...
+I, [2017-04-25T19:12:55.077652 #11432]  INFO -- default-ubuntu-1404: ==> default: Mounting shared folders...
+I, [2017-04-25T19:12:55.078099 #11432]  INFO -- default-ubuntu-1404:     default: /tmp/omnibus/cache => /home/diego/.kitchen/cache
+I, [2017-04-25T19:13:27.534551 #11432]  INFO -- default-ubuntu-1404: ==> default: Machine not provisioned because `--no-provision` is specified.
+I, [2017-04-25T19:13:31.345781 #11432]  INFO -- default-ubuntu-1404: [SSH] Established
+I, [2017-04-25T19:13:31.346212 #11432]  INFO -- default-ubuntu-1404: Vagrant instance <default-ubuntu-1404> created.
+I, [2017-04-25T19:13:31.347704 #11432]  INFO -- default-ubuntu-1404: Finished creating <default-ubuntu-1404> (6m0.13s).
+I, [2017-04-25T19:13:31.347846 #11432]  INFO -- default-ubuntu-1404: -----> Converging <default-ubuntu-1404>...
+I, [2017-04-25T19:13:31.348836 #11432]  INFO -- default-ubuntu-1404: Preparing files for transfer
+I, [2017-04-25T19:13:31.348983 #11432]  INFO -- default-ubuntu-1404: Preparing dna.json
+I, [2017-04-25T19:13:31.349352 #11432]  INFO -- default-ubuntu-1404: Berksfile, Cheffile, cookbooks/, or metadata.rb not found so Chef will run with effectively no cookbooks. Is this intended?
+I, [2017-04-25T19:13:31.349694 #11432]  INFO -- default-ubuntu-1404: Removing non-cookbook files before transfer
+I, [2017-04-25T19:13:31.350517 #11432]  INFO -- default-ubuntu-1404: Preparing solo.rb
+I, [2017-04-25T19:13:31.393784 #11432]  INFO -- default-ubuntu-1404: -----> Installing Chef Omnibus (install only if missing)
+I, [2017-04-25T19:13:31.394205 #11432]  INFO -- default-ubuntu-1404: Downloading https://omnitruck.chef.io/install.sh to file /tmp/install.sh
+I, [2017-04-25T19:13:31.394450 #11432]  INFO -- default-ubuntu-1404: Trying wget...
+I, [2017-04-25T19:14:05.556714 #11432]  INFO -- default-ubuntu-1404: Download complete.
+I, [2017-04-25T19:14:05.576562 #11432]  INFO -- default-ubuntu-1404: ubuntu 14.04 x86_64
+I, [2017-04-25T19:14:05.576860 #11432]  INFO -- default-ubuntu-1404: Getting information for chef stable  for ubuntu...
+I, [2017-04-25T19:14:05.583554 #11432]  INFO -- default-ubuntu-1404: downloading https://omnitruck.chef.io/stable/chef/metadata?v=&p=ubuntu&pv=14.04&m=x86_64
+I, [2017-04-25T19:14:05.583872 #11432]  INFO -- default-ubuntu-1404:   to file /tmp/install.sh.1484/metadata.txt
+I, [2017-04-25T19:14:05.584274 #11432]  INFO -- default-ubuntu-1404: trying wget...
+I, [2017-04-25T19:14:06.202064 #11432]  INFO -- default-ubuntu-1404: sha1	da845676ff2e17b3049ca6e52541389318183f89
+I, [2017-04-25T19:14:06.202581 #11432]  INFO -- default-ubuntu-1404: sha256	650e80ad44584ca48716752d411989ab155845af4af7a50c530155d9718843eb
+I, [2017-04-25T19:14:06.203020 #11432]  INFO -- default-ubuntu-1404: url	https://packages.chef.io/files/stable/chef/13.0.118/ubuntu/14.04/chef_13.0.118-1_amd64.deb
+I, [2017-04-25T19:14:06.203514 #11432]  INFO -- default-ubuntu-1404: version	13.0.118
+I, [2017-04-25T19:14:06.205788 #11432]  INFO -- default-ubuntu-1404: downloaded metadata file looks valid...
+I, [2017-04-25T19:14:06.212937 #11432]  INFO -- default-ubuntu-1404: /tmp/omnibus/cache/chef_13.0.118-1_amd64.deb already exists, verifiying checksum...
+I, [2017-04-25T19:14:06.213290 #11432]  INFO -- default-ubuntu-1404: Comparing checksum with sha256sum...
+I, [2017-04-25T19:14:07.812903 #11432]  INFO -- default-ubuntu-1404: checksum compare succeeded, using existing file!
+I, [2017-04-25T19:14:07.813183 #11432]  INFO -- default-ubuntu-1404: 
+I, [2017-04-25T19:14:07.813481 #11432]  INFO -- default-ubuntu-1404: WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING
+I, [2017-04-25T19:14:07.813859 #11432]  INFO -- default-ubuntu-1404: 
+I, [2017-04-25T19:14:07.814169 #11432]  INFO -- default-ubuntu-1404: You are installing an omnibus package without a version pin.  If you are installing
+I, [2017-04-25T19:14:07.814540 #11432]  INFO -- default-ubuntu-1404: on production servers via an automated process this is DANGEROUS and you will
+I, [2017-04-25T19:14:07.814958 #11432]  INFO -- default-ubuntu-1404: be upgraded without warning on new releases, even to new major releases.
+I, [2017-04-25T19:14:07.815372 #11432]  INFO -- default-ubuntu-1404: Letting the version float is only appropriate in desktop, test, development or
+I, [2017-04-25T19:14:07.815770 #11432]  INFO -- default-ubuntu-1404: CI/CD environments.
+I, [2017-04-25T19:14:07.815966 #11432]  INFO -- default-ubuntu-1404: 
+I, [2017-04-25T19:14:07.816469 #11432]  INFO -- default-ubuntu-1404: WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING
+I, [2017-04-25T19:14:07.819424 #11432]  INFO -- default-ubuntu-1404: 
+I, [2017-04-25T19:14:07.819545 #11432]  INFO -- default-ubuntu-1404: Installing chef 
+I, [2017-04-25T19:14:07.819576 #11432]  INFO -- default-ubuntu-1404: installing with dpkg...
+I, [2017-04-25T19:15:14.002702 #11432]  INFO -- default-ubuntu-1404: Selecting previously unselected package chef.
+I, [2017-04-25T19:16:42.386706 #11432]  INFO -- default-ubuntu-1404: (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 35391 files and directories currently installed.)
+I, [2017-04-25T19:16:42.386833 #11432]  INFO -- default-ubuntu-1404: Preparing to unpack .../chef_13.0.118-1_amd64.deb ...
+I, [2017-04-25T19:16:44.592581 #11432]  INFO -- default-ubuntu-1404: Unpacking chef (13.0.118-1) ...
+I, [2017-04-25T19:18:10.813511 #11432]  INFO -- default-ubuntu-1404: Setting up chef (13.0.118-1) ...
+I, [2017-04-25T19:18:11.017222 #11432]  INFO -- default-ubuntu-1404: Thank you for installing Chef!
+I, [2017-04-25T19:18:11.149802 #11432]  INFO -- default-ubuntu-1404: Transferring files to <default-ubuntu-1404>
+I, [2017-04-25T19:18:12.604249 #11432]  INFO -- default-ubuntu-1404: Starting Chef Client, version 13.0.118
+I, [2017-04-25T19:18:14.874466 #11432]  INFO -- default-ubuntu-1404: Creating a new client identity for default-ubuntu-1404 using the validator key.
+I, [2017-04-25T19:18:15.103552 #11432]  INFO -- default-ubuntu-1404: resolving cookbooks for run list: []
+I, [2017-04-25T19:18:15.105851 #11432]  INFO -- default-ubuntu-1404: Synchronizing Cookbooks:
+I, [2017-04-25T19:18:15.106768 #11432]  INFO -- default-ubuntu-1404: Installing Cookbook Gems:
+I, [2017-04-25T19:18:15.107026 #11432]  INFO -- default-ubuntu-1404: Compiling Cookbooks...
+I, [2017-04-25T19:18:15.107863 #11432]  INFO -- default-ubuntu-1404: [2017-04-26T02:18:15+00:00] WARN: Node default-ubuntu-1404 has an empty run list.
+I, [2017-04-25T19:18:15.108081 #11432]  INFO -- default-ubuntu-1404: [2017-04-26T02:18:15+00:00] WARN: Node default-ubuntu-1404 has an empty run list.
+I, [2017-04-25T19:18:15.109074 #11432]  INFO -- default-ubuntu-1404: Converging 0 resources
+I, [2017-04-25T19:18:15.150870 #11432]  INFO -- default-ubuntu-1404: 
+I, [2017-04-25T19:18:15.151425 #11432]  INFO -- default-ubuntu-1404: Running handlers:
+I, [2017-04-25T19:18:15.151669 #11432]  INFO -- default-ubuntu-1404: Running handlers complete
+I, [2017-04-25T19:18:15.152110 #11432]  INFO -- default-ubuntu-1404: Chef Client finished, 0/0 resources updated in 02 seconds
+I, [2017-04-25T19:18:15.176298 #11432]  INFO -- default-ubuntu-1404: Finished converging <default-ubuntu-1404> (4m43.83s).
+I, [2017-04-25T19:18:15.176420 #11432]  INFO -- default-ubuntu-1404: -----> Setting up <default-ubuntu-1404>...
+I, [2017-04-25T19:18:15.177389 #11432]  INFO -- default-ubuntu-1404: Finished setting up <default-ubuntu-1404> (0m0.00s).
+I, [2017-04-25T19:18:15.177467 #11432]  INFO -- default-ubuntu-1404: -----> Verifying <default-ubuntu-1404>...
+I, [2017-04-25T19:18:15.177951 #11432]  INFO -- default-ubuntu-1404: Preparing files for transfer
+I, [2017-04-25T19:18:15.178354 #11432]  INFO -- default-ubuntu-1404: Transferring files to <default-ubuntu-1404>
+I, [2017-04-25T19:18:15.179155 #11432]  INFO -- default-ubuntu-1404: Finished verifying <default-ubuntu-1404> (0m0.00s).
+I, [2017-04-25T19:18:15.179574 #11432]  INFO -- default-ubuntu-1404: -----> Destroying <default-ubuntu-1404>...
+I, [2017-04-25T19:18:18.022141 #11432]  INFO -- default-ubuntu-1404: ==> default: Forcing shutdown of VM...
+I, [2017-04-25T19:18:22.604520 #11432]  INFO -- default-ubuntu-1404: ==> default: Destroying VM and associated drives...
+I, [2017-04-25T19:18:23.250074 #11432]  INFO -- default-ubuntu-1404: Vagrant instance <default-ubuntu-1404> destroyed.
+I, [2017-04-25T19:18:23.251568 #11432]  INFO -- default-ubuntu-1404: Finished destroying <default-ubuntu-1404> (0m8.07s).
+I, [2017-04-25T19:18:23.252156 #11432]  INFO -- default-ubuntu-1404: Finished testing <default-ubuntu-1404> (10m52.03s).
