@@ -1,0 +1,46 @@
+[
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "index.html",
+        "sha": "263267e25978acaea8b258f21f218554cd1c0576"
+      }
+    ],
+    "outputSha": "fa71d3500979153418bc573506786fafe2e50ac9",
+    "input": "index.html",
+    "output": [
+      "index.html"
+    ]
+  },
+  {
+    "type": "less@2,7,2::map::minify",
+    "inputSha": [
+      {
+        "file": "styles/main.less",
+        "sha": "32e6599d7416892fac9cf6b4dc986f56e30102ce"
+      }
+    ],
+    "outputSha": "8927ab5318a3fec1eacc65cba72e6a5815fef37a",
+    "input": "styles/main.less",
+    "output": [
+      "styles/main.css.map",
+      "styles/main.css"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "scripts/main.js",
+        "sha": "3c9df14f2d643afeb5b07e057db78314d72d4b88"
+      }
+    ],
+    "outputSha": "ce97e30de42eca6208a04cb5283a0b4ef847a5bd",
+    "input": "scripts/main.js",
+    "output": [
+      "scripts/main.js.map",
+      "scripts/main.js"
+    ]
+  }
+]

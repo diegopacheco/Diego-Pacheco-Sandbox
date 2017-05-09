@@ -1,0 +1,17 @@
+{
+  "name": "pingy-fun",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "pingy dev",
+    "export": "pingy export"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@pingy/cli": "^0.6.4",
+    "less": "^2.7.2"
+  }
+}
