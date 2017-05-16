@@ -10,6 +10,11 @@
 			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry sourcepath="/home/diego/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-actuator/1.5.3.RELEASE/f030bc1a29ed9df43e22f9b4189f40ff80161947/spring-boot-starter-actuator-1.5.3.RELEASE-sources.jar" kind="lib" path="/home/diego/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-actuator/1.5.3.RELEASE/f7e3a01f09675d19c53eb60ac48d78d1ff62e5cc/spring-boot-starter-actuator-1.5.3.RELEASE.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry sourcepath="/home/diego/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-legacy/1.0.0.RELEASE/b30f1e7a2c8d116165b036907ca81009e2aff0a3/spring-boot-legacy-1.0.0.RELEASE-sources.jar" kind="lib" path="/home/diego/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-legacy/1.0.0.RELEASE/dad252a1e7071472345738f9ad3de5f323a1a07/spring-boot-legacy-1.0.0.RELEASE.jar">
 		<attributes>
 			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
@@ -46,6 +51,11 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry sourcepath="/home/diego/.gradle/caches/modules-2/files-2.1/org.springframework/spring-webmvc/4.3.8.RELEASE/7c29037939a07382d04b326407a589704f5e9acd/spring-webmvc-4.3.8.RELEASE-sources.jar" kind="lib" path="/home/diego/.gradle/caches/modules-2/files-2.1/org.springframework/spring-webmvc/4.3.8.RELEASE/7a00452c350de0fb80ecbcecfb8ce0145c46141e/spring-webmvc-4.3.8.RELEASE.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/diego/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-actuator/1.5.3.RELEASE/ba1b1fb6d974b1d46fdf6322012d7b27768e44ba/spring-boot-actuator-1.5.3.RELEASE-sources.jar" kind="lib" path="/home/diego/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-actuator/1.5.3.RELEASE/8c5ac2ccbdfb9a286b37b6c2b8df3d222bffce01/spring-boot-actuator-1.5.3.RELEASE.jar">
 		<attributes>
 			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
 		</attributes>
