@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @EnableAutoConfiguration
+//@RequestMapping(value="/math")
 public class CalcController {
 
 	@RequestMapping("/sum/{a}/{b}")
