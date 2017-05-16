@@ -14,8 +14,6 @@ scripts/scala/scala_11_akka_23_full_playground/project/project/target/config-cla
 scripts/scala/scala_11_akka_23_full_playground/project/project/target/config-classes/$6fb2f4529c8c85fba76a.cache
 *.cache
 *.history
-*.css
-*.xml
 scripts/scala/scala_11_akka_23_full_playground/target/resolution-cache/reports/ivy-report.xsl
 scripts/scala/scala_11_akka_23_full_playground/target/resolution-cache/scala_211_akka_23_full_playground/scala_211_akka_23_full_playground_2.11/1.0/resolved.xml.properties
 scripts/scala/scala_11_akka_23_full_playground/target/streams/$global/ivyConfiguration/$global/streams/out
