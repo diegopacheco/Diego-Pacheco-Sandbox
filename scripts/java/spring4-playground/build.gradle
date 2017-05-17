@@ -18,6 +18,7 @@ dependencies {
 	        ])
 	 	    
 	testCompile([
-			'junit:junit-dep:4.12'
-		   ])
+			'junit:junit:4.12',
+			'org.springframework:spring-test:4.3.8.RELEASE'
+    ])
 }
