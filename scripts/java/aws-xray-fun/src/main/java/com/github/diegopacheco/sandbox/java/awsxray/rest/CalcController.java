@@ -38,7 +38,7 @@ public class CalcController {
 	Double self(@PathVariable(value="a") Double a,
 			    @PathVariable(value="b") Double b) {
 		 RestTemplate restTemplate = new RestTemplate();
-		 Double sum = restTemplate.getForObject("http://localost:8080/calc/sum/" + a + "/" + b, Double.class);
+		 Double sum = restTemplate.getForObject("http://localhost:8080/calc/sum/" + a + "/" + b, Double.class);
 		 return sum;
 	}
 
