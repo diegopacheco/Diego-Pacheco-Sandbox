@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src/main/java"/>
+	<classpathentry kind="src" path="src/main/resources"/>
+	<classpathentry path="bin" kind="output"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8/"/>
+	<classpathentry sourcepath="/home/diego/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/4.3.8.RELEASE/b278822fc694d9b5a943fef1d4c9fd28ad2b92a6/spring-core-4.3.8.RELEASE-sources.jar" kind="lib" path="/home/diego/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/4.3.8.RELEASE/cce6c251249e48f0a86aa578c2a0e262efa5a1e0/spring-core-4.3.8.RELEASE.jar"/>
+	<classpathentry sourcepath="/home/diego/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/4.3.8.RELEASE/717681088e22206f927dc8cec10a3ed1954da527/spring-context-4.3.8.RELEASE-sources.jar" kind="lib" path="/home/diego/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/4.3.8.RELEASE/944073ac58ab78b78a7694d2c53d4ae9f634c815/spring-context-4.3.8.RELEASE.jar"/>
+	<classpathentry sourcepath="/home/diego/.gradle/caches/modules-2/files-2.1/org.springframework/spring-beans/4.3.8.RELEASE/3042554a5b03cb81bb0c4ad8d3c26fe46b6d3553/spring-beans-4.3.8.RELEASE-sources.jar" kind="lib" path="/home/diego/.gradle/caches/modules-2/files-2.1/org.springframework/spring-beans/4.3.8.RELEASE/9d39133bb80e13d643bfefd731fe86cab3aa2bd7/spring-beans-4.3.8.RELEASE.jar"/>
+	<classpathentry sourcepath="/home/diego/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.2/ecf26c7507d67782a3bbd148d170b31dfad001aa/commons-logging-1.2-sources.jar" kind="lib" path="/home/diego/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.2/4bfc12adfe4842bf07b657f0369c4cb522955686/commons-logging-1.2.jar"/>
+	<classpathentry sourcepath="/home/diego/.gradle/caches/modules-2/files-2.1/org.springframework/spring-aop/4.3.8.RELEASE/e212e8c56340dfef2c5721c13132e6adcd0f8422/spring-aop-4.3.8.RELEASE-sources.jar" kind="lib" path="/home/diego/.gradle/caches/modules-2/files-2.1/org.springframework/spring-aop/4.3.8.RELEASE/2ee7e60f8838bff13c5def48fab571ab10553e5d/spring-aop-4.3.8.RELEASE.jar"/>
+	<classpathentry sourcepath="/home/diego/.gradle/caches/modules-2/files-2.1/org.springframework/spring-expression/4.3.8.RELEASE/b3526572be6e3bdb88f616963184c1688cacc080/spring-expression-4.3.8.RELEASE-sources.jar" kind="lib" path="/home/diego/.gradle/caches/modules-2/files-2.1/org.springframework/spring-expression/4.3.8.RELEASE/204f7e241f42f46b16baa3d190752703efd7797/spring-expression-4.3.8.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/usr/local/github/diegopacheco/Diego-Pacheco-Sandbox/scripts/java/spring4-playground/unresolved dependency - junit junit-dep 4.12"/>
+</classpath>
