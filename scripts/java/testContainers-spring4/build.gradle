@@ -19,6 +19,7 @@ dependencies {
 			  'org.springframework:spring-beans:4.3.8.RELEASE',
 			  'redis.clients:jedis:2.9.0',
 			  'com.zaxxer:HikariCP-java6:2.3.13',
+			  'mysql:mysql-connector-java:6.0.6',
               'org.testcontainers:mysql:1.2.1'
 	        ])
 	 	    
