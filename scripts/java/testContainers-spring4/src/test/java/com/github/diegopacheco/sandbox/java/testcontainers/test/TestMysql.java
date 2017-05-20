@@ -28,22 +28,22 @@ public class TestMysql {
 	@Test
 	public void testSimple() throws SQLException {
 		
-		@SuppressWarnings("resource")
-		GenericContainer mysql =
-			    new GenericContainer("mysql:latest")
-			            .withExposedPorts(3306)
-			               .withEnv("MYSQL_ROOT_PASSWORD", "root")
-			               .withEnv("MYSQL_USER", "dockUser")
-			               .withEnv("MYSQL_PASSWORD", "dockPassword")
-			               .withEnv("MYSQL_DATABASE", "dockDatabase");
-		
-		mysql.start();
+//		GenericContainer mysql =
+//			    new GenericContainer("mysql:latest")
+//			            .withExposedPorts(3306)
+//			               .withEnv("MYSQL_ROOT_PASSWORD", "root")
+//			               .withEnv("MYSQL_USER", "dockUser")
+//			               .withEnv("MYSQL_PASSWORD", "dockPassword")
+//			               .withEnv("MYSQL_DATABASE", "dockDatabase");
+//		
+//		mysql.start();
 		try {
-			ResultSet resultSet = performQuery(mysql.getContainerIpAddress(),"SELECT 1");
+			//ResultSet resultSet = performQuery(mysql.getContainerIpAddress(),"SELECT 1");
+			ResultSet resultSet = performQuery("localhost","SELECT 1");
 			int resultSetInt = resultSet.getInt(1);
 			Assert.assertEquals("A basic SELECT query succeeds", 1, resultSetInt);
 		} finally {
-			mysql.stop();
+//			mysql.stop();
 		}
 	}
 	
