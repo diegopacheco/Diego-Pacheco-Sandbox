@@ -5,7 +5,6 @@ import java.sql.SQLException;
 import java.sql.Statement;
 
 import org.junit.Assert;
-import org.junit.Rule;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.slf4j.Logger;
@@ -26,11 +25,11 @@ public class TestMysql {
 
 	private static final Logger logger = LoggerFactory.getLogger(TestMysql.class);
 
-	@Rule
-	public MySQLContainer mysql = (MySQLContainer) new MySQLContainer("mysql:5.6").withLogConsumer(new Slf4jLogConsumer(logger));
-
 	@Test
 	public void testSimple() throws SQLException {
+		
+		MySQLContainer mysql = (MySQLContainer) new MySQLContainer("mysql:5.5").withLogConsumer(new Slf4jLogConsumer(logger));
+		
 		mysql.start();
 		try {
 			ResultSet resultSet = performQuery(mysql, "SELECT 1");
