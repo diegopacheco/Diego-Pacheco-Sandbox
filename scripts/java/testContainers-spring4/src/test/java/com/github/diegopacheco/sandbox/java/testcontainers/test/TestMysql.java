@@ -11,8 +11,8 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
+import org.testcontainers.containers.GenericContainer;
 import org.testcontainers.containers.MySQLContainer;
-import org.testcontainers.containers.output.Slf4jLogConsumer;
 
 import com.github.diegopacheco.sandbox.java.testcontainers.AppConfig;
 import com.zaxxer.hikari.HikariConfig;
@@ -28,11 +28,18 @@ public class TestMysql {
 	@Test
 	public void testSimple() throws SQLException {
 		
-		MySQLContainer mysql = (MySQLContainer) new MySQLContainer("mysql:5.5").withLogConsumer(new Slf4jLogConsumer(logger));
+		@SuppressWarnings("resource")
+		GenericContainer mysql =
+			    new GenericContainer("mysql:latest")
+			            .withExposedPorts(3306)
+			               .withEnv("MYSQL_ROOT_PASSWORD", "root")
+			               .withEnv("MYSQL_USER", "dockUser")
+			               .withEnv("MYSQL_PASSWORD", "dockPassword")
+			               .withEnv("MYSQL_DATABASE", "dockDatabase");
 		
 		mysql.start();
 		try {
-			ResultSet resultSet = performQuery(mysql, "SELECT 1");
+			ResultSet resultSet = performQuery(mysql.getContainerIpAddress(),"SELECT 1");
 			int resultSetInt = resultSet.getInt(1);
 			Assert.assertEquals("A basic SELECT query succeeds", 1, resultSetInt);
 		} finally {
@@ -40,11 +47,11 @@ public class TestMysql {
 		}
 	}
 	
-    protected ResultSet performQuery(MySQLContainer containerRule, String sql) throws SQLException {
+    protected ResultSet performQuery(String ip,String sql) throws SQLException {
         HikariConfig hikariConfig = new HikariConfig();
-        hikariConfig.setJdbcUrl(containerRule.getJdbcUrl());
-        hikariConfig.setUsername(containerRule.getUsername());
-        hikariConfig.setPassword(containerRule.getPassword());
+        hikariConfig.setJdbcUrl("jdbc:mysql://" + ip + ":3306/dockDatabase");
+        hikariConfig.setUsername("dockUser");
+        hikariConfig.setPassword("dockDatabase");
 
         HikariDataSource ds = new HikariDataSource(hikariConfig);
         Statement statement = ds.getConnection().createStatement();
