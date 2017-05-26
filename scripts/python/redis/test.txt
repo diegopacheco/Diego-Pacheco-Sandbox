@@ -1,0 +1,2 @@
+sudo apt install -y redis-server
+sudo kill -9 $(pgrep redis)
