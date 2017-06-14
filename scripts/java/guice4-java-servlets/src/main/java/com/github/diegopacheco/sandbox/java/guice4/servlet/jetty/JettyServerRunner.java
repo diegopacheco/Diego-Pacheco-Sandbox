@@ -12,6 +12,8 @@ import org.eclipse.jetty.server.handler.RequestLogHandler;
 import org.eclipse.jetty.servlet.DefaultServlet;
 import org.eclipse.jetty.servlet.ServletContextHandler;
 import org.eclipse.jetty.servlet.ServletHolder;
+import org.glassfish.jersey.server.ResourceConfig;
+import org.glassfish.jersey.servlet.ServletContainer;
 
 import com.github.diegopacheco.sandbox.java.guice4.servlet.JettyShutdownServlet;
 import com.github.diegopacheco.sandbox.java.guice4.servlet.module.ApplicationServletModule;
@@ -46,6 +48,11 @@ public class JettyServerRunner {
 			servletContextHandler.addServlet(DefaultServlet.class, "/");
 			
 			servletContextHandler.addServlet(new ServletHolder(new JettyShutdownServlet(server)), "/shutdown");
+			
+			ResourceConfig config = new ResourceConfig();
+			config.packages("com.github.diegopacheco.sandbox.java.guice4.servlet.rest");
+			ServletHolder servlet = new ServletHolder(new ServletContainer(config));
+			servletContextHandler.addServlet(servlet, "/*");
 			
 		    HandlerCollection collection = new HandlerCollection();
 		    RequestLogHandler rlh = new RequestLogHandler();
