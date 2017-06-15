@@ -42,5 +42,9 @@ dependencies {
 		   'org.glassfish.jersey.core:jersey-server:2.7',
 		   'org.glassfish.jersey.containers:jersey-container-servlet-core:2.7',
 		   'org.glassfish.jersey.containers:jersey-container-jetty-http:2.7',
+		   
+		   'com.netflix.hystrix:hystrix-core:1.4.26',
+		   'com.netflix.hystrix:hystrix-metrics-event-stream:1.4.26',
+		   
 	])
 }

@@ -20,6 +20,7 @@ import com.github.diegopacheco.sandbox.java.guice4.servlet.module.ApplicationSer
 import com.google.inject.Guice;
 import com.google.inject.Injector;
 import com.google.inject.servlet.GuiceFilter;
+import com.netflix.hystrix.contrib.metrics.eventstream.HystrixMetricsStreamServlet;
 
 public class JettyServerRunner {
 
@@ -40,7 +41,7 @@ public class JettyServerRunner {
 			Injector injector = Guice.createInjector(applicationServletModule);
 			this.injector = injector;
 					
-			int port = 8080;
+			int port = 8090;
 			Server server = new Server(port);
 
 			ServletContextHandler servletContextHandler = new ServletContextHandler(server, "/", ServletContextHandler.SESSIONS);
@@ -53,6 +54,8 @@ public class JettyServerRunner {
 			config.packages("com.github.diegopacheco.sandbox.java.guice4.servlet.rest");
 			ServletHolder servlet = new ServletHolder(new ServletContainer(config));
 			servletContextHandler.addServlet(servlet, "/*");
+			
+			servletContextHandler.addServlet(new ServletHolder(new HystrixMetricsStreamServlet()), "/hystrix.strteam");
 			
 		    HandlerCollection collection = new HandlerCollection();
 		    RequestLogHandler rlh = new RequestLogHandler();
