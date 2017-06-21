@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TestSource" tests="1" skipped="0" failures="0" errors="0" timestamp="2017-06-21T02:23:18" hostname="4winds" time="0.014">
-  <properties/>
-  <testcase name="f" classname="TestSource" time="0.014"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
