@@ -30,3 +30,5 @@ scripts/scala/scala_11_akka_23_full_playground/target/streams/test/unmanagedClas
 scripts/scala/scala_11_akka_23_full_playground/target/streams/test/unmanagedJars/$global/streams/export
 .Rproj.user
 .gradle/
+
+build/
