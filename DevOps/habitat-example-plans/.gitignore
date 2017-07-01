@@ -1,0 +1,6 @@
+.DS_Store
+results/
+tmp/
+*.sig.key
+*.box.key
+*.sym.key
