@@ -9,7 +9,10 @@ fun main(args: Array<String>) {
 			return b
 		}
 	}
+	
+	fun minOf(a: Int, b: Int) = if (a < b) a else b
 
 	println(maxOf(2,5))
+	println(minOf(2,5))
 	
 }
