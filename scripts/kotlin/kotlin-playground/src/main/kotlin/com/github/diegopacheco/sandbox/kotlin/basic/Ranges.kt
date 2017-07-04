@@ -22,4 +22,11 @@ fun main(args: Array<String>) {
 		println("list size is out of valid list indices range too")
 	}
 
+	for (x in 1..10 step 2) {
+		println(" 1 - ${x}")
+	}
+	for (x in 9 downTo 0 step 3) {
+		println(" 2 - ${x}")
+	}
+
 }
