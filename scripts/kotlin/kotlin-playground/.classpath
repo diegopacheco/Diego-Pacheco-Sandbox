@@ -9,5 +9,6 @@
 	<classpathentry kind="lib" path="/home/diego/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-test-junit/1.0.0/2b208aa807733e95e0c589afd9b269e6820eced4/kotlin-test-junit-1.0.0.jar" sourcepath="/home/diego/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-test-junit/1.0.0/b9f38d76349fef365c3dd9be9e0e514631a56910/kotlin-test-junit-1.0.0-sources.jar"/>
 	<classpathentry kind="lib" path="/home/diego/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/42a25dc3219429f0e5d060061f71acb49bf010a0/hamcrest-core-1.3.jar" sourcepath="/home/diego/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/1dc37250fbc78e23a65a67fbbaf71d2e9cbc3c0b/hamcrest-core-1.3-sources.jar"/>
 	<classpathentry kind="lib" path="/home/diego/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-test/1.0.0/1ec4ba71422eb4cb7133a6611792b471183b5a11/kotlin-test-1.0.0.jar" sourcepath="/home/diego/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-test/1.0.0/1fa859d6fbc04d8b1a71c1f09f362760498cec65/kotlin-test-1.0.0-sources.jar"/>
+	<classpathentry kind="con" path="org.jetbrains.kotlin.core.KOTLIN_CONTAINER"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
