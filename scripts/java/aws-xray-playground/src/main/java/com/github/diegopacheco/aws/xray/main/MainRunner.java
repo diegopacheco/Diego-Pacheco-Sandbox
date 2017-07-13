@@ -35,6 +35,9 @@ public class MainRunner {
 		if (segment.end()) {
 			 recorder.sendSegment(segment);
 		}
+		
+		System.out.println("Approach A - DONE");
+		
 	}
 	
 	public static void main(String[] args) {
