@@ -73,14 +73,9 @@ public class MainRunner {
 
 		Thread.sleep(2000);
 
-		Subsegment sub = new SubsegmentImpl(recorder, "twitter", segment);
-		segment.addSubsegment(sub);
-		
+		AWSXRay.beginSubsegment("twitter");
 		Thread.sleep(1000);
-		
-		if (sub.end()){
-			recorder.sendSubsegment(sub);
-		}
+		AWSXRay.endSubsegment();
 		
 		if (segment.end()) {
 			recorder.sendSegment(segment);
