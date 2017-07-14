@@ -76,6 +76,12 @@ public class MainRunner {
 		Subsegment subsegment = AWSXRay.beginSubsegment("Twitter");
 		subsegment.setNamespace("remote");
 		Thread.sleep(1000);
+		
+		Subsegment subsegment2 = AWSXRay.beginSubsegment("Github");
+		subsegment2.setNamespace("remote");
+		Thread.sleep(1000);
+		AWSXRay.endSubsegment();
+		
 		AWSXRay.endSubsegment();
 		
 		if (segment.end()) {
