@@ -11,6 +11,8 @@ import com.amazonaws.xray.AWSXRay;
 import com.amazonaws.xray.AWSXRayRecorder;
 import com.amazonaws.xray.AWSXRayRecorderBuilder;
 import com.amazonaws.xray.entities.Segment;
+import com.amazonaws.xray.entities.Subsegment;
+import com.amazonaws.xray.entities.SubsegmentImpl;
 import com.amazonaws.xray.entities.TraceID;
 import com.amazonaws.xray.plugins.EC2Plugin;
 import com.amazonaws.xray.proxies.apache.http.HttpClientBuilder;
@@ -64,12 +66,34 @@ public class MainRunner {
 		}
 		System.out.println("Approach B - DONE");
 	}
+	
+	public static void approachC() throws Exception {
+		String segmentName = segmentNamingStrategy.nameForRequest(null) + "-C";
+		Segment segment = recorder.beginSegment(segmentName, new TraceID(), null);
+
+		Thread.sleep(2000);
+
+		Subsegment sub = new SubsegmentImpl(recorder, "twitter.com", segment);
+		segment.addSubsegment(sub);
+		
+		Thread.sleep(1000);
+		
+		if (sub.end()){
+			recorder.sendSubsegment(sub);
+		}
+		
+		if (segment.end()) {
+			recorder.sendSegment(segment);
+		}
+		System.out.println("Approach C - DONE");
+	}
+
 
 	public static void main(String[] args) {
 		try {
 			approachA();
 			approachB();
-			
+			approachC();
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
