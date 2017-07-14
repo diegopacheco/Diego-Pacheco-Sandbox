@@ -1,0 +1,2 @@
+minikube addons enable ingress
+kubectl create -f myweb-ingress.yaml
