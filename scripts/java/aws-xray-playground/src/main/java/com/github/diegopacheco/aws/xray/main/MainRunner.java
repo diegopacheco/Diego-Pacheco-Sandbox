@@ -73,7 +73,7 @@ public class MainRunner {
 
 		Thread.sleep(2000);
 
-		AWSXRay.beginSubsegment("twitter");
+		Subsegment subsegment = AWSXRay.beginSubsegment("Twitter");
 		Thread.sleep(1000);
 		AWSXRay.endSubsegment();
 		
