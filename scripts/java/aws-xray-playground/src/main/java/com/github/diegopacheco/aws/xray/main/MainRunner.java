@@ -89,6 +89,14 @@ public class MainRunner {
 		}
 		System.out.println("Approach C - DONE");
 	}
+	
+	public static void approachD() throws Exception {
+		Segment s = AWSXRay.beginSegment("Facebook");
+		s.setNamespace("remote");
+		Thread.sleep(1000);
+		AWSXRay.endSegment();
+		System.out.println("Approach D - DONE");
+	}
 
 
 	public static void main(String[] args) {
@@ -96,6 +104,7 @@ public class MainRunner {
 			approachA();
 			approachB();
 			approachC();
+			approachD();
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
