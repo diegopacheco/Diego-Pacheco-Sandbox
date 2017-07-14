@@ -1,0 +1,5 @@
+kubectl create -f webserver.yaml
+
+kubectl get replicasets
+
+kubectl get pods
