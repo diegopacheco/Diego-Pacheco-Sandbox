@@ -73,7 +73,7 @@ public class MainRunner {
 
 		Thread.sleep(2000);
 
-		Subsegment sub = new SubsegmentImpl(recorder, "twitter.com", segment);
+		Subsegment sub = new SubsegmentImpl(recorder, "twitter", segment);
 		segment.addSubsegment(sub);
 		
 		Thread.sleep(1000);
