@@ -5,7 +5,7 @@ import java.util.concurrent.ConcurrentMap;
 import org.mapdb.DB;
 import org.mapdb.DBMaker;
 
-public class MainJolt {
+public class MainMapDB {
 	public static void main(String[] args) throws Throwable {
 		
 		DB db = DBMaker.memoryDB().make();
