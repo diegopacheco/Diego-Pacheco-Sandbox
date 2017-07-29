@@ -1,0 +1,5 @@
+Pattern:
+kubectl exec -ti $POD_ID -- bash
+
+Sample:
+kubectl exec -ti microservice-4216085522-2pp30 -- bash

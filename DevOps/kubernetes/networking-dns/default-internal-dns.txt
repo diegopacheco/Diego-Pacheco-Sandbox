@@ -1,0 +1,7 @@
+Pattern:
+$SERVICE_NAME.$NAMESPACE.svc.cluster.local
+
+kubectl get services
+
+Sample:
+eureka.default.svc.cluster.local
