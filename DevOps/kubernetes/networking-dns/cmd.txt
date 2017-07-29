@@ -1,0 +1,11 @@
+kubectl create -f busybox.yaml
+
+kubectl get pods busybox
+
+// check DNS lookup on container
+kubectl exec -ti busybox -- nslookup kubernetes.default
+
+// check if kubernetes POD DNS is Running and exposed
+kubectl get pods --namespace=kube-system -l k8s-app=kube-dns
+kubectl get svc --namespace=kube-system
+kubectl get ep kube-dns --namespace=kube-system
