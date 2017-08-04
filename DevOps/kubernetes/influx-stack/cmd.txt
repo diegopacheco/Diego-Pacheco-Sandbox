@@ -1,0 +1,5 @@
+https://github.com/influxdata/tick-charts
+cd tick-charts/
+./create.sh
+kubectl get services --namespace=tick
+kubectl port-forward dash-chronograf-2771755483-17hbg 38888:8888 --namespace=tick

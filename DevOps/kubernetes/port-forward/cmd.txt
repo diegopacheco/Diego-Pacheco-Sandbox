@@ -1,0 +1,9 @@
+kubectl create -f https://k8s.io/docs/tasks/access-application-cluster/redis-master.yaml --namespace=tick
+
+kubectl get pods --namespace=tick
+
+kubectl get pods redis-master --template='{{(index (index .spec.containers 0).ports 0).containerPort}}{{"\n"}}' --namespace=tick
+
+kubectl port-forward redis-master 36379:6379 --namespace=tick
+
+redis-cli -p 36379
