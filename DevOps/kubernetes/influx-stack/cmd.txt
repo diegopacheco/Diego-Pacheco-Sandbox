@@ -1,7 +1,15 @@
 https://github.com/influxdata/tick-charts
 cd tick-charts/
-./create.sh
-kubectl get services --namespace=tick
-kubectl port-forward dash-chronograf-2771755483-17hbg 38888:8888 --namespace=tick
+
+// ./create.sh
+helm install --name data --namespace default ./influxdb/
+helm install --name polling --namespace default ./telegraf-s/
+helm install --name hosts --namespace default ./telegraf-ds/
+helm install --name alerts --namespace default ./kapacitor/
+helm install --name dash --namespace default ./chronograf/
+
+kubectl get services --namespace=default
+kubectl get pods --namespace=default
+kubectl port-forward dash-chronograf-2771755483-17hbg 38888:8888 --namespace=default
 go to http://127.0.0.1:38888/sources/1/status
 ./destroy.sh
