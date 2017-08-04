@@ -3,3 +3,5 @@ cd tick-charts/
 ./create.sh
 kubectl get services --namespace=tick
 kubectl port-forward dash-chronograf-2771755483-17hbg 38888:8888 --namespace=tick
+go to http://127.0.0.1:38888/sources/1/status
+./destroy.sh
