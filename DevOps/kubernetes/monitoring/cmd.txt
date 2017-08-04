@@ -15,3 +15,11 @@ kubectl get pods -l app=prometheus -o name | \
 //
 kubectl run kube-state-metrics --image=gcr.io/google_containers/kube-state-metrics:v0.5.0 --port=8080
 kubectl expose deployment kube-state-metrics --type=LoadBalancer
+
+//
+// Heapster
+//
+git clone https://github.com/kubernetes/heapster/blob/master/docs/influxdb.md
+kubectl create -f deploy/kube-config/influxdb/
+kubectl create -f deploy/kube-config/rbac/heapster-rbac.yaml
+kubectl get pods --namespace=kube-system
