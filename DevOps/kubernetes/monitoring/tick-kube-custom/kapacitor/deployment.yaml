@@ -1,0 +1,38 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: kapacitor
+  namespace: kube-system
+spec:
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: kapacitor
+    spec:
+      containers:
+      - image: kapacitor:1.1.0
+        imagePullPolicy: Always
+        name: kapacitor
+        env:
+        - name: KAPACITOR_HOSTNAME
+          value: kapacitor.tick
+        - name: KAPACITOR_INFLUXDB_0_URLS_0
+          value: http://192.168.99.100:30413
+        ports:
+        - containerPort: 9092
+        resources:
+          limits:
+            cpu: 8
+            memory: 16Gi
+          requests:
+            cpu: 100m
+            memory: 10Mi
+            #        volumeMounts:
+            #        - name: kapacitor
+            #          mountPath: /var/lib/kapacitor
+            #      volumes:
+            #      - name: kapacitor
+            #        gcePersistentDisk:
+            #          pdName: kapacitor
+            #          fsType: ext4

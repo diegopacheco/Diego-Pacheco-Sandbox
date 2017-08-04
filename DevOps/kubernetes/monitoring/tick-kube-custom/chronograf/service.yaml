@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: chronograf
+  namespace: kube-system
+spec:
+  type: LoadBalancer
+  ports:
+  - port: 80
+    name: http
+    targetPort: 8888
+    protocol: TCP
+  selector:
+    app: chronograf
