@@ -1,8 +1,8 @@
 version: '2'
 services:
-  web:
+  webgo:
     build: .
     ports:
-     - "39090:9090"
+     - "9090:9090"
   redis:
     image: "redis:alpine"
