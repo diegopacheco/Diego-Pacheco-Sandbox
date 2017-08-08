@@ -1,0 +1,4 @@
+minikube start
+eval $(minikube docker-env)
+docker build -t webappgo:v1 .
+kubectl create -f .
