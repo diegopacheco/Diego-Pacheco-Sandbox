@@ -1,6 +1,19 @@
+docker build -t webappgo:v1 .
 minikube start
-docker build -t webappgo:v1 .
 eval $(minikube docker-env)
-docker build -t webappgo:v1 .
 kubectl create -f kubernetes/redis
 kubectl create -f kubernetes/go
+
+#
+# Clean up previous deploys
+#
+kubectl delete deployment redis
+kubectl delete service redis
+kubectl delete deployment webappgo
+kubectl delete service webappgo
+
+#
+# Connect on redis
+#
+kubectl describe service redis
+redis-cli -h 192.168.99.100 -p 30458
