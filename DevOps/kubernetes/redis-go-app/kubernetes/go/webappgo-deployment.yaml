@@ -12,7 +12,7 @@ spec:
     spec:
       containers:
       - name: webappgo
-        image: webappgo
+        image: webappgo:V1
         resources:
           requests:
             cpu: 100m

@@ -1,4 +1,5 @@
 minikube start
 eval $(minikube docker-env)
 docker build -t webappgo:v1 .
-kubectl create -f .
+kubectl apply -f kubernetes/redis
+kubectl create -f kubernetes/go
