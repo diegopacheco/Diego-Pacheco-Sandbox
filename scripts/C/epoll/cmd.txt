@@ -1,0 +1,3 @@
+gcc -o epoll-example epoll-example.c
+./epoll-example 8090
+echo "it works" | telnet localhost 8090
