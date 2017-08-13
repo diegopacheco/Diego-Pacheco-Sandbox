@@ -1,3 +1,4 @@
 gcc -o epoll-example epoll-example.c
 ./epoll-example 8090
 echo "it works" | telnet localhost 8090
+curl -X POST -d '{"msg":"works"}' http://localhost:8090/
