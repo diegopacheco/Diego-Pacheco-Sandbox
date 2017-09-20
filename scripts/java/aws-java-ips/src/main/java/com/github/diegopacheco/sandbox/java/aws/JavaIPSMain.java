@@ -1,5 +1,7 @@
 package com.github.diegopacheco.sandbox.java.aws;
 
+import java.util.Arrays;
+
 import com.amazonaws.auth.AWSStaticCredentialsProvider;
 import com.amazonaws.auth.BasicAWSCredentials;
 import com.amazonaws.services.ec2.AmazonEC2;
@@ -14,7 +16,7 @@ public class JavaIPSMain {
 		String accessKey = System.getProperty("aws-access-key", "");
 		String secretKey = System.getProperty("aws-secret-key","");
 		
-		System.out.println("ARGS: " + args);
+		System.out.println("ARGS: " + Arrays.toString(args));
 		System.out.println("Using AWS ACCESS KEY: " + accessKey);
 		System.out.println("Using AWS SECRET KEY: " + secretKey);
 		
