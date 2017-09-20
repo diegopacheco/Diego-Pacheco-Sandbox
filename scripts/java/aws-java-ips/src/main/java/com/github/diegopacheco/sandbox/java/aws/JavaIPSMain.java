@@ -11,7 +11,13 @@ public class JavaIPSMain {
 
 	public static void main(String[] args) {
 		
-		BasicAWSCredentials creds = new BasicAWSCredentials(System.getProperty("aws-access-key", ""), System.getProperty("aws-secret-key",""));
+		String accessKey = System.getProperty("aws-access-key", "");
+		String secretKey = System.getProperty("aws-secret-key","");
+		
+		System.out.println("Using AWS ACCESS KEY: " + accessKey);
+		System.out.println("Using AWS SECRET KEY: " + secretKey);
+		
+		BasicAWSCredentials creds = new BasicAWSCredentials(accessKey,secretKey);
 		
 		final AmazonEC2 ec2 = AmazonEC2ClientBuilder.standard().withCredentials(new AWSStaticCredentialsProvider(creds)).build();
 
