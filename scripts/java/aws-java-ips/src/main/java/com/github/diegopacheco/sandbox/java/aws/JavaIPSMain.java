@@ -14,6 +14,7 @@ public class JavaIPSMain {
 		String accessKey = System.getProperty("aws-access-key", "");
 		String secretKey = System.getProperty("aws-secret-key","");
 		
+		System.out.println("ARGS: " + args);
 		System.out.println("Using AWS ACCESS KEY: " + accessKey);
 		System.out.println("Using AWS SECRET KEY: " + secretKey);
 		
