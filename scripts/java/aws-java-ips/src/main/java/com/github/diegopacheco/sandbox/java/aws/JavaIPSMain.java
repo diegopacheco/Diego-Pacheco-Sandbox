@@ -4,6 +4,7 @@ import java.util.Arrays;
 
 import com.amazonaws.auth.AWSStaticCredentialsProvider;
 import com.amazonaws.auth.BasicAWSCredentials;
+import com.amazonaws.regions.Regions;
 import com.amazonaws.services.ec2.AmazonEC2;
 import com.amazonaws.services.ec2.AmazonEC2ClientBuilder;
 import com.amazonaws.services.ec2.model.Address;
@@ -22,7 +23,11 @@ public class JavaIPSMain {
 		
 		BasicAWSCredentials creds = new BasicAWSCredentials(accessKey,secretKey);
 		
-		final AmazonEC2 ec2 = AmazonEC2ClientBuilder.standard().withCredentials(new AWSStaticCredentialsProvider(creds)).build();
+		final AmazonEC2 ec2 = AmazonEC2ClientBuilder.
+								standard().
+								withRegion(Regions.US_WEST_2).
+								withCredentials(new AWSStaticCredentialsProvider(creds)).
+								build();
 
 		DescribeAddressesResult response = ec2.describeAddresses();
 
