@@ -9,6 +9,8 @@ bdb_root_url = 'https://example.com:9984'  # Use YOUR BigchainDB Root URL here
 
 bdb = BigchainDB(bdb_root_url)
 
+print("Connected to BigChainDB: " + str(bdb))
+
 bicycle_asset = {
     'data': {
         'bicycle': {
@@ -38,9 +40,12 @@ sent_creation_tx = bdb.transactions.send(fulfilled_creation_tx)
 
 txid = fulfilled_creation_tx['id']
 
+print("TX done - " + str(txid))
+
 trials = 0
 while trials < 60:
     try:
+        print("try... " + str(trials))
         if bdb.transactions.status(txid).get('status') == 'valid':
             print('Tx valid in:', trials, 'secs')
             break
