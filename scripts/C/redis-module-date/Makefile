@@ -36,24 +36,10 @@ all: $(MODULE_SO)
 $(MODULE_SO): $(MODULE_OBJ) $(DEPS)
 	$(LD) $^ -o $@ $(SHOBJ_LDFLAGS) $(LDFLAGS)
 
-
-test: $(MODULE_SO)
-	$(MAKE) -C tests test
-
-build-test: $(MODULE_SO)
-	$(MAKE) -C tests build-test
-
-perf:
-	$(MAKE) -C tests perf
-
-package: $(MODULE_SO)
-	mkdir -p $(ROOT)/build
-	module_packer -vvv -o "$(ROOT)/build/redis_date_module.{os}-{architecture}.latest.zip" "$(MODULE_SO)"
-
 clean:
 	$(RM) $(MODULE_OBJ) $(MODULE_SO) $(DEPS)
 	$(RM) -rf build
-	$(MAKE) -C tests clean
+	$(MAKE) -C clean
 
 distclean: clean
 
