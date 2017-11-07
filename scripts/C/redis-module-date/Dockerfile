@@ -1,7 +1,5 @@
 FROM redis:latest as builder
 
-ENV LIBDIR /var/lib/redis/modules
-
 RUN set -ex;\
     apt-get update;\
     apt-get install -y --no-install-recommends wget unzip build-essential
@@ -13,10 +11,10 @@ RUN set -ex;\
 
 # Package the runner
 FROM redis:latest
-ENV LIBDIR /var/lib/redis/modules
 WORKDIR /data
 RUN set -ex;\
-    mkdir -p "$LIBDIR";
-COPY --from=builder /redis_date_module.so  "$LIBDIR"
+    mkdir -p /var/lib/redis/modules/\
+    chmod 777 /var/lib/redis/modules/
+COPY /redis_date_module.so /var/lib/redis/modules/redis_date_module.so
 
 CMD ["redis-server", "--loadmodule", "/var/lib/redis/modules/redis_date_module.so"]
