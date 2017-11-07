@@ -19,11 +19,11 @@ static int diegoDate_RedisCommand(RedisModuleCtx *ctx, RedisModuleString **argv,
 
 int RedisModule_OnLoad(RedisModuleCtx *ctx, RedisModuleString **argv, int argc) {
 
-    if (RedisModule_Init(ctx, "diego", 1, 1) != REDISMODULE_OK) {
+    if (RedisModule_Init(ctx, "dp", 1, 1) != REDISMODULE_OK) {
        return REDISMODULE_ERR;
     }
 
-    if (RedisModule_CreateCommand(ctx, "diego.DATE",
+    if (RedisModule_CreateCommand(ctx, "dp.DATE",
     diegoDate_RedisCommand,"current Date", 1,1,1) != REDISMODULE_OK)
         return REDISMODULE_ERR;
 

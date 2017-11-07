@@ -38,8 +38,11 @@ clean:
 
 distclean: clean
 
+docker_clean: clean all
+	docker build --rm . -t diegopacheco/redis_date_module --network=host --no-cache
+
 docker:
-	docker build --rm . -t diegopacheco/redis_date_module --network=host
+		docker build --rm . -t diegopacheco/redis_date_module --network=host
 
 docker_push: docker
 	docker push diegopacheco/redis_date_module:latest
