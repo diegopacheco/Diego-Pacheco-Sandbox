@@ -48,4 +48,4 @@ docker_push: docker
 	docker push diegopacheco/redis_date_module:latest
 
 run:
-	docker run --rm diegopacheco/redis_date_module
+	docker run -p 6379:6379 --rm diegopacheco/redis_date_module
