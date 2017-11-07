@@ -1,0 +1,2 @@
+redis_date_module.so
+src/date.o

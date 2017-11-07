@@ -46,7 +46,6 @@ build-test: $(MODULE_SO)
 perf:
 	$(MAKE) -C tests perf
 
-
 package: $(MODULE_SO)
 	mkdir -p $(ROOT)/build
 	module_packer -vvv -o "$(ROOT)/build/redis_date_module.{os}-{architecture}.latest.zip" "$(MODULE_SO)"
