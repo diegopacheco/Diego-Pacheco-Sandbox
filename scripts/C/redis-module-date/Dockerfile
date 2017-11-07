@@ -1,21 +1,15 @@
 FROM redis:latest as builder
 
 ENV LIBDIR /var/lib/redis/modules
-ENV DEPS "python python-setuptools python-pip wget unzip build-essential"
-# Set up a build environment
-RUN set -ex;\
-    deps="$DEPS";\
-    apt-get update; \
-	  apt-get install -y --no-install-recommends $deps;\
-    pip install rmtest;
 
-# Build the source
+RUN set -ex;\
+    apt-get update;\
+    apt-get install -y --no-install-recommends wget unzip build-essential
+
 ADD . /
 WORKDIR /
 RUN set -ex;\
-    deps="$DEPS";\
-    make all -j 4; \
-    make test;
+    make all -j 4;
 
 # Package the runner
 FROM redis:latest

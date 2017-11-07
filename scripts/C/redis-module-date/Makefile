@@ -22,12 +22,8 @@ ROOT=$(shell pwd)
 # Flags for preprocessor
 LDFLAGS = -lm -lc
 
-#CPPFLAGS += -I$(ROOT) -I$(ROOT)/contrib
-
 MODULE_OBJ = $(ROOT)/src/date.o
 MODULE_SO = $(ROOT)/redis_date_module.so
-
-#DEPS = $(ROOT)/contrib/MurmurHash2.o $(ROOT)/src/sb.o
 
 export
 
@@ -38,13 +34,12 @@ $(MODULE_SO): $(MODULE_OBJ) $(DEPS)
 
 clean:
 	$(RM) $(MODULE_OBJ) $(MODULE_SO) $(DEPS)
-	$(RM) -rf build
-	$(MAKE) -C clean
+	$(RM) -rf build/
 
 distclean: clean
 
 docker: distclean
-	docker build --rm . -t diegopacheco/redis_date_module
+	docker build --rm . -t diegopacheco/redis_date_module --network=host
 
 docker_push: docker
 	docker push diegopacheco/redis_date_module:latest
