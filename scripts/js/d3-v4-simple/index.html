@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <title>Top Internet Countries Visualization</title>
+    <style>
+      body {
+        margin: 0px;
+      }
+      .domain {
+        display: none;
+      }
+      .tick line {
+        stroke: #C0C0BB;
+      }
+      .tick text {
+        fill: #8E8883;
+        font-size: 10pt;
+        font-family: sans-serif;
+      }
+      .axis-label {
+        fill: #635F5D;
+        font-size: 20pt;
+        font-family: sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <svg width="960" height="500"></svg>
+    <script>
+
+      const xValue = d => d.country;
+      const xLabel = 'Country';
+      const yValue = d => d.GHG;
+      const yLabel = 'Total GHG emissions in 2013';
+      const margin = { left: 150, right: 30, top: 20, bottom: 200 };
+
+      const svg = d3.select('svg');
+      const width = svg.attr('width');
+      const height = svg.attr('height');
+      const innerWidth = width - margin.left - margin.right;
+      const innerHeight = height - margin.top - margin.bottom;
+
+      const g = svg.append('g')
+          .attr('transform', `translate(${margin.left},${margin.top})`);
+      const xAxisG = g.append('g')
+          .attr('transform', `translate(0, ${innerHeight})`);
+      const yAxisG = g.append('g');
+
+      xAxisG.append('text')
+          .attr('class', 'axis-label')
+          .attr('x', innerWidth /2.5)
+          .attr('y', 95)
+          .text(xLabel);
+
+      yAxisG.append('text')
+          .attr('class', 'axis-label')
+          .attr('x', -innerHeight / 2 - 30)
+          .attr('y', -70)
+          .attr('transform', `rotate(-90)`)
+          .style('text-anchor', 'middle')
+          .text(yLabel);
+
+      const xScale = d3.scaleBand()
+        .paddingInner(0.5)
+        .paddingOuter(0.5);
+      const yScale = d3.scaleLinear();
+
+      const xAxis = d3.axisBottom()
+        .scale(xScale)
+        .tickSize(-innerHeight);
+
+      const yTicks = 10;
+      const yAxis = d3.axisLeft()
+        .scale(yScale)
+        .ticks(yTicks)
+        .tickPadding(15)
+        .tickFormat(d3.format('.0s'))
+        .tickSize(-innerWidth);
+
+      const row = d => {
+        
+        return {
+          country: d['Country'],
+          GHG:+d['Total GHG']
+        };
+      };
+
+      d3.csv('ghg_simple.csv', row, data => {
+        
+        data = data.filter(function(d){return(d.GHG >= 500);});
+        data.sort(function(d1, d2){return(d2.GHG - d1.GHG);});
+        
+        xScale
+          .domain(data.map(xValue))
+          .range([0, innerWidth]);
+
+        yScale
+          .domain([0, d3.max(data, yValue)])
+          .range([innerHeight, 0])
+          .nice(yTicks);
+
+        g.selectAll('rect').data(data)
+          .enter().append('rect')
+            .attr('x', d => xScale(xValue(d)))
+            .attr('y', d => yScale(yValue(d)))
+            .attr('width', d => xScale.bandwidth())
+            .attr('height', d => innerHeight - yScale(yValue(d)))
+            .attr('fill', 'steelblue');
+
+        xAxisG.call(xAxis);
+        xAxisG.selectAll('.tick line').remove();
+        xAxisG.selectAll('.tick text')
+            .attr('transform', 'rotate(-45)')
+            .attr('text-anchor', 'end')
+            .attr('alignment-baseline', 'middle')
+            .attr('x', -5)
+            .attr('y', 6)
+            .attr('dy', 0);
+
+        yAxisG.call(yAxis);
+      });
+    </script>
+  </body>
+</html>
