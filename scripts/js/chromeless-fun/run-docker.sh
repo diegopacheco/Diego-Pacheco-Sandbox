@@ -1,3 +1,3 @@
 #!/bin/bash
 
-docker run --rm --name chromeless chromeless
+docker run -v ${PWD}:/app --rm --name chromeless chromeless

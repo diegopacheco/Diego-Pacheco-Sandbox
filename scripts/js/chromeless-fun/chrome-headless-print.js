@@ -4,16 +4,16 @@
 //
 const { Chromeless }  = require('chromeless')
 
-const fs = require('fs');
+const fs = require('fs')
 function copyFile(src, dest) {
-  let readStream = fs.createReadStream(src);
+  let readStream = fs.createReadStream(src)
   readStream.once('error', (err) => {
-    console.log(err);
-  });
+    console.log(err)
+  })
   readStream.once('end', () => {
-    console.log('done copying');
-  });
-  readStream.pipe(fs.createWriteStream(dest));
+    console.log('done copying')
+  })
+  readStream.pipe(fs.createWriteStream(dest))
 }
 
 async function run() {
@@ -24,8 +24,8 @@ async function run() {
     .press(13)
     .wait('#resultStats')
     .screenshot()
-  copyFile(screenshot, '/' + screenshot);
-  console.log(screenshot) // prints local file path or S3 url
+  copyFile(screenshot, '/app/' + screenshot.replace('/tmp/',''))
+  console.log('Done -> ' + '/app/' + screenshot.replace('/tmp/',''))
   await chromeless.end()
 }
 

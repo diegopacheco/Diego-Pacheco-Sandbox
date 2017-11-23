@@ -1,0 +1,10 @@
+//
+// Terminal 1
+//
+./build-docker.sh
+./run-docker.sh
+
+//
+// Terminal 2
+//
+docker exec -it chromeless nodejs chrome-headless-print.js
