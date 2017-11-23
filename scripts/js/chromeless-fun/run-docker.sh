@@ -1,3 +1,3 @@
 #!/bin/bash
 
-docker run chromeless
+docker run --rm --name chromeless chromeless
