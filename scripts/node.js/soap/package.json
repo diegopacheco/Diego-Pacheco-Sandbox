@@ -1,0 +1,14 @@
+{
+  "name": "soap",
+  "version": "1.0.0",
+  "description": "",
+  "main": "runSoap.js",
+  "scripts": {
+    "start": "node runSoap.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "soap": "latest"
+  }
+}
