@@ -1,0 +1,11 @@
+/home/diego/github/diegopacheco/Diego-Pacheco-Sandbox/scripts/.net-core/console-sample-app/myApp/bin/Debug/netcoreapp2.2/myApp.deps.json
+/home/diego/github/diegopacheco/Diego-Pacheco-Sandbox/scripts/.net-core/console-sample-app/myApp/bin/Debug/netcoreapp2.2/myApp.runtimeconfig.json
+/home/diego/github/diegopacheco/Diego-Pacheco-Sandbox/scripts/.net-core/console-sample-app/myApp/bin/Debug/netcoreapp2.2/myApp.runtimeconfig.dev.json
+/home/diego/github/diegopacheco/Diego-Pacheco-Sandbox/scripts/.net-core/console-sample-app/myApp/bin/Debug/netcoreapp2.2/myApp.dll
+/home/diego/github/diegopacheco/Diego-Pacheco-Sandbox/scripts/.net-core/console-sample-app/myApp/bin/Debug/netcoreapp2.2/myApp.pdb
+/home/diego/github/diegopacheco/Diego-Pacheco-Sandbox/scripts/.net-core/console-sample-app/myApp/obj/Debug/netcoreapp2.2/myApp.csprojAssemblyReference.cache
+/home/diego/github/diegopacheco/Diego-Pacheco-Sandbox/scripts/.net-core/console-sample-app/myApp/obj/Debug/netcoreapp2.2/myApp.csproj.CoreCompileInputs.cache
+/home/diego/github/diegopacheco/Diego-Pacheco-Sandbox/scripts/.net-core/console-sample-app/myApp/obj/Debug/netcoreapp2.2/myApp.AssemblyInfoInputs.cache
+/home/diego/github/diegopacheco/Diego-Pacheco-Sandbox/scripts/.net-core/console-sample-app/myApp/obj/Debug/netcoreapp2.2/myApp.AssemblyInfo.cs
+/home/diego/github/diegopacheco/Diego-Pacheco-Sandbox/scripts/.net-core/console-sample-app/myApp/obj/Debug/netcoreapp2.2/myApp.dll
+/home/diego/github/diegopacheco/Diego-Pacheco-Sandbox/scripts/.net-core/console-sample-app/myApp/obj/Debug/netcoreapp2.2/myApp.pdb
