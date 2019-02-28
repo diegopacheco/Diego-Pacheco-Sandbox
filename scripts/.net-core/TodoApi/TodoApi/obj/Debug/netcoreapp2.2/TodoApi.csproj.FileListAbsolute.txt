@@ -1,0 +1,14 @@
+/home/diego/github/diegopacheco/Diego-Pacheco-Sandbox/scripts/.net-core/TodoApi/TodoApi/bin/Debug/netcoreapp2.2/TodoApi.deps.json
+/home/diego/github/diegopacheco/Diego-Pacheco-Sandbox/scripts/.net-core/TodoApi/TodoApi/bin/Debug/netcoreapp2.2/TodoApi.runtimeconfig.json
+/home/diego/github/diegopacheco/Diego-Pacheco-Sandbox/scripts/.net-core/TodoApi/TodoApi/bin/Debug/netcoreapp2.2/TodoApi.runtimeconfig.dev.json
+/home/diego/github/diegopacheco/Diego-Pacheco-Sandbox/scripts/.net-core/TodoApi/TodoApi/bin/Debug/netcoreapp2.2/TodoApi.dll
+/home/diego/github/diegopacheco/Diego-Pacheco-Sandbox/scripts/.net-core/TodoApi/TodoApi/bin/Debug/netcoreapp2.2/TodoApi.pdb
+/home/diego/github/diegopacheco/Diego-Pacheco-Sandbox/scripts/.net-core/TodoApi/TodoApi/obj/Debug/netcoreapp2.2/TodoApi.csprojAssemblyReference.cache
+/home/diego/github/diegopacheco/Diego-Pacheco-Sandbox/scripts/.net-core/TodoApi/TodoApi/obj/Debug/netcoreapp2.2/TodoApi.csproj.CoreCompileInputs.cache
+/home/diego/github/diegopacheco/Diego-Pacheco-Sandbox/scripts/.net-core/TodoApi/TodoApi/obj/Debug/netcoreapp2.2/TodoApi.RazorAssemblyInfo.cache
+/home/diego/github/diegopacheco/Diego-Pacheco-Sandbox/scripts/.net-core/TodoApi/TodoApi/obj/Debug/netcoreapp2.2/TodoApi.RazorAssemblyInfo.cs
+/home/diego/github/diegopacheco/Diego-Pacheco-Sandbox/scripts/.net-core/TodoApi/TodoApi/obj/Debug/netcoreapp2.2/TodoApi.AssemblyInfoInputs.cache
+/home/diego/github/diegopacheco/Diego-Pacheco-Sandbox/scripts/.net-core/TodoApi/TodoApi/obj/Debug/netcoreapp2.2/TodoApi.AssemblyInfo.cs
+/home/diego/github/diegopacheco/Diego-Pacheco-Sandbox/scripts/.net-core/TodoApi/TodoApi/obj/Debug/netcoreapp2.2/TodoApi.RazorTargetAssemblyInfo.cache
+/home/diego/github/diegopacheco/Diego-Pacheco-Sandbox/scripts/.net-core/TodoApi/TodoApi/obj/Debug/netcoreapp2.2/TodoApi.dll
+/home/diego/github/diegopacheco/Diego-Pacheco-Sandbox/scripts/.net-core/TodoApi/TodoApi/obj/Debug/netcoreapp2.2/TodoApi.pdb
