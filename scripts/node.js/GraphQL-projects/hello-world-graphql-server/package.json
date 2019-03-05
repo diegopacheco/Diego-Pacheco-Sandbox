@@ -2,8 +2,11 @@
     "name": "hello-world-graphql-server",
     "private": true,
     "dependencies": {
+        "apollo-server-express": "^2.4.8",
         "body-parser": "^1.18.3",
         "cors": "^2.8.5",
-        "express": "^4.16.4"
+        "express": "^4.16.4",
+        "graphql": "^14.1.1",
+        "graphql-tools": "^4.0.4"
     }
 }
