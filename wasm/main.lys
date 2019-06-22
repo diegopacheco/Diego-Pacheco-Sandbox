@@ -1,0 +1,11 @@
+import support::env
+
+#[export]
+fun test(): void = {
+  support::test::START("This is a test suite")
+
+  printf("Hello %X", 0xDEADBEEF)
+  support::test::mustEqual(3 as u8, 3 as u16, "assertion name")
+
+  support::test::END()
+}

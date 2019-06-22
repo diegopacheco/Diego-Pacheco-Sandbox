@@ -1,0 +1,15 @@
+[
+  {
+    "title": "This is a test suite",
+    "startTime": 1561180925706,
+    "passed": true,
+    "skipped": false,
+    "endTime": 1561180925710,
+    "assertions": [
+      {
+        "title": "assertion name",
+        "passed": true
+      }
+    ]
+  }
+]
