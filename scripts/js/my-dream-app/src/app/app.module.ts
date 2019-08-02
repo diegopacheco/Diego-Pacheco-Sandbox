@@ -4,11 +4,17 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { PanelComponent } from './panel/panel.component';
+import { HeaderComponent } from './header/header.component';
+import { AttemptsComponent } from './attempts/attempts.component';
+import { ProgressComponent } from './progress/progress.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    PanelComponent
+    PanelComponent,
+    HeaderComponent,
+    AttemptsComponent,
+    ProgressComponent
   ],
   imports: [
     BrowserModule,
