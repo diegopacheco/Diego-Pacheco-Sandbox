@@ -7,6 +7,7 @@ import { PanelComponent } from './panel/panel.component';
 import { HeaderComponent } from './header/header.component';
 import { AttemptsComponent } from './attempts/attempts.component';
 import { ProgressComponent } from './progress/progress.component';
+import { SectionComponent } from './section/section.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { ProgressComponent } from './progress/progress.component';
     PanelComponent,
     HeaderComponent,
     AttemptsComponent,
-    ProgressComponent
+    ProgressComponent,
+    SectionComponent
   ],
   imports: [
     BrowserModule,
