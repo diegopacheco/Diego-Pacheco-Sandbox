@@ -1,0 +1,23 @@
+{
+  "name": "observable-webworker-fun",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --watch \"\" --exec \"ts-node hello.ts --experimental-worker \" -e ts",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "prod": "npm run build && node dist/entry.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.15",
+    "nodemon": "^1.19.1",
+    "observable-webworker": "^3.2.1",
+    "rxjs": "^6.5.2",
+    "ts-node": "^8.3.0",
+    "typescript": "^3.5.3",
+    "webworker": "^0.8.4"
+  }
+}
