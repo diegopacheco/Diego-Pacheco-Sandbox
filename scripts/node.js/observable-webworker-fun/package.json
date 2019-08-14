@@ -12,12 +12,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "lodash": "^4.17.15",
     "nodemon": "^1.19.1",
     "observable-webworker": "^3.2.1",
     "rxjs": "^6.5.2",
     "ts-node": "^8.3.0",
     "typescript": "^3.5.3",
-    "webworker": "^0.8.4"
+    "worker-threads": "^1.0.0"
   }
 }
