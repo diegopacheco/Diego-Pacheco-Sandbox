@@ -1,0 +1,9 @@
+{
+  "generator-node": {
+    "promptValues": {
+      "authorName": "Diego Pacheco",
+      "authorEmail": "diego.pacheco.it@gmail.com",
+      "authorUrl": ""
+    }
+  }
+}
