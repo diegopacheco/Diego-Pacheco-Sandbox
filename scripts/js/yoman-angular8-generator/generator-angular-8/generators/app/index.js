@@ -18,10 +18,24 @@ module.exports = class extends Generator {
   writing() {
     this.log("Yo, Inputs to be generated: ", this.answers.names);
     
+    var nameArray = this.answers.names.split(',');
+
+    var baseCode = '<label>__NAME:\n' + 
+    '<input type="text" name="input" ng-model="example.text"\n' +
+           'ng-pattern="example.word" required ng-trim="false">\n' +
+    '</label>\n'+
+    '<BR/>\n'
+
+    var code = "" 
+
+    for(var i=0;i<nameArray.length;i++){
+      code += baseCode.replace("__NAME", nameArray[i])
+    }
+
     this.fs.copyTpl(
       this.templatePath('app.component.html'),
       this.destinationPath('app.component.html'), 
-      { value: this.answers.names }
+      { code: code }
     );
   }
 
