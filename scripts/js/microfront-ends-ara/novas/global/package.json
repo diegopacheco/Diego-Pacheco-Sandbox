@@ -1,0 +1,35 @@
+{
+  "name": "global",
+  "description": "Another Hypernova React project",
+  "version": "0.0.0",
+  "scripts": {
+    "build": "webpack --mode production",
+    "dev": "webpack --watch --mode development",
+    "start": "node dist/server.js",
+    "lint": "eslint ./ --ignore-pattern dist/"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "hypernova": "^2.5.0",
+    "nova-react": "^1.0.2",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.3",
+    "react-dom": "^16.8.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/runtime": "^7.5.5",
+    "babel-loader": "^8.0.6",
+    "babel-preset-airbnb": "^4.0.1",
+    "css-loader": "^2.1.1",
+    "eslint": "^5.14.1",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.14.3",
+    "eslint-plugin-react-hooks": "^1.7.0",
+    "nodemon-webpack-plugin": "^4.0.7",
+    "webpack": "^4.29.5",
+    "webpack-cli": "^3.2.3"
+  }
+}
