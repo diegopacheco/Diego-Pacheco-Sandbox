@@ -1,0 +1,71 @@
+{
+  "name": "pilet",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [
+    "pilet"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "@dbeining/react-atom": "4.1.4",
+    "@libre/atom": "1.3.3",
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "@types/react-router": "latest",
+    "@types/react-router-dom": "latest",
+    "history": "4.10.1",
+    "microfront-ends-Piral": "file:/home/diego/github/diegopacheco/Diego-Pacheco-Sandbox/scripts/js/microfront-ends-Piral/dist/develop/microfront-ends-Piral-1.0.0.tgz",
+    "path-to-regexp": "1.8.0",
+    "piral": "0.9.3",
+    "piral-cli": "^0.9.3",
+    "react": "16.12.0",
+    "react-dom": "16.12.0",
+    "react-router": "5.1.2",
+    "react-router-dom": "5.1.2",
+    "tslib": "1.10.0",
+    "typescript": "latest"
+  },
+  "peerDependencies": {
+    "@dbeining/react-atom": "*",
+    "@libre/atom": "*",
+    "history": "*",
+    "react": "*",
+    "react-dom": "*",
+    "react-router": "*",
+    "react-router-dom": "*",
+    "tslib": "*",
+    "path-to-regexp": "*",
+    "piral": "*",
+    "microfront-ends-Piral": "*"
+  },
+  "scripts": {
+    "debug-pilet": "pilet debug",
+    "build-pilet": "pilet build",
+    "upgrade-pilet": "pilet upgrade",
+    "build": "npm run build-pilet",
+    "start": "npm run debug-pilet"
+  },
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "piral": {
+    "comment": "Keep this section to allow running `piral upgrade`.",
+    "name": "microfront-ends-Piral",
+    "version": "1.0.0",
+    "tooling": "0.9.3",
+    "externals": [],
+    "files": [],
+    "scripts": {
+      "build": "npm run build-pilet",
+      "start": "npm run debug-pilet"
+    },
+    "validators": {},
+    "devDependencies": {},
+    "preScaffold": "",
+    "postScaffold": "",
+    "preUpgrade": "",
+    "postUpgrade": ""
+  }
+}
