@@ -1,3 +1,4 @@
+.target/
 .next/
 hello_world/src/main
 node_modules/
