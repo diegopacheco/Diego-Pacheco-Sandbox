@@ -1,0 +1,27 @@
+{
+  "name": "fastify-fun2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "tap test/**/*.test.js",
+    "start": "fastify start -l info app.js",
+    "dev": "fastify start -l info -P app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "autocannon": "^4.4.2",
+    "fastify": "^2.0.0",
+    "fastify-autoload": "^1.0.0",
+    "fastify-cli": "^1.3.0",
+    "fastify-plugin": "^1.5.0"
+  },
+  "devDependencies": {
+    "tap": "^12.5.3"
+  }
+}
