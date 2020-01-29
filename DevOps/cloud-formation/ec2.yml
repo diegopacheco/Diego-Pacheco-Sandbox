@@ -3,6 +3,6 @@ Resources:
   EC2Instance:
     Type: AWS::EC2::Instance
     Properties:
-      InstanceType: t2.micro
-      KeyName: 'pacheco_kp' # keypair must already exist
-      ImageId: ami-4de93c2d # AMI need exist
+      InstanceType: 'm5.large'
+      KeyName: 'pacheco_kp'   # keypair must already exist
+      ImageId: 'ami-4de93c2d' # AMI need exist
