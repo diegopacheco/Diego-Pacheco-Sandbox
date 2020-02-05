@@ -1,0 +1,9 @@
+{
+  "name": "mint-fun",
+  "source-directories": [
+    "source"
+  ],
+  "test-directories": [
+    "tests"
+  ]
+}
