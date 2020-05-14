@@ -1,0 +1,4 @@
+curl -fsSL https://deno.land/x/install/install.sh | sh
+export DENO_INSTALL="/home/diego/.deno"
+export PATH="$DENO_INSTALL/bin:$PATH"
+deno run https://deno.land/std/examples/welcome.ts 
