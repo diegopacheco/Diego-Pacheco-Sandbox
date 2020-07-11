@@ -1,0 +1,5 @@
+{
+  "imports": {
+    "oak": "https://deno.land/x/oak/mod.ts"
+  }
+}
