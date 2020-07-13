@@ -1,3 +1,3 @@
 #!/bin/bash
 
-alsatian SetOfTests.spec.ts 
+alsatian tests/**.spec.ts 
