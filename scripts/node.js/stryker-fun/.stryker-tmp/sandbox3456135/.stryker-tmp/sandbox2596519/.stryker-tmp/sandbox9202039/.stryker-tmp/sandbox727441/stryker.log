@@ -1,0 +1,69 @@
+13:18:36 (958218) INFO ConfigReader Using stryker.conf.json
+13:18:36 (958218) DEBUG BroadcastReporter Broadcasting to reporters ["progress","clear-text","html"]
+13:18:36 (958218) DEBUG ConfigReader Loading config /mnt/e35d88d4-42b9-49ea-bf29-c4c3b018d429/diego/git/diegopacheco/Diego-Pacheco-Sandbox/scripts/node.js/stryker-fun/stryker.conf.json
+13:18:36 (958218) WARN InputFileResolver Globbing expression "src/**/*.ts?(x)" did not result in any files.
+13:18:36 (958218) DEBUG ConfigReader Loaded config: {
+  "$schema": "./node_modules/@stryker-mutator/core/schema/stryker-schema.json",
+  "comment": "This config was generated using a preset. Please see the handbook for more information: https://github.com/stryker-mutator/stryker-handbook/blob/master/stryker/guides/react.md#react",
+  "mutate": [
+    "src/**/*.ts?(x)",
+    "!src/**/*@(.test|.spec|Spec).ts?(x)"
+  ],
+  "mutator": "typescript",
+  "testRunner": "jest",
+  "reporters": [
+    "progress",
+    "clear-text",
+    "html"
+  ],
+  "coverageAnalysis": "off",
+  "jest": {
+    "projectType": "create-react-app"
+  },
+  "allowConsoleColors": true,
+  "commandRunner": {
+    "command": "npm test"
+  },
+  "clearTextReporter": {
+    "allowColor": true,
+    "logTests": true,
+    "maxTestsToLog": 3
+  },
+  "dashboard": {
+    "baseUrl": "https://dashboard.stryker-mutator.io/api/reports",
+    "reportType": "full"
+  },
+  "eventReporter": {
+    "baseDir": "reports/mutation/events"
+  },
+  "fileLogLevel": "trace",
+  "logLevel": "debug",
+  "maxConcurrentTestRunners": 9007199254740991,
+  "plugins": [
+    "@stryker-mutator/*"
+  ],
+  "symlinkNodeModules": true,
+  "tempDirName": ".stryker-tmp",
+  "thresholds": {
+    "high": 80,
+    "low": 60,
+    "break": null
+  },
+  "timeoutFactor": 1.5,
+  "timeoutMS": 5000,
+  "transpilers": [],
+  "warnings": true,
+  "configFile": "/mnt/e35d88d4-42b9-49ea-bf29-c4c3b018d429/diego/git/diegopacheco/Diego-Pacheco-Sandbox/scripts/node.js/stryker-fun/stryker.conf.json"
+}
+13:18:36 (958218) WARN InputFileResolver Globbing expression "src/**/*@(.test|.spec|Spec).ts?(x)" did not result in any files.
+13:18:36 (958218) DEBUG PluginLoader Loading @stryker-mutator/* from /mnt/e35d88d4-42b9-49ea-bf29-c4c3b018d429/diego/git/diegopacheco/Diego-Pacheco-Sandbox/scripts/node.js/stryker-fun/node_modules/@stryker-mutator
+13:18:36 (958218) DEBUG PluginLoader Loading plugin "/mnt/e35d88d4-42b9-49ea-bf29-c4c3b018d429/diego/git/diegopacheco/Diego-Pacheco-Sandbox/scripts/node.js/stryker-fun/node_modules/@stryker-mutator/jest-runner" (matched with expression @stryker-mutator/*)
+13:18:36 (958218) DEBUG PluginLoader Loading plugin "/mnt/e35d88d4-42b9-49ea-bf29-c4c3b018d429/diego/git/diegopacheco/Diego-Pacheco-Sandbox/scripts/node.js/stryker-fun/node_modules/@stryker-mutator/typescript" (matched with expression @stryker-mutator/*)
+13:18:36 (958218) DEBUG PluginLoader Loading plugins /mnt/e35d88d4-42b9-49ea-bf29-c4c3b018d429/diego/git/diegopacheco/Diego-Pacheco-Sandbox/scripts/node.js/stryker-fun/node_modules/@stryker-mutator/jest-runner
+13:18:36 (958218) WARN PluginLoader Cannot find plugin "/mnt/e35d88d4-42b9-49ea-bf29-c4c3b018d429/diego/git/diegopacheco/Diego-Pacheco-Sandbox/scripts/node.js/stryker-fun/node_modules/@stryker-mutator/jest-runner".
+  Did you forget to install it ?
+  npm install /mnt/e35d88d4-42b9-49ea-bf29-c4c3b018d429/diego/git/diegopacheco/Diego-Pacheco-Sandbox/scripts/node.js/stryker-fun/node_modules/@stryker-mutator/jest-runner --save-dev
+13:18:36 (958218) DEBUG PluginLoader Loading plugins /mnt/e35d88d4-42b9-49ea-bf29-c4c3b018d429/diego/git/diegopacheco/Diego-Pacheco-Sandbox/scripts/node.js/stryker-fun/node_modules/@stryker-mutator/typescript
+13:18:36 (958218) WARN PluginLoader Cannot find plugin "/mnt/e35d88d4-42b9-49ea-bf29-c4c3b018d429/diego/git/diegopacheco/Diego-Pacheco-Sandbox/scripts/node.js/stryker-fun/node_modules/@stryker-mutator/typescript".
+  Did you forget to install it ?
+  npm install /mnt/e35d88d4-42b9-49ea-bf29-c4c3b018d429/diego/git/diegopacheco/Diego-Pacheco-Sandbox/scripts/node.js/stryker-fun/node_modules/@stryker-mutator/typescript --save-dev
