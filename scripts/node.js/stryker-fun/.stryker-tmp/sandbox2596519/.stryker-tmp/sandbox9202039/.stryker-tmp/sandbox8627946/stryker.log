@@ -1,0 +1,211 @@
+13:18:36 (958218) INFO ConfigReader Using stryker.conf.json
+13:18:36 (958218) DEBUG BroadcastReporter Broadcasting to reporters ["progress","clear-text","html"]
+13:18:36 (958218) DEBUG ConfigReader Loading config /mnt/e35d88d4-42b9-49ea-bf29-c4c3b018d429/diego/git/diegopacheco/Diego-Pacheco-Sandbox/scripts/node.js/stryker-fun/stryker.conf.json
+13:18:36 (958218) WARN InputFileResolver Globbing expression "src/**/*.ts?(x)" did not result in any files.
+13:18:36 (958218) DEBUG ConfigReader Loaded config: {
+  "$schema": "./node_modules/@stryker-mutator/core/schema/stryker-schema.json",
+  "comment": "This config was generated using a preset. Please see the handbook for more information: https://github.com/stryker-mutator/stryker-handbook/blob/master/stryker/guides/react.md#react",
+  "mutate": [
+    "src/**/*.ts?(x)",
+    "!src/**/*@(.test|.spec|Spec).ts?(x)"
+  ],
+  "mutator": "typescript",
+  "testRunner": "jest",
+  "reporters": [
+    "progress",
+    "clear-text",
+    "html"
+  ],
+  "coverageAnalysis": "off",
+  "jest": {
+    "projectType": "create-react-app"
+  },
+  "allowConsoleColors": true,
+  "commandRunner": {
+    "command": "npm test"
+  },
+  "clearTextReporter": {
+    "allowColor": true,
+    "logTests": true,
+    "maxTestsToLog": 3
+  },
+  "dashboard": {
+    "baseUrl": "https://dashboard.stryker-mutator.io/api/reports",
+    "reportType": "full"
+  },
+  "eventReporter": {
+    "baseDir": "reports/mutation/events"
+  },
+  "fileLogLevel": "trace",
+  "logLevel": "debug",
+  "maxConcurrentTestRunners": 9007199254740991,
+  "plugins": [
+    "@stryker-mutator/*"
+  ],
+  "symlinkNodeModules": true,
+  "tempDirName": ".stryker-tmp",
+  "thresholds": {
+    "high": 80,
+    "low": 60,
+    "break": null
+  },
+  "timeoutFactor": 1.5,
+  "timeoutMS": 5000,
+  "transpilers": [],
+  "warnings": true,
+  "configFile": "/mnt/e35d88d4-42b9-49ea-bf29-c4c3b018d429/diego/git/diegopacheco/Diego-Pacheco-Sandbox/scripts/node.js/stryker-fun/stryker.conf.json"
+}
+13:18:36 (958218) WARN InputFileResolver Globbing expression "src/**/*@(.test|.spec|Spec).ts?(x)" did not result in any files.
+13:18:36 (958218) DEBUG PluginLoader Loading @stryker-mutator/* from /mnt/e35d88d4-42b9-49ea-bf29-c4c3b018d429/diego/git/diegopacheco/Diego-Pacheco-Sandbox/scripts/node.js/stryker-fun/node_modules/@stryker-mutator
+13:18:36 (958218) DEBUG PluginLoader Loading plugin "/mnt/e35d88d4-42b9-49ea-bf29-c4c3b018d429/diego/git/diegopacheco/Diego-Pacheco-Sandbox/scripts/node.js/stryker-fun/node_modules/@stryker-mutator/jest-runner" (matched with expression @stryker-mutator/*)
+13:18:36 (958218) DEBUG PluginLoader Loading plugin "/mnt/e35d88d4-42b9-49ea-bf29-c4c3b018d429/diego/git/diegopacheco/Diego-Pacheco-Sandbox/scripts/node.js/stryker-fun/node_modules/@stryker-mutator/typescript" (matched with expression @stryker-mutator/*)
+13:18:36 (958218) DEBUG PluginLoader Loading plugins /mnt/e35d88d4-42b9-49ea-bf29-c4c3b018d429/diego/git/diegopacheco/Diego-Pacheco-Sandbox/scripts/node.js/stryker-fun/node_modules/@stryker-mutator/jest-runner
+13:18:36 (958218) WARN PluginLoader Cannot find plugin "/mnt/e35d88d4-42b9-49ea-bf29-c4c3b018d429/diego/git/diegopacheco/Diego-Pacheco-Sandbox/scripts/node.js/stryker-fun/node_modules/@stryker-mutator/jest-runner".
+  Did you forget to install it ?
+  npm install /mnt/e35d88d4-42b9-49ea-bf29-c4c3b018d429/diego/git/diegopacheco/Diego-Pacheco-Sandbox/scripts/node.js/stryker-fun/node_modules/@stryker-mutator/jest-runner --save-dev
+13:18:36 (958218) DEBUG PluginLoader Loading plugins /mnt/e35d88d4-42b9-49ea-bf29-c4c3b018d429/diego/git/diegopacheco/Diego-Pacheco-Sandbox/scripts/node.js/stryker-fun/node_modules/@stryker-mutator/typescript
+13:18:36 (958218) WARN PluginLoader Cannot find plugin "/mnt/e35d88d4-42b9-49ea-bf29-c4c3b018d429/diego/git/diegopacheco/Diego-Pacheco-Sandbox/scripts/node.js/stryker-fun/node_modules/@stryker-mutator/typescript".
+  Did you forget to install it ?
+  npm install /mnt/e35d88d4-42b9-49ea-bf29-c4c3b018d429/diego/git/diegopacheco/Diego-Pacheco-Sandbox/scripts/node.js/stryker-fun/node_modules/@stryker-mutator/typescript --save-dev
+13:18:36 (958218) DEBUG PluginLoader Loading plugins /mnt/e35d88d4-42b9-49ea-bf29-c4c3b018d429/diego/git/diegopacheco/Diego-Pacheco-Sandbox/scripts/node.js/stryker-fun/node_modules/@stryker-mutator/core/src/reporters/index.js
+13:18:36 (958218) DEBUG buildSchemaWithPluginContributions Contributing 0 schemas from plugins to options validation.
+13:18:36 (958218) WARN InputFileResolver No files marked to be mutated, Stryker will perform a dry-run without actually mutating anything. You can configure the `mutate` property in your config file (or use `--mutate` via command line).
+13:18:36 (958218) WARN markUnknownOptions Unknown stryker config option "comment".
+13:18:36 (958218) DEBUG InputFileResolver All input files: [
+  "/mnt/e35d88d4-42b9-49ea-bf29-c4c3b018d429/diego/git/diegopacheco/Diego-Pacheco-Sandbox/scripts/node.js/stryker-fun/.stryker-tmp/sandbox1576043/package-lock.json",
+  "/mnt/e35d88d4-42b9-49ea-bf29-c4c3b018d429/diego/git/diegopacheco/Diego-Pacheco-Sandbox/scripts/node.js/stryker-fun/.stryker-tmp/sandbox1576043/stryker.conf.json",
+  "/mnt/e35d88d4-42b9-49ea-bf29-c4c3b018d429/diego/git/diegopacheco/Diego-Pacheco-Sandbox/scripts/node.js/stryker-fun/package-lock.json",
+  "/mnt/e35d88d4-42b9-49ea-bf29-c4c3b018d429/diego/git/diegopacheco/Diego-Pacheco-Sandbox/scripts/node.js/stryker-fun/stryker.conf.json",
+  "/mnt/e35d88d4-42b9-49ea-bf29-c4c3b018d429/diego/git/diegopacheco/Diego-Pacheco-Sandbox/scripts/node.js/stryker-fun/stryker.log"
+]
+13:18:36 (958218) WARN markUnknownOptions Unknown stryker config option "jest".
+13:18:36 (958218) DEBUG InputFileResolver Files to mutate: []
+13:18:36 (958218) WARN markUnknownOptions 
+   Possible causes:
+   * Is it a typo on your end?
+   * Did you only write this property as a comment? If so, please postfix it with "_comment".
+   * You might be missing a plugin that is supposed to use it. Stryker loaded plugins from: ["@stryker-mutator/*","/mnt/e35d88d4-42b9-49ea-bf29-c4c3b018d429/diego/git/diegopacheco/Diego-Pacheco-Sandbox/scripts/node.js/stryker-fun/node_modules/@stryker-mutator/core/src/reporters/index.js"]
+   * The plugin that is using it did not contribute explicit validation. 
+   (disable "warnings.unknownOptions" to ignore this warning)
+13:18:36 (958218) DEBUG TemporaryDirectory Using temp directory "/mnt/e35d88d4-42b9-49ea-bf29-c4c3b018d429/diego/git/diegopacheco/Diego-Pacheco-Sandbox/scripts/node.js/stryker-fun/.stryker-tmp"
+13:18:36 (958218) DEBUG TestFrameworkOrchestrator The `coverageAnalysis` setting is "off", not hooking into the test framework to achieve performance benefits.
+13:18:36 (958218) INFO InitialTestExecutor Starting initial test run. This may take a while.
+13:18:36 (958218) DEBUG Sandbox Creating a sandbox for files in /mnt/e35d88d4-42b9-49ea-bf29-c4c3b018d429/diego/git/diegopacheco/Diego-Pacheco-Sandbox/scripts/node.js/stryker-fun/.stryker-tmp/sandbox727441
+13:18:36 (958218) DEBUG Sandbox Creating test runner 0
+13:18:36 (958218) DEBUG ChildProcessProxy Starting /mnt/e35d88d4-42b9-49ea-bf29-c4c3b018d429/diego/git/diegopacheco/Diego-Pacheco-Sandbox/scripts/node.js/stryker-fun/node_modules/@stryker-mutator/core/src/test-runner/ChildProcessTestRunnerWorker.js in child process 958234
+13:18:36 (958218) TRACE ChildProcessProxy /mnt/e35d88d4-42b9-49ea-bf29-c4c3b018d429/diego/git/diegopacheco/Diego-Pacheco-Sandbox/scripts/node.js/stryker-fun/node_modules/typed-inject/dist/src/InjectorImpl.js:37
+            throw errors_1.InjectionError.create(Class, error);
+            ^
+
+InjectionError: Could not inject [class ChildProcessTestRunnerWorker]. Cause: Cannot load TestRunner plugin "jest". In fact, no TestRunner plugins were loaded. Did you forget to install it?
+    at Function.create (/mnt/e35d88d4-42b9-49ea-bf29-c4c3b018d429/diego/git/diegopacheco/Diego-Pacheco-Sandbox/scripts/node.js/stryker-fun/node_modules/typed-inject/dist/src/errors.js:57:20)
+    at ValueProvider.injectClass (/mnt/e35d88d4-42b9-49ea-bf29-c4c3b018d429/diego/git/diegopacheco/Diego-Pacheco-Sandbox/scripts/node.js/stryker-fun/node_modules/typed-inject/dist/src/InjectorImpl.js:37:43)
+    at ChildProcessProxyWorker.handleMessage (/mnt/e35d88d4-42b9-49ea-bf29-c4c3b018d429/diego/git/diegopacheco/Diego-Pacheco-Sandbox/scripts/node.js/stryker-fun/node_modules/@stryker-mutator/core/src/child-proxy/ChildProcessProxyWorker.js:41:45)
+    at process.emit (events.js:321:20)
+    at emit (internal/child_process.js:881:12)
+    at processTicksAndRejections (internal/process/task_queues.js:85:21) {
+  path: [ [Function: ChildProcessTestRunnerWorker] { inject: [Array] } ],
+  cause: Error: Cannot load TestRunner plugin "jest". In fact, no TestRunner plugins were loaded. Did you forget to install it?
+      at PluginLoader.resolve (/mnt/e35d88d4-42b9-49ea-bf29-c4c3b018d429/diego/git/diegopacheco/Diego-Pacheco-Sandbox/scripts/node.js/stryker-fun/node_modules/@stryker-mutator/core/src/di/PluginLoader.js:38:19)
+      at PluginCreator.create (/mnt/e35d88d4-42b9-49ea-bf29-c4c3b018d429/diego/git/diegopacheco/Diego-Pacheco-Sandbox/scripts/node.js/stryker-fun/node_modules/@stryker-mutator/core/src/di/PluginCreator.js:12:44)
+      at new ChildProcessTestRunnerWorker (/mnt/e35d88d4-42b9-49ea-bf29-c4c3b018d429/diego/git/diegopacheco/Diego-Pacheco-Sandbox/scripts/node.js/stryker-fun/node_modules/@stryker-mutator/core/src/test-runner/ChildProcessTestRunnerWorker.js:12:14)
+      at ValueProvider.injectClass (/mnt/e35d88d4-42b9-49ea-bf29-c4c3b018d429/diego/git/diegopacheco/Diego-Pacheco-Sandbox/scripts/node.js/stryker-fun/node_modules/typed-inject/dist/src/InjectorImpl.js:34:20)
+      at ChildProcessProxyWorker.handleMessage (/mnt/e35d88d4-42b9-49ea-bf29-c4c3b018d429/diego/git/diegopacheco/Diego-Pacheco-Sandbox/scripts/node.js/stryker-fun/node_modules/@stryker-mutator/core/src/child-proxy/ChildProcessProxyWorker.js:41:45)
+      at process.emit (events.js:321:20)
+      at emit (internal/child_process.js:881:12)
+      at processTicksAndRejections (internal/process/task_queues.js:85:21)
+}
+
+13:18:36 (958218) WARN ChildProcessProxy Child process [pid 958234] exited unexpectedly with exit code 1 (without signal). Last part of stdout and stderr was:
+	/mnt/e35d88d4-42b9-49ea-bf29-c4c3b018d429/diego/git/diegopacheco/Diego-Pacheco-Sandbox/scripts/node.js/stryker-fun/node_modules/typed-inject/dist/src/InjectorImpl.js:37
+	            throw errors_1.InjectionError.create(Class, error);
+	            ^
+	
+	InjectionError: Could not inject [class ChildProcessTestRunnerWorker]. Cause: Cannot load TestRunner plugin "jest". In fact, no TestRunner plugins were loaded. Did you forget to install it?
+	    at Function.create (/mnt/e35d88d4-42b9-49ea-bf29-c4c3b018d429/diego/git/diegopacheco/Diego-Pacheco-Sandbox/scripts/node.js/stryker-fun/node_modules/typed-inject/dist/src/errors.js:57:20)
+	    at ValueProvider.injectClass (/mnt/e35d88d4-42b9-49ea-bf29-c4c3b018d429/diego/git/diegopacheco/Diego-Pacheco-Sandbox/scripts/node.js/stryker-fun/node_modules/typed-inject/dist/src/InjectorImpl.js:37:43)
+	    at ChildProcessProxyWorker.handleMessage (/mnt/e35d88d4-42b9-49ea-bf29-c4c3b018d429/diego/git/diegopacheco/Diego-Pacheco-Sandbox/scripts/node.js/stryker-fun/node_modules/@stryker-mutator/core/src/child-proxy/ChildProcessProxyWorker.js:41:45)
+	    at process.emit (events.js:321:20)
+	    at emit (internal/child_process.js:881:12)
+	    at processTicksAndRejections (internal/process/task_queues.js:85:21) {
+	  path: [ [Function: ChildProcessTestRunnerWorker] { inject: [Array] } ],
+	  cause: Error: Cannot load TestRunner plugin "jest". In fact, no TestRunner plugins were loaded. Did you forget to install it?
+	      at PluginLoader.resolve (/mnt/e35d88d4-42b9-49ea-bf29-c4c3b018d429/diego/git/diegopacheco/Diego-Pacheco-Sandbox/scripts/node.js/stryker-fun/node_modules/@stryker-mutator/core/src/di/PluginLoader.js:38:19)
+	      at PluginCreator.create (/mnt/e35d88d4-42b9-49ea-bf29-c4c3b018d429/diego/git/diegopacheco/Diego-Pacheco-Sandbox/scripts/node.js/stryker-fun/node_modules/@stryker-mutator/core/src/di/PluginCreator.js:12:44)
+	      at new ChildProcessTestRunnerWorker (/mnt/e35d88d4-42b9-49ea-bf29-c4c3b018d429/diego/git/diegopacheco/Diego-Pacheco-Sandbox/scripts/node.js/stryker-fun/node_modules/@stryker-mutator/core/src/test-runner/ChildProcessTestRunnerWorker.js:12:14)
+	      at ValueProvider.injectClass (/mnt/e35d88d4-42b9-49ea-bf29-c4c3b018d429/diego/git/diegopacheco/Diego-Pacheco-Sandbox/scripts/node.js/stryker-fun/node_modules/typed-inject/dist/src/InjectorImpl.js:34:20)
+	      at ChildProcessProxyWorker.handleMessage (/mnt/e35d88d4-42b9-49ea-bf29-c4c3b018d429/diego/git/diegopacheco/Diego-Pacheco-Sandbox/scripts/node.js/stryker-fun/node_modules/@stryker-mutator/core/src/child-proxy/ChildProcessProxyWorker.js:41:45)
+	      at process.emit (events.js:321:20)
+	      at emit (internal/child_process.js:881:12)
+	      at processTicksAndRejections (internal/process/task_queues.js:85:21)
+	}
+	 ChildProcessCrashedError: Child process [pid 958234] exited unexpectedly with exit code 1 (without signal). Last part of stdout and stderr was:
+	/mnt/e35d88d4-42b9-49ea-bf29-c4c3b018d429/diego/git/diegopacheco/Diego-Pacheco-Sandbox/scripts/node.js/stryker-fun/node_modules/typed-inject/dist/src/InjectorImpl.js:37
+	            throw errors_1.InjectionError.create(Class, error);
+	            ^
+	
+	InjectionError: Could not inject [class ChildProcessTestRunnerWorker]. Cause: Cannot load TestRunner plugin "jest". In fact, no TestRunner plugins were loaded. Did you forget to install it?
+	    at Function.create (/mnt/e35d88d4-42b9-49ea-bf29-c4c3b018d429/diego/git/diegopacheco/Diego-Pacheco-Sandbox/scripts/node.js/stryker-fun/node_modules/typed-inject/dist/src/errors.js:57:20)
+	    at ValueProvider.injectClass (/mnt/e35d88d4-42b9-49ea-bf29-c4c3b018d429/diego/git/diegopacheco/Diego-Pacheco-Sandbox/scripts/node.js/stryker-fun/node_modules/typed-inject/dist/src/InjectorImpl.js:37:43)
+	    at ChildProcessProxyWorker.handleMessage (/mnt/e35d88d4-42b9-49ea-bf29-c4c3b018d429/diego/git/diegopacheco/Diego-Pacheco-Sandbox/scripts/node.js/stryker-fun/node_modules/@stryker-mutator/core/src/child-proxy/ChildProcessProxyWorker.js:41:45)
+	    at process.emit (events.js:321:20)
+	    at emit (internal/child_process.js:881:12)
+	    at processTicksAndRejections (internal/process/task_queues.js:85:21) {
+	  path: [ [Function: ChildProcessTestRunnerWorker] { inject: [Array] } ],
+	  cause: Error: Cannot load TestRunner plugin "jest". In fact, no TestRunner plugins were loaded. Did you forget to install it?
+	      at PluginLoader.resolve (/mnt/e35d88d4-42b9-49ea-bf29-c4c3b018d429/diego/git/diegopacheco/Diego-Pacheco-Sandbox/scripts/node.js/stryker-fun/node_modules/@stryker-mutator/core/src/di/PluginLoader.js:38:19)
+	      at PluginCreator.create (/mnt/e35d88d4-42b9-49ea-bf29-c4c3b018d429/diego/git/diegopacheco/Diego-Pacheco-Sandbox/scripts/node.js/stryker-fun/node_modules/@stryker-mutator/core/src/di/PluginCreator.js:12:44)
+	      at new ChildProcessTestRunnerWorker (/mnt/e35d88d4-42b9-49ea-bf29-c4c3b018d429/diego/git/diegopacheco/Diego-Pacheco-Sandbox/scripts/node.js/stryker-fun/node_modules/@stryker-mutator/core/src/test-runner/ChildProcessTestRunnerWorker.js:12:14)
+	      at ValueProvider.injectClass (/mnt/e35d88d4-42b9-49ea-bf29-c4c3b018d429/diego/git/diegopacheco/Diego-Pacheco-Sandbox/scripts/node.js/stryker-fun/node_modules/typed-inject/dist/src/InjectorImpl.js:34:20)
+	      at ChildProcessProxyWorker.handleMessage (/mnt/e35d88d4-42b9-49ea-bf29-c4c3b018d429/diego/git/diegopacheco/Diego-Pacheco-Sandbox/scripts/node.js/stryker-fun/node_modules/@stryker-mutator/core/src/child-proxy/ChildProcessProxyWorker.js:41:45)
+	      at process.emit (events.js:321:20)
+	      at emit (internal/child_process.js:881:12)
+	      at processTicksAndRejections (internal/process/task_queues.js:85:21)
+	}
+	
+    at ChildProcessProxy.handleUnexpectedExit (/mnt/e35d88d4-42b9-49ea-bf29-c4c3b018d429/diego/git/diegopacheco/Diego-Pacheco-Sandbox/scripts/node.js/stryker-fun/node_modules/@stryker-mutator/core/src/child-proxy/ChildProcessProxy.js:33:37)
+    at ChildProcess.emit (events.js:321:20)
+    at maybeClose (internal/child_process.js:1026:16)
+    at Socket.<anonymous> (internal/child_process.js:441:11)
+    at Socket.emit (events.js:321:20)
+    at Pipe.<anonymous> (net.js:672:12) {
+  innerError: undefined,
+  pid: 958234,
+  exitCode: 1,
+  signal: null
+}
+13:18:36 (958218) ERROR StrykerCli an error occurred ChildProcessCrashedError: Child process [pid 958234] exited unexpectedly with exit code 1 (without signal). Last part of stdout and stderr was:
+	/mnt/e35d88d4-42b9-49ea-bf29-c4c3b018d429/diego/git/diegopacheco/Diego-Pacheco-Sandbox/scripts/node.js/stryker-fun/node_modules/typed-inject/dist/src/InjectorImpl.js:37
+	            throw errors_1.InjectionError.create(Class, error);
+	            ^
+	
+	InjectionError: Could not inject [class ChildProcessTestRunnerWorker]. Cause: Cannot load TestRunner plugin "jest". In fact, no TestRunner plugins were loaded. Did you forget to install it?
+	    at Function.create (/mnt/e35d88d4-42b9-49ea-bf29-c4c3b018d429/diego/git/diegopacheco/Diego-Pacheco-Sandbox/scripts/node.js/stryker-fun/node_modules/typed-inject/dist/src/errors.js:57:20)
+	    at ValueProvider.injectClass (/mnt/e35d88d4-42b9-49ea-bf29-c4c3b018d429/diego/git/diegopacheco/Diego-Pacheco-Sandbox/scripts/node.js/stryker-fun/node_modules/typed-inject/dist/src/InjectorImpl.js:37:43)
+	    at ChildProcessProxyWorker.handleMessage (/mnt/e35d88d4-42b9-49ea-bf29-c4c3b018d429/diego/git/diegopacheco/Diego-Pacheco-Sandbox/scripts/node.js/stryker-fun/node_modules/@stryker-mutator/core/src/child-proxy/ChildProcessProxyWorker.js:41:45)
+	    at process.emit (events.js:321:20)
+	    at emit (internal/child_process.js:881:12)
+	    at processTicksAndRejections (internal/process/task_queues.js:85:21) {
+	  path: [ [Function: ChildProcessTestRunnerWorker] { inject: [Array] } ],
+	  cause: Error: Cannot load TestRunner plugin "jest". In fact, no TestRunner plugins were loaded. Did you forget to install it?
+	      at PluginLoader.resolve (/mnt/e35d88d4-42b9-49ea-bf29-c4c3b018d429/diego/git/diegopacheco/Diego-Pacheco-Sandbox/scripts/node.js/stryker-fun/node_modules/@stryker-mutator/core/src/di/PluginLoader.js:38:19)
+	      at PluginCreator.create (/mnt/e35d88d4-42b9-49ea-bf29-c4c3b018d429/diego/git/diegopacheco/Diego-Pacheco-Sandbox/scripts/node.js/stryker-fun/node_modules/@stryker-mutator/core/src/di/PluginCreator.js:12:44)
+	      at new ChildProcessTestRunnerWorker (/mnt/e35d88d4-42b9-49ea-bf29-c4c3b018d429/diego/git/diegopacheco/Diego-Pacheco-Sandbox/scripts/node.js/stryker-fun/node_modules/@stryker-mutator/core/src/test-runner/ChildProcessTestRunnerWorker.js:12:14)
+	      at ValueProvider.injectClass (/mnt/e35d88d4-42b9-49ea-bf29-c4c3b018d429/diego/git/diegopacheco/Diego-Pacheco-Sandbox/scripts/node.js/stryker-fun/node_modules/typed-inject/dist/src/InjectorImpl.js:34:20)
+	      at ChildProcessProxyWorker.handleMessage (/mnt/e35d88d4-42b9-49ea-bf29-c4c3b018d429/diego/git/diegopacheco/Diego-Pacheco-Sandbox/scripts/node.js/stryker-fun/node_modules/@stryker-mutator/core/src/child-proxy/ChildProcessProxyWorker.js:41:45)
+	      at process.emit (events.js:321:20)
+	      at emit (internal/child_process.js:881:12)
+	      at processTicksAndRejections (internal/process/task_queues.js:85:21)
+	}
+	
+    at ChildProcessProxy.handleUnexpectedExit (/mnt/e35d88d4-42b9-49ea-bf29-c4c3b018d429/diego/git/diegopacheco/Diego-Pacheco-Sandbox/scripts/node.js/stryker-fun/node_modules/@stryker-mutator/core/src/child-proxy/ChildProcessProxy.js:33:37)
+    at ChildProcess.emit (events.js:321:20)
+    at maybeClose (internal/child_process.js:1026:16)
+    at Socket.<anonymous> (internal/child_process.js:441:11)
+    at Socket.emit (events.js:321:20)
+    at Pipe.<anonymous> (net.js:672:12) {
+  innerError: undefined,
+  pid: 958234,
+  exitCode: 1,
+  signal: null
+}
