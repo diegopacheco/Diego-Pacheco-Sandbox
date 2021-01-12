@@ -9,4 +9,6 @@
   :ring {:handler leincompojure16xfun.handler/app}
   :profiles
   {:dev {:dependencies [[javax.servlet/servlet-api "2.5"]
-                        [ring/ring-mock "0.3.2"]]}})
+                        [ring/ring-mock "0.3.2"]]}
+  :user {:dependencies [[clj-kondo "RELEASE"]]
+         :aliases {"clj-kondo" ["run" "-m" "clj-kondo.main"]}}})
