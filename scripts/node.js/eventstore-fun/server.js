@@ -10,6 +10,9 @@ async function run() {
     
     const client = new EventStoreDBClient({
       endpoint: "localhost:2113",
+    },{
+      username: "admin",
+      password: "changeit"
     });
 
     const event = jsonEvent({
