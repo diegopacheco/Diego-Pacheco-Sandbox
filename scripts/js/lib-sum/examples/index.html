@@ -1,0 +1,20 @@
+<script src="../libsum.js"></script>
+<script>
+    function performCalc(){
+        var va = document.getElementById('va').value;
+        console.log("va is: " + va);
+        var vb = document.getElementById('vb').value;
+        console.log("vb is: " + vb);
+        var result = Libsum.sum(parseInt(va),parseInt(vb));
+        console.log(result);
+        document.getElementById('result').value=result;
+    }
+</script>
+<main>
+    Value A: <input id="va" name="va" value=""><br>
+    Value B: <input id="vb" name="vb" value=""><br>
+    <button id="btnCalc" name="calculate!" value="calculate!"
+      onclick="performCalc();"
+    >calculate!</button><br>
+    Result: <input id="result" name="result" value="" ><br>
+</main>

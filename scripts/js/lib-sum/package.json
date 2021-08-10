@@ -1,0 +1,22 @@
+{
+    "name": "libsum",
+    "description": "Do simple math sum between 2 numbers a and b",
+    "version": "0.1.0",
+    "author": "Diego Pacheco <diego.pacheco.it@gmail.com> (https://diegopacheco.github.io/)",
+    "contributors": [],
+    "main": "./libsum.js",
+    "repository": {
+      "type": "http",
+      "url": "https://github.com/diegopacheco/Diego-Pacheco-Sandbox/tree/master/scripts/js"
+    },
+    "scripts": {
+      "test": "for f in tests/*.js; do echo \"$f\"; node \"$f\" || exit 1; done; echo 'Passed!'"
+    },
+    "dependencies": {},
+    "devDependencies": {},
+    "optionalDependencies": {},
+    "engines": {
+      "node": "*"
+    },
+    "keywords": [ "math", "sum", "js", "lib" ]
+  }
