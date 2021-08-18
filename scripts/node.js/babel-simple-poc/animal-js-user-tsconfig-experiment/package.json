@@ -1,0 +1,28 @@
+{
+  "name": "babel-simple-poc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "babel-loader": "^8.2.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.14.8",
+    "@babel/core": "^7.15.0",
+    "@babel/preset-env": "^7.15.0",
+    "@babel/preset-typescript": "^7.15.0",
+    "app-root-path": "^3.0.0",
+    "ts-node": "^10.2.0",
+    "typescript": "^4.3.5"
+  },
+  "scripts": {
+    "run": "node src/index.js",
+    "type-check": "tsc --noEmit",
+    "type-check:watch": "npm run type-check -- --watch",
+    "build": "npm run build:types && npm run build:js",
+    "build:types": "tsc --emitDeclarationOnly",
+    "build:js": "babel src --out-dir lib --extensions \".ts,.tsx,.js,.jsxx\" --source-maps inline"
+  },
+  "author": "",
+  "license": "ISC"
+}
