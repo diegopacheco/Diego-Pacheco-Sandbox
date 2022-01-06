@@ -1,0 +1,25 @@
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vanta@0.5.21/dist/vanta.waves.min.js"></script>
+<style>
+  div {
+    width: 600px;
+    height: 360px;
+    margin-bottom: 10px;
+  }
+</style>
+<div id="element"> </div>
+<div id="element2"> </div>
+<script>
+  // example 1
+  VANTA.WAVES('#element')
+
+  // example 2
+  VANTA.WAVES({
+    el: '#element2',
+    color: 0x111111,
+    waveHeight: 20,
+    shininess: 50,
+    waveSpeed: 1.5,
+    zoom: 0.75
+  })
+</script>
