@@ -1,0 +1,30 @@
+{
+  "name": "hello-world",
+  "description": "",
+  "version": "1.0.0",
+  "oc": {
+    "files": {
+      "data": "server.js",
+      "static": [
+        "img",
+        "css"
+      ],
+      "template": {
+        "src": "view.js",
+        "type": "oc-template-es6"
+      }
+    },
+    "parameters": {
+      "name": {
+        "default": "Jane Doe",
+        "description": "Your name",
+        "example": "Jane Doe",
+        "mandatory": false,
+        "type": "string"
+      }
+    }
+  },
+  "devDependencies": {
+    "oc-template-es6-compiler": "2.1.0"
+  }
+}
