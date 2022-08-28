@@ -1,0 +1,43 @@
+<h3>2 Web Components talking to each others!</h3>
+  <chat-form id="myChatForm"></chat-form>
+  <div>Type something</div>
+  <chat-history id="myChatHistory"></chat-history>
+
+<script>
+// WEB COMPONENT 1: chat-form
+customElements.define('chat-form', class extends HTMLElement {
+  connectedCallback() {
+    this.innerHTML = `Form<br><input id="msg" value="abc"/>
+      <button id="btn">send</button>`;
+
+    btn.onclick = () => {
+      // alternative to below code
+      // use this.onsend() or non recommended eval(this.getAttribute('onsend'))
+      this.dispatchEvent(new CustomEvent('send',{detail: {message: msg.value} }))
+      msg.value = '';
+    }
+  }
+})
+
+// WEB COMPONENT 2: chat-history
+customElements.define('chat-history', class extends HTMLElement {
+  add(msg) {
+    let s = ""
+    this.messages = [...(this.messages || []), msg];
+    for (let m of this.messages) s += `<li>${m}</li>`
+    this.innerHTML = `<div><br>History<ul>${s}</ul></div>`
+  }
+})
+
+
+// -----------------
+// PARENT CODE 
+// (e.g. in index.html which use above two WebComponents)
+// Parent must just subscribe chat-form send event, and when
+// receive message then it shoud give it to chat-history add method
+// -----------------
+myChatForm.addEventListener('send', e => {
+  myChatHistory.add(e.detail.message)
+});
+
+</script>
