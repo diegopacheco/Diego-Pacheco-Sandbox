@@ -1,8 +1,11 @@
 package org.acme;
 
+import org.jboss.resteasy.reactive.server.ServerResponseFilter;
+
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
+import javax.ws.rs.container.ContainerResponseContext;
 import javax.ws.rs.core.MediaType;
 import java.io.File;
 import java.io.FileOutputStream;
@@ -44,5 +47,12 @@ public class GreetingResource {
         }
     }
 
+    @ServerResponseFilter
+    public void postResponseLog(ContainerResponseContext ctx) {
+        ctx.getHeaders().add("Access-Control-Allow-Origin", "http://localhost:3000");
+        ctx.getHeaders().add("Access-Control-Allow-Credentials", "true");
+        ctx.getHeaders().add("Access-Control-Allow-Methods", "GET, POST, OPTIONS");
+        ctx.getHeaders().add("Access-Control-Allow-Headers", "Origin, Content-Type, Accept");
+    }
 
 }

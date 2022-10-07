@@ -14,6 +14,7 @@ export default function Home() {
               //'Access-Control-Allow-Origin': '*',
               //'Access-Control-Allow-Origin': 'http://localhost:3000',
               //'Access-Control-Allow-Credentials': 'true',
+              //"Access-Control-Allow-Headers": "Origin, X-Requested-With, Content-Type, Accept, Authorization"
             })
       })
       .then(response => response.blob())
