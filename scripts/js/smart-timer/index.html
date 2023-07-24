@@ -54,98 +54,95 @@ var x = setInterval(function() {
 </script>
 
 <div id="stopwatch-container">
-    <h3>15min Stopwatch</h3>
+    <h4>15min Stopwatch</h4>
     <div id="stopwatch">00:00:00</div>
     <button onclick="start(true)" id="start-btn">Start</button>
     <button onclick="pause()">Pause</button>
     <button onclick="reset()">Reset</button>
     <button onclick="done()">Done</button>
 </div>
-
-<script>
-var stopwatch = document.getElementById("stopwatch");
-var startBtn = document.getElementById("start-btn");
-var timeoutId = null;
-var ms = 0;
-var sec = 0;
-var min = 0;
- 
-/* function to start stopwatch */
-function start(flag) {
-    if (flag) {
-        startBtn.disabled = true;
-    }
- 
-    timeoutId = setTimeout(function() {
-        ms = parseInt(ms);
-        sec = parseInt(sec);
-        min = parseInt(min);
- 
-        ms++;
- 
-        if (ms == 100) {
-            sec = sec + 1;
-            ms = 0;
-        }
-        if (sec == 60) {
-            min = min + 1;
-            sec = 0;
-        }
-        if (ms < 10) {
-            ms = '0' + ms;
-        }
-        if (sec < 10) {
-            sec = '0' + sec;
-        }
-        if (min < 10) {
-            min = '0' + min;
-        }
- 
-        stopwatch.innerHTML = min + ':' + sec + ':' + ms;
- 
-        // calling start() function recursivly to continue stopwatch
-        start();
- 
-    }, 10); // setTimeout delay time 10 milliseconds
-}
-
-function pause() {
-    clearTimeout(timeoutId);
-    startBtn.disabled = false;
-}
- 
-function reset() {
-    ms = 0;
-    sec = 0;
-    min = 0;
-    clearTimeout(timeoutId);
-    stopwatch.innerHTML = '00:00:00';
-    startBtn.disabled = false;
-}
-
-function done() {
-    var stopWatchTime = new Date("1 JAN, 2023 " + stopwatch.innerHTML).getTime();
-    var paceTime      = new Date("1 JAN, 2023 " + "00:" + pace + ":00").getTime();
-    var diff          = paceTime - stopWatchTime;
-    var op = "";
-    if (diff>=0){
-        op="[+]";
-    }else{
-        op="[-]";
-    }
-    executionHistory.innerHTML += op + new Date(diff).getMinutes() + ":" 
-                                       new Date(diff).getSeconds() + "<br/>"; 
-
-    ms = 0;
-    sec = 0;
-    min = 0;
-    clearTimeout(timeoutId);
-    stopwatch.innerHTML = '00:00:00';
-    startBtn.disabled = false;
-}
-</script>
-
 <div id="history">
     <h3>History</h3>
     <div id="executionHistory"></div>
 </div>
+
+<script>
+    var stopwatch = document.getElementById("stopwatch");
+    var startBtn = document.getElementById("start-btn");
+    var timeoutId = null;
+    var ms = 0;
+    var sec = 0;
+    var min = 0;
+     
+    function start(flag) {
+        if (flag) {
+            startBtn.disabled = true;
+        }
+     
+        timeoutId = setTimeout(function() {
+            ms = parseInt(ms);
+            sec = parseInt(sec);
+            min = parseInt(min);
+     
+            ms++;
+     
+            if (ms == 100) {
+                sec = sec + 1;
+                ms = 0;
+            }
+            if (sec == 60) {
+                min = min + 1;
+                sec = 0;
+            }
+            if (ms < 10) {
+                ms = '0' + ms;
+            }
+            if (sec < 10) {
+                sec = '0' + sec;
+            }
+            if (min < 10) {
+                min = '0' + min;
+            }
+     
+            stopwatch.innerHTML = min + ':' + sec + ':' + ms;
+     
+            start();
+     
+        }, 10);
+    }
+    
+    function pause() {
+        clearTimeout(timeoutId);
+        startBtn.disabled = false;
+    }
+     
+    function reset() {
+        ms = 0;
+        sec = 0;
+        min = 0;
+        clearTimeout(timeoutId);
+        stopwatch.innerHTML = '00:00:00';
+        startBtn.disabled = false;
+    }
+    
+    function done() {
+        var stopWatchTime = new Date("1 JAN, 2023 " + stopwatch.innerHTML).getTime();
+        var paceTime      = new Date("1 JAN, 2023 " + "00:" + pace + ":00").getTime();
+        var diff          = paceTime - stopWatchTime;
+        var op = "";
+        if (diff>=0){
+            op="[+]";
+        }else{
+            op="[-]";
+        }
+        executionHistory.innerHTML += op + new Date(diff).getMinutes() + ":" +
+                                           new Date(diff).getSeconds() + "<br/>"; 
+    
+        ms = 0;
+        sec = 0;
+        min = 0;
+        clearTimeout(timeoutId);
+        stopwatch.innerHTML = '00:00:00';
+        startBtn.disabled = false;
+    }
+    </script>
