@@ -1,0 +1,31 @@
+
+Target: <input id="goal" value="30" maxlength="4" size="4">
+<p id="display"></p>
+
+<script>
+var countDownDate = new Date("Jul 23, 2024 11:00:00").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+  
+  var total = document.getElementById("goal").value;
+
+  var now = new Date().getTime();
+  var distance = countDownDate - now;
+
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+  var minutesLeft = hours * 60;
+  var pace = minutesLeft / total;
+  
+  document.getElementById("display").innerHTML = "Time: "
+  document.getElementById("display").innerHTML += hours + "h " + minutes + "m " + seconds + "s ";
+  document.getElementById("display").innerHTML += " <br/>Pace : " + pace + " min/item";
+  
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("display").innerHTML = "TIME OUT!";
+  }
+}, 1000);
+</script>
