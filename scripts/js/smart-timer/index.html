@@ -125,18 +125,16 @@ function reset() {
 
 function done() {
     var stopWatchTime = new Date("1 JAN, 2023 " + stopwatch.innerHTML).getTime();
-    console.log(stopWatchTime);
-    var paceTime      = new Date("1 JAN, 2023 " + pace + "00:00").getTime();
-    console.log(paceTime);
+    var paceTime      = new Date("1 JAN, 2023 " + "00:" + pace + ":00").getTime();
     var diff          = paceTime - stopWatchTime;
-    console.log(diff);
     var op = "";
     if (diff>=0){
         op="[+]";
     }else{
         op="[-]";
     }
-    executionHistory.innerHTML += op + diff + "<br/>"; 
+    executionHistory.innerHTML += op + new Date(diff).getMinutes() + ":" 
+                                       new Date(diff).getSeconds() + "<br/>"; 
 
     ms = 0;
     sec = 0;
