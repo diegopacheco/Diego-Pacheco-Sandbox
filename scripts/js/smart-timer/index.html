@@ -1,6 +1,6 @@
-
-Target: <input id="goal"  value="30" maxlength="4" size="4">
-Hours : <input id="hours" value="12" maxlength="4" size="4">
+<h2>Kandoro</h2>
+Target:&nbsp;<input id="goal" value="30" maxlength="4" size="4"> <br/>
+Hours :<input id="hours" value="12" maxlength="4" size="4">
 <p id="display"></p>
 
 <script>
@@ -26,6 +26,7 @@ const months = {
 }
 
 var today = months[month] + " " + day + ", " + year + " ";
+var pace = 0;
 
 var x = setInterval(function() {
   var countDownDate = new Date(today + document.getElementById("hours").value + ":00:00").getTime();
@@ -39,7 +40,7 @@ var x = setInterval(function() {
   var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
   var minutesLeft = hours * 60;
-  var pace = minutesLeft / total;
+  pace = minutesLeft / total;
   
   document.getElementById("display").innerHTML = "Time: "
   document.getElementById("display").innerHTML += hours + "h " + minutes + "m " + seconds + "s ";
@@ -51,3 +52,102 @@ var x = setInterval(function() {
   }
 }, 1000);
 </script>
+
+<div id="stopwatch-container">
+    <h3>15min Stopwatch</h3>
+    <div id="stopwatch">00:00:00</div>
+    <button onclick="start(true)" id="start-btn">Start</button>
+    <button onclick="pause()">Pause</button>
+    <button onclick="reset()">Reset</button>
+    <button onclick="done()">Done</button>
+</div>
+
+<script>
+var stopwatch = document.getElementById("stopwatch");
+var startBtn = document.getElementById("start-btn");
+var timeoutId = null;
+var ms = 0;
+var sec = 0;
+var min = 0;
+ 
+/* function to start stopwatch */
+function start(flag) {
+    if (flag) {
+        startBtn.disabled = true;
+    }
+ 
+    timeoutId = setTimeout(function() {
+        ms = parseInt(ms);
+        sec = parseInt(sec);
+        min = parseInt(min);
+ 
+        ms++;
+ 
+        if (ms == 100) {
+            sec = sec + 1;
+            ms = 0;
+        }
+        if (sec == 60) {
+            min = min + 1;
+            sec = 0;
+        }
+        if (ms < 10) {
+            ms = '0' + ms;
+        }
+        if (sec < 10) {
+            sec = '0' + sec;
+        }
+        if (min < 10) {
+            min = '0' + min;
+        }
+ 
+        stopwatch.innerHTML = min + ':' + sec + ':' + ms;
+ 
+        // calling start() function recursivly to continue stopwatch
+        start();
+ 
+    }, 10); // setTimeout delay time 10 milliseconds
+}
+
+function pause() {
+    clearTimeout(timeoutId);
+    startBtn.disabled = false;
+}
+ 
+function reset() {
+    ms = 0;
+    sec = 0;
+    min = 0;
+    clearTimeout(timeoutId);
+    stopwatch.innerHTML = '00:00:00';
+    startBtn.disabled = false;
+}
+
+function done() {
+    var stopWatchTime = new Date("1 JAN, 2023 " + stopwatch.innerHTML).getTime();
+    console.log(stopWatchTime);
+    var paceTime      = new Date("1 JAN, 2023 " + pace + "00:00").getTime();
+    console.log(paceTime);
+    var diff          = paceTime - stopWatchTime;
+    console.log(diff);
+    var op = "";
+    if (diff>=0){
+        op="[+]";
+    }else{
+        op="[-]";
+    }
+    executionHistory.innerHTML += op + diff + "<br/>"; 
+
+    ms = 0;
+    sec = 0;
+    min = 0;
+    clearTimeout(timeoutId);
+    stopwatch.innerHTML = '00:00:00';
+    startBtn.disabled = false;
+}
+</script>
+
+<div id="history">
+    <h3>History</h3>
+    <div id="executionHistory"></div>
+</div>
