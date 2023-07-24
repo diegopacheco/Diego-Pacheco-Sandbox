@@ -1,14 +1,36 @@
 
-Target: <input id="goal" value="30" maxlength="4" size="4">
+Target: <input id="goal"  value="30" maxlength="4" size="4">
+Hours : <input id="hours" value="12" maxlength="4" size="4">
 <p id="display"></p>
 
 <script>
-var countDownDate = new Date("Jul 23, 2024 11:00:00").getTime();
+var date = new Date();   
 
-// Update the count down every 1 second
+let day = date.getDate();
+let month = date.getMonth() + 1;
+let year = date.getFullYear();
+
+const months = {
+   '1':  'Jan',
+   '2':  'Feb',
+   '3':  'Mar',
+   '4':  'Apr',
+   '5':  'May',
+   '6':  'Jun',
+   '7':  'Jul',
+   '8':  'Aug',
+   '9':  'Sep',
+   '10': 'Oct',
+   '11': 'Nov',
+   '12': 'Dec',
+}
+
+var today = months[month] + " " + day + ", " + year + " ";
+
 var x = setInterval(function() {
-  
+  var countDownDate = new Date(today + document.getElementById("hours").value + ":00:00").getTime();
   var total = document.getElementById("goal").value;
+  console.log("countDownDate " + countDownDate);
 
   var now = new Date().getTime();
   var distance = countDownDate - now;
