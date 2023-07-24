@@ -43,7 +43,7 @@ var x = setInterval(function() {
   
   document.getElementById("display").innerHTML = "Time: "
   document.getElementById("display").innerHTML += hours + "h " + minutes + "m " + seconds + "s ";
-  document.getElementById("display").innerHTML += " <br/>Pace : " + pace + " min/item";
+  document.getElementById("display").innerHTML += " <br/>Pace : " + parseFloat(pace).toFixed(2) + " min/item";
   
   if (distance < 0) {
     clearInterval(x);
