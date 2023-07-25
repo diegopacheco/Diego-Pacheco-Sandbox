@@ -1,18 +1,18 @@
-<h3>Kandoro</h3>
+<h3 style="color:black;font-size:14px;">Kandoro</h3>
 Target: <input id="goal"  value="30" maxlength="4" size="4"><br/>
 Hours : <input id="hours" value="12" maxlength="4" size="4">
 <br/>
 <div id="displayTime"></div>
 <div id="displayPace"></div>
-<h3>15min Stopwatch</h3>
+<h3 style="color:black;font-size:14px;" >15min Stopwatch</h3>
 <div id="stopwatch-container">
-    <div id="stopwatch">00:00:00</div>
+    <div id="stopwatch" style="color:black;font-size:16px;" >00:00:00</div>
     <button onclick="start(true)" id="start-btn">Start</button>
     <button onclick="pause()">Pause</button>
     <button onclick="reset()">Reset</button>
     <button onclick="done()">Done</button>
 </div>
-<div id="history">
+<div id="history" style="color:black;font-size:14px;" >
     <h3>History</h3>
     <div id="executionHistory"></div>
 </div>
@@ -128,7 +128,6 @@ Hours : <input id="hours" value="12" maxlength="4" size="4">
             ms = parseInt(ms);
             sec = parseInt(sec);
             min = parseInt(min);
-
             ms++;
             if (ms == 100) {
                 sec = sec + 1;
