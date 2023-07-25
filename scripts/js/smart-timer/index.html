@@ -1,63 +1,106 @@
 <h2>Kandoro</h2>
-Target:&nbsp;<input id="goal" value="30" maxlength="4" size="4"> <br/>
+Target:&nbsp;<input id="goal" value="30" maxlength="4" size="4"> <br />
 Hours :<input id="hours" value="12" maxlength="4" size="4">
-<p id="display"></p>
+<br/>
+<div id="displayTime"></div>
+<div id="displayPace"></div>
 
 <script>
-var date = new Date();   
 
-let day = date.getDate();
-let month = date.getMonth() + 1;
-let year = date.getFullYear();
-let baseHour = date.getHours();;
+    class KanbanStopWatch {
 
-const months = {
-   '1':  'Jan',
-   '2':  'Feb',
-   '3':  'Mar',
-   '4':  'Apr',
-   '5':  'May',
-   '6':  'Jun',
-   '7':  'Jul',
-   '8':  'Aug',
-   '9':  'Sep',
-   '10': 'Oct',
-   '11': 'Nov',
-   '12': 'Dec',
-}
+        todayDate = new Date();
 
-var today = months[month] + " " + day + ", " + year + " ";
-var pace = 0;
+        months = {
+            '1': 'Jan',
+            '2': 'Feb',
+            '3': 'Mar',
+            '4': 'Apr',
+            '5': 'May',
+            '6': 'Jun',
+            '7': 'Jul',
+            '8': 'Aug',
+            '9': 'Sep',
+            '10': 'Oct',
+            '11': 'Nov',
+            '12': 'Dec',
+        }
 
-var x = setInterval(function() {
-  var tempHour = (parseInt(baseHour) + parseInt(document.getElementById("hours").value));
-  console.log(tempHour);
+        hours = 0;
+        minutes = 0;
+        seconds = 0;
+        timeDistance = 0;
 
-  var countDownDate = new Date(today + tempHour + ":00:00").getTime();
-  var total = document.getElementById("goal").value;
+        constructor() { }
 
-  var now = new Date().getTime();
-  var distance = countDownDate - now;
+        calculatePace(total, hours) {
+            let day   = this.today().getDate();
+            let month = this.today().getMonth() + 1;
+            let year  = this.today().getFullYear();
 
-  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-  var minutesLeft = hours * 60;
-  pace = minutesLeft / total;
-  
-  document.getElementById("display").innerHTML = "Time: "
-  document.getElementById("display").innerHTML += hours + "h " + minutes + "m " + seconds + "s ";
-  document.getElementById("display").innerHTML += " <br/>Pace : " + parseFloat(pace).toFixed(2) + " min/item";
-  
-  if (distance < 0) {
-    clearInterval(x);
-    document.getElementById("display").innerHTML = "TIME OUT!";
-  }
-}, 1000);
+            let baseHour = this.today().getHours();;
+            var tempHour = parseInt(baseHour) + hours;
+            var countDownDate = new Date(this.today() + tempHour + ":00:00").getTime();
+
+            var now = new Date().getTime();
+            this.timeDistance = countDownDate - now;
+
+            this.hours = Math.floor((this.timeDistance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            this.minutes = Math.floor((this.timeDistance % (1000 * 60 * 60)) / (1000 * 60));
+            this.seconds = Math.floor((this.timeDistance % (1000 * 60)) / 1000);
+            var minutesLeft = hours * 60;
+            var pace = minutesLeft / total;
+            return pace;
+        }
+
+        formatTimeLeft(){
+            var result = "Time: ";
+            result += this.hours + "h " + this.minutes + "m " + this.seconds + "s ";
+            return result;
+        }
+
+        formatPace(pace){
+            var result = "Pace : " + parseFloat(pace).toFixed(2) + " min/item";
+            return result;
+        }
+
+        isTimeOut(){
+            if (this.timeDistance < 0) {
+                return true;
+            }else{
+                return false;
+            }
+        }
+
+        today() {
+            return this.todayDate;
+        }
+
+        monthToEnglish(m) {
+            return this.months[m];
+        }
+    }
+
+    var ks = new KanbanStopWatch();
+    var pace = 0;
+
+    var x = setInterval(function () {
+        var total = parseInt(document.getElementById("goal").value);
+        var hours = parseInt(document.getElementById("hours").value);
+        var pace = ks.calculatePace(total, hours);
+
+        document.getElementById("displayTime").innerHTML = ks.formatTimeLeft();
+        document.getElementById("displayPace").innerHTML = ks.formatPace(pace);
+
+        if (ks.isTimeOut()) {
+            clearInterval(x);
+            document.getElementById("display").innerHTML = "TIME OUT!";
+        }
+    }, 1000);
 </script>
 
+<h3>15min Stopwatch</h3>
 <div id="stopwatch-container">
-    <h4>15min Stopwatch</h4>
     <div id="stopwatch">00:00:00</div>
     <button onclick="start(true)" id="start-btn">Start</button>
     <button onclick="pause()">Pause</button>
@@ -76,19 +119,19 @@ var x = setInterval(function() {
     var ms = 0;
     var sec = 0;
     var min = 0;
-     
+
     function start(flag) {
         if (flag) {
             startBtn.disabled = true;
         }
-     
-        timeoutId = setTimeout(function() {
+
+        timeoutId = setTimeout(function () {
             ms = parseInt(ms);
             sec = parseInt(sec);
             min = parseInt(min);
-     
+
             ms++;
-     
+
             if (ms == 100) {
                 sec = sec + 1;
                 ms = 0;
@@ -106,19 +149,19 @@ var x = setInterval(function() {
             if (min < 10) {
                 min = '0' + min;
             }
-     
+
             stopwatch.innerHTML = min + ':' + sec + ':' + ms;
-     
+
             start();
-     
+
         }, 10);
     }
-    
+
     function pause() {
         clearTimeout(timeoutId);
         startBtn.disabled = false;
     }
-     
+
     function reset() {
         ms = 0;
         sec = 0;
@@ -127,20 +170,20 @@ var x = setInterval(function() {
         stopwatch.innerHTML = '00:00:00';
         startBtn.disabled = false;
     }
-    
+
     function done() {
         var stopWatchTime = new Date("1 JAN, 2023 " + stopwatch.innerHTML).getTime();
-        var paceTime      = new Date("1 JAN, 2023 " + "00:" + pace + ":00").getTime();
-        var diff          = paceTime - stopWatchTime;
+        var paceTime = new Date("1 JAN, 2023 " + "00:" + pace + ":00").getTime();
+        var diff = paceTime - stopWatchTime;
         var op = "";
-        if (diff>=0){
-            op="[+]";
-        }else{
-            op="[-]";
+        if (diff >= 0) {
+            op = "[+]";
+        } else {
+            op = "[-]";
         }
         executionHistory.innerHTML += op + new Date(diff).getMinutes() + ":" +
-                                           new Date(diff).getSeconds() + "<br/>"; 
-    
+            new Date(diff).getSeconds() + "<br/>";
+
         ms = 0;
         sec = 0;
         min = 0;
@@ -148,4 +191,4 @@ var x = setInterval(function() {
         stopwatch.innerHTML = '00:00:00';
         startBtn.disabled = false;
     }
-    </script>
+</script>
