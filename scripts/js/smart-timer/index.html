@@ -33,13 +33,9 @@ Hours : <input id="hours" value="12" maxlength="4" size="4">
         }
 
         calculatePace(total, hours) {
-            let day   = this.today().getDate();
-            let month = this.today().getMonth() + 1;
-            let year  = this.today().getFullYear();
-
-            let baseHour = this.today().getHours();;
-            var tempHour = parseInt(baseHour) + this.hours;
-            var countDownDate = new Date(this.today() + tempHour + ":00:00").getTime();
+            var baseHour = this.today().getHours();;
+            var tempHour = parseInt(baseHour) + hours;
+            var countDownDate = new Date(this.formatToday() + tempHour + ":00:00").getTime();
 
             var now = new Date().getTime();
             this.timeDistance = countDownDate - now;
@@ -71,8 +67,16 @@ Hours : <input id="hours" value="12" maxlength="4" size="4">
             }
         }
 
-        today() {
-            return this.todayDate;
+        today(){
+           return this.todayDate;      
+        }
+
+        formatToday() {
+            var day   = this.today().getDate();            
+            var month = this.today().getMonth() + 1;
+            var year  = this.today().getFullYear();
+            var result = this.monthToEnglish(month) + " " + day + ", " + year + " ";
+            return result;
         }
 
         monthToEnglish(m) {
@@ -93,7 +97,7 @@ Hours : <input id="hours" value="12" maxlength="4" size="4">
 
         if (ks.isTimeOut()) {
             clearInterval(x);
-            document.getElementById("display").innerHTML = "TIME OUT!";
+            document.getElementById("displayTime").innerHTML = "TIME OUT!";
         }
     }, 1000);
 </script>
