@@ -165,24 +165,54 @@ Hours : <input id="hours" value="12" maxlength="4" size="4">
         startBtn.disabled = false;
     }
 
+    const milliseconds = (h, m, s) => ((h*60*60+m*60+s)*1000);
+
+    function msToformat(ms){
+        const seconds = Math.floor((ms / 1000) % 60);
+        const minutes = Math.floor((ms / 1000 / 60) % 60);
+        const hours = Math.floor((ms / 1000 / 60 / 60) % 24);
+        const formattedTime = [
+            hours.toString().padStart(2, "0"),
+            minutes.toString().padStart(2, "0"),
+            seconds.toString().padStart(2, "0")
+        ].join(":");
+        return formattedTime;
+    }
+
     function done() {
-        var stopWatchTime = new Date("1 JAN, 2023 " + stopwatch.innerHTML).getTime();
-        var paceTime = new Date("1 JAN, 2023 " + "00:" + pace + ":00").getTime();
-        var diff = paceTime - stopWatchTime;
+
+        var total = parseInt(document.getElementById("goal").value);
+        var hours = parseInt(document.getElementById("hours").value);
+        var pace = ks.calculatePace(total, hours);    
+
+        var tempTime = stopwatch.innerHTML;
+        //var stopWatchTime = new Date("1 JAN, 2023 " + tempTime).getTime();
+        //var paceTime = new Date("1 JAN, 2023 " + "00:" + pace + ":00").getTime();
+        //var diff = paceTime - stopWatchTime;
+        var splitswt = new String(tempTime).split(":");
+
+        //var a = pace * 60000; // mintes to ms
+        //var b = splitswt[1] * 1000 // seconds to ms; 
+        var a = milliseconds(0,pace,0);
+        var b = milliseconds(0,splitswt[0],splitswt[1]);
+        var diff = a-b;
         var op = "";
         if (diff >= 0) {
             op = "[+]";
         } else {
             op = "[-]";
         }
-        executionHistory.innerHTML += op + new Date(diff).getMinutes() + ":" +
-            new Date(diff).getSeconds() + "<br/>";
+        
+        //executionHistory.innerHTML += op + "00:" + new Date(diffms).getMinutes() + ":" +
+          //                                 new Date(diffms).getSeconds() + "<br/>";
+
+        executionHistory.innerHTML += op + msToformat(diff) + "<br/>";
 
         ms = 0;
         sec = 0;
         min = 0;
         clearTimeout(timeoutId);
-        stopwatch.innerHTML = '00:00:00';
+        //stopwatch.innerHTML = '00:00:00';
         startBtn.disabled = false;
     }
 </script>
