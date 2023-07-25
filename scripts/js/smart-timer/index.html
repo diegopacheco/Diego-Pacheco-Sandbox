@@ -4,9 +4,20 @@ Hours : <input id="hours" value="12" maxlength="4" size="4">
 <br/>
 <div id="displayTime"></div>
 <div id="displayPace"></div>
+<h3>15min Stopwatch</h3>
+<div id="stopwatch-container">
+    <div id="stopwatch">00:00:00</div>
+    <button onclick="start(true)" id="start-btn">Start</button>
+    <button onclick="pause()">Pause</button>
+    <button onclick="reset()">Reset</button>
+    <button onclick="done()">Done</button>
+</div>
+<div id="history">
+    <h3>History</h3>
+    <div id="executionHistory"></div>
+</div>
 
 <script>
-
     class KanbanStopWatch {
 
         months = {
@@ -100,22 +111,7 @@ Hours : <input id="hours" value="12" maxlength="4" size="4">
             document.getElementById("displayTime").innerHTML = "TIME OUT!";
         }
     }, 1000);
-</script>
 
-<h3>15min Stopwatch</h3>
-<div id="stopwatch-container">
-    <div id="stopwatch">00:00:00</div>
-    <button onclick="start(true)" id="start-btn">Start</button>
-    <button onclick="pause()">Pause</button>
-    <button onclick="reset()">Reset</button>
-    <button onclick="done()">Done</button>
-</div>
-<div id="history">
-    <h3>History</h3>
-    <div id="executionHistory"></div>
-</div>
-
-<script>
     var stopwatch = document.getElementById("stopwatch");
     var startBtn = document.getElementById("start-btn");
     var timeoutId = null;
@@ -134,7 +130,6 @@ Hours : <input id="hours" value="12" maxlength="4" size="4">
             min = parseInt(min);
 
             ms++;
-
             if (ms == 100) {
                 sec = sec + 1;
                 ms = 0;
@@ -152,11 +147,8 @@ Hours : <input id="hours" value="12" maxlength="4" size="4">
             if (min < 10) {
                 min = '0' + min;
             }
-
             stopwatch.innerHTML = min + ':' + sec + ':' + ms;
-
             start();
-
         }, 10);
     }
 
