@@ -6,7 +6,7 @@ Hours : <input id="hours" value="12" maxlength="4" size="4">
 <div id="displayPace"></div>
 <h3 style="color:black;font-size:14px;" >15min Stopwatch</h3>
 <div id="stopwatch-container">
-    <div id="stopwatch" style="color:black;font-size:16px;" >00:00:00</div>
+    <div id="stopwatch" style="color:black;font-size:16px;" >00:00:00</div> (m:s:ms)<br/>
     <button onclick="start(true)" id="start-btn">Start</button>
     <button onclick="pause()">Pause</button>
     <button onclick="reset()">Reset</button>
@@ -203,7 +203,6 @@ Hours : <input id="hours" value="12" maxlength="4" size="4">
         sec = 0;
         min = 0;
         clearTimeout(timeoutId);
-        //stopwatch.innerHTML = '00:00:00';
         startBtn.disabled = false;
     }
 </script>
