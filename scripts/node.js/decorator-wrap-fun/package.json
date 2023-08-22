@@ -1,0 +1,31 @@
+{
+  "name": "decorator-wrap-fun",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "exports": {
+    "require": "./index.js"
+  },
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "dev": "nodemon --exec babel-node index.js",
+    "run": "babel-node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "decorator-wrap": "^1.2.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.22.10",
+    "@babel/node": "^7.22.10",
+    "@babel/plugin-proposal-class-properties": "^7.18.6",
+    "@babel/plugin-proposal-decorators": "^7.22.10",
+    "@babel/preset-env": "^7.22.10"
+  }
+}
