@@ -12,22 +12,9 @@
   ],
   "scripts": {
     "build": "babel src/ -d lib",
-    "dev": "nodemon --exec babel-node index.js",
-    "run": "babel-node index.js",
+    "dev": "nodemon --exec babel-node lib/index.js",
+    "run": "babel-node lib/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "babel": {
-    "presets": [
-      "react-app"
-    ],
-    "plugins": [
-      [
-        "@babel/plugin-proposal-decorators",
-        {
-          "legacy": true
-        }
-      ]
-    ]
   },
   "keywords": [],
   "author": "",
