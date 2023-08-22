@@ -1,4 +1,4 @@
-import wrap  from "decorator-wrap";
+import { wrap } from "decorator-wrap"
 
 var log = (callback, args, name, type) => {
   console.log('Starting  ', type, name);
